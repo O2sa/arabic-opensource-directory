@@ -1,0 +1,686 @@
+[
+  {
+    "id": "camel-tools",
+    "repo": "CAMeL-Lab/camel_tools",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "CAMeL Tools",
+      "en": "CAMeL Tools"
+    },
+    "description": {
+      "ar": "مجموعة أدوات برمجية مفتوحة المصدر لمعالجة وتحليل وتشكيل اللغة العربية من مختبر CAMeL بجامعة نيويورك أبوظبي.",
+      "en": "A comprehensive suite of Arabic natural language processing tools developed by CAMeL Lab at NYU Abu Dhabi."
+    },
+    "homepage": "https://camel-tools.readthedocs.io",
+    "featured": true,
+    "tags": [
+      "python",
+      "nlp",
+      "morphology",
+      "tashkeel",
+      "ner"
+    ],
+    "github": {
+      "owner": "CAMeL-Lab",
+      "name": "camel_tools",
+      "url": "https://github.com/CAMeL-Lab/camel_tools",
+      "stars": 579,
+      "forks": 95,
+      "openIssues": 35,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-06-08T11:51:52Z",
+      "latestRelease": {
+        "tag": "v1.6.0",
+        "publishedAt": "2026-06-08T11:51:52Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-dialects",
+        "dialect-identification",
+        "morphological-analysis",
+        "morphological-disambiguation",
+        "morphological-generation",
+        "morphological-reinflection",
+        "named-entity-recognition",
+        "nlp",
+        "nlp-apis",
+        "nlp-library",
+        "pos-tagging",
+        "sentiment-analysis",
+        "stemming"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:33.922Z"
+  },
+  {
+    "id": "arabert",
+    "repo": "aub-mind/arabert",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "AraBERT",
+      "en": "AraBERT"
+    },
+    "description": {
+      "ar": "نماذج لغوية ومحولات مدربة مسبقاً (BERT, GPT2, ELECTRA) مخصصة لمعالجة وفهم اللغة العربية.",
+      "en": "Pre-trained Transformers for Arabic Language Understanding and Generation by AUB Mind Lab."
+    },
+    "homepage": "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+    "featured": true,
+    "tags": [
+      "python",
+      "bert",
+      "transformers",
+      "pytorch",
+      "llm"
+    ],
+    "github": {
+      "owner": "aub-mind",
+      "name": "arabert",
+      "url": "https://github.com/aub-mind/arabert",
+      "stars": 730,
+      "forks": 150,
+      "openIssues": 2,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2022-10-17T00:26:39Z",
+      "latestRelease": {
+        "tag": "v1.0.1",
+        "publishedAt": "2022-08-01T22:34:46Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabert",
+        "arabic",
+        "arabic-classification",
+        "arabic-nlp",
+        "bert",
+        "electra",
+        "farasa",
+        "gpt2",
+        "huggingface-transformer"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:33.996Z"
+  },
+  {
+    "id": "pyarabic",
+    "repo": "linuxscout/pyarabic",
+    "category": "dev-tools",
+    "title": {
+      "ar": "PyArabic",
+      "en": "PyArabic"
+    },
+    "description": {
+      "ar": "مكتبة بايثون أساسية توفر دوال ومساعدات لمعالجة الحروف والكلمات والأرقام العربية والتشكيل.",
+      "en": "A fundamental Python library offering helper functions and utilities for Arabic text manipulation and letters."
+    },
+    "homepage": "https://pyarabic.sourceforge.net",
+    "featured": true,
+    "tags": [
+      "python",
+      "text-processing",
+      "letters",
+      "diacritics"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "pyarabic",
+      "url": "https://github.com/linuxscout/pyarabic",
+      "stars": 489,
+      "forks": 90,
+      "openIssues": 13,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-01-16T09:40:41Z",
+      "latestRelease": {
+        "tag": "v0.6.16",
+        "publishedAt": "2023-04-16T16:17:01Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic-language",
+        "nlp-library",
+        "text-processing"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-14T14:44:33.943Z"
+  },
+  {
+    "id": "mishkal",
+    "repo": "linuxscout/mishkal",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مشكال للنصوص العربية",
+      "en": "Mishkal Tashkeel"
+    },
+    "description": {
+      "ar": "برنامج ونظام برمجي لتشكيل النصوص العربية آلياً وتصحيح التشكيل وتوفير اقتراحات الإعراب.",
+      "en": "An automatic Arabic text diacritization (tashkeel) software and library with syntactic suggestions."
+    },
+    "homepage": "https://mishkal.sourceforge.net",
+    "featured": true,
+    "tags": [
+      "python",
+      "tashkeel",
+      "diacritization",
+      "nlp"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "mishkal",
+      "url": "https://github.com/linuxscout/mishkal",
+      "stars": 319,
+      "forks": 74,
+      "openIssues": 17,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2025-09-18T19:01:04Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "natural-language-processing",
+        "python",
+        "webapp"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-14T14:44:35.089Z"
+  },
+  {
+    "id": "shakkala",
+    "repo": "Barqawiz/Shakkala",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "شكّالة للتشكيل الآلي",
+      "en": "Shakkala Neural Tashkeel"
+    },
+    "description": {
+      "ar": "نظام تشكيل آلي للنصوص العربية بالتعلم العميق والشبكات العصبية المتكررة.",
+      "en": "Deep learning for Arabic text vocalization using Recurrent Neural Networks."
+    },
+    "homepage": "https://github.com/Barqawiz/Shakkala",
+    "featured": true,
+    "tags": [
+      "python",
+      "deep-learning",
+      "tashkeel",
+      "vocalization",
+      "ai"
+    ],
+    "github": {
+      "owner": "Barqawiz",
+      "name": "Shakkala",
+      "url": "https://github.com/Barqawiz/Shakkala",
+      "stars": 355,
+      "forks": 43,
+      "openIssues": 5,
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2023-03-25T01:50:27Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-nlp",
+        "deep-learning",
+        "lstm",
+        "rnn"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:35.126Z"
+  },
+  {
+    "id": "qalsadi",
+    "repo": "linuxscout/qalsadi",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "القلصادي للمورفولوجيا العربية",
+      "en": "Qalsadi Morphological Analyzer"
+    },
+    "description": {
+      "ar": "محلل صرفي عربي مفتوح المصدر بلغة بايثون للتحليل الصرفي واكتشاف الجذور والأوزان والزوائد.",
+      "en": "An open source Python Arabic morphological analyzer for root extraction, affixes, and lemmatization."
+    },
+    "homepage": "https://pypi.org/project/qalsadi/",
+    "featured": false,
+    "tags": [
+      "python",
+      "morphology",
+      "lemmatizer",
+      "stemmer"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "qalsadi",
+      "url": "https://github.com/linuxscout/qalsadi",
+      "stars": 45,
+      "forks": 10,
+      "openIssues": 6,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2025-07-29T23:29:17Z",
+      "latestRelease": {
+        "tag": "0.4.4",
+        "publishedAt": "2021-07-27T13:57:52Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:35.171Z"
+  },
+  {
+    "id": "amiri-font",
+    "repo": "aliftype/amiri",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط الأميري",
+      "en": "Amiri Font"
+    },
+    "description": {
+      "ar": "خط نسخي كلاسيكي مفتوح المصدر مخصص لطباعة المصاحف والكتب والمقالات العربية الراقية.",
+      "en": "A classical Arabic typeface in Naskh style for typesetting books, Quranic texts, and premium publications."
+    },
+    "homepage": "https://www.amirifont.org",
+    "featured": true,
+    "tags": [
+      "typography",
+      "font",
+      "opentype",
+      "naskh",
+      "calligraphy"
+    ],
+    "github": {
+      "owner": "aliftype",
+      "name": "amiri",
+      "url": "https://github.com/aliftype/amiri",
+      "stars": 472,
+      "forks": 53,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "OFL-1.1",
+        "name": "SIL Open Font License 1.1"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-04-25T22:27:42Z",
+      "latestRelease": {
+        "tag": "1.003",
+        "publishedAt": "2025-06-13T13:45:07Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-font",
+        "font",
+        "naskh",
+        "typeface"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:36.225Z"
+  },
+  {
+    "id": "arabic-reshaper",
+    "repo": "mpcabd/python-arabic-reshaper",
+    "category": "dev-tools",
+    "title": {
+      "ar": "Arabic Reshaper",
+      "en": "Arabic Reshaper"
+    },
+    "description": {
+      "ar": "حزمة برمجية لإعادة تشكيل وتوصيل الحروف العربية في الأنظمة والتطبيقات التي لا تدعم الحروف المتصلة.",
+      "en": "A Python package to reconstruct and reshape Arabic glyphs for displays and renderers lacking RTL/cursive support."
+    },
+    "homepage": "https://github.com/mpcabd/python-arabic-reshaper",
+    "featured": false,
+    "tags": [
+      "python",
+      "bidi",
+      "reshaping",
+      "unicode"
+    ],
+    "github": {
+      "owner": "mpcabd",
+      "name": "python-arabic-reshaper",
+      "url": "https://github.com/mpcabd/python-arabic-reshaper",
+      "stars": 447,
+      "forks": 84,
+      "openIssues": 22,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-04-28T13:52:00Z",
+      "latestRelease": {
+        "tag": "v3.0.1",
+        "publishedAt": "2026-04-28T13:52:01Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "python",
+        "reshape"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:36.225Z"
+  },
+  {
+    "id": "marbert",
+    "repo": "UBC-NLP/marbert",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "MARBERT",
+      "en": "MARBERT"
+    },
+    "description": {
+      "ar": "نموذج لغوي ضخم مدرب على مليار تغريدة عربية لفهم اللهجات الدارجة والعربية الفصحى من جامعة بريتيش كولومبيا.",
+      "en": "A large-scale pre-trained language model focused on Modern Standard Arabic and dialects from UBC NLP Lab."
+    },
+    "homepage": "https://github.com/UBC-NLP/marbert",
+    "featured": true,
+    "tags": [
+      "python",
+      "bert",
+      "dialects",
+      "transformers",
+      "pytorch"
+    ],
+    "github": {
+      "owner": "UBC-NLP",
+      "name": "marbert",
+      "url": "https://github.com/UBC-NLP/marbert",
+      "stars": 119,
+      "forks": 17,
+      "openIssues": 5,
+      "lastCommitAt": "2021-09-02T18:02:00Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-dialects",
+        "arabic-language",
+        "arabic-models",
+        "arabic-nlp",
+        "arbert",
+        "awesome",
+        "benchmark",
+        "bert",
+        "bert-model",
+        "classification",
+        "deep-learning",
+        "huggingface-transformers",
+        "language-models",
+        "marbert",
+        "model-evaluation",
+        "social-media",
+        "ubc",
+        "ubc-dlnlp",
+        "ubcnlp"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:36.249Z"
+  },
+  {
+    "id": "audar-asr",
+    "repo": "AudarAI/Audar-ASR-V1",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "عودار للتعرف الصوتي",
+      "en": "Audar Speech Recognition"
+    },
+    "description": {
+      "ar": "نموذج توليدي رائد للتعرف على الصوت العربي متصدر لوحة المتصدرين العالمية للتعرف الصوتي على العربية.",
+      "en": "Arabic-first generative speech recognition model leading universal Arabic ASR benchmarks."
+    },
+    "homepage": "https://huggingface.co/AudarAI",
+    "featured": true,
+    "tags": [
+      "python",
+      "asr",
+      "speech-to-text",
+      "audio",
+      "huggingface"
+    ],
+    "github": {
+      "owner": "AudarAI",
+      "name": "Audar-ASR-V1",
+      "url": "https://github.com/AudarAI/Audar-ASR-V1",
+      "stars": 503,
+      "forks": 3,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-08-22T06:08:27Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-nlp",
+        "asr",
+        "audar",
+        "dialectal-arabic",
+        "gguf",
+        "huggingface",
+        "llama-cpp",
+        "speech-recognition",
+        "speech-to-text"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:37.365Z"
+  },
+  {
+    "id": "ar-php",
+    "repo": "khaled-alshamaa/ar-php",
+    "category": "dev-tools",
+    "title": {
+      "ar": "Ar-PHP",
+      "en": "Ar-PHP Toolkit"
+    },
+    "description": {
+      "ar": "مجموعة أدوات متكاملة بلغة PHP لتمكين مطوري الويب من البحث الصوتي والإعراب والتحويلات للغة العربية.",
+      "en": "A comprehensive set of PHP tools enabling web developers to handle Arabic search, grammar, spelling, and conversions."
+    },
+    "homepage": "https://www.ar-php.org",
+    "featured": false,
+    "tags": [
+      "php",
+      "web",
+      "toolkit",
+      "spelling",
+      "search"
+    ],
+    "github": {
+      "owner": "khaled-alshamaa",
+      "name": "ar-php",
+      "url": "https://github.com/khaled-alshamaa/ar-php",
+      "stars": 342,
+      "forks": 58,
+      "openIssues": 10,
+      "license": {
+        "spdxId": "LGPL-3.0",
+        "name": "GNU Lesser General Public License v3.0"
+      },
+      "primaryLanguage": "PHP",
+      "lastCommitAt": "2026-09-13T19:04:58Z",
+      "latestRelease": {
+        "tag": "v7.0.0",
+        "publishedAt": "2025-03-07T22:46:45Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "ar-php",
+        "arabic",
+        "arabic-calendar",
+        "arabic-glyphs",
+        "arabic-nlp",
+        "arabic-numbers",
+        "arabic-segments-identifier",
+        "arabic-sentiment",
+        "arabic-sql-queary",
+        "php"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:37.318Z"
+  },
+  {
+    "id": "arabic-stop-words",
+    "repo": "mohataher/arabic-stop-words",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قائمة مستبعدات الفهرسة العربية",
+      "en": "Arabic Stop Words"
+    },
+    "description": {
+      "ar": "أكبر قائمة مفتوحة المصدر لمستبعدات الفهرسة والكلمات الشائعة في اللغة العربية لمحركات البحث ومعالجة النصوص.",
+      "en": "The largest curated open-source list of Arabic stop words for search engines and NLP tasks."
+    },
+    "homepage": "https://github.com/mohataher/arabic-stop-words",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "stop-words",
+      "nlp",
+      "search",
+      "indexing"
+    ],
+    "github": {
+      "owner": "mohataher",
+      "name": "arabic-stop-words",
+      "url": "https://github.com/mohataher/arabic-stop-words",
+      "stars": 334,
+      "forks": 145,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "lastCommitAt": "2024-03-27T00:39:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-language",
+        "arabic-nlp",
+        "stopwords"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:37.368Z"
+  },
+  {
+    "id": "hadith-datasets",
+    "repo": "abdelrahmaan/Hadith-Data-Sets",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "قواعد بيانات كتب الحديث الشريف",
+      "en": "Hadith Datasets"
+    },
+    "description": {
+      "ar": "أكثر من 62,000 حديث شريف من كتب الحديث التسعة بصيغ مشكولة وغير مشكولة ومصنفة رقمياً.",
+      "en": "Over 62,000 prophetic hadiths from nine canonical books with and without tashkeel in JSON and CSV."
+    },
+    "homepage": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
+    "featured": true,
+    "tags": [
+      "json",
+      "hadith",
+      "islamic-tech",
+      "corpus",
+      "dataset"
+    ],
+    "github": {
+      "owner": "abdelrahmaan",
+      "name": "Hadith-Data-Sets",
+      "url": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
+      "stars": 325,
+      "forks": 79,
+      "openIssues": 1,
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2022-04-17T21:13:44Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "allah",
+        "arabic",
+        "arabic-language",
+        "arabic-nlp",
+        "hadith",
+        "hadith-books",
+        "islam",
+        "muslim",
+        "sunnah"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-14T14:44:38.440Z"
+  },
+  {
+    "id": "masader",
+    "repo": "ARBML/masader",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مصادر - فهرس البيانات العربية",
+      "en": "Masader NLP Catalog"
+    },
+    "description": {
+      "ar": "أضخم كتالوج مفتوح لمجموعات بيانات معالجة اللغة العربية والكلام الصوتي يضم أكثر من 500 مجموعة بيانات موثقة.",
+      "en": "The largest public catalogue for Arabic NLP and speech datasets annotating 500+ datasets."
+    },
+    "homepage": "https://arbml.github.io/masader/",
+    "featured": true,
+    "tags": [
+      "dataset",
+      "nlp",
+      "speech",
+      "catalogue",
+      "metadata"
+    ],
+    "github": {
+      "owner": "ARBML",
+      "name": "masader",
+      "url": "https://github.com/ARBML/masader",
+      "stars": 204,
+      "forks": 40,
+      "openIssues": 66,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2026-09-05T21:51:20Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-nlp",
+        "catalogue",
+        "datasets",
+        "public"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-14T14:44:38.492Z"
+  }
+]
