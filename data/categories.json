@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nlp-ai",
+    "name": {
+      "ar": "الذكاء الاصطناعي ومعالجة اللغات الطبيعية",
+      "en": "NLP & Artificial Intelligence"
+    },
+    "description": {
+      "ar": "نماذج لغوية، معالجة النصوص، والترجمة الآلية",
+      "en": "LLMs, text processing, and machine translation"
+    },
+    "icon": "Cpu"
+  },
+  {
+    "id": "text-tashkeel",
+    "name": {
+      "ar": "معالجة النصوص والتشكيل",
+      "en": "Text Processing & Diacritization"
+    },
+    "description": {
+      "ar": "تشكيل النصوص، الصرف، والتحليل النحوي",
+      "en": "Tashkeel, morphology, and grammar parsing"
+    },
+    "icon": "Type"
+  },
+  {
+    "id": "fonts-calligraphy",
+    "name": {
+      "ar": "الخطوط والطباعة الرقمية",
+      "en": "Fonts & Digital Typography"
+    },
+    "description": {
+      "ar": "خطوط عربية مفتوحة المصدر وأدوات صف الحروف",
+      "en": "Open source Arabic typefaces and typesetting tools"
+    },
+    "icon": "PenTool"
+  },
+  {
+    "id": "dev-tools",
+    "name": {
+      "ar": "مكتبات وأدوات المطورين",
+      "en": "Developer Libraries & Utilities"
+    },
+    "description": {
+      "ar": "حزم برمجية، محولات التاريخ والتقويم الهجري، والمساعدات العامة",
+      "en": "Packages, Hijri calendars, and developer utilities"
+    },
+    "icon": "Code2"
+  },
+  {
+    "id": "ocr-vision",
+    "name": {
+      "ar": "التعرف الضوئي والرؤية الحاسوبية",
+      "en": "OCR & Computer Vision"
+    },
+    "description": {
+      "ar": "استخراج النصوص العربية من الصور والمستندات",
+      "en": "Arabic text extraction from images and scanned documents"
+    },
+    "icon": "ScanText"
+  },
+  {
+    "id": "islamic-tech",
+    "name": {
+      "ar": "التقنية الإسلامية والقرآنية",
+      "en": "Quranic & Islamic Tech"
+    },
+    "description": {
+      "ar": "واجهات برمجية ومكتبات للقرآن الكريم ومواقيت الصلاة",
+      "en": "APIs and libraries for Quranic texts and prayer timings"
+    },
+    "icon": "BookOpen"
+  },
+  {
+    "id": "dictionaries-datasets",
+    "name": {
+      "ar": "المعاجم وقواعد البيانات",
+      "en": "Dictionaries & Datasets"
+    },
+    "description": {
+      "ar": "قواميس لغوية، مدونات نصوص، ومجموعات بيانات",
+      "en": "Lexicons, corpora, and training datasets"
+    },
+    "icon": "Database"
+  },
+  {
+    "id": "platforms-apps",
+    "name": {
+      "ar": "المنصات والتطبيقات",
+      "en": "Platforms & Web Applications"
+    },
+    "description": {
+      "ar": "منصات مفتوحة المصدر وتطبيقات كاملة لخدمة المحتوى العربي",
+      "en": "Full-stack applications and platforms serving Arabic users"
+    },
+    "icon": "Globe"
+  }
+]
