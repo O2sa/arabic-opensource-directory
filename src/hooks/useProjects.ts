@@ -28,7 +28,7 @@ function normalizeArabic(text: string): string {
 }
 
 export function useProjects(locale: 'ar' | 'en' = 'ar') {
-  const [categories, setCategories] = useState<Category[]>(fallbackCategories as Category[]);
+  const [categories] = useState<Category[]>(fallbackCategories as Category[]);
   const [allProjects, setAllProjects] = useState<EnrichedProject[]>(fallbackProjects as EnrichedProject[]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -56,7 +56,9 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
           }
         }
       } catch (err) {
-        // Fallback already preloaded
+        if (isMounted) {
+          setError(err instanceof Error ? err.message : 'Using fallback dataset');
+        }
         console.info('Using bundled static dataset fallback.');
       } finally {
         if (isMounted) {
