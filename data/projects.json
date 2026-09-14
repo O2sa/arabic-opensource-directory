@@ -24,8 +24,8 @@
       "en": "AraBERT"
     },
     "description": {
-      "ar": "نموذج لغوي مدرب مسبقاً (BERT) مخصص لفهم ومعالجة اللغة العربية من الجامعة الأمريكية في بيروت.",
-      "en": "Pre-trained BERT model specifically tailored for Arabic language understanding by AUB Mind Lab."
+      "ar": "نماذج لغوية ومحولات مدربة مسبقاً (BERT, GPT2, ELECTRA) مخصصة لمعالجة وفهم اللغة العربية.",
+      "en": "Pre-trained Transformers for Arabic Language Understanding and Generation by AUB Mind Lab."
     },
     "homepage": "https://huggingface.co/aubmindlab/bert-base-arabertv02",
     "featured": true,
@@ -64,6 +64,22 @@
     "tags": ["python", "tashkeel", "diacritization", "nlp"]
   },
   {
+    "id": "shakkala",
+    "repo": "Barqawiz/Shakkala",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "شكّالة للتشكيل الآلي",
+      "en": "Shakkala Neural Tashkeel"
+    },
+    "description": {
+      "ar": "نظام تشكيل آلي للنصوص العربية بالتعلم العميق والشبكات العصبية المتكررة.",
+      "en": "Deep learning for Arabic text vocalization using Recurrent Neural Networks."
+    },
+    "homepage": "https://github.com/Barqawiz/Shakkala",
+    "featured": true,
+    "tags": ["python", "deep-learning", "tashkeel", "vocalization", "ai"]
+  },
+  {
     "id": "qalsadi",
     "repo": "linuxscout/qalsadi",
     "category": "text-tashkeel",
@@ -72,7 +88,7 @@
       "en": "Qalsadi Morphological Analyzer"
     },
     "description": {
-      "ar": "محلل صرفي عربي مفتوح المصدر بلغة بايثون للتحليل الصرفي واكتشاف الجذور والأوزان.",
+      "ar": "محلل صرفي عربي مفتوح المصدر بلغة بايثون للتحليل الصرفي واكتشاف الجذور والأوزان والزوائد.",
       "en": "An open source Python Arabic morphological analyzer for root extraction, affixes, and lemmatization."
     },
     "homepage": "https://pypi.org/project/qalsadi/",
@@ -81,7 +97,7 @@
   },
   {
     "id": "amiri-font",
-    "repo": "alif-type/amiri",
+    "repo": "aliftype/amiri",
     "category": "fonts-calligraphy",
     "title": {
       "ar": "خط الأميري",
@@ -112,83 +128,99 @@
     "tags": ["python", "bidi", "reshaping", "unicode"]
   },
   {
-    "id": "quran-api",
-    "repo": "quran/quran.com-api",
-    "category": "islamic-tech",
+    "id": "marbert",
+    "repo": "UBC-NLP/marbert",
+    "category": "nlp-ai",
     "title": {
-      "ar": "واجهة برمجة قرآن.كوم",
-      "en": "Quran.com API"
+      "ar": "MARBERT",
+      "en": "MARBERT"
     },
     "description": {
-      "ar": "الواجهة البرمجية الرسمية لمنصة قرآن.كوم لتوفير نصوص المصحف الشريف، التفاسير، والتلاوات الصوتية.",
-      "en": "The official REST and GraphQL API powering Quran.com with Quranic texts, translations, tafsirs, and audio recitations."
+      "ar": "نموذج لغوي ضخم مدرب على مليار تغريدة عربية لفهم اللهجات الدارجة والعربية الفصحى من جامعة بريتيش كولومبيا.",
+      "en": "A large-scale pre-trained language model focused on Modern Standard Arabic and dialects from UBC NLP Lab."
     },
-    "homepage": "https://quran.api-docs.io/",
+    "homepage": "https://github.com/UBC-NLP/marbert",
     "featured": true,
-    "tags": ["ruby", "api", "quran", "islamic-tech", "rest-api"]
+    "tags": ["python", "bert", "dialects", "transformers", "pytorch"]
   },
   {
-    "id": "almo-gem",
-    "repo": "UBC-NLP/almo_gem",
+    "id": "audar-asr",
+    "repo": "AudarAI/Audar-ASR-V1",
     "category": "nlp-ai",
     "title": {
-      "ar": "ALMoGEM",
-      "en": "ALMoGEM"
+      "ar": "عودار للتعرف الصوتي",
+      "en": "Audar Speech Recognition"
     },
     "description": {
-      "ar": "مجموعة نماذج متقدمة لتوليد وتقييم النصوص باللغة العربية من مختبر المعالجة الطبيعية بجامعة كولومبيا البريطانية.",
-      "en": "Advanced benchmarks and models for Arabic Natural Language Generation from UBC NLP Lab."
+      "ar": "نموذج توليدي رائد للتعرف على الصوت العربي متصدر لوحة المتصدرين العالمية للتعرف الصوتي على العربية.",
+      "en": "Arabic-first generative speech recognition model leading universal Arabic ASR benchmarks."
     },
-    "homepage": "https://github.com/UBC-NLP/almo_gem",
-    "featured": false,
-    "tags": ["python", "nlg", "evaluation", "nlp", "llm"]
-  },
-  {
-    "id": "hanzala",
-    "repo": "bshramin/hanzala",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "حنظلة لتحليل المشاعر",
-      "en": "Hanzala Sentiment Analysis"
-    },
-    "description": {
-      "ar": "حزمة برمجية مبنية على بايثون لتحليل المشاعر والآراء في النصوص واللهجات العربية المختلفة.",
-      "en": "A Python package for sentiment analysis and emotion detection across Modern Standard Arabic and dialects."
-    },
-    "homepage": "https://github.com/bshramin/hanzala",
-    "featured": false,
-    "tags": ["python", "sentiment-analysis", "nlp", "arabic-dialects"]
-  },
-  {
-    "id": "klaam",
-    "repo": "arbml/klaam",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "كلام لمعالجة الصوت العربي",
-      "en": "Klaam Speech Processing"
-    },
-    "description": {
-      "ar": "مكتبة متكاملة للتعرف الآلي على الكلام العربي وتحويل الصوت إلى نص وتصنيف اللهجات.",
-      "en": "A comprehensive library for Arabic speech recognition (ASR), speech classification, and text-to-speech."
-    },
-    "homepage": "https://github.com/arbml/klaam",
+    "homepage": "https://huggingface.co/AudarAI",
     "featured": true,
-    "tags": ["python", "speech-to-text", "asr", "audio", "pytorch"]
+    "tags": ["python", "asr", "speech-to-text", "audio", "huggingface"]
   },
   {
-    "id": "tashkeela",
-    "repo": "raghavan/tashkeela",
+    "id": "ar-php",
+    "repo": "khaled-alshamaa/ar-php",
+    "category": "dev-tools",
+    "title": {
+      "ar": "Ar-PHP",
+      "en": "Ar-PHP Toolkit"
+    },
+    "description": {
+      "ar": "مجموعة أدوات متكاملة بلغة PHP لتمكين مطوري الويب من البحث الصوتي والإعراب والتحويلات للغة العربية.",
+      "en": "A comprehensive set of PHP tools enabling web developers to handle Arabic search, grammar, spelling, and conversions."
+    },
+    "homepage": "https://www.ar-php.org",
+    "featured": false,
+    "tags": ["php", "web", "toolkit", "spelling", "search"]
+  },
+  {
+    "id": "arabic-stop-words",
+    "repo": "mohataher/arabic-stop-words",
     "category": "dictionaries-datasets",
     "title": {
-      "ar": "مدونة تشكيلة",
-      "en": "Tashkeela Corpus"
+      "ar": "قائمة مستبعدات الفهرسة العربية",
+      "en": "Arabic Stop Words"
     },
     "description": {
-      "ar": "مدونة نصية ضخمة تحتوي على ملايين الكلمات العربية المشكولة بالكامل لتدريب نماذج الذكاء الاصطناعي.",
-      "en": "A massive vocalized Arabic text corpus with millions of fully diacritized words for NLP model training."
+      "ar": "أكبر قائمة مفتوحة المصدر لمستبعدات الفهرسة والكلمات الشائعة في اللغة العربية لمحركات البحث ومعالجة النصوص.",
+      "en": "The largest curated open-source list of Arabic stop words for search engines and NLP tasks."
     },
-    "homepage": "https://github.com/raghavan/tashkeela",
+    "homepage": "https://github.com/mohataher/arabic-stop-words",
     "featured": false,
-    "tags": ["dataset", "corpus", "tashkeel", "training-data"]
+    "tags": ["dataset", "stop-words", "nlp", "search", "indexing"]
+  },
+  {
+    "id": "hadith-datasets",
+    "repo": "abdelrahmaan/Hadith-Data-Sets",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "قواعد بيانات كتب الحديث الشريف",
+      "en": "Hadith Datasets"
+    },
+    "description": {
+      "ar": "أكثر من 62,000 حديث شريف من كتب الحديث التسعة بصيغ مشكولة وغير مشكولة ومصنفة رقمياً.",
+      "en": "Over 62,000 prophetic hadiths from nine canonical books with and without tashkeel in JSON and CSV."
+    },
+    "homepage": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
+    "featured": true,
+    "tags": ["json", "hadith", "islamic-tech", "corpus", "dataset"]
+  },
+  {
+    "id": "masader",
+    "repo": "ARBML/masader",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مصادر - فهرس البيانات العربية",
+      "en": "Masader NLP Catalog"
+    },
+    "description": {
+      "ar": "أضخم كتالوج مفتوح لمجموعات بيانات معالجة اللغة العربية والكلام الصوتي يضم أكثر من 500 مجموعة بيانات موثقة.",
+      "en": "The largest public catalogue for Arabic NLP and speech datasets annotating 500+ datasets."
+    },
+    "homepage": "https://arbml.github.io/masader/",
+    "featured": true,
+    "tags": ["dataset", "nlp", "speech", "catalogue", "metadata"]
   }
 ]
