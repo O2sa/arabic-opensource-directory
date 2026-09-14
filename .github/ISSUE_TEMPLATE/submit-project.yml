@@ -1,0 +1,91 @@
+name: 🚀 Submit an Arabic Project / اقتراح مشروع عربي
+description: Propose an open-source project, package, or platform around Arabic / اقترح مشروعاً مفتوح المصدر لخدمة اللغة العربية
+title: "Project: [Project Name]"
+labels: ["project-submission", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Arabic Open Source Directory! Please fill out the details below.
+        شكراً لمساهمتك في دليل البرمجيات العربية مفتوحة المصدر! يُرجى تعبئة التفاصيل أدناه.
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: GitHub Repository URL / رابط مستودع المشروع
+      description: Must be a public GitHub repository (e.g., https://github.com/owner/repo)
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / التصنيف الأساسي
+      options:
+        - "nlp-ai (الذكاء الاصطناعي ومعالجة اللغات الطبيعية / NLP & AI)"
+        - "text-tashkeel (معالجة النصوص والتشكيل / Text Processing & Tashkeel)"
+        - "fonts-calligraphy (الخطوط والطباعة الرقمية / Fonts & Typography)"
+        - "dev-tools (مكتبات وأدوات المطورين / Developer Libraries & Tools)"
+        - "ocr-vision (التعرف الضوئي والرؤية الحاسوبية / OCR & Vision)"
+        - "islamic-tech (التقنية الإسلامية والقرآنية / Islamic Tech)"
+        - "dictionaries-datasets (المعاجم وقواعد البيانات / Datasets & Dictionaries)"
+        - "platforms-apps (المنصات والتطبيقات / Platforms & Web Apps)"
+    validations:
+      required: true
+
+  - type: input
+    id: title_ar
+    attributes:
+      label: Arabic Title / اسم المشروع بالعربية
+      placeholder: مثال: أدوات كامل للغة العربية
+    validations:
+      required: true
+
+  - type: input
+    id: title_en
+    attributes:
+      label: English Title / اسم المشروع بالإنجليزية
+      placeholder: e.g., CAMeL Tools
+    validations:
+      required: true
+
+  - type: textarea
+    id: description_ar
+    attributes:
+      label: Arabic Description / نبذة موجزة بالعربية
+      placeholder: نبذة من سطر إلى سطرين تشرح ما يفعله المشروع...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description_en
+    attributes:
+      label: English Description / نبذة موجزة بالإنجليزية
+      placeholder: A 1-2 sentence description explaining what the project does...
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: Documentation / Homepage URL (Optional)
+      placeholder: https://project-docs.com
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags / الكلمات المفتاحية (Comma-separated)
+      placeholder: python, nlp, tashkeel, transformers
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Verification / التحقق
+      options:
+        - label: The project is open-source and related to the Arabic language / المشروع مفتوح المصدر ومتعلق باللغة العربية
+          required: true
