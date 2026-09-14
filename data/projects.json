@@ -1,0 +1,194 @@
+[
+  {
+    "id": "camel-tools",
+    "repo": "CAMeL-Lab/camel_tools",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "CAMeL Tools",
+      "en": "CAMeL Tools"
+    },
+    "description": {
+      "ar": "مجموعة أدوات برمجية مفتوحة المصدر لمعالجة وتحليل وتشكيل اللغة العربية من مختبر CAMeL بجامعة نيويورك أبوظبي.",
+      "en": "A comprehensive suite of Arabic natural language processing tools developed by CAMeL Lab at NYU Abu Dhabi."
+    },
+    "homepage": "https://camel-tools.readthedocs.io",
+    "featured": true,
+    "tags": ["python", "nlp", "morphology", "tashkeel", "ner"]
+  },
+  {
+    "id": "arabert",
+    "repo": "aub-mind/arabert",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "AraBERT",
+      "en": "AraBERT"
+    },
+    "description": {
+      "ar": "نموذج لغوي مدرب مسبقاً (BERT) مخصص لفهم ومعالجة اللغة العربية من الجامعة الأمريكية في بيروت.",
+      "en": "Pre-trained BERT model specifically tailored for Arabic language understanding by AUB Mind Lab."
+    },
+    "homepage": "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+    "featured": true,
+    "tags": ["python", "bert", "transformers", "pytorch", "llm"]
+  },
+  {
+    "id": "pyarabic",
+    "repo": "linuxscout/pyarabic",
+    "category": "dev-tools",
+    "title": {
+      "ar": "PyArabic",
+      "en": "PyArabic"
+    },
+    "description": {
+      "ar": "مكتبة بايثون أساسية توفر دوال ومساعدات لمعالجة الحروف والكلمات والأرقام العربية والتشكيل.",
+      "en": "A fundamental Python library offering helper functions and utilities for Arabic text manipulation and letters."
+    },
+    "homepage": "https://pyarabic.sourceforge.net",
+    "featured": true,
+    "tags": ["python", "text-processing", "letters", "diacritics"]
+  },
+  {
+    "id": "mishkal",
+    "repo": "linuxscout/mishkal",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مشكال للنصوص العربية",
+      "en": "Mishkal Tashkeel"
+    },
+    "description": {
+      "ar": "برنامج ونظام برمجي لتشكيل النصوص العربية آلياً وتصحيح التشكيل وتوفير اقتراحات الإعراب.",
+      "en": "An automatic Arabic text diacritization (tashkeel) software and library with syntactic suggestions."
+    },
+    "homepage": "https://mishkal.sourceforge.net",
+    "featured": true,
+    "tags": ["python", "tashkeel", "diacritization", "nlp"]
+  },
+  {
+    "id": "qalsadi",
+    "repo": "linuxscout/qalsadi",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "القلصادي للمورفولوجيا العربية",
+      "en": "Qalsadi Morphological Analyzer"
+    },
+    "description": {
+      "ar": "محلل صرفي عربي مفتوح المصدر بلغة بايثون للتحليل الصرفي واكتشاف الجذور والأوزان.",
+      "en": "An open source Python Arabic morphological analyzer for root extraction, affixes, and lemmatization."
+    },
+    "homepage": "https://pypi.org/project/qalsadi/",
+    "featured": false,
+    "tags": ["python", "morphology", "lemmatizer", "stemmer"]
+  },
+  {
+    "id": "amiri-font",
+    "repo": "alif-type/amiri",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط الأميري",
+      "en": "Amiri Font"
+    },
+    "description": {
+      "ar": "خط نسخي كلاسيكي مفتوح المصدر مخصص لطباعة المصاحف والكتب والمقالات العربية الراقية.",
+      "en": "A classical Arabic typeface in Naskh style for typesetting books, Quranic texts, and premium publications."
+    },
+    "homepage": "https://www.amirifont.org",
+    "featured": true,
+    "tags": ["typography", "font", "opentype", "naskh", "calligraphy"]
+  },
+  {
+    "id": "arabic-reshaper",
+    "repo": "mpcabd/python-arabic-reshaper",
+    "category": "dev-tools",
+    "title": {
+      "ar": "Arabic Reshaper",
+      "en": "Arabic Reshaper"
+    },
+    "description": {
+      "ar": "حزمة برمجية لإعادة تشكيل وتوصيل الحروف العربية في الأنظمة والتطبيقات التي لا تدعم الحروف المتصلة.",
+      "en": "A Python package to reconstruct and reshape Arabic glyphs for displays and renderers lacking RTL/cursive support."
+    },
+    "homepage": "https://github.com/mpcabd/python-arabic-reshaper",
+    "featured": false,
+    "tags": ["python", "bidi", "reshaping", "unicode"]
+  },
+  {
+    "id": "quran-api",
+    "repo": "quran/quran.com-api",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة برمجة قرآن.كوم",
+      "en": "Quran.com API"
+    },
+    "description": {
+      "ar": "الواجهة البرمجية الرسمية لمنصة قرآن.كوم لتوفير نصوص المصحف الشريف، التفاسير، والتلاوات الصوتية.",
+      "en": "The official REST and GraphQL API powering Quran.com with Quranic texts, translations, tafsirs, and audio recitations."
+    },
+    "homepage": "https://quran.api-docs.io/",
+    "featured": true,
+    "tags": ["ruby", "api", "quran", "islamic-tech", "rest-api"]
+  },
+  {
+    "id": "almo-gem",
+    "repo": "UBC-NLP/almo_gem",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "ALMoGEM",
+      "en": "ALMoGEM"
+    },
+    "description": {
+      "ar": "مجموعة نماذج متقدمة لتوليد وتقييم النصوص باللغة العربية من مختبر المعالجة الطبيعية بجامعة كولومبيا البريطانية.",
+      "en": "Advanced benchmarks and models for Arabic Natural Language Generation from UBC NLP Lab."
+    },
+    "homepage": "https://github.com/UBC-NLP/almo_gem",
+    "featured": false,
+    "tags": ["python", "nlg", "evaluation", "nlp", "llm"]
+  },
+  {
+    "id": "hanzala",
+    "repo": "bshramin/hanzala",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "حنظلة لتحليل المشاعر",
+      "en": "Hanzala Sentiment Analysis"
+    },
+    "description": {
+      "ar": "حزمة برمجية مبنية على بايثون لتحليل المشاعر والآراء في النصوص واللهجات العربية المختلفة.",
+      "en": "A Python package for sentiment analysis and emotion detection across Modern Standard Arabic and dialects."
+    },
+    "homepage": "https://github.com/bshramin/hanzala",
+    "featured": false,
+    "tags": ["python", "sentiment-analysis", "nlp", "arabic-dialects"]
+  },
+  {
+    "id": "klaam",
+    "repo": "arbml/klaam",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "كلام لمعالجة الصوت العربي",
+      "en": "Klaam Speech Processing"
+    },
+    "description": {
+      "ar": "مكتبة متكاملة للتعرف الآلي على الكلام العربي وتحويل الصوت إلى نص وتصنيف اللهجات.",
+      "en": "A comprehensive library for Arabic speech recognition (ASR), speech classification, and text-to-speech."
+    },
+    "homepage": "https://github.com/arbml/klaam",
+    "featured": true,
+    "tags": ["python", "speech-to-text", "asr", "audio", "pytorch"]
+  },
+  {
+    "id": "tashkeela",
+    "repo": "raghavan/tashkeela",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة تشكيلة",
+      "en": "Tashkeela Corpus"
+    },
+    "description": {
+      "ar": "مدونة نصية ضخمة تحتوي على ملايين الكلمات العربية المشكولة بالكامل لتدريب نماذج الذكاء الاصطناعي.",
+      "en": "A massive vocalized Arabic text corpus with millions of fully diacritized words for NLP model training."
+    },
+    "homepage": "https://github.com/raghavan/tashkeela",
+    "featured": false,
+    "tags": ["dataset", "corpus", "tashkeel", "training-data"]
+  }
+]
