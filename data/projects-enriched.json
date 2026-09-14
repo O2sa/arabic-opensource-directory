@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:33.922Z"
+    "lastSyncedAt": "2026-09-14T23:29:08.961Z"
   },
   {
     "id": "arabert",
@@ -83,7 +83,7 @@
       "owner": "aub-mind",
       "name": "arabert",
       "url": "https://github.com/aub-mind/arabert",
-      "stars": 730,
+      "stars": 731,
       "forks": 150,
       "openIssues": 2,
       "primaryLanguage": "Python",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:33.996Z"
+    "lastSyncedAt": "2026-09-14T23:29:09.124Z"
   },
   {
     "id": "pyarabic",
@@ -132,7 +132,7 @@
       "owner": "linuxscout",
       "name": "pyarabic",
       "url": "https://github.com/linuxscout/pyarabic",
-      "stars": 489,
+      "stars": 490,
       "forks": 90,
       "openIssues": 13,
       "license": {
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-14T14:44:33.943Z"
+    "lastSyncedAt": "2026-09-14T23:29:08.953Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-14T14:44:35.089Z"
+    "lastSyncedAt": "2026-09-14T23:29:09.969Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:35.126Z"
+    "lastSyncedAt": "2026-09-14T23:29:09.976Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:35.171Z"
+    "lastSyncedAt": "2026-09-14T23:29:10.022Z"
   },
   {
     "id": "amiri-font",
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:36.225Z"
+    "lastSyncedAt": "2026-09-14T23:29:10.823Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:36.225Z"
+    "lastSyncedAt": "2026-09-14T23:29:10.763Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:36.249Z"
+    "lastSyncedAt": "2026-09-14T23:29:10.846Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:37.365Z"
+    "lastSyncedAt": "2026-09-14T23:29:11.692Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:37.318Z"
+    "lastSyncedAt": "2026-09-14T23:29:11.574Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,7 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:37.368Z"
+    "lastSyncedAt": "2026-09-14T23:29:11.650Z"
   },
   {
     "id": "hadith-datasets",
@@ -635,7 +635,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T14:44:38.440Z"
+    "lastSyncedAt": "2026-09-14T23:29:12.503Z"
   },
   {
     "id": "masader",
@@ -681,6 +681,6 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T14:44:38.492Z"
+    "lastSyncedAt": "2026-09-14T23:29:12.591Z"
   }
 ]
