@@ -67,13 +67,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
   }[project.activityStatus];
 
   return (
-    <article className="glass-card" style={{
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-between',
-      padding: '1.5rem',
-      position: 'relative',
-    }}>
+    <article className="glass-card project-card">
       
       {/* Top Meta: Category & Activity Status */}
       <div>
@@ -132,6 +126,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
           marginBottom: '0.85rem',
           direction: 'ltr',
           textAlign: lang === 'ar' ? 'right' : 'left',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap',
         }}>
           {project.repo}
         </div>
@@ -147,6 +144,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
           WebkitBoxOrient: 'vertical',
           overflow: 'hidden',
           minHeight: '4.4rem',
+          wordBreak: 'break-word',
+          overflowWrap: 'anywhere',
         }}>
           {description}
         </p>
@@ -194,22 +193,23 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
       </div>
 
       {/* Bottom Telemetry Bar & Action Links */}
-      <div>
+      <div style={{ width: '100%', minWidth: 0 }}>
         <div style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
           paddingTop: '0.85rem',
           borderTop: '1px solid var(--border-subtle)',
-          fontSize: '0.825rem',
+          fontSize: '0.78rem',
           color: 'var(--text-muted)',
           marginBottom: '1rem',
           flexWrap: 'wrap',
-          gap: '0.65rem',
+          gap: '0.5rem',
+          width: '100%',
         }}>
           
           {/* Stars & Forks */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontWeight: 700, color: 'var(--text-primary)' }} title="GitHub Stars">
               <Star size={14} color="#eab308" fill="#eab308" />
               <span>{formatCompactNumber(starsCount)}</span>
@@ -222,24 +222,24 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
           </div>
 
           {/* Release / License / Last Commit */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap', minWidth: 0 }}>
             {latestRelease && (
-              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }} title={t('release')}>
-                <Tag size={13} />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', whiteSpace: 'nowrap' }} title={t('release')}>
+                <Tag size={13} style={{ flexShrink: 0 }} />
                 <span>{latestRelease}</span>
               </span>
             )}
 
             {licenseName && (
-              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }} title={t('license')}>
-                <Scale size={13} />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', whiteSpace: 'nowrap' }} title={t('license')}>
+                <Scale size={13} style={{ flexShrink: 0 }} />
                 <span>{licenseName}</span>
               </span>
             )}
 
             {lastCommitTime && (
-              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }} title={t('lastCommit')}>
-                <Calendar size={13} />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', whiteSpace: 'nowrap' }} title={t('lastCommit')}>
+                <Calendar size={13} style={{ flexShrink: 0 }} />
                 <span>{lastCommitTime}</span>
               </span>
             )}
@@ -248,16 +248,16 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
         </div>
 
         {/* Action Buttons */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+        <div className="project-card-actions">
           <a
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary"
-            style={{ flex: 1, padding: '0.55rem 0.85rem', fontSize: '0.85rem' }}
+            style={{ flex: 1, minWidth: 0, padding: '0.55rem 0.65rem', fontSize: '0.825rem' }}
           >
-            <GithubIcon size={15} />
-            <span>{t('viewRepo')}</span>
+            <GithubIcon size={15} style={{ flexShrink: 0 }} />
+            <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t('viewRepo')}</span>
           </a>
 
           {project.homepage && (
@@ -266,10 +266,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, categories })
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
-              style={{ flex: 1, padding: '0.55rem 0.85rem', fontSize: '0.85rem' }}
+              style={{ flex: 1, minWidth: 0, padding: '0.55rem 0.65rem', fontSize: '0.825rem' }}
             >
-              <ExternalLink size={15} />
-              <span>{t('viewDocs')}</span>
+              <ExternalLink size={15} style={{ flexShrink: 0 }} />
+              <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t('viewDocs')}</span>
             </a>
           )}
         </div>

@@ -17,19 +17,14 @@ export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl
   };
 
   return (
-    <section style={{
-      position: 'relative',
-      paddingTop: '3.5rem',
-      paddingBottom: '3.5rem',
-      overflow: 'hidden',
-    }}>
+    <section className="hero-wrapper">
       {/* Background ambient gradient glow */}
       <div style={{
         position: 'absolute',
         top: '-10%',
         left: '50%',
         transform: 'translateX(-50%)',
-        width: '600px',
+        width: 'min(600px, 90vw)',
         height: '350px',
         background: 'radial-gradient(ellipse at center, rgba(16, 185, 129, 0.15), transparent 70%)',
         filter: 'blur(50px)',
@@ -52,22 +47,24 @@ export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl
           fontWeight: 600,
           color: 'var(--accent-primary)',
           marginBottom: '1.25rem',
+          maxWidth: '100%',
         }}>
-          <Sparkles size={15} />
-          <span>
+          <Sparkles size={15} style={{ flexShrink: 0 }} />
+          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
             {lang === 'ar' ? 'الدليل الحي والمفتوح للبرمجيات العربية' : 'The Living Hub for Arabic Open Source'}
           </span>
         </div>
 
         {/* Main Heading */}
         <h1 style={{
-          fontSize: 'clamp(2.2rem, 5vw, 3.4rem)',
+          fontSize: 'clamp(1.65rem, 5vw, 3.2rem)',
           fontWeight: 800,
-          lineHeight: 1.2,
+          lineHeight: 1.25,
           letterSpacing: '-0.02em',
           maxWidth: '900px',
           margin: '0 auto 1.25rem',
           color: 'var(--text-primary)',
+          wordBreak: 'break-word',
         }}>
           {lang === 'ar' ? (
             <>
@@ -96,25 +93,25 @@ export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl
 
         {/* Subtitle */}
         <p style={{
-          fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+          fontSize: 'clamp(0.95rem, 2.5vw, 1.15rem)',
           color: 'var(--text-secondary)',
           maxWidth: '750px',
-          margin: '0 auto 2.25rem',
+          margin: '0 auto 2rem',
           lineHeight: 1.6,
         }}>
           {t('siteSubtitle')}
         </p>
 
         {/* CTA Buttons */}
-        <div style={{
+        <div className="hero-actions-row" style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '1rem',
+          gap: '0.85rem',
           flexWrap: 'wrap',
-          marginBottom: '3.5rem',
+          marginBottom: '3rem',
         }}>
-          <a href="#projects" className="btn btn-primary" style={{ padding: '0.75rem 1.6rem', fontSize: '1rem' }}>
+          <a href="#projects" className="btn btn-primary" style={{ padding: '0.75rem 1.6rem', fontSize: '0.975rem' }}>
             <ArrowDown size={18} />
             <span>{lang === 'ar' ? 'استكشف المشاريع' : 'Explore Projects'}</span>
           </a>
@@ -123,7 +120,7 @@ export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary"
-            style={{ padding: '0.75rem 1.6rem', fontSize: '1rem' }}
+            style={{ padding: '0.75rem 1.6rem', fontSize: '0.975rem' }}
           >
             <Package size={18} />
             <span>{t('submitProject')}</span>
@@ -131,90 +128,84 @@ export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl
         </div>
 
         {/* Ecosystem Live KPI Counters */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: '1.25rem',
-          maxWidth: '1000px',
-          margin: '0 auto',
-        }}>
+        <div className="hero-stats-grid">
           
           {/* Total Projects */}
-          <div className="glass-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
+          <div className="glass-card hero-stat-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
             <div style={{
               display: 'inline-flex',
-              padding: '0.6rem',
+              padding: '0.5rem',
               borderRadius: '10px',
               background: 'rgba(16, 185, 129, 0.12)',
               color: 'var(--accent-primary)',
-              marginBottom: '0.6rem',
+              marginBottom: '0.5rem',
             }}>
-              <Package size={22} />
+              <Package size={20} />
             </div>
-            <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
+            <div className="hero-stat-number" style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
               {formatNumber(stats.totalProjects)}
             </div>
-            <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
+            <div className="hero-stat-label" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
               {t('statTotalProjects')}
             </div>
           </div>
 
           {/* Total Stars */}
-          <div className="glass-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
+          <div className="glass-card hero-stat-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
             <div style={{
               display: 'inline-flex',
-              padding: '0.6rem',
+              padding: '0.5rem',
               borderRadius: '10px',
               background: 'rgba(234, 179, 8, 0.12)',
               color: '#eab308',
-              marginBottom: '0.6rem',
+              marginBottom: '0.5rem',
             }}>
-              <Star size={22} />
+              <Star size={20} />
             </div>
-            <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
+            <div className="hero-stat-number" style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
               {formatNumber(stats.totalStars)}
             </div>
-            <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
+            <div className="hero-stat-label" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
               {t('statTotalStars')}
             </div>
           </div>
 
           {/* Active Health Rate */}
-          <div className="glass-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
+          <div className="glass-card hero-stat-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
             <div style={{
               display: 'inline-flex',
-              padding: '0.6rem',
+              padding: '0.5rem',
               borderRadius: '10px',
               background: 'rgba(59, 130, 246, 0.12)',
               color: '#3b82f6',
-              marginBottom: '0.6rem',
+              marginBottom: '0.5rem',
             }}>
-              <Activity size={22} />
+              <Activity size={20} />
             </div>
-            <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
+            <div className="hero-stat-number" style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
               {stats.activePercentage}%
             </div>
-            <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
+            <div className="hero-stat-label" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
               {t('statActiveRate')}
             </div>
           </div>
 
           {/* Categories */}
-          <div className="glass-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
+          <div className="glass-card hero-stat-card" style={{ padding: '1.4rem 1.2rem', textAlign: 'center' }}>
             <div style={{
               display: 'inline-flex',
-              padding: '0.6rem',
+              padding: '0.5rem',
               borderRadius: '10px',
               background: 'rgba(168, 85, 247, 0.12)',
               color: '#a855f7',
-              marginBottom: '0.6rem',
+              marginBottom: '0.5rem',
             }}>
-              <Layers size={22} />
+              <Layers size={20} />
             </div>
-            <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
+            <div className="hero-stat-number" style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
               {stats.categoryCount}
             </div>
-            <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
+            <div className="hero-stat-label" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.35rem', fontWeight: 500 }}>
               {t('statCategories')}
             </div>
           </div>

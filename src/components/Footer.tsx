@@ -13,26 +13,17 @@ export const Footer: React.FC<FooterProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
 
   return (
     <footer style={{
-      marginTop: '5rem',
+      marginTop: '4rem',
       borderTop: '1px solid var(--border-subtle)',
       background: 'var(--bg-secondary)',
-      paddingTop: '3.5rem',
+      paddingTop: '3rem',
       paddingBottom: '2.5rem',
+      width: '100%',
     }}>
       <div className="container">
         
         {/* Contribution Banner Card */}
-        <div className="glass-card" style={{
-          padding: '2rem 2.5rem',
-          background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(6, 182, 212, 0.05) 100%)',
-          borderColor: 'rgba(16, 185, 129, 0.25)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexWrap: 'wrap',
-          gap: '1.5rem',
-          marginBottom: '3.5rem',
-        }}>
+        <div className="glass-card footer-banner-card">
           <div>
             <div style={{
               display: 'inline-flex',
@@ -67,7 +58,7 @@ export const Footer: React.FC<FooterProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
         </div>
 
         {/* Footer Meta Row */}
-        <div style={{
+        <div className="footer-bottom-row" style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -77,6 +68,7 @@ export const Footer: React.FC<FooterProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
           borderTop: '1px solid var(--border-subtle)',
           fontSize: '0.875rem',
           color: 'var(--text-secondary)',
+          width: '100%',
         }}>
           
           {/* Copyright & Mission statement */}

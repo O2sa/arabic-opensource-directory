@@ -14,43 +14,55 @@ export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
 
   return (
     <header className="glass-header">
-      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '4.5rem' }}>
+      <div className="container" style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        minHeight: '3.75rem',
+        paddingTop: '0.5rem',
+        paddingBottom: '0.5rem',
+      }}>
         
         {/* Brand Logo & Name */}
-        <a href="#top" style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', textDecoration: 'none' }}>
+        <a href="#top" style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', textDecoration: 'none', minWidth: 0 }}>
           <div style={{
-            width: '2.6rem',
-            height: '2.6rem',
-            borderRadius: '12px',
+            width: '2.4rem',
+            height: '2.4rem',
+            borderRadius: '10px',
             background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             color: '#ffffff',
             fontWeight: 800,
-            fontSize: '1.4rem',
+            fontSize: '1.25rem',
             boxShadow: '0 4px 12px rgba(16, 185, 129, 0.35)',
             userSelect: 'none',
+            flexShrink: 0,
           }}>
             ض
           </div>
-          <div>
+          <div style={{ minWidth: 0 }}>
             <span style={{
               display: 'block',
-              fontSize: '1.15rem',
+              fontSize: 'clamp(0.925rem, 3.2vw, 1.15rem)',
               fontWeight: 700,
               letterSpacing: '-0.02em',
               color: 'var(--text-primary)',
-              lineHeight: 1.2
+              lineHeight: 1.2,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
             }}>
               {lang === 'ar' ? 'دليل المصادر المفتوحة' : 'Arabic Open Source'}
             </span>
-            <span style={{
+            <span className="hide-xs" style={{
               display: 'block',
-              fontSize: '0.75rem',
+              fontSize: '0.725rem',
               fontWeight: 500,
               color: 'var(--accent-primary)',
-              letterSpacing: '0.02em'
+              letterSpacing: '0.02em',
+              whiteSpace: 'nowrap',
             }}>
               {lang === 'ar' ? 'البرمجيات والذكاء الاصطناعي' : 'Directory & Hub'}
             </span>
@@ -58,17 +70,18 @@ export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
         </a>
 
         {/* Actions & Utilities */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', flexShrink: 0 }}>
           
           {/* Language Toggle */}
           <button
             onClick={toggleLang}
             className="btn btn-secondary"
             title={lang === 'ar' ? 'Switch to English' : 'التحويل إلى العربية'}
-            style={{ padding: '0.5rem 0.85rem', fontSize: '0.85rem', fontWeight: 600 }}
+            style={{ padding: '0.45rem 0.65rem', fontSize: '0.825rem', fontWeight: 600 }}
           >
-            <Globe size={16} />
-            <span>{lang === 'ar' ? 'English' : 'العربية'}</span>
+            <Globe size={15} />
+            <span className="hide-mobile">{lang === 'ar' ? 'English' : 'العربية'}</span>
+            <span className="show-mobile" style={{ fontSize: '0.75rem', fontWeight: 700 }}>{lang === 'ar' ? 'EN' : 'ع'}</span>
           </button>
 
           {/* Theme Toggle */}
@@ -78,7 +91,7 @@ export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
             title={theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
             aria-label="Toggle Theme"
           >
-            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
           </button>
 
           {/* GitHub Repository Link */}
@@ -90,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
             title="GitHub Repository"
             aria-label="GitHub Repository"
           >
-            <GithubIcon size={18} />
+            <GithubIcon size={17} />
           </a>
 
           {/* Submit Project CTA */}
@@ -99,10 +112,12 @@ export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl })
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
-            style={{ display: 'flex', alignItems: 'center' }}
+            title={t('submitProject')}
+            aria-label={t('submitProject')}
+            style={{ padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center' }}
           >
             <Plus size={16} />
-            <span>{t('submitProject')}</span>
+            <span className="hide-mobile">{t('submitProject')}</span>
           </a>
 
         </div>

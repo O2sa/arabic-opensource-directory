@@ -66,21 +66,21 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
     filters.sortBy !== 'stars';
 
   return (
-    <div id="projects" style={{ marginBottom: '2rem' }}>
+    <div id="projects" style={{ marginBottom: '2rem', width: '100%', maxWidth: '100%' }}>
       
       {/* Search Input Bar */}
-      <div style={{ position: 'relative', marginBottom: '1.25rem' }}>
+      <div style={{ position: 'relative', marginBottom: '1.25rem', width: '100%' }}>
         <div style={{
           position: 'absolute',
           top: '50%',
-          [lang === 'ar' ? 'right' : 'left']: '1.25rem',
+          [lang === 'ar' ? 'right' : 'left']: '1.15rem',
           transform: 'translateY(-50%)',
           color: 'var(--text-muted)',
           display: 'flex',
           alignItems: 'center',
           pointerEvents: 'none',
         }}>
-          <Search size={20} />
+          <Search size={19} />
         </div>
 
         <input
@@ -88,19 +88,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
           value={filters.search}
           onChange={(e) => onSearchChange(e.target.value)}
           placeholder={t('searchPlaceholder')}
-          style={{
-            width: '100%',
-            padding: '1.1rem 3.2rem',
-            borderRadius: 'var(--radius-lg)',
-            border: '1px solid var(--border-subtle)',
-            background: 'var(--bg-secondary)',
-            color: 'var(--text-primary)',
-            fontSize: '1.05rem',
-            fontFamily: 'inherit',
-            boxShadow: 'var(--card-shadow)',
-            transition: 'border-color var(--transition-fast), box-shadow var(--transition-fast)',
-            outline: 'none',
-          }}
+          className="search-input"
           onFocus={(e) => {
             e.target.style.borderColor = 'var(--accent-primary)';
             e.target.style.boxShadow = '0 0 0 3px var(--accent-glow)';
@@ -118,28 +106,20 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
             style={{
               position: 'absolute',
               top: '50%',
-              [lang === 'ar' ? 'left' : 'right']: '1rem',
+              [lang === 'ar' ? 'left' : 'right']: '0.85rem',
               transform: 'translateY(-50%)',
-              padding: '0.4rem',
+              padding: '0.35rem',
               borderRadius: '9999px',
             }}
             title="Clear search"
           >
-            <X size={16} />
+            <X size={15} />
           </button>
         )}
       </div>
 
       {/* Category Pills (Horizontal scrolling bar) */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '0.55rem',
-        overflowX: 'auto',
-        paddingBottom: '0.65rem',
-        marginBottom: '1.25rem',
-        scrollbarWidth: 'thin',
-      }}>
+      <div className="category-scroll-bar">
         {/* 'All' category pill */}
         <button
           onClick={() => onCategoryChange('all')}
@@ -221,22 +201,12 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
       </div>
 
       {/* Secondary Controls Bar: Language, Status, Sort & Result Count */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: '0.85rem',
-        padding: '0.85rem 1.15rem',
-        background: 'var(--bg-secondary)',
-        border: '1px solid var(--border-subtle)',
-        borderRadius: 'var(--radius-md)',
-      }}>
+      <div className="filters-bar-container">
         
         {/* Left Side: Filter Selects */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', flexWrap: 'wrap' }}>
+        <div className="filters-controls-wrap">
           
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
+          <div className="hide-mobile" style={{ alignItems: 'center', gap: '0.35rem', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
             <Filter size={15} />
           </div>
 
@@ -245,7 +215,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
             value={filters.language}
             onChange={(e) => onLanguageChange(e.target.value)}
             style={{
-              padding: '0.4rem 0.75rem',
+              padding: '0.45rem 0.75rem',
               borderRadius: 'var(--radius-sm)',
               border: '1px solid var(--border-subtle)',
               background: 'var(--bg-tertiary)',
@@ -254,6 +224,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
               fontFamily: 'inherit',
               cursor: 'pointer',
               outline: 'none',
+              minHeight: '38px',
             }}
           >
             <option value="all">{t('allLanguages')}</option>
@@ -269,7 +240,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
             value={filters.status}
             onChange={(e) => onStatusChange(e.target.value as FilterState['status'])}
             style={{
-              padding: '0.4rem 0.75rem',
+              padding: '0.45rem 0.75rem',
               borderRadius: 'var(--radius-sm)',
               border: '1px solid var(--border-subtle)',
               background: 'var(--bg-tertiary)',
@@ -278,6 +249,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
               fontFamily: 'inherit',
               cursor: 'pointer',
               outline: 'none',
+              minHeight: '38px',
             }}
           >
             <option value="all">{t('allStatuses')}</option>
@@ -291,7 +263,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
             value={filters.sortBy}
             onChange={(e) => onSortChange(e.target.value as SortOption)}
             style={{
-              padding: '0.4rem 0.75rem',
+              padding: '0.45rem 0.75rem',
               borderRadius: 'var(--radius-sm)',
               border: '1px solid var(--border-subtle)',
               background: 'var(--bg-tertiary)',
@@ -300,6 +272,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
               fontFamily: 'inherit',
               cursor: 'pointer',
               outline: 'none',
+              minHeight: '38px',
             }}
           >
             <option value="stars">{t('sortStars')}</option>
@@ -311,8 +284,8 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
           {isFiltered && (
             <button
               onClick={onResetFilters}
-              className="btn btn-secondary"
-              style={{ padding: '0.4rem 0.75rem', fontSize: '0.8rem', gap: '0.35rem' }}
+              className="btn btn-secondary filter-reset-action"
+              style={{ padding: '0.45rem 0.75rem', fontSize: '0.8rem', gap: '0.35rem', minHeight: '38px' }}
             >
               <RotateCcw size={13} />
               <span>{t('resetFilters')}</span>
@@ -322,7 +295,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
         </div>
 
         {/* Right Side: Total Matching Count */}
-        <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-muted)' }}>
+        <div className="filters-count-info" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-muted)' }}>
           {lang === 'ar' ? (
             <>
               عرض <strong style={{ color: 'var(--accent-primary)' }}>{totalFiltered}</strong> مشروع

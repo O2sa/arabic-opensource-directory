@@ -27,13 +27,13 @@ export const App: React.FC = () => {
   } = useProjects(lang);
 
   return (
-    <div id="top" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div id="top" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '100vw', overflowX: 'hidden' }}>
       <Navbar repoUrl={SITE_CONFIG.repoUrl} />
 
-      <main style={{ flex: 1 }}>
+      <main style={{ flex: 1, width: '100%', maxWidth: '100%' }}>
         <Hero stats={stats} repoUrl={SITE_CONFIG.repoUrl} />
 
-        <section className="container" style={{ paddingBottom: '3rem' }}>
+        <section className="container" style={{ paddingBottom: '3rem', width: '100%', maxWidth: '100%' }}>
           <SearchAndFilters
             categories={categories}
             filters={filters}
