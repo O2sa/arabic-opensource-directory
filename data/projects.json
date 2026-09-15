@@ -137,8 +137,8 @@
       "en": "Amiri Font"
     },
     "description": {
-      "ar": "خط نسخي كلاسيكي مفتوح المصدر مخصص لطباعة المصاحف والكتب والمقالات العربية الراقية.",
-      "en": "A classical Arabic typeface in Naskh style for typesetting books, Quranic texts, and premium publications."
+      "ar": "خط نسخي عربي كلاسيكي رائد ومفتوح المصدر من تصميم خالد حسني، مستوحى من مطبعة بولاق الأميرية لصف الكتب والأدب العربي.",
+      "en": "A classical Arabic typeface in Naskh style for books and Arabic literary publishing, inspired by the historical Bulaq Amiri Press."
     },
     "homepage": "https://www.amirifont.org",
     "featured": true,
@@ -257,28 +257,6 @@
       "nlp",
       "search",
       "indexing"
-    ]
-  },
-  {
-    "id": "hadith-datasets",
-    "repo": "abdelrahmaan/Hadith-Data-Sets",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قواعد بيانات كتب الحديث الشريف",
-      "en": "Hadith Datasets"
-    },
-    "description": {
-      "ar": "أكثر من 62,000 حديث شريف من كتب الحديث التسعة بصيغ مشكولة وغير مشكولة ومصنفة رقمياً.",
-      "en": "Over 62,000 prophetic hadiths from nine canonical books with and without tashkeel in JSON and CSV."
-    },
-    "homepage": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
-    "featured": true,
-    "tags": [
-      "json",
-      "hadith",
-      "islamic-tech",
-      "corpus",
-      "dataset"
     ]
   },
   {
@@ -434,181 +412,6 @@
     ]
   },
   {
-    "id": "quran-quran-android",
-    "repo": "quran/quran_android",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق قرآن أندرويد",
-      "en": "Quran Android"
-    },
-    "description": {
-      "ar": "التطبيق الرسمي مفتوح المصدر لقراءة وتصفح والاستماع للقرآن الكريم على أجهزة أندرويد.",
-      "en": "The official open-source Quran reading and listening application for Android."
-    },
-    "homepage": "http://android.quran.com",
-    "featured": true,
-    "tags": [
-      "kotlin",
-      "android",
-      "quran",
-      "audio",
-      "recitations"
-    ]
-  },
-  {
-    "id": "fawazahmed0-quran-api",
-    "repo": "fawazahmed0/quran-api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة القرآن الكريم البرمجية",
-      "en": "Quran JSON REST API"
-    },
-    "description": {
-      "ar": "واجهة برمجية سريعة ومجانية لنصوص وتفاسير وترجمات القرآن الكريم بصيغة JSON بأكثر من 40 لغة.",
-      "en": "Free and comprehensive JSON REST API for Quranic texts, translations, and audio."
-    },
-    "homepage": "https://github.com/fawazahmed0/quran-api",
-    "featured": true,
-    "tags": [
-      "api",
-      "json",
-      "quran",
-      "translations",
-      "tafsir"
-    ]
-  },
-  {
-    "id": "fawazahmed0-hadith-api",
-    "repo": "fawazahmed0/hadith-api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة الحديث الشريف البرمجية",
-      "en": "Hadith JSON API"
-    },
-    "description": {
-      "ar": "قاعدة بيانات وواجهة برمجية رقمية مفتوحة المصدر لكتب الحديث الشريف التسعة.",
-      "en": "Comprehensive and curated Hadith collections API with multiple translations in JSON."
-    },
-    "homepage": "https://github.com/fawazahmed0/hadith-api",
-    "featured": true,
-    "tags": [
-      "api",
-      "hadith",
-      "json",
-      "sunnah",
-      "datasets"
-    ]
-  },
-  {
-    "id": "batoulapps-adhan-js",
-    "repo": "batoulapps/adhan-js",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لمواقيت الصلاة",
-      "en": "Adhan JS"
-    },
-    "description": {
-      "ar": "مكتبة فلكية عالية الدقة ومفتوحة المصدر لحساب مواقيت الصلاة الإسلامية لجافاسكريبت وNode.js.",
-      "en": "High precision prayer times calculation library for JavaScript and Node.js."
-    },
-    "homepage": "https://github.com/batoulapps/adhan-js",
-    "featured": true,
-    "tags": [
-      "javascript",
-      "typescript",
-      "prayer-times",
-      "islamic-tech"
-    ]
-  },
-  {
-    "id": "gaitco-quran-database",
-    "repo": "gaitco/quran-database",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "quran-database",
-      "en": "Quran Database"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A complete, structured Quran database — verses, translations and metadata, free for any project.",
-      "en": "A complete, structured Quran database — verses, translations and metadata, free for any project."
-    },
-    "homepage": "https://gaitco.com/open-source/quran-database",
-    "featured": true,
-    "tags": [
-      "python",
-      "gait",
-      "mysql",
-      "quran",
-      "islamic tech"
-    ]
-  },
-  {
-    "id": "quran-quran-com-frontend-next",
-    "repo": "quran/quran.com-frontend-next",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "منصة قرآن.كوم الحديثة",
-      "en": "Quran.com Next.js Platform"
-    },
-    "description": {
-      "ar": "التطبيق البرمجي الكامل مفتوح المصدر لمنصة القرآن الكريم الرائدة عالمياً مبني بإطار Next.js و TypeScript.",
-      "en": "The official open-source Next.js web application for Quran.com."
-    },
-    "homepage": "https://quran.com",
-    "featured": true,
-    "tags": [
-      "typescript",
-      "nextjs",
-      "react",
-      "quran",
-      "web-app"
-    ]
-  },
-  {
-    "id": "ojuba-org-othman",
-    "repo": "ojuba-org/othman",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "متصفح عثمان للقرآن الكريم",
-      "en": "Othman Quran Browser"
-    },
-    "description": {
-      "ar": "متصفح ومحرك بحث إلكتروني مفتوح المصدر للقرآن الكريم بالرسم العثماني لأنظمة سطح المكتب.",
-      "en": "An open-source electronic Quran browser and search engine in Othmani script."
-    },
-    "homepage": "https://github.com/ojuba-org/othman",
-    "featured": false,
-    "tags": [
-      "python",
-      "desktop",
-      "quran",
-      "search-engine",
-      "linux"
-    ]
-  },
-  {
-    "id": "alfanous-team-alfanous",
-    "repo": "Alfanous-team/alfanous",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "محرك بحث الفانوس",
-      "en": "Alfanous Search Engine"
-    },
-    "description": {
-      "ar": "محرك وبوابة برمجية متقدمة مفتوحة المصدر للبحث اللغوي والدلالي والصوتي في نصوص القرآن الكريم والمعاجم العربية.",
-      "en": "An advanced open-source Arabic search engine API and platform providing linguistic, semantic, and vocalic search in Quranic texts."
-    },
-    "homepage": "http://www.alfanous.org",
-    "featured": true,
-    "tags": [
-      "python",
-      "arabic-search",
-      "quran",
-      "linguistics",
-      "search-engine"
-    ]
-  },
-  {
     "id": "linuxscout-ayaspell",
     "repo": "linuxscout/ayaspell",
     "category": "dev-tools",
@@ -759,29 +562,6 @@
       "dictionary",
       "database",
       "arabic"
-    ]
-  },
-  {
-    "id": "shathatm-lk-hadith-corpus",
-    "repo": "ShathaTm/LK-Hadith-Corpus",
-    "category": "dictionaries-datasets",
-    "title": {
-      "ar": "LK-Hadith-Corpus",
-      "en": "LK Hadith Corpus"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Leeds University and King Saud University (LK) Hadith Corpus",
-      "en": "Leeds University and King Saud University (LK) Hadith Corpus"
-    },
-    "homepage": "https://github.com/ShathaTm/LK-Hadith-Corpus",
-    "featured": true,
-    "tags": [
-      "python",
-      "arabic-english",
-      "corpus",
-      "dataset",
-      "hadeeth",
-      "hadith"
     ]
   },
   {
@@ -1179,202 +959,6 @@
     ]
   },
   {
-    "id": "tarteelai-quranic-universal-library",
-    "repo": "TarteelAI/quranic-universal-library",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "المكتبة القرآنية الشاملة ترتيل",
-      "en": "Tarteel Quranic Universal Library"
-    },
-    "description": {
-      "ar": "مستودع شامل ومكتبة برمجية مفتوحة المصدر تضم بيانات السور والآيات والترجمات الصوتية والنصية.",
-      "en": "A comprehensive collection of open-source Quranic text resources, recitations, and audio metadata."
-    },
-    "homepage": "https://qul.tarteel.ai/",
-    "featured": true,
-    "tags": [
-      "quran",
-      "islamic-tech",
-      "datasets",
-      "tarteel",
-      "audio"
-    ]
-  },
-  {
-    "id": "sunnah-com-api",
-    "repo": "sunnah-com/api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة برمجية موقع سنة.كوم",
-      "en": "Sunnah.com API"
-    },
-    "description": {
-      "ar": "الواجهة البرمجية الرسمية ومستودع بيانات كتب الحديث الشريف باللغة العربية وترجماتها المعتمدة.",
-      "en": "The official API backend for Sunnah.com offering structured access to canonical Hadith collections."
-    },
-    "homepage": "https://sunnah.com",
-    "featured": true,
-    "tags": [
-      "php",
-      "hadith",
-      "api",
-      "islamic-tech",
-      "rest-api"
-    ]
-  },
-  {
-    "id": "yazinsai-tilawa",
-    "repo": "yazinsai/tilawa",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تلاوة للتعرف الصوتي على الآيات",
-      "en": "Tilawa Audio Recognition"
-    },
-    "description": {
-      "ar": "نظام ومكتبة مفتوحة المصدر للتعرف على الآيات والسور من التلاوات الصوتية دون الحاجة لاتصال بالإنترنت.",
-      "en": "Offline Quran verse and surah recognition from audio recitations using acoustic matching."
-    },
-    "homepage": "https://tilawa.dev",
-    "featured": true,
-    "tags": [
-      "python",
-      "audio-recognition",
-      "quran",
-      "speech",
-      "signal-processing"
-    ]
-  },
-  {
-    "id": "cpfair-quran-align",
-    "repo": "cpfair/quran-align",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "محاذاة التلاوات القرآنية",
-      "en": "Quran Audio Align"
-    },
-    "description": {
-      "ar": "نظام مفتوح المصدر لحساب الطوابع الزمنية الدقيقة لكل كلمة في التلاوات القرآنية الصوتية.",
-      "en": "Word-accurate timestamps and alignment generator for Quranic audio recitations."
-    },
-    "homepage": "https://github.com/cpfair/quran-align",
-    "featured": true,
-    "tags": [
-      "python",
-      "audio-alignment",
-      "speech",
-      "quran",
-      "forced-alignment"
-    ]
-  },
-  {
-    "id": "quran-quran-com-frontend",
-    "repo": "quran/quran.com-frontend",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة قرآن.كوم الكلاسيكية",
-      "en": "Quran.com Frontend"
-    },
-    "description": {
-      "ar": "واجهة الويب المفتوحة المصدر لمنصة القرآن الكريم العالمية وتصفح السور والتلاوات والتفاسير.",
-      "en": "Open-source web interface for Quran.com, featuring verse browsing, recitations, and commentaries."
-    },
-    "homepage": "https://quran.com",
-    "featured": true,
-    "tags": [
-      "javascript",
-      "allah",
-      "islam",
-      "koran",
-      "muslim",
-      "quran"
-    ]
-  },
-  {
-    "id": "semarketir-quranjson",
-    "repo": "semarketir/quranjson",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات القرآن بصيغة JSON",
-      "en": "QuranJSON"
-    },
-    "description": {
-      "ar": "قاعدة بيانات مفتوحة ومنظمة للقرآن الكريم تشمل 6236 آية و 114 سورة و 30 جزءاً بصيغة JSON الخفيفة.",
-      "en": "Structured, lightweight JSON dataset of the Holy Quran covering all 6,236 verses, 114 surahs, and 30 juz."
-    },
-    "homepage": "https://semarketir.github.io/quranjson-web",
-    "featured": true,
-    "tags": [
-      "audio",
-      "data",
-      "islam",
-      "json",
-      "juz",
-      "moslem"
-    ]
-  },
-  {
-    "id": "risan-quran-json",
-    "repo": "risan/quran-json",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة نصوص القرآن JSON",
-      "en": "Quran JSON Texts"
-    },
-    "description": {
-      "ar": "مستودع مفتوح المصدر يحتوي على النصوص القرآنية الكاملة والترجمات المتعددة بصيغة JSON للمطورين.",
-      "en": "Complete open-source Quranic text and multi-language translations structured for application developers."
-    },
-    "homepage": "https://github.com/risan/quran-json",
-    "featured": true,
-    "tags": [
-      "python",
-      "quran",
-      "tanzil",
-      "translation",
-      "islamic tech"
-    ]
-  },
-  {
-    "id": "quran-quran-ios",
-    "repo": "quran/quran-ios",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "محرك تطبيق قرآن لنظام iOS",
-      "en": "Quran iOS Engine"
-    },
-    "description": {
-      "ar": "المحرك البرمجي المفتوح المصدر الذي يدير تطبيق Quran.com الرسمي على أجهزة الآيفون والآيباد.",
-      "en": "The core open-source engine powering the official Quran.com application for iOS and iPadOS."
-    },
-    "homepage": "https://github.com/quran/quran-ios",
-    "featured": true,
-    "tags": [
-      "swift",
-      "ios",
-      "quran",
-      "islamic tech"
-    ]
-  },
-  {
-    "id": "quran-quran-com-images",
-    "repo": "quran/quran.com-images",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "صور صفحات المصحف الشريف",
-      "en": "Quran Page Images"
-    },
-    "description": {
-      "ar": "صور عالية الدقة لصفحات المصحف الشريف مستخرجة من خطوط مجمع الملك فهد لطباعة المصحف الشريف.",
-      "en": "High-resolution Quranic page images rendered using official King Fahd Complex typefaces."
-    },
-    "homepage": "http://quran.com",
-    "featured": true,
-    "tags": [
-      "perl",
-      "islamic tech"
-    ]
-  },
-  {
     "id": "nipponjo-tts-arabic-pytorch",
     "repo": "nipponjo/tts-arabic-pytorch",
     "category": "nlp-ai",
@@ -1596,50 +1180,6 @@
     ]
   },
   {
-    "id": "zonetecde-qurancaption",
-    "repo": "zonetecde/QuranCaption",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "أداة كتابة الآيات المرئية",
-      "en": "QuranCaption"
-    },
-    "description": {
-      "ar": "أداة مفتوحة المصدر لتوليد ومزامنة نصوص الآيات القرآنية تلقائياً على المقاطع الصوتية والفيديوهات.",
-      "en": "Transform Quranic recitations into synchronized captioned videos with professional typography."
-    },
-    "homepage": "https://qurancaption.com",
-    "featured": true,
-    "tags": [
-      "python",
-      "quran",
-      "caption",
-      "video",
-      "automation"
-    ]
-  },
-  {
-    "id": "rn0x-altaqwaa-desktop",
-    "repo": "rn0x/altaqwaa-desktop",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق التقوى المكتبي",
-      "en": "Altaqwaa Desktop"
-    },
-    "description": {
-      "ar": "تطبيق إلكتروني مكتبي مفتوح المصدر لقراءة القرآن الكريم وعرض مواقيت الصلاة والأذكار النبوية.",
-      "en": "Open-source desktop application for Quran reading, prayer times reminders, and Azkar."
-    },
-    "homepage": "https://altaqwaa.i8x.net/",
-    "featured": true,
-    "tags": [
-      "electron",
-      "vue",
-      "desktop",
-      "quran",
-      "prayer-times"
-    ]
-  },
-  {
     "id": "arbml-ashaar",
     "repo": "ARBML/Ashaar",
     "category": "platforms-apps",
@@ -1662,25 +1202,6 @@
     ]
   },
   {
-    "id": "noorbayan-noor",
-    "repo": "NoorBayan/Noor",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "منصة نور لخدمة القرآن",
-      "en": "Noor Quran Platform"
-    },
-    "description": {
-      "ar": "منصة برمجية رقمية مفتوحة المصدر لخدمة نصوص القرآن الكريم وتوفير أدوات البحث والعرض القرآني.",
-      "en": "A digital open-source platform providing tools, services, and APIs for Holy Quran text exploration."
-    },
-    "homepage": "https://github.com/NoorBayan/Noor",
-    "featured": true,
-    "tags": [
-      "dart",
-      "platforms apps"
-    ]
-  },
-  {
     "id": "noorbayan-tanqeeh",
     "repo": "NoorBayan/Tanqeeh",
     "category": "platforms-apps",
@@ -1697,29 +1218,6 @@
     "tags": [
       "python",
       "platforms apps"
-    ]
-  },
-  {
-    "id": "adelpro-open-tarteel",
-    "repo": "adelpro/open-tarteel",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق ترتيل القرآني المفتوح",
-      "en": "Open Tarteel"
-    },
-    "description": {
-      "ar": "تطبيق قرآني مفتوح المصدر مصمم لتقديم تجربة قراءة واستماع حديثة للقرآن الكريم عبر مختلف الأجهزة.",
-      "en": "An open-source Quran application designed to provide a modern reading and listening experience."
-    },
-    "homepage": "https://tarteel.quran.us.kg",
-    "featured": false,
-    "tags": [
-      "typescript",
-      "jotai",
-      "nextjs",
-      "player",
-      "pwa",
-      "quran"
     ]
   },
   {
@@ -1965,8 +1463,8 @@
       "en": "Raqq Manuscript Kufic"
     },
     "description": {
-      "ar": "خط رقمي تاريخي مستوحى من المخطوطات القرآنية القديمة على الرق في القرون الهجرية الأولى من تصميم خالد حسني.",
-      "en": "A historical manuscript Kufic typeface inspired by early Quranic parchments by Khaled Hosny."
+      "ar": "خط كوفي تراثي مستوحى من المخطوطات والرقوق العربية القديمة في القرون الأولى.",
+      "en": "A classical Kufic display typeface inspired by early Arabic parchment manuscripts and historical epigraphy."
     },
     "homepage": "https://aliftype.com/raqq",
     "featured": false,
@@ -1974,8 +1472,7 @@
       "font",
       "kufic",
       "manuscript",
-      "typography",
-      "quran"
+      "typography"
     ]
   },
   {
@@ -2877,8 +2374,8 @@
       "en": "Kitab Naskh Font"
     },
     "description": {
-      "ar": "خط رقمي نسخي كلاسيكي عالي الجودة مخصص لطباعة المصاحف الشريفة والكتب التراثية والمؤلفات العلمية.",
-      "en": "A classical Arabic Naskh digital typeface crafted for publishing Holy Quran texts and classical books."
+      "ar": "خط نسخي عربي مفتوح المصدر مصمم للكتب والمقالات والنصوص العربية الطويلة والأدب.",
+      "en": "An open-source Arabic Naskh typeface designed for books, editorial publishing, and long literary texts."
     },
     "homepage": "https://nuqayah.com",
     "featured": false,
@@ -2886,30 +2383,7 @@
       "font",
       "naskh",
       "typography",
-      "quran",
       "opentype"
-    ]
-  },
-  {
-    "id": "quranacademy-test-arabic-fonts",
-    "repo": "quranacademy/test-arabic-fonts",
-    "category": "fonts-calligraphy",
-    "title": {
-      "ar": "منصة فحص الخطوط العربية",
-      "en": "Arabic Fonts Tester"
-    },
-    "description": {
-      "ar": "تطبيق ويب وأداة مفتوحة المصدر لاختبار توافقية وعرض الخطوط العربية والقرآنية عبر المتصفحات والشاشات.",
-      "en": "An open-source testing platform to render and evaluate Arabic Quranic typefaces across browsers."
-    },
-    "homepage": "https://github.com/quranacademy/test-arabic-fonts",
-    "featured": false,
-    "tags": [
-      "font",
-      "testing",
-      "arabic-fonts",
-      "webfont",
-      "typography"
     ]
   },
   {
@@ -3352,28 +2826,6 @@
     ]
   },
   {
-    "id": "hazemabdelkawy-qurangpt",
-    "repo": "hazemabdelkawy/QuranGPT",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "منظومة قرآن جي بي تي",
-      "en": "QuranGPT Semantic AI"
-    },
-    "description": {
-      "ar": "مشروع ذكاء اصطناعي لغوي للبحث الدلالي والإجابة عن الأسئلة والاستفسارات التفسيرية لآيات القرآن الكريم.",
-      "en": "A semantic exploration and QA system leveraging modern LLMs for understanding Quranic verses."
-    },
-    "homepage": "https://github.com/hazemabdelkawy/QuranGPT",
-    "featured": false,
-    "tags": [
-      "python",
-      "quran",
-      "gpt",
-      "semantic-search",
-      "ai"
-    ]
-  },
-  {
     "id": "iamaziz-ar-embeddings",
     "repo": "iamaziz/ar-embeddings",
     "category": "nlp-ai",
@@ -3616,138 +3068,6 @@
     ]
   },
   {
-    "id": "ahmedbaset-hadith-json",
-    "repo": "AhmedBaset/hadith-json",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات الحديث الشريف JSON",
-      "en": "Hadith JSON Database"
-    },
-    "description": {
-      "ar": "قاعدة بيانات برمجية مفتوحة تضم أكثر من 50 ألف حديث نبوي شريف من 17 كتاباً من كتب السنة بصيغة JSON المنظمة.",
-      "en": "Open-source database of 50,884 prophetic hadiths from 17 canonical books in structured JSON format."
-    },
-    "homepage": "https://github.com/AhmedBaset/hadith-json",
-    "featured": false,
-    "tags": [
-      "hadith",
-      "json",
-      "islamic-tech",
-      "database",
-      "sunnah"
-    ]
-  },
-  {
-    "id": "alfaazplus-quranapp",
-    "repo": "AlfaazPlus/QuranApp",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق القرآن الكريم ألفاظ بلس",
-      "en": "Alfaaz QuranApp"
-    },
-    "description": {
-      "ar": "تطبيق إلكتروني مفتوح المصدر وخالٍ تماماً من الإعلانات لقراءة وبحث وتدبر القرآن الكريم مع احترام الخصوصية.",
-      "en": "An ad-free and privacy-focused open-source cross-platform application for exploring the Holy Quran."
-    },
-    "homepage": "https://github.com/AlfaazPlus/QuranApp",
-    "featured": false,
-    "tags": [
-      "flutter",
-      "quran",
-      "privacy",
-      "cross-platform",
-      "mobile"
-    ]
-  },
-  {
-    "id": "metinkale38-prayer-times-android",
-    "repo": "metinkale38/prayer-times-android",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق مواقيت الصلاة أندرويد",
-      "en": "Android Prayer Times App"
-    },
-    "description": {
-      "ar": "تطبيق أندرويد مفتوح المصدر لحساب مواقيت الصلاة بدقة فائقة وتحديد القبلة وعرض التقويم الهجري للمسلمين.",
-      "en": "An open-source Android application for high-precision prayer times, Qibla compass, and Hijri calendar."
-    },
-    "homepage": "https://github.com/metinkale38/prayer-times-android",
-    "featured": false,
-    "tags": [
-      "android",
-      "prayer-times",
-      "qibla",
-      "hijri",
-      "kotlin"
-    ]
-  },
-  {
-    "id": "rn0x-quran-data",
-    "repo": "rn0x/Quran-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مستودع بيانات القرآن الرقمية",
-      "en": "Quran Digital Data"
-    },
-    "description": {
-      "ar": "مجموعة بيانات وقواعد مفتوحة المصدر لنصوص السور والآيات القرآنية وأرقامها ومواقعها في المصحف الشريف.",
-      "en": "Structured open-source data repository containing surah details, verse texts, and Quranic metadata."
-    },
-    "homepage": "https://github.com/rn0x/Quran-Data",
-    "featured": false,
-    "tags": [
-      "quran",
-      "json",
-      "data",
-      "islamic-tech",
-      "api"
-    ]
-  },
-  {
-    "id": "mohamed-nagdy-quran-app-data",
-    "repo": "Mohamed-Nagdy/Quran-App-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "بيانات وتفاسير القرآن الشاملة",
-      "en": "Quran & Tafsir App Data"
-    },
-    "description": {
-      "ar": "مستودع بيانات منظم يضم نصوص القرآن الكريم ومعاني الكلمات وعدة تفاسير معتمدة بصيغ برمجية سهلة الدمج.",
-      "en": "Structured dataset featuring Quranic text, word meanings, and multiple classical Tafsir books."
-    },
-    "homepage": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
-    "featured": false,
-    "tags": [
-      "quran",
-      "tafsir",
-      "json",
-      "sqlite",
-      "islamic-tech"
-    ]
-  },
-  {
-    "id": "mobadarah-tajmeeaton",
-    "repo": "mobadarah/tajmeeaton",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "منصة تجميعات التعليمية",
-      "en": "Tajmeeaton Learning App"
-    },
-    "description": {
-      "ar": "تطبيق ومنصة برمجية مفتوحة المصدر مخصصة لإتاحة وتجميع الموارد والمحتوى الإسلامي واللغوي الرقمي.",
-      "en": "An open-source educational platform and application organizing digital Islamic and Arabic knowledge resources."
-    },
-    "homepage": "https://github.com/mobadarah/tajmeeaton",
-    "featured": false,
-    "tags": [
-      "flutter",
-      "learning",
-      "islamic-tech",
-      "arabic",
-      "mobile-app"
-    ]
-  },
-  {
     "id": "alhazen-arabic-ocr",
     "repo": "khaled-alshamaa/Alhazen",
     "category": "ocr-vision",
@@ -3924,14 +3244,14 @@
       "en": "Scheherazade New Font"
     },
     "description": {
-      "ar": "خط نسخي عربي تقليدي متقدم من SIL يغطي شتى أشكال الرسم القرآني والكتابة العربية المتنوعة.",
-      "en": "Extended Arabic script font designed by SIL, covering traditional Naskh styles and Quranic orthographies."
+      "ar": "خط نسخي عربي تقليدي متقدم من SIL يغطي شتى أشكال الكتابة العربية الفصحى والمتنوعة.",
+      "en": "Extended Arabic script font designed by SIL, covering traditional Naskh styles and diverse Arabic orthographies."
     },
     "tags": [
       "font",
       "typeface",
       "naskh",
-      "quranic-script",
+      "traditional-script",
       "sil"
     ],
     "featured": true
@@ -3979,27 +3299,6 @@
     "featured": true
   },
   {
-    "id": "quran-companion-desktop",
-    "repo": "0xzer0x/quran-companion",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "رفيق القرآن لسطح المكتب",
-      "en": "Quran Companion Desktop"
-    },
-    "description": {
-      "ar": "تطبيق مكتبي عصري مفتوح المصدر لقراءة القرآن الكريم والاستماع للتلاوات بأصوات نخبة من القراء.",
-      "en": "Modern, free, and open-source desktop Quran reader and audio player with multi-reciter support."
-    },
-    "tags": [
-      "desktop-app",
-      "quran",
-      "audio-player",
-      "cross-platform",
-      "electron"
-    ],
-    "featured": true
-  },
-  {
     "id": "qutrubi-mobile-app",
     "repo": "linuxscout/qutrubi",
     "category": "platforms-apps",
@@ -4038,48 +3337,6 @@
       "arabic-games",
       "bidi",
       "utilities"
-    ],
-    "featured": false
-  },
-  {
-    "id": "alquran-alkareem-flutter",
-    "repo": "alheekmahlib/alquranalkareem",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق القرآن الكريم طبعة المدينة المنورة",
-      "en": "Al-Quran Al-Kareem Flutter App"
-    },
-    "description": {
-      "ar": "تطبيق فلاتر عالي الجودة لقراءة القرآن الكريم مطابق لصفحات مصحف مجمع الملك فهد لطباعة المصحف الشريف.",
-      "en": "Comprehensive Flutter application for reading the Holy Quran with high-fidelity King Fahd Mushaf page renderings."
-    },
-    "tags": [
-      "flutter",
-      "mobile-app",
-      "quran",
-      "mushaf",
-      "cross-platform"
-    ],
-    "featured": true
-  },
-  {
-    "id": "noble-quran-hafs-flutter",
-    "repo": "HoussemTN/Al-quran-Al-karim",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق القرآن الكريم برواية حفص عن عاصم",
-      "en": "Noble Quran Hafs Flutter App"
-    },
-    "description": {
-      "ar": "تطبيق خفيف وسلس مفتوح المصدر لقراءة القرآن الكريم برواية حفص عن عاصم مبني بأحدث تقنيات فلاتر.",
-      "en": "Clean, lightweight open-source Arabic Quran reading application for Android and iOS developed in Flutter."
-    },
-    "tags": [
-      "flutter",
-      "quran",
-      "hafs",
-      "arabic-app",
-      "mobile"
     ],
     "featured": false
   },
@@ -4651,48 +3908,6 @@
     "featured": false
   },
   {
-    "id": "quranic-svm-parser-kaisdukes",
-    "repo": "kaisdukes/quran-svm-parser",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "المحلل الإعرابي لمدونة القرآن الكريم",
-      "en": "Quranic Corpus SVM Parser"
-    },
-    "description": {
-      "ar": "المحلل الآلي الأصلي المعتمد على خوارزميات SVM من تصميم قيس دوكس لتوليد شجرة الإعراب والتحليل الصرفي للقرآن.",
-      "en": "The original machine learning parser by Kais Dukes that generated the foundational morphological treebank for Quranic Arabic."
-    },
-    "tags": [
-      "syntax-parser",
-      "quranic-corpus",
-      "svm",
-      "treebank",
-      "morphology"
-    ],
-    "featured": true
-  },
-  {
-    "id": "quranic-semantic-search-engine",
-    "repo": "ahr9n/quranic-search-v2",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "محرك البحث الدلالي واللفظي للقرآن الكريم",
-      "en": "Quranic Semantic & Lexical Search Engine"
-    },
-    "description": {
-      "ar": "محرك بحث قرآني متقدم يجمع بين البحث اللفظي الدقيق والبحث الدلالي المعتمد على التضمينات المتجهية.",
-      "en": "Lexical and semantic search engine for the Holy Quran using Arabic vector embeddings and BM25 ranking."
-    },
-    "tags": [
-      "semantic-search",
-      "vector-embeddings",
-      "quran",
-      "bm25",
-      "information-retrieval"
-    ],
-    "featured": true
-  },
-  {
     "id": "arz-callhome-corpus",
     "repo": "noisychannel/ARZ_callhome_corpus",
     "category": "dictionaries-datasets",
@@ -4857,216 +4072,6 @@
       "corpus",
       "heritage-texts",
       "dataset"
-    ],
-    "featured": false
-  },
-  {
-    "id": "adhan-swift-library",
-    "repo": "batoulapps/adhan-swift",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لحساب أوقات الصلاة بلغة سويفت",
-      "en": "Adhan Swift Prayer Times Library"
-    },
-    "description": {
-      "ar": "مكتبة عالية الدقة بلغة سويفت لحساب مواقيت الصلاة والقبلة والتقويم الهجري لكافة منصات أبل.",
-      "en": "High-precision Islamic prayer times calculation library in Swift for iOS, macOS, watchOS, and tvOS."
-    },
-    "tags": [
-      "swift",
-      "prayer-times",
-      "adhan",
-      "islamic-tech",
-      "ios"
-    ],
-    "featured": true
-  },
-  {
-    "id": "adhan-kotlin-library",
-    "repo": "batoulapps/adhan-kotlin",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لحساب مواقيت الصلاة للأندرويد وجافا",
-      "en": "Adhan Kotlin & Java Library"
-    },
-    "description": {
-      "ar": "المكتبة الرسمية بلغة كوتلن وجافا لحساب المواقيت الفلكية الدقيقة للصلوات الخمس واتجاه القبلة.",
-      "en": "Official Kotlin and Java library for calculating astronomical Islamic prayer times and Qibla bearings."
-    },
-    "tags": [
-      "kotlin",
-      "java",
-      "prayer-times",
-      "adhan",
-      "android"
-    ],
-    "featured": true
-  },
-  {
-    "id": "open-hadith-database",
-    "repo": "mhashim6/Open-Hadith-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات كتب الحديث النبوي الشريف المفتوحة",
-      "en": "Open Hadith Data Library"
-    },
-    "description": {
-      "ar": "قواعد بيانات مهيكلة وشاملة لكتب الحديث التسعة (بما فيها الكتب الستة) بصيغ JSON و SQLite.",
-      "en": "Structured, comprehensive databases of the Nine Hadith Books (including the Six Kutub) in clean JSON and SQLite."
-    },
-    "tags": [
-      "hadith",
-      "database",
-      "sunnah",
-      "open-data",
-      "sqlite"
-    ],
-    "featured": true
-  },
-  {
-    "id": "qurany-app-flutter",
-    "repo": "MahmoudMabrok/QuranyApp",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق قرآني للقراءة والاستماع والتفسير",
-      "en": "Qurany App for Reading & Tafseer"
-    },
-    "description": {
-      "ar": "تطبيق قرآني مفتوح المصدر ومتكامل يتيح القراءة والاستماع لمختلف القراء واختبار الحفظ وتصفح التفاسير.",
-      "en": "Feature-packed open-source Holy Quran application with interactive recitations, verse testing, and Arabic tafseer."
-    },
-    "tags": [
-      "flutter",
-      "quran",
-      "tafseer",
-      "audio-recitations",
-      "open-source"
-    ],
-    "featured": false
-  },
-  {
-    "id": "tafsir-rest-api",
-    "repo": "spa5k/tafsir_api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة برمجة تطبيقات تفاسير القرآن الكريم",
-      "en": "Tafsir REST API Service"
-    },
-    "description": {
-      "ar": "خدمة برمجية سريعة تتيح واجهات REST لتصفح وقراءة أشهر كتب التفسير العربية لآيات القرآن الكريم.",
-      "en": "Production-ready REST API and JSON endpoints serving classical Arabic Quranic Tafseers (Ibn Kathir, Al-Tabari, Al-Saadi)."
-    },
-    "tags": [
-      "tafsir",
-      "api",
-      "rest-api",
-      "quranic-studies",
-      "json"
-    ],
-    "featured": true
-  },
-  {
-    "id": "quran-library-flutter-pkg",
-    "repo": "alheekmahlib/quran_library",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "حزمة عرض صفحات المصحف في فلاتر",
-      "en": "Quran Library Flutter Package"
-    },
-    "description": {
-      "ar": "حزمة برمجية لمطوري فلاتر لعرض صفحات القرآن الكريم بضبط وطباعة مطابقة تماماً لمصحف مجمع الملك فهد.",
-      "en": "Specialized Flutter developer package for rendering the Holy Quran with exact typography matching the King Fahd Complex Mushaf."
-    },
-    "tags": [
-      "flutter-package",
-      "quran-display",
-      "mushaf",
-      "dart",
-      "developer-library"
-    ],
-    "featured": false
-  },
-  {
-    "id": "open-mushaf-native-app",
-    "repo": "adelpro/open-mushaf-native",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق المصحف المفتوح ريأكت نيتف",
-      "en": "Open-Mushaf Native"
-    },
-    "description": {
-      "ar": "تطبيق مصحف حديث ومفتوح المصدر مبني بتقنيات ريأكت نيتف وإكسبو يعرض الصفحات بالرسم العثماني الأصيل.",
-      "en": "Modern, open-source Quran reading application built with Expo and React Native with authentic Arabic calligraphy layouts."
-    },
-    "tags": [
-      "react-native",
-      "expo",
-      "quran",
-      "mushaf",
-      "arabic-calligraphy"
-    ],
-    "featured": false
-  },
-  {
-    "id": "rn-tajweed-verse-component",
-    "repo": "ariona/rn-tajweed-verse",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكون تلوين أحكام التجويد في ريأكت نيتف",
-      "en": "React Native Tajweed Verse"
-    },
-    "description": {
-      "ar": "مكون واجهات لمطوري ريأكت نيتف لتحليل أحكام التجويد في الآيات وتلوين حروفها بالألوان التجويدية القياسية.",
-      "en": "React Native UI component for parsing Arabic Quranic verses and highlighting Tajweed rules with traditional color codes."
-    },
-    "tags": [
-      "react-native",
-      "tajweed",
-      "quran",
-      "color-coding",
-      "ui-component"
-    ],
-    "featured": false
-  },
-  {
-    "id": "mushaf-imad-expo-app",
-    "repo": "adelpro/mushaf-imad-expo",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق مصحف عماد التفاعلي",
-      "en": "Mushaf Imad Expo App"
-    },
-    "description": {
-      "ar": "تطبيق قراءة قرآني سلس يعرض المصحف صفحة بصفحة مع حفظ الفواصل والاستماع لتلاوات القراء دون إنترنت.",
-      "en": "Clean React Native Quran reading application featuring page-by-page rendering, bookmarking, and offline audio recitations."
-    },
-    "tags": [
-      "expo",
-      "react-native",
-      "quran-reader",
-      "offline-mode",
-      "audio"
-    ],
-    "featured": false
-  },
-  {
-    "id": "react-quran-viewer-component",
-    "repo": "6km/react-quran",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكون عارض القرآن لتطبيقات ريأكت",
-      "en": "React Quran Viewer Component"
-    },
-    "description": {
-      "ar": "مكون ريأكت تفاعلي لتضمين عارض القرآن الكريم وتصفح الآيات والسور داخل تطبيقات الويب بسهولة.",
-      "en": "Embeddable React component for viewing, navigating, and searching the Holy Quran inside modern web applications."
-    },
-    "tags": [
-      "react",
-      "react-component",
-      "quran-viewer",
-      "web-app",
-      "islamic-tech"
     ],
     "featured": false
   }

@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:12.148Z"
+    "lastSyncedAt": "2026-09-15T19:53:03.499Z"
   },
   {
     "id": "arabert",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:12.380Z"
+    "lastSyncedAt": "2026-09-15T19:53:03.794Z"
   },
   {
     "id": "pyarabic",
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:12.203Z"
+    "lastSyncedAt": "2026-09-15T19:53:03.498Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:13.649Z"
+    "lastSyncedAt": "2026-09-15T19:53:05.063Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:13.582Z"
+    "lastSyncedAt": "2026-09-15T19:53:05.070Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:13.657Z"
+    "lastSyncedAt": "2026-09-15T19:53:05.136Z"
   },
   {
     "id": "amiri-font",
@@ -294,8 +294,8 @@
       "en": "Amiri Font"
     },
     "description": {
-      "ar": "خط نسخي كلاسيكي مفتوح المصدر مخصص لطباعة المصاحف والكتب والمقالات العربية الراقية.",
-      "en": "A classical Arabic typeface in Naskh style for typesetting books, Quranic texts, and premium publications."
+      "ar": "خط نسخي عربي كلاسيكي رائد ومفتوح المصدر من تصميم خالد حسني، مستوحى من مطبعة بولاق الأميرية لصف الكتب والأدب العربي.",
+      "en": "A classical Arabic typeface in Naskh style for books and Arabic literary publishing, inspired by the historical Bulaq Amiri Press."
     },
     "homepage": "https://www.amirifont.org",
     "featured": true,
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:18.394Z"
+    "lastSyncedAt": "2026-09-15T19:53:06.350Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:18.355Z"
+    "lastSyncedAt": "2026-09-15T19:53:06.304Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:18.423Z"
+    "lastSyncedAt": "2026-09-15T19:53:06.520Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:19.710Z"
+    "lastSyncedAt": "2026-09-15T19:53:07.835Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:19.553Z"
+    "lastSyncedAt": "2026-09-15T19:53:07.744Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,54 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:19.669Z"
-  },
-  {
-    "id": "hadith-datasets",
-    "repo": "abdelrahmaan/Hadith-Data-Sets",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قواعد بيانات كتب الحديث الشريف",
-      "en": "Hadith Datasets"
-    },
-    "description": {
-      "ar": "أكثر من 62,000 حديث شريف من كتب الحديث التسعة بصيغ مشكولة وغير مشكولة ومصنفة رقمياً.",
-      "en": "Over 62,000 prophetic hadiths from nine canonical books with and without tashkeel in JSON and CSV."
-    },
-    "homepage": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
-    "featured": true,
-    "tags": [
-      "json",
-      "hadith",
-      "islamic-tech",
-      "corpus",
-      "dataset"
-    ],
-    "github": {
-      "owner": "abdelrahmaan",
-      "name": "Hadith-Data-Sets",
-      "url": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
-      "stars": 325,
-      "forks": 79,
-      "openIssues": 1,
-      "primaryLanguage": "Jupyter Notebook",
-      "lastCommitAt": "2022-04-17T21:13:44Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "allah",
-        "arabic",
-        "arabic-language",
-        "arabic-nlp",
-        "hadith",
-        "hadith-books",
-        "islam",
-        "muslim",
-        "sunnah"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:21.029Z"
+    "lastSyncedAt": "2026-09-15T19:53:08.161Z"
   },
   {
     "id": "masader",
@@ -681,7 +634,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:21.087Z"
+    "lastSyncedAt": "2026-09-15T19:53:09.488Z"
   },
   {
     "id": "maidaly-arabic-ocr",
@@ -718,7 +671,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:21.044Z"
+    "lastSyncedAt": "2026-09-15T19:53:09.442Z"
   },
   {
     "id": "husseinyoussef-arabic-ocr",
@@ -772,7 +725,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:22.574Z"
+    "lastSyncedAt": "2026-09-15T19:53:09.451Z"
   },
   {
     "id": "pythonation-mistral-arabic-ocr-test",
@@ -806,7 +759,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:22.649Z"
+    "lastSyncedAt": "2026-09-15T19:53:10.797Z"
   },
   {
     "id": "aliftype-reem-kufi",
@@ -855,7 +808,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:22.761Z"
+    "lastSyncedAt": "2026-09-15T19:53:10.739Z"
   },
   {
     "id": "aliftype-aref-ruqaa",
@@ -905,7 +858,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:23.948Z"
+    "lastSyncedAt": "2026-09-15T19:53:10.764Z"
   },
   {
     "id": "aliftype-mada",
@@ -958,388 +911,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:23.959Z"
-  },
-  {
-    "id": "quran-quran-android",
-    "repo": "quran/quran_android",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق قرآن أندرويد",
-      "en": "Quran Android"
-    },
-    "description": {
-      "ar": "التطبيق الرسمي مفتوح المصدر لقراءة وتصفح والاستماع للقرآن الكريم على أجهزة أندرويد.",
-      "en": "The official open-source Quran reading and listening application for Android."
-    },
-    "homepage": "http://android.quran.com",
-    "featured": true,
-    "tags": [
-      "kotlin",
-      "android",
-      "quran",
-      "audio",
-      "recitations"
-    ],
-    "github": {
-      "owner": "quran",
-      "name": "quran_android",
-      "url": "https://github.com/quran/quran_android",
-      "stars": 2394,
-      "forks": 993,
-      "openIssues": 411,
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "primaryLanguage": "Kotlin",
-      "lastCommitAt": "2026-09-15T14:40:47Z",
-      "latestRelease": {
-        "tag": "v3.6.3",
-        "publishedAt": "2026-02-24T23:51:43Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "android",
-        "quran"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:23.878Z"
-  },
-  {
-    "id": "fawazahmed0-quran-api",
-    "repo": "fawazahmed0/quran-api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة القرآن الكريم البرمجية",
-      "en": "Quran JSON REST API"
-    },
-    "description": {
-      "ar": "واجهة برمجية سريعة ومجانية لنصوص وتفاسير وترجمات القرآن الكريم بصيغة JSON بأكثر من 40 لغة.",
-      "en": "Free and comprehensive JSON REST API for Quranic texts, translations, and audio."
-    },
-    "homepage": "https://github.com/fawazahmed0/quran-api",
-    "featured": true,
-    "tags": [
-      "api",
-      "json",
-      "quran",
-      "translations",
-      "tafsir"
-    ],
-    "github": {
-      "owner": "fawazahmed0",
-      "name": "quran-api",
-      "url": "https://github.com/fawazahmed0/quran-api",
-      "stars": 1181,
-      "forks": 227,
-      "openIssues": 27,
-      "license": {
-        "spdxId": "Unlicense",
-        "name": "The Unlicense"
-      },
-      "lastCommitAt": "2026-09-12T19:01:33Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "al-quran",
-        "api",
-        "free",
-        "quran",
-        "quran-api",
-        "quran-digital",
-        "quran-info",
-        "quran-json",
-        "quran-offline",
-        "quran-online",
-        "quran-text",
-        "quran-translation",
-        "quran-transliteration"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:25.207Z"
-  },
-  {
-    "id": "fawazahmed0-hadith-api",
-    "repo": "fawazahmed0/hadith-api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة الحديث الشريف البرمجية",
-      "en": "Hadith JSON API"
-    },
-    "description": {
-      "ar": "قاعدة بيانات وواجهة برمجية رقمية مفتوحة المصدر لكتب الحديث الشريف التسعة.",
-      "en": "Comprehensive and curated Hadith collections API with multiple translations in JSON."
-    },
-    "homepage": "https://github.com/fawazahmed0/hadith-api",
-    "featured": true,
-    "tags": [
-      "api",
-      "hadith",
-      "json",
-      "sunnah",
-      "datasets"
-    ],
-    "github": {
-      "owner": "fawazahmed0",
-      "name": "hadith-api",
-      "url": "https://github.com/fawazahmed0/hadith-api",
-      "stars": 551,
-      "forks": 128,
-      "openIssues": 69,
-      "license": {
-        "spdxId": "Unlicense",
-        "name": "The Unlicense"
-      },
-      "lastCommitAt": "2026-06-03T04:16:49Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "api",
-        "free",
-        "hadeeth",
-        "hadith",
-        "hadith-api",
-        "hadith-books",
-        "hadith-corpus",
-        "hadith-db",
-        "hadiths",
-        "sunat",
-        "sunnah"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:25.190Z"
-  },
-  {
-    "id": "batoulapps-adhan-js",
-    "repo": "batoulapps/adhan-js",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لمواقيت الصلاة",
-      "en": "Adhan JS"
-    },
-    "description": {
-      "ar": "مكتبة فلكية عالية الدقة ومفتوحة المصدر لحساب مواقيت الصلاة الإسلامية لجافاسكريبت وNode.js.",
-      "en": "High precision prayer times calculation library for JavaScript and Node.js."
-    },
-    "homepage": "https://github.com/batoulapps/adhan-js",
-    "featured": true,
-    "tags": [
-      "javascript",
-      "typescript",
-      "prayer-times",
-      "islamic-tech"
-    ],
-    "github": {
-      "owner": "batoulapps",
-      "name": "adhan-js",
-      "url": "https://github.com/batoulapps/adhan-js",
-      "stars": 532,
-      "forks": 114,
-      "openIssues": 11,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-09-13T04:59:14Z",
-      "latestRelease": {
-        "tag": "v4.4.6",
-        "publishedAt": "2026-08-31T02:27:46Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:25.187Z"
-  },
-  {
-    "id": "gaitco-quran-database",
-    "repo": "gaitco/quran-database",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "quran-database",
-      "en": "Quran Database"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A complete, structured Quran database — verses, translations and metadata, free for any project.",
-      "en": "A complete, structured Quran database — verses, translations and metadata, free for any project."
-    },
-    "homepage": "https://gaitco.com/open-source/quran-database",
-    "featured": true,
-    "tags": [
-      "python",
-      "gait",
-      "mysql",
-      "quran",
-      "islamic tech"
-    ],
-    "github": {
-      "owner": "gaitco",
-      "name": "quran-database",
-      "url": "https://github.com/gaitco/quran-database",
-      "stars": 1919,
-      "forks": 328,
-      "openIssues": 1,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-08-22T06:32:16Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "gait",
-        "mysql",
-        "quran"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:26.546Z"
-  },
-  {
-    "id": "quran-quran-com-frontend-next",
-    "repo": "quran/quran.com-frontend-next",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "منصة قرآن.كوم الحديثة",
-      "en": "Quran.com Next.js Platform"
-    },
-    "description": {
-      "ar": "التطبيق البرمجي الكامل مفتوح المصدر لمنصة القرآن الكريم الرائدة عالمياً مبني بإطار Next.js و TypeScript.",
-      "en": "The official open-source Next.js web application for Quran.com."
-    },
-    "homepage": "https://quran.com",
-    "featured": true,
-    "tags": [
-      "typescript",
-      "nextjs",
-      "react",
-      "quran",
-      "web-app"
-    ],
-    "github": {
-      "owner": "quran",
-      "name": "quran.com-frontend-next",
-      "url": "https://github.com/quran/quran.com-frontend-next",
-      "stars": 1908,
-      "forks": 626,
-      "openIssues": 316,
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-04-27T17:32:54Z",
-      "latestRelease": {
-        "tag": "v0.0.12",
-        "publishedAt": "2025-03-29T16:41:16Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:26.441Z"
-  },
-  {
-    "id": "ojuba-org-othman",
-    "repo": "ojuba-org/othman",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "متصفح عثمان للقرآن الكريم",
-      "en": "Othman Quran Browser"
-    },
-    "description": {
-      "ar": "متصفح ومحرك بحث إلكتروني مفتوح المصدر للقرآن الكريم بالرسم العثماني لأنظمة سطح المكتب.",
-      "en": "An open-source electronic Quran browser and search engine in Othmani script."
-    },
-    "homepage": "https://github.com/ojuba-org/othman",
-    "featured": false,
-    "tags": [
-      "python",
-      "desktop",
-      "quran",
-      "search-engine",
-      "linux"
-    ],
-    "github": {
-      "owner": "ojuba-org",
-      "name": "othman",
-      "url": "https://github.com/ojuba-org/othman",
-      "stars": 44,
-      "forks": 22,
-      "openIssues": 4,
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2024-03-26T18:21:31Z",
-      "latestRelease": {
-        "tag": "1.0.0",
-        "publishedAt": "2023-04-28T00:16:59Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "python",
-        "quran"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:26.471Z"
-  },
-  {
-    "id": "alfanous-team-alfanous",
-    "repo": "Alfanous-team/alfanous",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "محرك بحث الفانوس",
-      "en": "Alfanous Search Engine"
-    },
-    "description": {
-      "ar": "محرك وبوابة برمجية متقدمة مفتوحة المصدر للبحث اللغوي والدلالي والصوتي في نصوص القرآن الكريم والمعاجم العربية.",
-      "en": "An advanced open-source Arabic search engine API and platform providing linguistic, semantic, and vocalic search in Quranic texts."
-    },
-    "homepage": "http://www.alfanous.org",
-    "featured": true,
-    "tags": [
-      "python",
-      "arabic-search",
-      "quran",
-      "linguistics",
-      "search-engine"
-    ],
-    "github": {
-      "owner": "Alfanous-team",
-      "name": "alfanous",
-      "url": "https://github.com/Alfanous-team/alfanous",
-      "stars": 289,
-      "forks": 90,
-      "openIssues": 23,
-      "license": {
-        "spdxId": "LGPL-3.0",
-        "name": "GNU Lesser General Public License v3.0"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-06-14T00:57:27Z",
-      "latestRelease": {
-        "tag": "v1.9.4",
-        "publishedAt": "2026-06-14T00:57:27Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "api",
-        "arabic",
-        "indexing",
-        "mcp",
-        "mcp-server",
-        "python",
-        "quran",
-        "search-engine"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:27.767Z"
+    "lastSyncedAt": "2026-09-15T19:53:12.168Z"
   },
   {
     "id": "linuxscout-ayaspell",
@@ -1379,7 +951,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:27.808Z"
+    "lastSyncedAt": "2026-09-15T19:53:12.214Z"
   },
   {
     "id": "linuxscout-naftawayh",
@@ -1419,7 +991,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:27.791Z"
+    "lastSyncedAt": "2026-09-15T19:53:12.213Z"
   },
   {
     "id": "arbml-tkseem",
@@ -1465,7 +1037,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:29.057Z"
+    "lastSyncedAt": "2026-09-15T19:53:13.508Z"
   },
   {
     "id": "arbml-klaam",
@@ -1511,7 +1083,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:29.274Z"
+    "lastSyncedAt": "2026-09-15T19:53:13.507Z"
   },
   {
     "id": "ubc-nlp-arat5",
@@ -1559,7 +1131,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:29.148Z"
+    "lastSyncedAt": "2026-09-15T19:53:13.554Z"
   },
   {
     "id": "bakrianoo-aravec",
@@ -1604,7 +1176,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:30.525Z"
+    "lastSyncedAt": "2026-09-15T19:53:14.799Z"
   },
   {
     "id": "linuxscout-arramooz",
@@ -1648,55 +1220,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:30.383Z"
-  },
-  {
-    "id": "shathatm-lk-hadith-corpus",
-    "repo": "ShathaTm/LK-Hadith-Corpus",
-    "category": "dictionaries-datasets",
-    "title": {
-      "ar": "LK-Hadith-Corpus",
-      "en": "LK Hadith Corpus"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Leeds University and King Saud University (LK) Hadith Corpus",
-      "en": "Leeds University and King Saud University (LK) Hadith Corpus"
-    },
-    "homepage": "https://github.com/ShathaTm/LK-Hadith-Corpus",
-    "featured": true,
-    "tags": [
-      "python",
-      "arabic-english",
-      "corpus",
-      "dataset",
-      "hadeeth",
-      "hadith"
-    ],
-    "github": {
-      "owner": "ShathaTm",
-      "name": "LK-Hadith-Corpus",
-      "url": "https://github.com/ShathaTm/LK-Hadith-Corpus",
-      "stars": 107,
-      "forks": 30,
-      "openIssues": 2,
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2023-05-03T10:10:46Z",
-      "latestRelease": {
-        "tag": "v1.0",
-        "publishedAt": "2023-05-03T10:10:46Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "arabic-english",
-        "corpus",
-        "dataset",
-        "hadeeth",
-        "hadith",
-        "parallel-corpus"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:30.417Z"
+    "lastSyncedAt": "2026-09-15T19:53:14.815Z"
   },
   {
     "id": "aliosm-arabic-text-diacritization",
@@ -1746,7 +1270,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:31.741Z"
+    "lastSyncedAt": "2026-09-15T19:53:14.868Z"
   },
   {
     "id": "nainiayoub-moroccan-darija-datasets",
@@ -1791,7 +1315,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:31.851Z"
+    "lastSyncedAt": "2026-09-15T19:53:16.149Z"
   },
   {
     "id": "aub-mind-arabic-empathetic-chatbot",
@@ -1825,7 +1349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:31.852Z"
+    "lastSyncedAt": "2026-09-15T19:53:16.149Z"
   },
   {
     "id": "magedsaeed-farasapy",
@@ -1879,7 +1403,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:33.070Z"
+    "lastSyncedAt": "2026-09-15T19:53:16.107Z"
   },
   {
     "id": "linuxscout-tashaphyne",
@@ -1923,7 +1447,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:33.240Z"
+    "lastSyncedAt": "2026-09-15T19:53:17.438Z"
   },
   {
     "id": "aliosm-shakkelha",
@@ -1972,7 +1496,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:33.061Z"
+    "lastSyncedAt": "2026-09-15T19:53:17.390Z"
   },
   {
     "id": "qutuf-qutuf",
@@ -2034,7 +1558,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:34.548Z"
+    "lastSyncedAt": "2026-09-15T19:53:17.464Z"
   },
   {
     "id": "mohabmes-arabycia",
@@ -2075,7 +1599,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:34.471Z"
+    "lastSyncedAt": "2026-09-15T19:53:19.162Z"
   },
   {
     "id": "ahr-ocr2024-arabic-handwriting-recognition",
@@ -2112,7 +1636,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:26:34.484Z"
+    "lastSyncedAt": "2026-09-15T19:53:18.757Z"
   },
   {
     "id": "camel-lab-arafix-ocr",
@@ -2157,7 +1681,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:35.804Z"
+    "lastSyncedAt": "2026-09-15T19:53:18.778Z"
   },
   {
     "id": "manshar-manshar",
@@ -2202,7 +1726,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:35.857Z"
+    "lastSyncedAt": "2026-09-15T19:53:20.440Z"
   },
   {
     "id": "arbml-qawafi",
@@ -2250,7 +1774,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:35.815Z"
+    "lastSyncedAt": "2026-09-15T19:53:20.481Z"
   },
   {
     "id": "alifcommunity-alif5",
@@ -2293,7 +1817,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:37.897Z"
+    "lastSyncedAt": "2026-09-15T19:53:21.517Z"
   },
   {
     "id": "aliftype-qahiri",
@@ -2342,7 +1866,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:37.031Z"
+    "lastSyncedAt": "2026-09-15T19:53:22.812Z"
   },
   {
     "id": "arbml-calliar",
@@ -2389,7 +1913,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:37.196Z"
+    "lastSyncedAt": "2026-09-15T19:53:22.909Z"
   },
   {
     "id": "swivid-habibi-tts",
@@ -2433,7 +1957,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:39.033Z"
+    "lastSyncedAt": "2026-09-15T19:53:22.814Z"
   },
   {
     "id": "linuxscout-qutrub",
@@ -2478,7 +2002,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:39.159Z"
+    "lastSyncedAt": "2026-09-15T19:53:24.158Z"
   },
   {
     "id": "arbml-tnkeeh",
@@ -2524,434 +2048,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:39.177Z"
-  },
-  {
-    "id": "tarteelai-quranic-universal-library",
-    "repo": "TarteelAI/quranic-universal-library",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "المكتبة القرآنية الشاملة ترتيل",
-      "en": "Tarteel Quranic Universal Library"
-    },
-    "description": {
-      "ar": "مستودع شامل ومكتبة برمجية مفتوحة المصدر تضم بيانات السور والآيات والترجمات الصوتية والنصية.",
-      "en": "A comprehensive collection of open-source Quranic text resources, recitations, and audio metadata."
-    },
-    "homepage": "https://qul.tarteel.ai/",
-    "featured": true,
-    "tags": [
-      "quran",
-      "islamic-tech",
-      "datasets",
-      "tarteel",
-      "audio"
-    ],
-    "github": {
-      "owner": "TarteelAI",
-      "name": "quranic-universal-library",
-      "url": "https://github.com/TarteelAI/quranic-universal-library",
-      "stars": 1015,
-      "forks": 130,
-      "openIssues": 191,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Ruby",
-      "lastCommitAt": "2026-09-10T09:11:32Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "islam",
-        "muslim",
-        "quran",
-        "ruby",
-        "ruby-on-rails",
-        "tarteel",
-        "toolkit"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:40.441Z"
-  },
-  {
-    "id": "sunnah-com-api",
-    "repo": "sunnah-com/api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة برمجية موقع سنة.كوم",
-      "en": "Sunnah.com API"
-    },
-    "description": {
-      "ar": "الواجهة البرمجية الرسمية ومستودع بيانات كتب الحديث الشريف باللغة العربية وترجماتها المعتمدة.",
-      "en": "The official API backend for Sunnah.com offering structured access to canonical Hadith collections."
-    },
-    "homepage": "https://sunnah.com",
-    "featured": true,
-    "tags": [
-      "php",
-      "hadith",
-      "api",
-      "islamic-tech",
-      "rest-api"
-    ],
-    "github": {
-      "owner": "sunnah-com",
-      "name": "api",
-      "url": "https://github.com/sunnah-com/api",
-      "stars": 502,
-      "forks": 86,
-      "openIssues": 2868,
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-08-21T18:47:40Z",
-      "latestRelease": {
-        "tag": "v0.0.1",
-        "publishedAt": "2026-02-01T23:09:50Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "hadith",
-        "islam",
-        "quran",
-        "sunnah"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:40.325Z"
-  },
-  {
-    "id": "yazinsai-tilawa",
-    "repo": "yazinsai/tilawa",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تلاوة للتعرف الصوتي على الآيات",
-      "en": "Tilawa Audio Recognition"
-    },
-    "description": {
-      "ar": "نظام ومكتبة مفتوحة المصدر للتعرف على الآيات والسور من التلاوات الصوتية دون الحاجة لاتصال بالإنترنت.",
-      "en": "Offline Quran verse and surah recognition from audio recitations using acoustic matching."
-    },
-    "homepage": "https://tilawa.dev",
-    "featured": true,
-    "tags": [
-      "python",
-      "audio-recognition",
-      "quran",
-      "speech",
-      "signal-processing"
-    ],
-    "github": {
-      "owner": "yazinsai",
-      "name": "tilawa",
-      "url": "https://github.com/yazinsai/tilawa",
-      "stars": 265,
-      "forks": 31,
-      "openIssues": 3,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-07-09T09:18:55Z",
-      "latestRelease": {
-        "tag": "v0.2.0",
-        "publishedAt": "2026-06-30T08:23:31Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:40.480Z"
-  },
-  {
-    "id": "cpfair-quran-align",
-    "repo": "cpfair/quran-align",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "محاذاة التلاوات القرآنية",
-      "en": "Quran Audio Align"
-    },
-    "description": {
-      "ar": "نظام مفتوح المصدر لحساب الطوابع الزمنية الدقيقة لكل كلمة في التلاوات القرآنية الصوتية.",
-      "en": "Word-accurate timestamps and alignment generator for Quranic audio recitations."
-    },
-    "homepage": "https://github.com/cpfair/quran-align",
-    "featured": true,
-    "tags": [
-      "python",
-      "audio-alignment",
-      "speech",
-      "quran",
-      "forced-alignment"
-    ],
-    "github": {
-      "owner": "cpfair",
-      "name": "quran-align",
-      "url": "https://github.com/cpfair/quran-align",
-      "stars": 258,
-      "forks": 44,
-      "openIssues": 8,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "C++",
-      "lastCommitAt": "2017-01-26T23:24:47Z",
-      "latestRelease": {
-        "tag": "release-2016-11-24",
-        "publishedAt": "2016-11-24T23:51:54Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "audio",
-        "ayah",
-        "islam",
-        "quran",
-        "recitation",
-        "speech-recognition"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:41.770Z"
-  },
-  {
-    "id": "quran-quran-com-frontend",
-    "repo": "quran/quran.com-frontend",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة قرآن.كوم الكلاسيكية",
-      "en": "Quran.com Frontend"
-    },
-    "description": {
-      "ar": "واجهة الويب المفتوحة المصدر لمنصة القرآن الكريم العالمية وتصفح السور والتلاوات والتفاسير.",
-      "en": "Open-source web interface for Quran.com, featuring verse browsing, recitations, and commentaries."
-    },
-    "homepage": "https://quran.com",
-    "featured": true,
-    "tags": [
-      "javascript",
-      "allah",
-      "islam",
-      "koran",
-      "muslim",
-      "quran"
-    ],
-    "github": {
-      "owner": "quran",
-      "name": "quran.com-frontend",
-      "url": "https://github.com/quran/quran.com-frontend",
-      "stars": 1033,
-      "forks": 373,
-      "openIssues": 114,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "JavaScript",
-      "lastCommitAt": "2021-06-28T09:11:20Z",
-      "latestRelease": {
-        "tag": "v3.0.3",
-        "publishedAt": "2017-05-27T20:17:51Z"
-      },
-      "isArchived": true,
-      "topics": [
-        "allah",
-        "islam",
-        "koran",
-        "muslim",
-        "quran",
-        "reactjs",
-        "salah"
-      ]
-    },
-    "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:26:41.846Z"
-  },
-  {
-    "id": "semarketir-quranjson",
-    "repo": "semarketir/quranjson",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات القرآن بصيغة JSON",
-      "en": "QuranJSON"
-    },
-    "description": {
-      "ar": "قاعدة بيانات مفتوحة ومنظمة للقرآن الكريم تشمل 6236 آية و 114 سورة و 30 جزءاً بصيغة JSON الخفيفة.",
-      "en": "Structured, lightweight JSON dataset of the Holy Quran covering all 6,236 verses, 114 surahs, and 30 juz."
-    },
-    "homepage": "https://semarketir.github.io/quranjson-web",
-    "featured": true,
-    "tags": [
-      "audio",
-      "data",
-      "islam",
-      "json",
-      "juz",
-      "moslem"
-    ],
-    "github": {
-      "owner": "semarketir",
-      "name": "quranjson",
-      "url": "https://github.com/semarketir/quranjson",
-      "stars": 815,
-      "forks": 278,
-      "openIssues": 11,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "lastCommitAt": "2021-02-16T01:38:45Z",
-      "latestRelease": {
-        "tag": "1.0.0",
-        "publishedAt": "2016-10-31T04:55:51Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "audio",
-        "data",
-        "islam",
-        "json",
-        "juz",
-        "moslem",
-        "muslim",
-        "quran",
-        "quran-json",
-        "religion",
-        "surah",
-        "tajweed",
-        "tajwid",
-        "translation"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:41.777Z"
-  },
-  {
-    "id": "risan-quran-json",
-    "repo": "risan/quran-json",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة نصوص القرآن JSON",
-      "en": "Quran JSON Texts"
-    },
-    "description": {
-      "ar": "مستودع مفتوح المصدر يحتوي على النصوص القرآنية الكاملة والترجمات المتعددة بصيغة JSON للمطورين.",
-      "en": "Complete open-source Quranic text and multi-language translations structured for application developers."
-    },
-    "homepage": "https://github.com/risan/quran-json",
-    "featured": true,
-    "tags": [
-      "python",
-      "quran",
-      "tanzil",
-      "translation",
-      "islamic tech"
-    ],
-    "github": {
-      "owner": "risan",
-      "name": "quran-json",
-      "url": "https://github.com/risan/quran-json",
-      "stars": 607,
-      "forks": 186,
-      "openIssues": 6,
-      "license": {
-        "spdxId": "CC-BY-SA-4.0",
-        "name": "Creative Commons Attribution Share Alike 4.0 International"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-09-14T17:06:54Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "quran",
-        "tanzil",
-        "translation"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:43.138Z"
-  },
-  {
-    "id": "quran-quran-ios",
-    "repo": "quran/quran-ios",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "محرك تطبيق قرآن لنظام iOS",
-      "en": "Quran iOS Engine"
-    },
-    "description": {
-      "ar": "المحرك البرمجي المفتوح المصدر الذي يدير تطبيق Quran.com الرسمي على أجهزة الآيفون والآيباد.",
-      "en": "The core open-source engine powering the official Quran.com application for iOS and iPadOS."
-    },
-    "homepage": "https://github.com/quran/quran-ios",
-    "featured": true,
-    "tags": [
-      "swift",
-      "ios",
-      "quran",
-      "islamic tech"
-    ],
-    "github": {
-      "owner": "quran",
-      "name": "quran-ios",
-      "url": "https://github.com/quran/quran-ios",
-      "stars": 588,
-      "forks": 205,
-      "openIssues": 103,
-      "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
-      },
-      "primaryLanguage": "Swift",
-      "lastCommitAt": "2026-09-15T14:34:21Z",
-      "latestRelease": {
-        "tag": "2.6.8",
-        "publishedAt": "2026-09-03T18:59:40Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "ios",
-        "quran",
-        "swift"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:43.209Z"
-  },
-  {
-    "id": "quran-quran-com-images",
-    "repo": "quran/quran.com-images",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "صور صفحات المصحف الشريف",
-      "en": "Quran Page Images"
-    },
-    "description": {
-      "ar": "صور عالية الدقة لصفحات المصحف الشريف مستخرجة من خطوط مجمع الملك فهد لطباعة المصحف الشريف.",
-      "en": "High-resolution Quranic page images rendered using official King Fahd Complex typefaces."
-    },
-    "homepage": "http://quran.com",
-    "featured": true,
-    "tags": [
-      "perl",
-      "islamic tech"
-    ],
-    "github": {
-      "owner": "quran",
-      "name": "quran.com-images",
-      "url": "https://github.com/quran/quran.com-images",
-      "stars": 503,
-      "forks": 144,
-      "openIssues": 27,
-      "primaryLanguage": "Perl",
-      "lastCommitAt": "2026-02-21T10:11:53Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:43.155Z"
+    "lastSyncedAt": "2026-09-15T19:53:24.174Z"
   },
   {
     "id": "nipponjo-tts-arabic-pytorch",
@@ -3008,7 +2105,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:44.420Z"
+    "lastSyncedAt": "2026-09-15T19:53:24.133Z"
   },
   {
     "id": "alisafaya-arabic-bert",
@@ -3056,7 +2153,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:44.445Z"
+    "lastSyncedAt": "2026-09-15T19:53:25.651Z"
   },
   {
     "id": "yoosif0-arabic-tacotron-tts",
@@ -3097,7 +2194,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:44.491Z"
+    "lastSyncedAt": "2026-09-15T19:53:25.485Z"
   },
   {
     "id": "linuxscout-festival-tts-arabic-voices",
@@ -3138,7 +2235,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:45.782Z"
+    "lastSyncedAt": "2026-09-15T19:53:25.415Z"
   },
   {
     "id": "ubc-nlp-turjuman",
@@ -3198,7 +2295,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:45.853Z"
+    "lastSyncedAt": "2026-09-15T19:53:27.023Z"
   },
   {
     "id": "camel-lab-camelbert",
@@ -3243,7 +2340,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:45.857Z"
+    "lastSyncedAt": "2026-09-15T19:53:27.022Z"
   },
   {
     "id": "mbzuai-oryx-ain",
@@ -3293,7 +2390,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:47.150Z"
+    "lastSyncedAt": "2026-09-15T19:53:26.984Z"
   },
   {
     "id": "sinalab-arabicner",
@@ -3334,7 +2431,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:47.328Z"
+    "lastSyncedAt": "2026-09-15T19:53:28.337Z"
   },
   {
     "id": "mawdoo3-multi-dialect-arabic-bert",
@@ -3378,7 +2475,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:47.108Z"
+    "lastSyncedAt": "2026-09-15T19:53:28.338Z"
   },
   {
     "id": "arbml-arbml",
@@ -3425,117 +2522,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:52.007Z"
-  },
-  {
-    "id": "zonetecde-qurancaption",
-    "repo": "zonetecde/QuranCaption",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "أداة كتابة الآيات المرئية",
-      "en": "QuranCaption"
-    },
-    "description": {
-      "ar": "أداة مفتوحة المصدر لتوليد ومزامنة نصوص الآيات القرآنية تلقائياً على المقاطع الصوتية والفيديوهات.",
-      "en": "Transform Quranic recitations into synchronized captioned videos with professional typography."
-    },
-    "homepage": "https://qurancaption.com",
-    "featured": true,
-    "tags": [
-      "python",
-      "quran",
-      "caption",
-      "video",
-      "automation"
-    ],
-    "github": {
-      "owner": "zonetecde",
-      "name": "QuranCaption",
-      "url": "https://github.com/zonetecde/QuranCaption",
-      "stars": 277,
-      "forks": 96,
-      "openIssues": 16,
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-09-14T13:21:22Z",
-      "latestRelease": {
-        "tag": "QC-3.7.31",
-        "publishedAt": "2026-09-14T13:21:23Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "quran",
-        "quran-translation",
-        "recitation",
-        "svelte",
-        "tauri",
-        "video",
-        "videoeditor"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:51.688Z"
-  },
-  {
-    "id": "rn0x-altaqwaa-desktop",
-    "repo": "rn0x/altaqwaa-desktop",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق التقوى المكتبي",
-      "en": "Altaqwaa Desktop"
-    },
-    "description": {
-      "ar": "تطبيق إلكتروني مكتبي مفتوح المصدر لقراءة القرآن الكريم وعرض مواقيت الصلاة والأذكار النبوية.",
-      "en": "Open-source desktop application for Quran reading, prayer times reminders, and Azkar."
-    },
-    "homepage": "https://altaqwaa.i8x.net/",
-    "featured": true,
-    "tags": [
-      "electron",
-      "vue",
-      "desktop",
-      "quran",
-      "prayer-times"
-    ],
-    "github": {
-      "owner": "rn0x",
-      "name": "altaqwaa-desktop",
-      "url": "https://github.com/rn0x/altaqwaa-desktop",
-      "stars": 269,
-      "forks": 33,
-      "openIssues": 12,
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "primaryLanguage": "JavaScript",
-      "lastCommitAt": "2026-09-04T03:04:03Z",
-      "latestRelease": {
-        "tag": "v4.0.1",
-        "publishedAt": "2026-09-04T03:11:28Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "app",
-        "app-islam",
-        "app-quran",
-        "desktop",
-        "desktop-app",
-        "electron",
-        "electron-app",
-        "gui",
-        "islam",
-        "islamic",
-        "prayer",
-        "prayer-time",
-        "quran"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:51.677Z"
+    "lastSyncedAt": "2026-09-15T19:53:28.357Z"
   },
   {
     "id": "arbml-ashaar",
@@ -3572,44 +2559,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:54.388Z"
-  },
-  {
-    "id": "noorbayan-noor",
-    "repo": "NoorBayan/Noor",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "منصة نور لخدمة القرآن",
-      "en": "Noor Quran Platform"
-    },
-    "description": {
-      "ar": "منصة برمجية رقمية مفتوحة المصدر لخدمة نصوص القرآن الكريم وتوفير أدوات البحث والعرض القرآني.",
-      "en": "A digital open-source platform providing tools, services, and APIs for Holy Quran text exploration."
-    },
-    "homepage": "https://github.com/NoorBayan/Noor",
-    "featured": true,
-    "tags": [
-      "dart",
-      "platforms apps"
-    ],
-    "github": {
-      "owner": "NoorBayan",
-      "name": "Noor",
-      "url": "https://github.com/NoorBayan/Noor",
-      "stars": 172,
-      "forks": 2,
-      "openIssues": 0,
-      "primaryLanguage": "Dart",
-      "lastCommitAt": "2026-01-25T14:09:03Z",
-      "latestRelease": {
-        "tag": "0.1",
-        "publishedAt": "2025-04-28T14:22:32Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:54.216Z"
+    "lastSyncedAt": "2026-09-15T19:53:29.640Z"
   },
   {
     "id": "noorbayan-tanqeeh",
@@ -3647,60 +2597,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:54.534Z"
-  },
-  {
-    "id": "adelpro-open-tarteel",
-    "repo": "adelpro/open-tarteel",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق ترتيل القرآني المفتوح",
-      "en": "Open Tarteel"
-    },
-    "description": {
-      "ar": "تطبيق قرآني مفتوح المصدر مصمم لتقديم تجربة قراءة واستماع حديثة للقرآن الكريم عبر مختلف الأجهزة.",
-      "en": "An open-source Quran application designed to provide a modern reading and listening experience."
-    },
-    "homepage": "https://tarteel.quran.us.kg",
-    "featured": false,
-    "tags": [
-      "typescript",
-      "jotai",
-      "nextjs",
-      "player",
-      "pwa",
-      "quran"
-    ],
-    "github": {
-      "owner": "adelpro",
-      "name": "open-tarteel",
-      "url": "https://github.com/adelpro/open-tarteel",
-      "stars": 48,
-      "forks": 38,
-      "openIssues": 7,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-09-12T12:52:41Z",
-      "latestRelease": {
-        "tag": "0.3.0-athar",
-        "publishedAt": "2026-03-18T17:04:46Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "jotai",
-        "nextjs",
-        "player",
-        "pwa",
-        "quran",
-        "tailwindcss",
-        "tarteel"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:55.650Z"
+    "lastSyncedAt": "2026-09-15T19:53:29.567Z"
   },
   {
     "id": "bassem-i-arabic-english-subtitling",
@@ -3734,7 +2631,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:55.938Z"
+    "lastSyncedAt": "2026-09-15T19:53:29.639Z"
   },
   {
     "id": "assem-ch-arabicstemmer",
@@ -3784,7 +2681,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:55.969Z"
+    "lastSyncedAt": "2026-09-15T19:53:30.922Z"
   },
   {
     "id": "camel-lab-arabic-gec",
@@ -3837,7 +2734,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:57.146Z"
+    "lastSyncedAt": "2026-09-15T19:53:30.842Z"
   },
   {
     "id": "camel-lab-camel-morph",
@@ -3878,7 +2775,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:57.191Z"
+    "lastSyncedAt": "2026-09-15T19:53:30.926Z"
   },
   {
     "id": "konash-arabic-support-unity",
@@ -3916,7 +2813,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:57.181Z"
+    "lastSyncedAt": "2026-09-15T19:53:32.121Z"
   },
   {
     "id": "abjadai-catt",
@@ -3957,7 +2854,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:58.385Z"
+    "lastSyncedAt": "2026-09-15T19:53:32.115Z"
   },
   {
     "id": "mush42-libtashkeel",
@@ -4004,7 +2901,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:26:58.431Z"
+    "lastSyncedAt": "2026-09-15T19:53:32.198Z"
   },
   {
     "id": "kariminf-jslingua",
@@ -4069,7 +2966,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:58.470Z"
+    "lastSyncedAt": "2026-09-15T19:53:33.459Z"
   },
   {
     "id": "otakar-smrz-elixir-fm",
@@ -4103,7 +3000,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:59.695Z"
+    "lastSyncedAt": "2026-09-15T19:53:33.458Z"
   },
   {
     "id": "anwarvic-arabic-tashkeela-model",
@@ -4148,7 +3045,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:26:59.685Z"
+    "lastSyncedAt": "2026-09-15T19:53:33.502Z"
   },
   {
     "id": "abdullahdiaa-garabic",
@@ -4202,7 +3099,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:26:59.670Z"
+    "lastSyncedAt": "2026-09-15T19:53:34.815Z"
   },
   {
     "id": "aliftype-raqq",
@@ -4213,8 +3110,8 @@
       "en": "Raqq Manuscript Kufic"
     },
     "description": {
-      "ar": "خط رقمي تاريخي مستوحى من المخطوطات القرآنية القديمة على الرق في القرون الهجرية الأولى من تصميم خالد حسني.",
-      "en": "A historical manuscript Kufic typeface inspired by early Quranic parchments by Khaled Hosny."
+      "ar": "خط كوفي تراثي مستوحى من المخطوطات والرقوق العربية القديمة في القرون الأولى.",
+      "en": "A classical Kufic display typeface inspired by early Arabic parchment manuscripts and historical epigraphy."
     },
     "homepage": "https://aliftype.com/raqq",
     "featured": false,
@@ -4222,8 +3119,7 @@
       "font",
       "kufic",
       "manuscript",
-      "typography",
-      "quran"
+      "typography"
     ],
     "github": {
       "owner": "aliftype",
@@ -4251,7 +3147,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:00.904Z"
+    "lastSyncedAt": "2026-09-15T19:53:34.814Z"
   },
   {
     "id": "aliftype-rana-kufi",
@@ -4300,7 +3196,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:00.942Z"
+    "lastSyncedAt": "2026-09-15T19:53:34.813Z"
   },
   {
     "id": "aliftype-amiri-typewriter",
@@ -4348,7 +3244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:01.088Z"
+    "lastSyncedAt": "2026-09-15T19:53:36.145Z"
   },
   {
     "id": "emran-alhaddad-saudi-riyal-font",
@@ -4402,7 +3298,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:02.252Z"
+    "lastSyncedAt": "2026-09-15T19:53:35.943Z"
   },
   {
     "id": "basshelal-wudooh",
@@ -4456,7 +3352,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:02.301Z"
+    "lastSyncedAt": "2026-09-15T19:53:36.120Z"
   },
   {
     "id": "linuxscout-adawat",
@@ -4497,7 +3393,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:02.412Z"
+    "lastSyncedAt": "2026-09-15T19:53:37.397Z"
   },
   {
     "id": "alsaydi-sarf",
@@ -4545,7 +3441,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:03.824Z"
+    "lastSyncedAt": "2026-09-15T19:53:38.008Z"
   },
   {
     "id": "linuxscout-yaraspell",
@@ -4586,7 +3482,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:03.652Z"
+    "lastSyncedAt": "2026-09-15T19:53:37.380Z"
   },
   {
     "id": "motazsaad-comparable-text-miner",
@@ -4636,7 +3532,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:03.683Z"
+    "lastSyncedAt": "2026-09-15T19:53:39.409Z"
   },
   {
     "id": "disooqi-arabicprocessingcog",
@@ -4685,7 +3581,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:05.050Z"
+    "lastSyncedAt": "2026-09-15T19:53:39.242Z"
   },
   {
     "id": "omaralalwi-gpdf",
@@ -4751,7 +3647,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:05.020Z"
+    "lastSyncedAt": "2026-09-15T19:53:39.192Z"
   },
   {
     "id": "simplyahmazing-noor",
@@ -4785,7 +3681,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:05.084Z"
+    "lastSyncedAt": "2026-09-15T19:53:40.742Z"
   },
   {
     "id": "alifcommunity-alif",
@@ -4829,7 +3725,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:06.296Z"
+    "lastSyncedAt": "2026-09-15T19:53:40.686Z"
   },
   {
     "id": "arbml-cidar",
@@ -4870,7 +3766,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:06.302Z"
+    "lastSyncedAt": "2026-09-15T19:53:40.849Z"
   },
   {
     "id": "jamalamch-arabic-words-sentences",
@@ -4911,7 +3807,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:27:06.382Z"
+    "lastSyncedAt": "2026-09-15T19:53:42.106Z"
   },
   {
     "id": "mbzuai-oryx-camel-bench",
@@ -4961,7 +3857,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:07.603Z"
+    "lastSyncedAt": "2026-09-15T19:53:42.157Z"
   },
   {
     "id": "iabufarha-isarcasmeval",
@@ -5008,7 +3904,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:07.593Z"
+    "lastSyncedAt": "2026-09-15T19:53:42.106Z"
   },
   {
     "id": "wizsk-arabic-lexicons",
@@ -5056,7 +3952,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:07.512Z"
+    "lastSyncedAt": "2026-09-15T19:53:43.380Z"
   },
   {
     "id": "ubc-nlp-peacock",
@@ -5088,7 +3984,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:08.848Z"
+    "lastSyncedAt": "2026-09-15T19:53:43.492Z"
   },
   {
     "id": "huzaifa-x-whisper-small-openai-finetuned-on-arabic-language",
@@ -5126,7 +4022,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:08.850Z"
+    "lastSyncedAt": "2026-09-15T19:53:43.432Z"
   },
   {
     "id": "runehol-kindlearadict",
@@ -5164,7 +4060,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:08.801Z"
+    "lastSyncedAt": "2026-09-15T19:53:44.729Z"
   },
   {
     "id": "arbml-bayanat",
@@ -5211,7 +4107,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:10.384Z"
+    "lastSyncedAt": "2026-09-15T19:53:44.758Z"
   },
   {
     "id": "mbzuai-oryx-kitab-bench",
@@ -5262,7 +4158,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:10.388Z"
+    "lastSyncedAt": "2026-09-15T19:53:45.373Z"
   },
   {
     "id": "mbzuai-oryx-bimedix2",
@@ -5306,7 +4202,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:27:10.393Z"
+    "lastSyncedAt": "2026-09-15T19:53:46.658Z"
   },
   {
     "id": "h9-tec-manazir-ocr",
@@ -5344,7 +4240,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:27:11.631Z"
+    "lastSyncedAt": "2026-09-15T19:53:46.620Z"
   },
   {
     "id": "kareem-emad-arabic-ocr",
@@ -5389,7 +4285,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:11.671Z"
+    "lastSyncedAt": "2026-09-15T19:53:46.759Z"
   },
   {
     "id": "misraj-ai-qalam",
@@ -5430,7 +4326,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:11.654Z"
+    "lastSyncedAt": "2026-09-15T19:53:48.166Z"
   },
   {
     "id": "nguptahq-arabic-handwritten-text-image-recognition",
@@ -5473,7 +4369,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:12.925Z"
+    "lastSyncedAt": "2026-09-15T19:53:48.246Z"
   },
   {
     "id": "muzammilpervaiz-arabic-handwritten-ocr",
@@ -5505,7 +4401,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:12.914Z"
+    "lastSyncedAt": "2026-09-15T19:53:48.246Z"
   },
   {
     "id": "mohamedwael-basicarabicocr",
@@ -5551,7 +4447,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:12.946Z"
+    "lastSyncedAt": "2026-09-15T19:53:49.571Z"
   },
   {
     "id": "jordanopensource-arabic-ocr-studygroup",
@@ -5592,7 +4488,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:14.470Z"
+    "lastSyncedAt": "2026-09-15T19:53:49.523Z"
   },
   {
     "id": "zaakki-ahamed-arabic-ocr-from-pdf",
@@ -5634,7 +4530,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:14.222Z"
+    "lastSyncedAt": "2026-09-15T19:53:49.559Z"
   },
   {
     "id": "hedrax-invizo-ocr",
@@ -5689,7 +4585,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:14.148Z"
+    "lastSyncedAt": "2026-09-15T19:53:50.754Z"
   },
   {
     "id": "omarsamirz-arabic-ocr-tesseract",
@@ -5742,7 +4638,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:15.893Z"
+    "lastSyncedAt": "2026-09-15T19:53:50.904Z"
   },
   {
     "id": "mohamedbassel24-ocr-for-arabic-scripts",
@@ -5779,7 +4675,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:15.949Z"
+    "lastSyncedAt": "2026-09-15T19:53:50.855Z"
   },
   {
     "id": "yayaiu6-trocr-arabic",
@@ -5820,7 +4716,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:16.093Z"
+    "lastSyncedAt": "2026-09-15T19:53:52.215Z"
   },
   {
     "id": "kabikaj-jabalin",
@@ -5861,7 +4757,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:17.542Z"
+    "lastSyncedAt": "2026-09-15T19:53:52.214Z"
   },
   {
     "id": "linuxscout-festival-arabic",
@@ -5902,7 +4798,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:17.423Z"
+    "lastSyncedAt": "2026-09-15T19:53:52.224Z"
   },
   {
     "id": "rn0x-farraghli",
@@ -5956,7 +4852,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:17.286Z"
+    "lastSyncedAt": "2026-09-15T19:53:53.343Z"
   },
   {
     "id": "mdanok-arajs",
@@ -6003,7 +4899,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:18.813Z"
+    "lastSyncedAt": "2026-09-15T19:53:53.446Z"
   },
   {
     "id": "rabraghib-darijascript",
@@ -6047,7 +4943,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:18.660Z"
+    "lastSyncedAt": "2026-09-15T19:53:53.368Z"
   },
   {
     "id": "01walid-goarabic",
@@ -6096,7 +4992,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:18.757Z"
+    "lastSyncedAt": "2026-09-15T19:53:54.733Z"
   },
   {
     "id": "nuqayah-kitab-font",
@@ -6107,8 +5003,8 @@
       "en": "Kitab Naskh Font"
     },
     "description": {
-      "ar": "خط رقمي نسخي كلاسيكي عالي الجودة مخصص لطباعة المصاحف الشريفة والكتب التراثية والمؤلفات العلمية.",
-      "en": "A classical Arabic Naskh digital typeface crafted for publishing Holy Quran texts and classical books."
+      "ar": "خط نسخي عربي مفتوح المصدر مصمم للكتب والمقالات والنصوص العربية الطويلة والأدب.",
+      "en": "An open-source Arabic Naskh typeface designed for books, editorial publishing, and long literary texts."
     },
     "homepage": "https://nuqayah.com",
     "featured": false,
@@ -6116,7 +5012,6 @@
       "font",
       "naskh",
       "typography",
-      "quran",
       "opentype"
     ],
     "github": {
@@ -6140,44 +5035,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:20.298Z"
-  },
-  {
-    "id": "quranacademy-test-arabic-fonts",
-    "repo": "quranacademy/test-arabic-fonts",
-    "category": "fonts-calligraphy",
-    "title": {
-      "ar": "منصة فحص الخطوط العربية",
-      "en": "Arabic Fonts Tester"
-    },
-    "description": {
-      "ar": "تطبيق ويب وأداة مفتوحة المصدر لاختبار توافقية وعرض الخطوط العربية والقرآنية عبر المتصفحات والشاشات.",
-      "en": "An open-source testing platform to render and evaluate Arabic Quranic typefaces across browsers."
-    },
-    "homepage": "https://github.com/quranacademy/test-arabic-fonts",
-    "featured": false,
-    "tags": [
-      "font",
-      "testing",
-      "arabic-fonts",
-      "webfont",
-      "typography"
-    ],
-    "github": {
-      "owner": "quranacademy",
-      "name": "test-arabic-fonts",
-      "url": "https://github.com/quranacademy/test-arabic-fonts",
-      "stars": 68,
-      "forks": 18,
-      "openIssues": 6,
-      "primaryLanguage": "CSS",
-      "lastCommitAt": "2021-10-18T04:15:39Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:20.248Z"
+    "lastSyncedAt": "2026-09-15T19:53:54.965Z"
   },
   {
     "id": "louy-javascript-arabic-reshaper",
@@ -6221,7 +5079,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:20.242Z"
+    "lastSyncedAt": "2026-09-15T19:53:54.768Z"
   },
   {
     "id": "aliftype-anti",
@@ -6269,7 +5127,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:27:21.703Z"
+    "lastSyncedAt": "2026-09-15T19:53:56.502Z"
   },
   {
     "id": "aliftype-astrolabe",
@@ -6318,7 +5176,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:21.591Z"
+    "lastSyncedAt": "2026-09-15T19:53:56.159Z"
   },
   {
     "id": "linuxscout-yarob",
@@ -6359,7 +5217,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:21.741Z"
+    "lastSyncedAt": "2026-09-15T19:53:56.229Z"
   },
   {
     "id": "linuxscout-ghalatawi",
@@ -6403,7 +5261,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:23.081Z"
+    "lastSyncedAt": "2026-09-15T19:53:57.688Z"
   },
   {
     "id": "linuxscout-fareh",
@@ -6444,7 +5302,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:22.972Z"
+    "lastSyncedAt": "2026-09-15T19:53:57.782Z"
   },
   {
     "id": "yalang-ya",
@@ -6489,7 +5347,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:23.025Z"
+    "lastSyncedAt": "2026-09-15T19:53:57.809Z"
   },
   {
     "id": "albari54-alif",
@@ -6529,7 +5387,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:24.327Z"
+    "lastSyncedAt": "2026-09-15T19:53:59.077Z"
   },
   {
     "id": "linuxscout-mishtar",
@@ -6577,7 +5435,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:24.319Z"
+    "lastSyncedAt": "2026-09-15T19:53:59.116Z"
   },
   {
     "id": "msarhan-lucene-arabic-analyzer",
@@ -6620,7 +5478,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:24.312Z"
+    "lastSyncedAt": "2026-09-15T19:53:59.142Z"
   },
   {
     "id": "ejtaal-jsastem",
@@ -6657,7 +5515,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:25.712Z"
+    "lastSyncedAt": "2026-09-15T19:54:00.367Z"
   },
   {
     "id": "seen-arabic-services",
@@ -6710,7 +5568,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:25.476Z"
+    "lastSyncedAt": "2026-09-15T19:54:00.310Z"
   },
   {
     "id": "hamza5-multilevel-diacritizer",
@@ -6753,7 +5611,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:25.545Z"
+    "lastSyncedAt": "2026-09-15T19:54:00.441Z"
   },
   {
     "id": "motazsaad-khoja-stemmer",
@@ -6802,7 +5660,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:27.034Z"
+    "lastSyncedAt": "2026-09-15T19:54:01.776Z"
   },
   {
     "id": "motazsaad-arabic-light-stemmer",
@@ -6851,7 +5709,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:26.991Z"
+    "lastSyncedAt": "2026-09-15T19:54:01.788Z"
   },
   {
     "id": "omar-al-sharif-meshakkelaty",
@@ -6888,7 +5746,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:26.959Z"
+    "lastSyncedAt": "2026-09-15T19:54:01.698Z"
   },
   {
     "id": "nipponjo-arabic-vocalization",
@@ -6934,7 +5792,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:29.413Z"
+    "lastSyncedAt": "2026-09-15T19:54:02.965Z"
   },
   {
     "id": "troboto-maha",
@@ -6983,7 +5841,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:29.605Z"
+    "lastSyncedAt": "2026-09-15T19:54:03.137Z"
   },
   {
     "id": "husseinmozannar-soqal",
@@ -7033,7 +5891,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:29.550Z"
+    "lastSyncedAt": "2026-09-15T19:54:03.095Z"
   },
   {
     "id": "motazsaad-process-arabic-text",
@@ -7078,52 +5936,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:35.367Z"
-  },
-  {
-    "id": "hazemabdelkawy-qurangpt",
-    "repo": "hazemabdelkawy/QuranGPT",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "منظومة قرآن جي بي تي",
-      "en": "QuranGPT Semantic AI"
-    },
-    "description": {
-      "ar": "مشروع ذكاء اصطناعي لغوي للبحث الدلالي والإجابة عن الأسئلة والاستفسارات التفسيرية لآيات القرآن الكريم.",
-      "en": "A semantic exploration and QA system leveraging modern LLMs for understanding Quranic verses."
-    },
-    "homepage": "https://github.com/hazemabdelkawy/QuranGPT",
-    "featured": false,
-    "tags": [
-      "python",
-      "quran",
-      "gpt",
-      "semantic-search",
-      "ai"
-    ],
-    "github": {
-      "owner": "hazemabdelkawy",
-      "name": "QuranGPT",
-      "url": "https://github.com/hazemabdelkawy/QuranGPT",
-      "stars": 104,
-      "forks": 19,
-      "openIssues": 0,
-      "primaryLanguage": "HTML",
-      "lastCommitAt": "2023-07-03T10:48:18Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "artificial-intelligence",
-        "data-science",
-        "data-visualization",
-        "machine-learning",
-        "nlp",
-        "quran",
-        "sunnah"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:35.268Z"
+    "lastSyncedAt": "2026-09-15T19:54:04.406Z"
   },
   {
     "id": "iamaziz-ar-embeddings",
@@ -7173,7 +5986,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:35.341Z"
+    "lastSyncedAt": "2026-09-15T19:54:04.390Z"
   },
   {
     "id": "saidziani-arabic-news-classification",
@@ -7219,7 +6032,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:36.608Z"
+    "lastSyncedAt": "2026-09-15T19:54:04.405Z"
   },
   {
     "id": "adhaamehab-textblob-ar",
@@ -7273,7 +6086,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:27:36.574Z"
+    "lastSyncedAt": "2026-09-15T19:54:05.680Z"
   },
   {
     "id": "mbzuai-oryx-arb",
@@ -7320,7 +6133,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:36.698Z"
+    "lastSyncedAt": "2026-09-15T19:54:05.739Z"
   },
   {
     "id": "qcri-arabic-speech-code-switching",
@@ -7370,7 +6183,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:37.959Z"
+    "lastSyncedAt": "2026-09-15T19:54:05.696Z"
   },
   {
     "id": "linuxscout-arramooz-pysqlite",
@@ -7411,7 +6224,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:38.916Z"
+    "lastSyncedAt": "2026-09-15T19:54:07.319Z"
   },
   {
     "id": "camel-lab-arabic-frequency-lists",
@@ -7454,7 +6267,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:37.910Z"
+    "lastSyncedAt": "2026-09-15T19:54:07.118Z"
   },
   {
     "id": "ubc-nlp-ara-emotion",
@@ -7499,7 +6312,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:40.192Z"
+    "lastSyncedAt": "2026-09-15T19:54:07.232Z"
   },
   {
     "id": "ojuba-org-arabic-ml-data",
@@ -7536,7 +6349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:40.144Z"
+    "lastSyncedAt": "2026-09-15T19:54:08.720Z"
   },
   {
     "id": "ubc-nlp-orca",
@@ -7577,7 +6390,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:40.409Z"
+    "lastSyncedAt": "2026-09-15T19:54:08.626Z"
   },
   {
     "id": "linuxscout-aghlat",
@@ -7618,304 +6431,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:41.630Z"
-  },
-  {
-    "id": "ahmedbaset-hadith-json",
-    "repo": "AhmedBaset/hadith-json",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات الحديث الشريف JSON",
-      "en": "Hadith JSON Database"
-    },
-    "description": {
-      "ar": "قاعدة بيانات برمجية مفتوحة تضم أكثر من 50 ألف حديث نبوي شريف من 17 كتاباً من كتب السنة بصيغة JSON المنظمة.",
-      "en": "Open-source database of 50,884 prophetic hadiths from 17 canonical books in structured JSON format."
-    },
-    "homepage": "https://github.com/AhmedBaset/hadith-json",
-    "featured": false,
-    "tags": [
-      "hadith",
-      "json",
-      "islamic-tech",
-      "database",
-      "sunnah"
-    ],
-    "github": {
-      "owner": "AhmedBaset",
-      "name": "hadith-json",
-      "url": "https://github.com/AhmedBaset/hadith-json",
-      "stars": 316,
-      "forks": 86,
-      "openIssues": 11,
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-03-28T11:05:52Z",
-      "latestRelease": {
-        "tag": "v1.2.0",
-        "publishedAt": "2024-04-06T22:30:12Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "hadith",
-        "islam",
-        "islamic",
-        "muslim",
-        "muslim-api",
-        "muslims"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:41.725Z"
-  },
-  {
-    "id": "alfaazplus-quranapp",
-    "repo": "AlfaazPlus/QuranApp",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق القرآن الكريم ألفاظ بلس",
-      "en": "Alfaaz QuranApp"
-    },
-    "description": {
-      "ar": "تطبيق إلكتروني مفتوح المصدر وخالٍ تماماً من الإعلانات لقراءة وبحث وتدبر القرآن الكريم مع احترام الخصوصية.",
-      "en": "An ad-free and privacy-focused open-source cross-platform application for exploring the Holy Quran."
-    },
-    "homepage": "https://github.com/AlfaazPlus/QuranApp",
-    "featured": false,
-    "tags": [
-      "flutter",
-      "quran",
-      "privacy",
-      "cross-platform",
-      "mobile"
-    ],
-    "github": {
-      "owner": "AlfaazPlus",
-      "name": "QuranApp",
-      "url": "https://github.com/AlfaazPlus/QuranApp",
-      "stars": 387,
-      "forks": 58,
-      "openIssues": 10,
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "primaryLanguage": "Kotlin",
-      "lastCommitAt": "2026-09-06T21:22:52Z",
-      "latestRelease": {
-        "tag": "2026.05.13.2",
-        "publishedAt": "2026-05-15T20:41:44Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "android",
-        "islam",
-        "kotlin",
-        "muslim",
-        "quran",
-        "religion"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:41.622Z"
-  },
-  {
-    "id": "metinkale38-prayer-times-android",
-    "repo": "metinkale38/prayer-times-android",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق مواقيت الصلاة أندرويد",
-      "en": "Android Prayer Times App"
-    },
-    "description": {
-      "ar": "تطبيق أندرويد مفتوح المصدر لحساب مواقيت الصلاة بدقة فائقة وتحديد القبلة وعرض التقويم الهجري للمسلمين.",
-      "en": "An open-source Android application for high-precision prayer times, Qibla compass, and Hijri calendar."
-    },
-    "homepage": "https://github.com/metinkale38/prayer-times-android",
-    "featured": false,
-    "tags": [
-      "android",
-      "prayer-times",
-      "qibla",
-      "hijri",
-      "kotlin"
-    ],
-    "github": {
-      "owner": "metinkale38",
-      "name": "prayer-times-android",
-      "url": "https://github.com/metinkale38/prayer-times-android",
-      "stars": 266,
-      "forks": 107,
-      "openIssues": 8,
-      "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
-      },
-      "primaryLanguage": "Kotlin",
-      "lastCommitAt": "2026-09-03T15:49:23Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "allah",
-        "android",
-        "hadith",
-        "muslim",
-        "notifications",
-        "prayer-times",
-        "widget"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:43.031Z"
-  },
-  {
-    "id": "rn0x-quran-data",
-    "repo": "rn0x/Quran-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مستودع بيانات القرآن الرقمية",
-      "en": "Quran Digital Data"
-    },
-    "description": {
-      "ar": "مجموعة بيانات وقواعد مفتوحة المصدر لنصوص السور والآيات القرآنية وأرقامها ومواقعها في المصحف الشريف.",
-      "en": "Structured open-source data repository containing surah details, verse texts, and Quranic metadata."
-    },
-    "homepage": "https://github.com/rn0x/Quran-Data",
-    "featured": false,
-    "tags": [
-      "quran",
-      "json",
-      "data",
-      "islamic-tech",
-      "api"
-    ],
-    "github": {
-      "owner": "rn0x",
-      "name": "Quran-Data",
-      "url": "https://github.com/rn0x/Quran-Data",
-      "stars": 246,
-      "forks": 49,
-      "openIssues": 2,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "JavaScript",
-      "lastCommitAt": "2024-09-29T00:19:11Z",
-      "latestRelease": {
-        "tag": "database",
-        "publishedAt": "2024-08-27T06:10:04Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "csv-quran",
-        "islam",
-        "islam-api",
-        "islam-json",
-        "islamic",
-        "json",
-        "json-quran",
-        "quran",
-        "quran-api",
-        "quran-ar",
-        "quran-info",
-        "quran-json",
-        "quran-mp3",
-        "quran-mp3-json",
-        "sqlite-quran",
-        "tanzil"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:42.874Z"
-  },
-  {
-    "id": "mohamed-nagdy-quran-app-data",
-    "repo": "Mohamed-Nagdy/Quran-App-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "بيانات وتفاسير القرآن الشاملة",
-      "en": "Quran & Tafsir App Data"
-    },
-    "description": {
-      "ar": "مستودع بيانات منظم يضم نصوص القرآن الكريم ومعاني الكلمات وعدة تفاسير معتمدة بصيغ برمجية سهلة الدمج.",
-      "en": "Structured dataset featuring Quranic text, word meanings, and multiple classical Tafsir books."
-    },
-    "homepage": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
-    "featured": false,
-    "tags": [
-      "quran",
-      "tafsir",
-      "json",
-      "sqlite",
-      "islamic-tech"
-    ],
-    "github": {
-      "owner": "Mohamed-Nagdy",
-      "name": "Quran-App-Data",
-      "url": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
-      "stars": 233,
-      "forks": 83,
-      "openIssues": 1,
-      "lastCommitAt": "2023-02-15T06:18:44Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "azkar",
-        "hadith",
-        "names-of-allah",
-        "names-of-mohamed",
-        "quran",
-        "quran-images"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:42.959Z"
-  },
-  {
-    "id": "mobadarah-tajmeeaton",
-    "repo": "mobadarah/tajmeeaton",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "منصة تجميعات التعليمية",
-      "en": "Tajmeeaton Learning App"
-    },
-    "description": {
-      "ar": "تطبيق ومنصة برمجية مفتوحة المصدر مخصصة لإتاحة وتجميع الموارد والمحتوى الإسلامي واللغوي الرقمي.",
-      "en": "An open-source educational platform and application organizing digital Islamic and Arabic knowledge resources."
-    },
-    "homepage": "https://github.com/mobadarah/tajmeeaton",
-    "featured": false,
-    "tags": [
-      "flutter",
-      "learning",
-      "islamic-tech",
-      "arabic",
-      "mobile-app"
-    ],
-    "github": {
-      "owner": "mobadarah",
-      "name": "tajmeeaton",
-      "url": "https://github.com/mobadarah/tajmeeaton",
-      "stars": 342,
-      "forks": 43,
-      "openIssues": 10,
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2024-04-24T13:54:08Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "arabic",
-        "arabic-font",
-        "arabic-language",
-        "arabic-nlp",
-        "arabic-numbers",
-        "awesome",
-        "awesome-list",
-        "islam"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:44.336Z"
+    "lastSyncedAt": "2026-09-15T19:54:08.897Z"
   },
   {
     "id": "alhazen-arabic-ocr",
@@ -7951,7 +6467,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:44.228Z"
+    "lastSyncedAt": "2026-09-15T19:54:10.158Z"
   },
   {
     "id": "openiti-arabic-script-ocr-models",
@@ -7986,7 +6502,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:44.322Z"
+    "lastSyncedAt": "2026-09-15T19:54:10.254Z"
   },
   {
     "id": "arabic-pdf-chat",
@@ -8037,7 +6553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:45.524Z"
+    "lastSyncedAt": "2026-09-15T19:54:10.089Z"
   },
   {
     "id": "craneset-arabic-ocr-data",
@@ -8085,7 +6601,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:45.618Z"
+    "lastSyncedAt": "2026-09-15T19:54:11.478Z"
   },
   {
     "id": "glass-hud-arabic-translator",
@@ -8144,7 +6660,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:45.477Z"
+    "lastSyncedAt": "2026-09-15T19:54:11.397Z"
   },
   {
     "id": "mirza-arabic-font",
@@ -8184,7 +6700,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:46.801Z"
+    "lastSyncedAt": "2026-09-15T19:54:11.718Z"
   },
   {
     "id": "sahl-naskh-font",
@@ -8223,7 +6739,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:27:46.815Z"
+    "lastSyncedAt": "2026-09-15T19:54:12.943Z"
   },
   {
     "id": "midad-arabic-ereader",
@@ -8275,7 +6791,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:46.733Z"
+    "lastSyncedAt": "2026-09-15T19:54:12.969Z"
   },
   {
     "id": "scheherazade-new-font",
@@ -8286,14 +6802,14 @@
       "en": "Scheherazade New Font"
     },
     "description": {
-      "ar": "خط نسخي عربي تقليدي متقدم من SIL يغطي شتى أشكال الرسم القرآني والكتابة العربية المتنوعة.",
-      "en": "Extended Arabic script font designed by SIL, covering traditional Naskh styles and Quranic orthographies."
+      "ar": "خط نسخي عربي تقليدي متقدم من SIL يغطي شتى أشكال الكتابة العربية الفصحى والمتنوعة.",
+      "en": "Extended Arabic script font designed by SIL, covering traditional Naskh styles and diverse Arabic orthographies."
     },
     "tags": [
       "font",
       "typeface",
       "naskh",
-      "quranic-script",
+      "traditional-script",
       "sil"
     ],
     "featured": true,
@@ -8318,7 +6834,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:47.966Z"
+    "lastSyncedAt": "2026-09-15T19:54:12.922Z"
   },
   {
     "id": "huruf-arabic-extension",
@@ -8358,7 +6874,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:27:48.048Z"
+    "lastSyncedAt": "2026-09-15T19:54:14.310Z"
   },
   {
     "id": "raqim-kashida-library",
@@ -8404,69 +6920,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:48.017Z"
-  },
-  {
-    "id": "quran-companion-desktop",
-    "repo": "0xzer0x/quran-companion",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "رفيق القرآن لسطح المكتب",
-      "en": "Quran Companion Desktop"
-    },
-    "description": {
-      "ar": "تطبيق مكتبي عصري مفتوح المصدر لقراءة القرآن الكريم والاستماع للتلاوات بأصوات نخبة من القراء.",
-      "en": "Modern, free, and open-source desktop Quran reader and audio player with multi-reciter support."
-    },
-    "tags": [
-      "desktop-app",
-      "quran",
-      "audio-player",
-      "cross-platform",
-      "electron"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "0xzer0x",
-      "name": "quran-companion",
-      "url": "https://github.com/0xzer0x/quran-companion",
-      "stars": 229,
-      "forks": 26,
-      "openIssues": 21,
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "primaryLanguage": "C++",
-      "lastCommitAt": "2026-07-17T16:26:48Z",
-      "latestRelease": {
-        "tag": "v1.5.2",
-        "publishedAt": "2026-03-25T08:44:04Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "cross-platform",
-        "islam",
-        "linux",
-        "qt",
-        "qt6",
-        "qt6-gui",
-        "qt6-widgets",
-        "quran",
-        "quran-audio",
-        "quran-companion",
-        "quran-offline",
-        "quran-reader",
-        "quran-recitation",
-        "quran-search",
-        "quran-tafseer",
-        "quran-translation",
-        "tafsir",
-        "windows"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:49.381Z"
+    "lastSyncedAt": "2026-09-15T19:54:14.301Z"
   },
   {
     "id": "qutrubi-mobile-app",
@@ -8506,7 +6960,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:49.287Z"
+    "lastSyncedAt": "2026-09-15T19:54:14.300Z"
   },
   {
     "id": "tebyan-text-reshaper",
@@ -8545,97 +6999,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:49.173Z"
-  },
-  {
-    "id": "alquran-alkareem-flutter",
-    "repo": "alheekmahlib/alquranalkareem",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق القرآن الكريم طبعة المدينة المنورة",
-      "en": "Al-Quran Al-Kareem Flutter App"
-    },
-    "description": {
-      "ar": "تطبيق فلاتر عالي الجودة لقراءة القرآن الكريم مطابق لصفحات مصحف مجمع الملك فهد لطباعة المصحف الشريف.",
-      "en": "Comprehensive Flutter application for reading the Holy Quran with high-fidelity King Fahd Mushaf page renderings."
-    },
-    "tags": [
-      "flutter",
-      "mobile-app",
-      "quran",
-      "mushaf",
-      "cross-platform"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "alheekmahlib",
-      "name": "alquranalkareem",
-      "url": "https://github.com/alheekmahlib/alquranalkareem",
-      "stars": 151,
-      "forks": 40,
-      "openIssues": 2,
-      "primaryLanguage": "Dart",
-      "lastCommitAt": "2026-09-11T22:02:12Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "ai",
-        "alquran",
-        "alquran-android",
-        "dart",
-        "flutter",
-        "islam",
-        "islamic",
-        "quran"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:27:50.586Z"
-  },
-  {
-    "id": "noble-quran-hafs-flutter",
-    "repo": "HoussemTN/Al-quran-Al-karim",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "تطبيق القرآن الكريم برواية حفص عن عاصم",
-      "en": "Noble Quran Hafs Flutter App"
-    },
-    "description": {
-      "ar": "تطبيق خفيف وسلس مفتوح المصدر لقراءة القرآن الكريم برواية حفص عن عاصم مبني بأحدث تقنيات فلاتر.",
-      "en": "Clean, lightweight open-source Arabic Quran reading application for Android and iOS developed in Flutter."
-    },
-    "tags": [
-      "flutter",
-      "quran",
-      "hafs",
-      "arabic-app",
-      "mobile"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "HoussemTN",
-      "name": "Al-quran-Al-karim",
-      "url": "https://github.com/HoussemTN/Al-quran-Al-karim",
-      "stars": 117,
-      "forks": 38,
-      "openIssues": 1,
-      "primaryLanguage": "Dart",
-      "lastCommitAt": "2023-01-08T11:19:43Z",
-      "latestRelease": {
-        "tag": "v1.0.0",
-        "publishedAt": "2020-02-15T19:00:35Z"
-      },
-      "isArchived": true,
-      "topics": [
-        "android",
-        "application",
-        "flutter",
-        "quran",
-        "reader"
-      ]
-    },
-    "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T19:27:50.682Z"
+    "lastSyncedAt": "2026-09-15T19:54:15.454Z"
   },
   {
     "id": "arqamar-js",
@@ -8682,7 +7046,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:50.567Z"
+    "lastSyncedAt": "2026-09-15T19:54:15.624Z"
   },
   {
     "id": "narabicwords-converter",
@@ -8729,7 +7093,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:51.906Z"
+    "lastSyncedAt": "2026-09-15T19:54:15.790Z"
   },
   {
     "id": "tafqit-arabic-currency",
@@ -8769,7 +7133,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:51.880Z"
+    "lastSyncedAt": "2026-09-15T19:54:17.102Z"
   },
   {
     "id": "arabic-ala-lc-romanization",
@@ -8808,7 +7172,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:52.053Z"
+    "lastSyncedAt": "2026-09-15T19:54:17.123Z"
   },
   {
     "id": "aranizer-arabic-tokenizer",
@@ -8848,7 +7212,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:53.372Z"
+    "lastSyncedAt": "2026-09-15T19:54:17.594Z"
   },
   {
     "id": "shellshal-arabic-cli-scripts",
@@ -8888,7 +7252,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:53.375Z"
+    "lastSyncedAt": "2026-09-15T19:54:19.021Z"
   },
   {
     "id": "garga-arabic-programming-language",
@@ -8936,7 +7300,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:53.226Z"
+    "lastSyncedAt": "2026-09-15T19:54:18.836Z"
   },
   {
     "id": "arwiki-dump-parser",
@@ -8976,7 +7340,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:54.576Z"
+    "lastSyncedAt": "2026-09-15T19:54:18.864Z"
   },
   {
     "id": "pipeline-diacritizer",
@@ -9022,7 +7386,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:54.623Z"
+    "lastSyncedAt": "2026-09-15T19:54:20.306Z"
   },
   {
     "id": "deep-diacritization-arabic",
@@ -9069,7 +7433,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:54.668Z"
+    "lastSyncedAt": "2026-09-15T19:54:20.350Z"
   },
   {
     "id": "tashkeel-remover-regex",
@@ -9105,7 +7469,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:55.917Z"
+    "lastSyncedAt": "2026-09-15T19:54:20.490Z"
   },
   {
     "id": "lingz-arabic-linguistic-tools",
@@ -9141,7 +7505,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:56.039Z"
+    "lastSyncedAt": "2026-09-15T19:54:21.763Z"
   },
   {
     "id": "arabic-light-stemming-python",
@@ -9189,7 +7553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:55.946Z"
+    "lastSyncedAt": "2026-09-15T19:54:21.825Z"
   },
   {
     "id": "tashkeela2-corpus",
@@ -9228,7 +7592,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:57.329Z"
+    "lastSyncedAt": "2026-09-15T19:54:21.957Z"
   },
   {
     "id": "miknaaz-morphology-corpus",
@@ -9268,7 +7632,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:57.307Z"
+    "lastSyncedAt": "2026-09-15T19:54:23.176Z"
   },
   {
     "id": "arabic-vocalizer-onnx",
@@ -9318,7 +7682,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:57.464Z"
+    "lastSyncedAt": "2026-09-15T19:54:23.203Z"
   },
   {
     "id": "qatara-qcri-tools",
@@ -9354,7 +7718,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:59.091Z"
+    "lastSyncedAt": "2026-09-15T19:54:23.292Z"
   },
   {
     "id": "dialectal-arabic-segmenter-qcri",
@@ -9394,7 +7758,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:59.073Z"
+    "lastSyncedAt": "2026-09-15T19:54:24.975Z"
   },
   {
     "id": "dialectid-e2e-audio",
@@ -9448,7 +7812,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:27:59.016Z"
+    "lastSyncedAt": "2026-09-15T19:54:24.601Z"
   },
   {
     "id": "arabic-sentiment-analysis-tweets",
@@ -9493,7 +7857,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T19:28:00.514Z"
+    "lastSyncedAt": "2026-09-15T19:54:24.491Z"
   },
   {
     "id": "arabic-handwritten-recognition-dl",
@@ -9541,7 +7905,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:00.702Z"
+    "lastSyncedAt": "2026-09-15T19:54:26.308Z"
   },
   {
     "id": "arabica-text-mining",
@@ -9585,7 +7949,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:00.472Z"
+    "lastSyncedAt": "2026-09-15T19:54:26.231Z"
   },
   {
     "id": "arabic-ner-anercorp",
@@ -9626,7 +7990,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:06.187Z"
+    "lastSyncedAt": "2026-09-15T19:54:26.236Z"
   },
   {
     "id": "hatmimoha-arabic-ner",
@@ -9666,7 +8030,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:06.232Z"
+    "lastSyncedAt": "2026-09-15T19:54:27.526Z"
   },
   {
     "id": "anwarvic-arabic-speech-recognition",
@@ -9716,7 +8080,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:06.132Z"
+    "lastSyncedAt": "2026-09-15T19:54:27.525Z"
   },
   {
     "id": "qwencleo-egyptian-asr",
@@ -9776,7 +8140,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:10.050Z"
+    "lastSyncedAt": "2026-09-15T19:54:27.547Z"
   },
   {
     "id": "arabic-phonetic-dictionary-generator",
@@ -9821,108 +8185,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:10.046Z"
-  },
-  {
-    "id": "quranic-svm-parser-kaisdukes",
-    "repo": "kaisdukes/quran-svm-parser",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "المحلل الإعرابي لمدونة القرآن الكريم",
-      "en": "Quranic Corpus SVM Parser"
-    },
-    "description": {
-      "ar": "المحلل الآلي الأصلي المعتمد على خوارزميات SVM من تصميم قيس دوكس لتوليد شجرة الإعراب والتحليل الصرفي للقرآن.",
-      "en": "The original machine learning parser by Kais Dukes that generated the foundational morphological treebank for Quranic Arabic."
-    },
-    "tags": [
-      "syntax-parser",
-      "quranic-corpus",
-      "svm",
-      "treebank",
-      "morphology"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "kaisdukes",
-      "name": "quran-svm-parser",
-      "url": "https://github.com/kaisdukes/quran-svm-parser",
-      "stars": 10,
-      "forks": 5,
-      "openIssues": 0,
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2023-06-28T09:42:54Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:10.066Z"
-  },
-  {
-    "id": "quranic-semantic-search-engine",
-    "repo": "ahr9n/quranic-search-v2",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "محرك البحث الدلالي واللفظي للقرآن الكريم",
-      "en": "Quranic Semantic & Lexical Search Engine"
-    },
-    "description": {
-      "ar": "محرك بحث قرآني متقدم يجمع بين البحث اللفظي الدقيق والبحث الدلالي المعتمد على التضمينات المتجهية.",
-      "en": "Lexical and semantic search engine for the Holy Quran using Arabic vector embeddings and BM25 ranking."
-    },
-    "tags": [
-      "semantic-search",
-      "vector-embeddings",
-      "quran",
-      "bm25",
-      "information-retrieval"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "ahr9n",
-      "name": "quranic-search-v2",
-      "url": "https://github.com/ahr9n/quranic-search-v2",
-      "stars": 54,
-      "forks": 11,
-      "openIssues": 8,
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "primaryLanguage": "Jupyter Notebook",
-      "lastCommitAt": "2025-02-28T19:53:36Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "django",
-        "django-rest-framework",
-        "docker",
-        "flask",
-        "flask-restful",
-        "information-retrieval",
-        "keyedvectors",
-        "lexical-search",
-        "natural-language-processing",
-        "pooling-max-average",
-        "quran-api",
-        "quran-search",
-        "react",
-        "search-engine",
-        "semantic-search",
-        "sentence-embeddings",
-        "sentence-similarity",
-        "transformers",
-        "word-embeddings",
-        "word2vec"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:11.502Z"
+    "lastSyncedAt": "2026-09-15T19:54:28.780Z"
   },
   {
     "id": "arz-callhome-corpus",
@@ -9962,7 +8225,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:11.447Z"
+    "lastSyncedAt": "2026-09-15T19:54:28.845Z"
   },
   {
     "id": "arabic-hatespeech-dataset",
@@ -10007,7 +8270,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:11.441Z"
+    "lastSyncedAt": "2026-09-15T19:54:28.780Z"
   },
   {
     "id": "alexandria-dialectal-dataset",
@@ -10050,7 +8313,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:16.900Z"
+    "lastSyncedAt": "2026-09-15T19:54:30.149Z"
   },
   {
     "id": "pearl-multimodal-arabic-dataset",
@@ -10086,7 +8349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:16.869Z"
+    "lastSyncedAt": "2026-09-15T19:54:30.273Z"
   },
   {
     "id": "rightnow-arabic-llm-corpus",
@@ -10131,7 +8394,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:16.895Z"
+    "lastSyncedAt": "2026-09-15T19:54:30.111Z"
   },
   {
     "id": "baved-arabic-vocal-emotions",
@@ -10166,7 +8429,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:18.181Z"
+    "lastSyncedAt": "2026-09-15T19:54:31.490Z"
   },
   {
     "id": "iraqi-dialect-tts-corpus",
@@ -10210,7 +8473,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:18.291Z"
+    "lastSyncedAt": "2026-09-15T19:54:31.587Z"
   },
   {
     "id": "classical-arabic-ner-corpus",
@@ -10249,487 +8512,6 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:18.164Z"
-  },
-  {
-    "id": "adhan-swift-library",
-    "repo": "batoulapps/adhan-swift",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لحساب أوقات الصلاة بلغة سويفت",
-      "en": "Adhan Swift Prayer Times Library"
-    },
-    "description": {
-      "ar": "مكتبة عالية الدقة بلغة سويفت لحساب مواقيت الصلاة والقبلة والتقويم الهجري لكافة منصات أبل.",
-      "en": "High-precision Islamic prayer times calculation library in Swift for iOS, macOS, watchOS, and tvOS."
-    },
-    "tags": [
-      "swift",
-      "prayer-times",
-      "adhan",
-      "islamic-tech",
-      "ios"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "batoulapps",
-      "name": "adhan-swift",
-      "url": "https://github.com/batoulapps/adhan-swift",
-      "stars": 228,
-      "forks": 64,
-      "openIssues": 6,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Swift",
-      "lastCommitAt": "2026-08-21T01:57:46Z",
-      "latestRelease": {
-        "tag": "1.5.0",
-        "publishedAt": "2026-06-12T02:16:57Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:19.481Z"
-  },
-  {
-    "id": "adhan-kotlin-library",
-    "repo": "batoulapps/adhan-kotlin",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكتبة أذان لحساب مواقيت الصلاة للأندرويد وجافا",
-      "en": "Adhan Kotlin & Java Library"
-    },
-    "description": {
-      "ar": "المكتبة الرسمية بلغة كوتلن وجافا لحساب المواقيت الفلكية الدقيقة للصلوات الخمس واتجاه القبلة.",
-      "en": "Official Kotlin and Java library for calculating astronomical Islamic prayer times and Qibla bearings."
-    },
-    "tags": [
-      "kotlin",
-      "java",
-      "prayer-times",
-      "adhan",
-      "android"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "batoulapps",
-      "name": "adhan-kotlin",
-      "url": "https://github.com/batoulapps/adhan-kotlin",
-      "stars": 221,
-      "forks": 58,
-      "openIssues": 9,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Kotlin",
-      "lastCommitAt": "2026-08-21T02:02:38Z",
-      "latestRelease": {
-        "tag": "adhan2-v0.0.7",
-        "publishedAt": "2026-06-13T19:41:23Z"
-      },
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:19.461Z"
-  },
-  {
-    "id": "open-hadith-database",
-    "repo": "mhashim6/Open-Hadith-Data",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "قاعدة بيانات كتب الحديث النبوي الشريف المفتوحة",
-      "en": "Open Hadith Data Library"
-    },
-    "description": {
-      "ar": "قواعد بيانات مهيكلة وشاملة لكتب الحديث التسعة (بما فيها الكتب الستة) بصيغ JSON و SQLite.",
-      "en": "Structured, comprehensive databases of the Nine Hadith Books (including the Six Kutub) in clean JSON and SQLite."
-    },
-    "tags": [
-      "hadith",
-      "database",
-      "sunnah",
-      "open-data",
-      "sqlite"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "mhashim6",
-      "name": "Open-Hadith-Data",
-      "url": "https://github.com/mhashim6/Open-Hadith-Data",
-      "stars": 228,
-      "forks": 61,
-      "openIssues": 1,
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "lastCommitAt": "2022-07-30T12:35:58Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "arabic-diacritics",
-        "cross-platform",
-        "csv-files",
-        "database",
-        "hadith",
-        "library",
-        "sqlite",
-        "sqlite-database",
-        "sqlite3"
-      ]
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:19.517Z"
-  },
-  {
-    "id": "qurany-app-flutter",
-    "repo": "MahmoudMabrok/QuranyApp",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق قرآني للقراءة والاستماع والتفسير",
-      "en": "Qurany App for Reading & Tafseer"
-    },
-    "description": {
-      "ar": "تطبيق قرآني مفتوح المصدر ومتكامل يتيح القراءة والاستماع لمختلف القراء واختبار الحفظ وتصفح التفاسير.",
-      "en": "Feature-packed open-source Holy Quran application with interactive recitations, verse testing, and Arabic tafseer."
-    },
-    "tags": [
-      "flutter",
-      "quran",
-      "tafseer",
-      "audio-recitations",
-      "open-source"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "MahmoudMabrok",
-      "name": "QuranyApp",
-      "url": "https://github.com/MahmoudMabrok/QuranyApp",
-      "stars": 225,
-      "forks": 52,
-      "openIssues": 36,
-      "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
-      },
-      "primaryLanguage": "Java",
-      "lastCommitAt": "2026-07-22T16:59:22Z",
-      "latestRelease": {
-        "tag": "2.6",
-        "publishedAt": "2020-04-04T20:28:03Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "android",
-        "hacktoberfest",
-        "quran",
-        "quran-json",
-        "quran-offline"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:20.780Z"
-  },
-  {
-    "id": "tafsir-rest-api",
-    "repo": "spa5k/tafsir_api",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "واجهة برمجة تطبيقات تفاسير القرآن الكريم",
-      "en": "Tafsir REST API Service"
-    },
-    "description": {
-      "ar": "خدمة برمجية سريعة تتيح واجهات REST لتصفح وقراءة أشهر كتب التفسير العربية لآيات القرآن الكريم.",
-      "en": "Production-ready REST API and JSON endpoints serving classical Arabic Quranic Tafseers (Ibn Kathir, Al-Tabari, Al-Saadi)."
-    },
-    "tags": [
-      "tafsir",
-      "api",
-      "rest-api",
-      "quranic-studies",
-      "json"
-    ],
-    "featured": true,
-    "github": {
-      "owner": "spa5k",
-      "name": "tafsir_api",
-      "url": "https://github.com/spa5k/tafsir_api",
-      "stars": 200,
-      "forks": 62,
-      "openIssues": 1,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "lastCommitAt": "2026-09-13T12:07:42Z",
-      "latestRelease": {
-        "tag": "v1.2.0",
-        "publishedAt": "2026-09-13T12:07:52Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "islam",
-        "muslim",
-        "quran",
-        "quran-api",
-        "tafseer",
-        "tafseer-api",
-        "tafsir"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:20.663Z"
-  },
-  {
-    "id": "quran-library-flutter-pkg",
-    "repo": "alheekmahlib/quran_library",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "حزمة عرض صفحات المصحف في فلاتر",
-      "en": "Quran Library Flutter Package"
-    },
-    "description": {
-      "ar": "حزمة برمجية لمطوري فلاتر لعرض صفحات القرآن الكريم بضبط وطباعة مطابقة تماماً لمصحف مجمع الملك فهد.",
-      "en": "Specialized Flutter developer package for rendering the Holy Quran with exact typography matching the King Fahd Complex Mushaf."
-    },
-    "tags": [
-      "flutter-package",
-      "quran-display",
-      "mushaf",
-      "dart",
-      "developer-library"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "alheekmahlib",
-      "name": "quran_library",
-      "url": "https://github.com/alheekmahlib/quran_library",
-      "stars": 42,
-      "forks": 32,
-      "openIssues": 1,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "Dart",
-      "lastCommitAt": "2026-09-09T19:30:16Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": [
-        "dart",
-        "flutter",
-        "library",
-        "package",
-        "quran"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:20.774Z"
-  },
-  {
-    "id": "open-mushaf-native-app",
-    "repo": "adelpro/open-mushaf-native",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق المصحف المفتوح ريأكت نيتف",
-      "en": "Open-Mushaf Native"
-    },
-    "description": {
-      "ar": "تطبيق مصحف حديث ومفتوح المصدر مبني بتقنيات ريأكت نيتف وإكسبو يعرض الصفحات بالرسم العثماني الأصيل.",
-      "en": "Modern, open-source Quran reading application built with Expo and React Native with authentic Arabic calligraphy layouts."
-    },
-    "tags": [
-      "react-native",
-      "expo",
-      "quran",
-      "mushaf",
-      "arabic-calligraphy"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "adelpro",
-      "name": "open-mushaf-native",
-      "url": "https://github.com/adelpro/open-mushaf-native",
-      "stars": 43,
-      "forks": 30,
-      "openIssues": 7,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-09-05T22:35:51Z",
-      "latestRelease": {
-        "tag": "v4.0.0",
-        "publishedAt": "2025-08-09T06:47:15Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "expo",
-        "islam",
-        "jotai",
-        "mushaf",
-        "offline-quran",
-        "quran",
-        "quran-mobile-app",
-        "react-native",
-        "react-native-quran",
-        "typescript",
-        "warsh"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:21.908Z"
-  },
-  {
-    "id": "rn-tajweed-verse-component",
-    "repo": "ariona/rn-tajweed-verse",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكون تلوين أحكام التجويد في ريأكت نيتف",
-      "en": "React Native Tajweed Verse"
-    },
-    "description": {
-      "ar": "مكون واجهات لمطوري ريأكت نيتف لتحليل أحكام التجويد في الآيات وتلوين حروفها بالألوان التجويدية القياسية.",
-      "en": "React Native UI component for parsing Arabic Quranic verses and highlighting Tajweed rules with traditional color codes."
-    },
-    "tags": [
-      "react-native",
-      "tajweed",
-      "quran",
-      "color-coding",
-      "ui-component"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "ariona",
-      "name": "rn-tajweed-verse",
-      "url": "https://github.com/ariona/rn-tajweed-verse",
-      "stars": 28,
-      "forks": 4,
-      "openIssues": 3,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "JavaScript",
-      "lastCommitAt": "2021-03-14T18:36:00Z",
-      "latestRelease": null,
-      "isArchived": false,
-      "topics": []
-    },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T19:28:21.982Z"
-  },
-  {
-    "id": "mushaf-imad-expo-app",
-    "repo": "adelpro/mushaf-imad-expo",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "تطبيق مصحف عماد التفاعلي",
-      "en": "Mushaf Imad Expo App"
-    },
-    "description": {
-      "ar": "تطبيق قراءة قرآني سلس يعرض المصحف صفحة بصفحة مع حفظ الفواصل والاستماع لتلاوات القراء دون إنترنت.",
-      "en": "Clean React Native Quran reading application featuring page-by-page rendering, bookmarking, and offline audio recitations."
-    },
-    "tags": [
-      "expo",
-      "react-native",
-      "quran-reader",
-      "offline-mode",
-      "audio"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "adelpro",
-      "name": "mushaf-imad-expo",
-      "url": "https://github.com/adelpro/mushaf-imad-expo",
-      "stars": 23,
-      "forks": 22,
-      "openIssues": 8,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-08-04T14:07:47Z",
-      "latestRelease": {
-        "tag": "0.2.0-athar",
-        "publishedAt": "2026-03-18T16:58:07Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "expo",
-        "mushaf",
-        "quran",
-        "react-nat"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:22.101Z"
-  },
-  {
-    "id": "react-quran-viewer-component",
-    "repo": "6km/react-quran",
-    "category": "islamic-tech",
-    "title": {
-      "ar": "مكون عارض القرآن لتطبيقات ريأكت",
-      "en": "React Quran Viewer Component"
-    },
-    "description": {
-      "ar": "مكون ريأكت تفاعلي لتضمين عارض القرآن الكريم وتصفح الآيات والسور داخل تطبيقات الويب بسهولة.",
-      "en": "Embeddable React component for viewing, navigating, and searching the Holy Quran inside modern web applications."
-    },
-    "tags": [
-      "react",
-      "react-component",
-      "quran-viewer",
-      "web-app",
-      "islamic-tech"
-    ],
-    "featured": false,
-    "github": {
-      "owner": "6km",
-      "name": "react-quran",
-      "url": "https://github.com/6km/react-quran",
-      "stars": 22,
-      "forks": 3,
-      "openIssues": 8,
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2026-06-02T09:39:43Z",
-      "latestRelease": {
-        "tag": "v1.4.0",
-        "publishedAt": "2026-01-24T16:11:22Z"
-      },
-      "isArchived": false,
-      "topics": [
-        "arabic",
-        "components-library",
-        "components-react",
-        "islam",
-        "islamic",
-        "library",
-        "quran",
-        "quran-api",
-        "quran-web",
-        "react",
-        "react-components",
-        "react-ui",
-        "react-ui-components",
-        "reactjs"
-      ]
-    },
-    "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T19:28:23.489Z"
+    "lastSyncedAt": "2026-09-15T19:54:31.530Z"
   }
 ]

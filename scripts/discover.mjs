@@ -46,10 +46,6 @@ const CATEGORY_RULES = {
     keywords: ['platform', 'web-app', 'desktop', 'electron', 'nextjs', 'fullstack', 'compiler', 'frontend', 'portal', 'browser', 'application', 'system'],
     weight: 1.8,
   },
-  'islamic-tech': {
-    keywords: ['quran', 'hadith', 'prayer', 'adhan', 'azkar', 'salat', 'athan', 'tafsir', 'islamic', 'islam', 'sunnah', 'mushaf', 'quranic'],
-    weight: 2.5,
-  },
   'fonts-calligraphy': {
     keywords: ['font', 'typeface', 'calligraphy', 'naskh', 'ruqaa', 'thuluth', 'kufi', 'otf', 'ttf', 'glyph', 'typography', 'opentype'],
     weight: 2.5,
@@ -67,7 +63,7 @@ const CATEGORY_RULES = {
     weight: 1.7,
   },
   'dev-tools': {
-    keywords: ['library', 'package', 'sdk', 'helper', 'utils', 'hijri', 'calendar', 'converter', 'reshaper', 'bidi', 'toolkit', 'plugin'],
+    keywords: ['library', 'package', 'sdk', 'helper', 'utils', 'converter', 'reshaper', 'bidi', 'toolkit', 'plugin', 'parser'],
     weight: 1.2,
   },
 };
@@ -79,8 +75,6 @@ const TARGET_ORGS = [
   'UBC-NLP',
   'ARBML',
   'linuxscout',
-  'quran',
-  'batoulapps',
   'aliftype',
   'alifcommunity',
   'ojuba-org',
@@ -89,9 +83,6 @@ const TARGET_ORGS = [
   'AudarAI',
   'mbzuai-oryx',
   'mawdoo3',
-  'Alfanous-team',
-  'TarteelAI',
-  'sunnah-com',
   'SinaLab',
   'rn0x',
   'zonetecde',
@@ -104,18 +95,19 @@ const TARGET_ORGS = [
   'assem-ch',
   'alsaydi',
   'disooqi',
-  'cpfair',
-  'yazinsai'
+  'MohsenAlyafei',
+  'Hamza5',
+  'BKHMSI',
+  'nipponjo',
+  'motazsaad',
+  'riotu-lab'
 ];
 
-// High-signal topic queries across Arabic software and linguistics
+// High-signal topic queries across pure Arabic software and linguistics
 const TARGET_TOPICS = [
   'arabic-ocr',
   'arabic-nlp',
   'tashkeel',
-  'quran',
-  'hadith',
-  'islamic-tech',
   'arabic-speech',
   'arabic-font',
   'arabic-fonts',
@@ -127,10 +119,11 @@ const TARGET_TOPICS = [
   'arabic-stemmer',
   'arabic-morphology',
   'arabic-programming-language',
-  'arabic-llm'
+  'arabic-llm',
+  'arabic-tokenizer'
 ];
 
-// Focused, high-yield search queries covering specialized Arabic domains
+// Focused, high-yield search queries covering specialized Arabic language domains
 const TARGET_QUERIES = [
   'arabic ocr stars:>2',
   'arabic speech stars:>2',
@@ -145,9 +138,9 @@ const TARGET_QUERIES = [
   'arabic bert stars:>2',
   'arabic nlp stars:>5',
   'arabic programming language stars:>2',
-  'quran audio stars:>10',
-  'quran api stars:>10',
-  'القرآن الكريم stars:>20'
+  'arabic spell check stars:>2',
+  'arabic lemmatizer stars:>2',
+  'arabic parser stars:>2'
 ];
 
 function hasArabicText(text) {
@@ -238,14 +231,43 @@ function isHighQuality(repo) {
     return false;
   }
 
+  // Exclude religious, Quran reading, Hadith, prayer times, and Islamic lifestyle apps
+  const religiousMarkers = [
+    'quran',
+    'qur\'an',
+    'koran',
+    'hadith',
+    'hadeeth',
+    'adhan',
+    'athan',
+    'prayer time',
+    'prayer times',
+    'salat',
+    'salah',
+    'azkar',
+    'athkar',
+    'mushaf',
+    'tafsir',
+    'tafseer',
+    'surah',
+    'ayah',
+    'tajweed',
+    'tilawa',
+    'qibla',
+    'islamic'
+  ];
+  if (religiousMarkers.some(m => combined.includes(m))) {
+    return false;
+  }
+
   // Filter out irrelevant or junk repos
   const excludeKeywords = ['homework', 'course', 'assignment', 'tutorial', 'learn-arabic', 'flashcard', 'cheat-sheet', 'interview'];
   if (excludeKeywords.some(kw => combined.includes(kw))) {
     return false;
   }
 
-  // Must have Arabic relevance as its primary subject
-  const arabicMarkers = ['arabic', 'arab', 'quran', 'hadith', 'tashkeel', 'hijri', 'islam', 'amiri', 'naskh', 'ruqaa', 'shakkala', 'mishkal', 'morphology', 'diacriti'];
+  // Must have Arabic linguistic/software relevance as its primary subject
+  const arabicMarkers = ['arabic', 'arab', 'tashkeel', 'amiri', 'naskh', 'ruqaa', 'shakkala', 'mishkal', 'morphology', 'diacriti', 'kashida', 'tatweel', 'stemmer', 'lemmatiz'];
   const hasMarker = arabicMarkers.some(m => combined.includes(m)) || hasArabicText(repo.description) || hasArabicText(repo.name);
   if (!hasMarker) return false;
 
@@ -334,42 +356,6 @@ const CURATED_DESCRIPTIONS = {
       en: 'A modern open-source Arabic programming language implemented in C++.'
     },
     tags: ['cpp', 'compiler', 'programming-language', 'education']
-  },
-  'quran/quran_android': {
-    category: 'islamic-tech',
-    title: { ar: 'تطبيق قرآن أندرويد', en: 'Quran Android' },
-    description: {
-      ar: 'التطبيق الرسمي مفتوح المصدر لقراءة وتصفح والاستماع للقرآن الكريم على أجهزة أندرويد.',
-      en: 'The official open-source Quran reading and listening application for Android.'
-    },
-    tags: ['kotlin', 'android', 'quran', 'audio', 'recitations']
-  },
-  'batoulapps/adhan-js': {
-    category: 'islamic-tech',
-    title: { ar: 'مكتبة أذان لمواقيت الصلاة', en: 'Adhan JS' },
-    description: {
-      ar: 'مكتبة فلكية عالية الدقة ومفتوحة المصدر لحساب مواقيت الصلاة الإسلامية لجافاسكريبت وNode.js.',
-      en: 'High precision prayer times calculation library for JavaScript and Node.js.'
-    },
-    tags: ['javascript', 'typescript', 'prayer-times', 'islamic-tech']
-  },
-  'fawazahmed0/quran-api': {
-    category: 'islamic-tech',
-    title: { ar: 'واجهة القرآن الكريم البرمجية', en: 'Quran JSON REST API' },
-    description: {
-      ar: 'واجهة برمجية سريعة ومجانية لنصوص وتفاسير وترجمات القرآن الكريم بصيغة JSON بأكثر من 40 لغة.',
-      en: 'Free and comprehensive JSON REST API for Quranic texts, translations, and audio.'
-    },
-    tags: ['api', 'json', 'quran', 'translations', 'tafsir']
-  },
-  'fawazahmed0/hadith-api': {
-    category: 'islamic-tech',
-    title: { ar: 'واجهة الحديث الشريف البرمجية', en: 'Hadith JSON API' },
-    description: {
-      ar: 'قاعدة بيانات وواجهة برمجية رقمية مفتوحة المصدر لكتب الحديث الشريف التسعة.',
-      en: 'Comprehensive and curated Hadith collections API with multiple translations in JSON.'
-    },
-    tags: ['api', 'hadith', 'json', 'sunnah', 'datasets']
   },
   'aiaf/kawkab-mono': {
     category: 'fonts-calligraphy',
@@ -703,60 +689,6 @@ const CURATED_DESCRIPTIONS = {
       en: 'The largest open-source Arabic instruction dataset comprising 10,000 diverse prompts and answers.'
     },
     tags: ['dataset', 'instruction-tuning', 'arabic-llm', 'chatgpt', 'nlp']
-  },
-  'tarteelai/quranic-universal-library': {
-    category: 'islamic-tech',
-    title: { ar: 'المكتبة القرآنية الشاملة ترتيل', en: 'Tarteel Quranic Universal Library' },
-    description: {
-      ar: 'مستودع شامل ومكتبة برمجية مفتوحة المصدر تضم بيانات السور والآيات والترجمات الصوتية والنصية.',
-      en: 'A comprehensive collection of open-source Quranic text resources, recitations, and audio metadata.'
-    },
-    tags: ['quran', 'islamic-tech', 'datasets', 'tarteel', 'audio']
-  },
-  'zonetecde/qurancaption': {
-    category: 'platforms-apps',
-    title: { ar: 'أداة كتابة الآيات المرئية', en: 'QuranCaption' },
-    description: {
-      ar: 'أداة مفتوحة المصدر لتوليد ومزامنة نصوص الآيات القرآنية تلقائياً على المقاطع الصوتية والفيديوهات.',
-      en: 'Transform Quranic recitations into synchronized captioned videos with professional typography.'
-    },
-    tags: ['python', 'quran', 'caption', 'video', 'automation']
-  },
-  'yazinsai/tilawa': {
-    category: 'islamic-tech',
-    title: { ar: 'تلاوة للتعرف الصوتي على الآيات', en: 'Tilawa Audio Recognition' },
-    description: {
-      ar: 'نظام ومكتبة مفتوحة المصدر للتعرف على الآيات والسور من التلاوات الصوتية دون الحاجة لاتصال بالإنترنت.',
-      en: 'Offline Quran verse and surah recognition from audio recitations using acoustic matching.'
-    },
-    tags: ['python', 'audio-recognition', 'quran', 'speech', 'signal-processing']
-  },
-  'cpfair/quran-align': {
-    category: 'islamic-tech',
-    title: { ar: 'محاذاة التلاوات القرآنية', en: 'Quran Audio Align' },
-    description: {
-      ar: 'نظام مفتوح المصدر لحساب الطوابع الزمنية الدقيقة لكل كلمة في التلاوات القرآنية الصوتية.',
-      en: 'Word-accurate timestamps and alignment generator for Quranic audio recitations.'
-    },
-    tags: ['python', 'audio-alignment', 'speech', 'quran', 'forced-alignment']
-  },
-  'rn0x/altaqwaa-desktop': {
-    category: 'platforms-apps',
-    title: { ar: 'تطبيق التقوى المكتبي', en: 'Altaqwaa Desktop' },
-    description: {
-      ar: 'تطبيق إلكتروني مكتبي مفتوح المصدر لقراءة القرآن الكريم وعرض مواقيت الصلاة والأذكار النبوية.',
-      en: 'Open-source desktop application for Quran reading, prayer times reminders, and Azkar.'
-    },
-    tags: ['electron', 'vue', 'desktop', 'quran', 'prayer-times']
-  },
-  'sunnah-com/api': {
-    category: 'islamic-tech',
-    title: { ar: 'واجهة برمجية موقع سنة.كوم', en: 'Sunnah.com API' },
-    description: {
-      ar: 'الواجهة البرمجية الرسمية ومستودع بيانات كتب الحديث الشريف باللغة العربية وترجماتها المعتمدة.',
-      en: 'The official API backend for Sunnah.com offering structured access to canonical Hadith collections.'
-    },
-    tags: ['php', 'hadith', 'api', 'islamic-tech', 'rest-api']
   },
   'sinalab/arabicner': {
     category: 'nlp-ai',

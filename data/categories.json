@@ -42,8 +42,8 @@
       "en": "Developer Libraries & Utilities"
     },
     "description": {
-      "ar": "حزم برمجية، محولات التاريخ والتقويم الهجري، والمساعدات العامة",
-      "en": "Packages, Hijri calendars, and developer utilities"
+      "ar": "حزم برمجية، محولات الأرقام والنصوص، والمساعدات العامة",
+      "en": "Packages, numeral converters, and developer utilities"
     },
     "icon": "Code2"
   },
@@ -60,25 +60,13 @@
     "icon": "ScanText"
   },
   {
-    "id": "islamic-tech",
-    "name": {
-      "ar": "التقنية الإسلامية والقرآنية",
-      "en": "Quranic & Islamic Tech"
-    },
-    "description": {
-      "ar": "واجهات برمجية ومكتبات للقرآن الكريم ومواقيت الصلاة",
-      "en": "APIs and libraries for Quranic texts and prayer timings"
-    },
-    "icon": "BookOpen"
-  },
-  {
     "id": "dictionaries-datasets",
     "name": {
       "ar": "المعاجم وقواعد البيانات",
       "en": "Dictionaries & Datasets"
     },
     "description": {
-      "ar": "قواميس لغوية، مدونات نصوص، ومجموعات بيانات",
+      "ar": "قواميس لغوية، مدونات نصوص، ومجموعات بيانات لتدريب النماذج",
       "en": "Lexicons, corpora, and training datasets"
     },
     "icon": "Database"
