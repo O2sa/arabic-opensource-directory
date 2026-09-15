@@ -10,7 +10,8 @@
     "validate": "node scripts/validate.mjs",
     "sync": "node scripts/sync.mjs",
     "discover": "node scripts/discover.mjs",
-    "discover:apply": "node scripts/discover.mjs --apply"
+    "discover:apply": "node scripts/discover.mjs --apply",
+    "check-candidate": "node scripts/check-candidate.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -2,8 +2,8 @@
 ### Arabic Open Source Directory & Showcase Hub
 
 <p align="center">
-  <img src="https://img.shields.io/badge/مشاريع_عربية-14+-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
-  <img src="https://img.shields.io/badge/التصنيفات-8-06b6d4?style=for-the-badge" alt="Categories" />
+  <img src="https://img.shields.io/badge/مشاريع_عربية-190+-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
+  <img src="https://img.shields.io/badge/التصنيفات-7-06b6d4?style=for-the-badge" alt="Categories" />
   <img src="https://img.shields.io/badge/التحديث-تلقائي_أسبوعياً-f59e0b?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation" />
   <img src="https://img.shields.io/badge/الرخصة-MIT-3b82f6?style=for-the-badge" alt="License" />
 </p>
@@ -12,9 +12,9 @@
 
 ## 📖 عن المشروع | About The Project
 
-**دليل البرمجيات العربية مفتوحة المصدر** هو منصة مجتمعية مفتوحة تهدف إلى توثيق، تتبع، واستعراض أفضل المشاريع والمكتبات والحزم البرمجية والنماذج اللغوية المخصصة لخدمة اللغة العربية والذكاء الاصطناعي.
+**دليل البرمجيات العربية مفتوحة المصدر** هو منصة مجتمعية مفتوحة تهدف إلى توثيق، تتبع، واستعراض أفضل المشاريع والمكتبات والحزم البرمجية والنماذج اللغوية المخصصة لخدمة اللغة العربية وحوسبتها وتمكينها تقنياً.
 
-The **Arabic Open Source Directory** is a centralized, living showcase dedicated to discovering, tracking, and celebrating open-source packages, libraries, models, and tools developed for the Arabic language.
+The **Arabic Open Source Directory** is a centralized, living showcase dedicated to discovering, tracking, and celebrating open-source packages, libraries, models, and tools developed specifically for the Arabic language.
 
 ### ✨ أبرز المميزات | Key Features
 * 🔄 **تحديث تلقائي عبر GitHub Actions**: يُحدّث عداد النجوم، آخر نشاط، وحالة الصيانة دورياً دون أي تدخل يدوي.
@@ -25,18 +25,29 @@ The **Arabic Open Source Directory** is a centralized, living showcase dedicated
 
 ---
 
-## 🗂️ تصنيفات المشاريع | Categories
+## 🗂️ تصنيفات المشاريع | Categories (7)
 
 | التصنيف بالعربية | Category in English | الوصف |
 | :--- | :--- | :--- |
 | **الذكاء الاصطناعي ومعالجة اللغات** | NLP & Artificial Intelligence | نماذج لغوية (LLMs)، محولات، وتوليد النصوص |
 | **معالجة النصوص والتشكيل** | Text Processing & Tashkeel | أدوات التشكيل الآلي، الصرف، والتحليل النحوي |
 | **الخطوط والطباعة الرقمية** | Fonts & Digital Typography | خطوط عربية مفتوحة المصدر وأدوات صف الحروف |
-| **مكتبات وأدوات المطورين** | Developer Libraries & Utilities | حزم ومكتبات لمختلف لغات البرمجة (Python, PHP, etc.) |
-| **التعرف الضوئي والرؤية الحاسوبية** | OCR & Computer Vision | استخراج النصوص العربية من الصور والمستندات |
-| **التقنية الإسلامية والقرآنية** | Quranic & Islamic Tech | واجهات برمجية ومكتبات للقرآن الكريم والحديث الشريف |
-| **المعاجم وقواعد البيانات** | Dictionaries & Datasets | مدونات لغوية، قواميس، ومجموعات بيانات التدريب |
-| **المنصات والتطبيقات** | Platforms & Web Applications | منصات وتطبيقات ويب كاملة مفتوحة المصدر |
+| **مكتبات وأدوات المطورين** | Developer Libraries & Utilities | حزم ومكتبات لمختلف لغات البرمجة، محولات الأرقام، والمساعدات |
+| **التعرف الضوئي والرؤية الحاسوبية** | OCR & Computer Vision | استخراج النصوص العربية من الصور والمستندات والمخطوطات |
+| **المعاجم وقواعد البيانات** | Dictionaries & Datasets | مدونات لغوية، قواميس، ومجموعات بيانات التدريب للذكاء الاصطناعي |
+| **المنصات والتطبيقات** | Platforms & Web Applications | منصات وتطبيقات ويب متكاملة وأدوات تفاعلية لتعليم وتيسير العربية |
+
+---
+
+## 📜 معايير وسياسة قبول المشاريع | Inclusion Policy
+
+لضمان أصالة ورصانة الدليل واقتصاره على البرمجيات المخصصة لخدمة اللغة العربية 100%، يخضع أي مشروع مقترح لمعايير صارمة ومحددة في:  
+👉 **[وثيقة معايير القبول والإدراج الرسمية (docs/INCLUSION_CRITERIA.md)](docs/INCLUSION_CRITERIA.md)**
+
+يمكنك فحص أي مشروع مرشح آلياً للتأكد من استيفائه لكافة الشروط قبل تقديمه عبر الأمر:
+```bash
+npm run check-candidate <owner/repo>
+```
 
 ---
 

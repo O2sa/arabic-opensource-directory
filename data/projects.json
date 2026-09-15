@@ -4074,5 +4074,27 @@
       "dataset"
     ],
     "featured": false
+  },
+  {
+    "id": "nakhlah-js-arabic-learning",
+    "repo": "m7medVision/nakhlah.js",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "منصة نخلة لتعليم البرمجة بالعربية",
+      "en": "Nakhlah Arabic Code Learning Platform"
+    },
+    "description": {
+      "ar": "منصة تفاعلية تعليمية مفتوحة المصدر لتمكين الطلاب من تعلم وتجربة لغة جافاسكريبت باللغة العربية.",
+      "en": "An open-source interactive learning platform enabling students to learn and practice JavaScript in Arabic."
+    },
+    "homepage": "https://github.com/m7medVision/nakhlah.js",
+    "featured": true,
+    "tags": [
+      "typescript",
+      "education",
+      "learn-arabic",
+      "edtech",
+      "platforms-apps"
+    ]
   }
 ]
