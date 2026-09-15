@@ -28,7 +28,6 @@ body:
         - "fonts-calligraphy (الخطوط والطباعة الرقمية / Fonts & Typography)"
         - "dev-tools (مكتبات وأدوات المطورين / Developer Libraries & Tools)"
         - "ocr-vision (التعرف الضوئي والرؤية الحاسوبية / OCR & Vision)"
-        - "islamic-tech (التقنية الإسلامية والقرآنية / Islamic Tech)"
         - "dictionaries-datasets (المعاجم وقواعد البيانات / Datasets & Dictionaries)"
         - "platforms-apps (المنصات والتطبيقات / Platforms & Web Apps)"
     validations:

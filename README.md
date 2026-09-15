@@ -56,7 +56,7 @@ pnpm run check-candidate <owner/repo>
 المساهمة مفتوحة ومرحَّب بها من الجميع! يمكنك إضافة مشروع عربي بإحدى طريقتين:
 
 ### الطريقة الأولى: فتح تذكرة (GitHub Issue)
-1. انتقل إلى تبويب **[Issues](../../issues/new?template=submit-project.yml)**.
+1. انتقل إلى تبويب **[Issues](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)**.
 2. اختر قالب **"Submit an Arabic Project"**.
 3. املأ بيانات المشروع (الرابط، التصنيف، الوصف بالعربية والإنجليزية).
 
