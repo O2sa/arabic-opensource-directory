@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "validate": "node scripts/validate.mjs",
-    "sync": "node scripts/sync.mjs"
+    "sync": "node scripts/sync.mjs",
+    "discover": "node scripts/discover.mjs",
+    "discover:apply": "node scripts/discover.mjs --apply"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -10,6 +10,15 @@ const projectsPath = path.join(rootDir, 'data', 'projects.json');
 const enrichedOutputPath = path.join(rootDir, 'data', 'projects-enriched.json');
 const publicOutputPath = path.join(rootDir, 'public', 'data', 'projects-enriched.json');
 
+// Automatically load .env if available
+if (typeof process.loadEnvFile === 'function') {
+  try {
+    process.loadEnvFile();
+  } catch {
+    // Ignore if .env is missing
+  }
+}
+
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
 const headers = {

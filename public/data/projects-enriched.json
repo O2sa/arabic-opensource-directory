@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:08.961Z"
+    "lastSyncedAt": "2026-09-15T00:09:43.430Z"
   },
   {
     "id": "arabert",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:09.124Z"
+    "lastSyncedAt": "2026-09-15T00:09:43.394Z"
   },
   {
     "id": "pyarabic",
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-14T23:29:08.953Z"
+    "lastSyncedAt": "2026-09-15T00:09:43.328Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-14T23:29:09.969Z"
+    "lastSyncedAt": "2026-09-15T00:09:44.729Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:09.976Z"
+    "lastSyncedAt": "2026-09-15T00:09:44.664Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:10.022Z"
+    "lastSyncedAt": "2026-09-15T00:09:44.802Z"
   },
   {
     "id": "amiri-font",
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:10.823Z"
+    "lastSyncedAt": "2026-09-15T00:09:46.020Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:10.763Z"
+    "lastSyncedAt": "2026-09-15T00:09:46.029Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:10.846Z"
+    "lastSyncedAt": "2026-09-15T00:09:46.131Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:11.692Z"
+    "lastSyncedAt": "2026-09-15T00:09:47.416Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:11.574Z"
+    "lastSyncedAt": "2026-09-15T00:09:47.314Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,7 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:11.650Z"
+    "lastSyncedAt": "2026-09-15T00:09:47.361Z"
   },
   {
     "id": "hadith-datasets",
@@ -635,7 +635,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-14T23:29:12.503Z"
+    "lastSyncedAt": "2026-09-15T00:09:48.671Z"
   },
   {
     "id": "masader",
@@ -681,6 +681,1932 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-14T23:29:12.591Z"
+    "lastSyncedAt": "2026-09-15T00:09:48.787Z"
+  },
+  {
+    "id": "jaidedai-easyocr",
+    "repo": "JaidedAI/EasyOCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "EasyOCR للتعرف البصري",
+      "en": "EasyOCR"
+    },
+    "description": {
+      "ar": "أشهر مكتبة مفتوحة المصدر للتعرف الضوئي على النصوص (OCR) مع دعم كامل ورسمي للغة العربية والكتابة من اليمين لليسار.",
+      "en": "Ready-to-use OCR with 80+ supported languages including Arabic and right-to-left scripts."
+    },
+    "homepage": "https://www.jaided.ai",
+    "featured": true,
+    "tags": [
+      "python",
+      "ocr",
+      "pytorch",
+      "deep-learning",
+      "computer-vision"
+    ],
+    "github": {
+      "owner": "JaidedAI",
+      "name": "EasyOCR",
+      "url": "https://github.com/JaidedAI/EasyOCR",
+      "stars": 29990,
+      "forks": 3605,
+      "openIssues": 530,
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2025-12-05T12:23:12Z",
+      "latestRelease": {
+        "tag": "v1.7.2",
+        "publishedAt": "2024-09-24T11:24:36Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "cnn",
+        "crnn",
+        "data-mining",
+        "deep-learning",
+        "easyocr",
+        "image-processing",
+        "information-retrieval",
+        "lstm",
+        "machine-learning",
+        "ocr",
+        "optical-character-recognition",
+        "python",
+        "pytorch",
+        "scene-text",
+        "scene-text-recognition"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-15T00:09:48.581Z"
+  },
+  {
+    "id": "maidaly-arabic-ocr",
+    "repo": "maidaly/Arabic_OCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "تطبيق استخراج النصوص العربية",
+      "en": "Arabic OCR with CRAFT"
+    },
+    "description": {
+      "ar": "تطبيق مفتوح المصدر لاستخراج النصوص العربية من الصور والمستندات باستخدام خوارزمية CRAFT ومكتبة EasyOCR.",
+      "en": "Open-source application for Arabic text extraction from images using CRAFT and EasyOCR."
+    },
+    "homepage": "https://github.com/maidaly/Arabic_OCR",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "craft",
+      "computer-vision",
+      "easyocr"
+    ],
+    "github": {
+      "owner": "maidaly",
+      "name": "Arabic_OCR",
+      "url": "https://github.com/maidaly/Arabic_OCR",
+      "stars": 69,
+      "forks": 14,
+      "openIssues": 3,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2022-09-07T14:30:36Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:50.240Z"
+  },
+  {
+    "id": "husseinyoussef-arabic-ocr",
+    "repo": "HusseinYoussef/Arabic-OCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "Arabic-OCR",
+      "en": "Arabic OCR"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: OCR system for Arabic language that converts images of typed text to machine-encoded text.",
+      "en": "OCR system for Arabic language that converts images of typed text to machine-encoded text."
+    },
+    "homepage": "https://github.com/HusseinYoussef/Arabic-OCR",
+    "featured": true,
+    "tags": [
+      "python",
+      "arabic",
+      "character-segmentation",
+      "computer-vision",
+      "dataset",
+      "image-processing"
+    ],
+    "github": {
+      "owner": "HusseinYoussef",
+      "name": "Arabic-OCR",
+      "url": "https://github.com/HusseinYoussef/Arabic-OCR",
+      "stars": 329,
+      "forks": 80,
+      "openIssues": 8,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2023-10-04T00:56:52Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "character-segmentation",
+        "computer-vision",
+        "dataset",
+        "image-processing",
+        "machine-learning",
+        "neural-network",
+        "ocr",
+        "opencv-python",
+        "scikit-learn",
+        "segmentation"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:50.003Z"
+  },
+  {
+    "id": "zibo-chen-ocr-rs",
+    "repo": "zibo-chen/ocr-rs",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "ocr-rs",
+      "en": "Ocr Rs"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: 高性能OCR识别库，支持上百种语言，提供命令行、图形界面及C API多种调用方式，使用便捷高效。  High-performance OCR library powered by PaddleOCR v4/v5/v6 with MNN backend. Supports 10+ languages (Chinese, English, Japanese, Korean, Arabic, Cyrillic, Thai, etc). Provides Rust crate + C API + CLI tools. Fast, lightweight, easy-to-integrate.",
+      "en": "高性能OCR识别库，支持上百种语言，提供命令行、图形界面及C API多种调用方式，使用便捷高效。  High-performance OCR library powered by PaddleOCR v4/v5/v6 with MNN backend. Supports 10+ languages (Chinese, English, Japanese, Korean, Arabic, Cyrillic, Thai, etc). Provides Rust crate + C API + CLI tools. Fast, lightweight, easy-to-integrate."
+    },
+    "homepage": "https://crates.io/crates/ocr-rs",
+    "featured": true,
+    "tags": [
+      "rust",
+      "ocr",
+      "ocr-rs",
+      "paddleocr",
+      "tesseract-ocr",
+      "ocr vision"
+    ],
+    "github": {
+      "owner": "zibo-chen",
+      "name": "ocr-rs",
+      "url": "https://github.com/zibo-chen/ocr-rs",
+      "stars": 326,
+      "forks": 44,
+      "openIssues": 6,
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "primaryLanguage": "Rust",
+      "lastCommitAt": "2026-09-11T01:48:54Z",
+      "latestRelease": {
+        "tag": "v2.4.1",
+        "publishedAt": "2026-08-05T10:52:30Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "ocr",
+        "ocr-rs",
+        "paddleocr",
+        "tesseract-ocr"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:49.910Z"
+  },
+  {
+    "id": "pythonation-mistral-arabic-ocr-test",
+    "repo": "Pythonation/Mistral-Arabic-OCR-test",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "Mistral-Arabic-OCR-test",
+      "en": "Mistral Arabic OCR Test"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A powerful Python toolkit using Mistral AI's OCR to accurately convert Arabic PDFs and images to text and editable documents. Includes scripts for single-file and batch processing.",
+      "en": "A powerful Python toolkit using Mistral AI's OCR to accurately convert Arabic PDFs and images to text and editable documents. Includes scripts for single-file and batch processing."
+    },
+    "homepage": "https://github.com/Pythonation/Mistral-Arabic-OCR-test",
+    "featured": true,
+    "tags": [
+      "jupyter notebook",
+      "ocr vision"
+    ],
+    "github": {
+      "owner": "Pythonation",
+      "name": "Mistral-Arabic-OCR-test",
+      "url": "https://github.com/Pythonation/Mistral-Arabic-OCR-test",
+      "stars": 134,
+      "forks": 52,
+      "openIssues": 5,
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2025-08-19T15:41:50Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:51.665Z"
+  },
+  {
+    "id": "rastikerdar-vazirmatn",
+    "repo": "rastikerdar/vazirmatn",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط وزير متن",
+      "en": "Vazirmatn Typeface"
+    },
+    "description": {
+      "ar": "خط رقمي حديث وعالي الوضوح مخصص لشاشات الويب والقراءة يدعم الأبجدية العربية والفارسية.",
+      "en": "A modern, highly legible Arabic and Persian typeface crafted for digital screens and reading."
+    },
+    "homepage": "https://rastikerdar.github.io/vazirmatn/",
+    "featured": true,
+    "tags": [
+      "font",
+      "typography",
+      "webfont",
+      "arabic",
+      "farsi"
+    ],
+    "github": {
+      "owner": "rastikerdar",
+      "name": "vazirmatn",
+      "url": "https://github.com/rastikerdar/vazirmatn",
+      "stars": 3203,
+      "forks": 208,
+      "openIssues": 53,
+      "license": {
+        "spdxId": "OFL-1.1",
+        "name": "SIL Open Font License 1.1"
+      },
+      "primaryLanguage": "TypeScript",
+      "lastCommitAt": "2023-06-14T13:12:01Z",
+      "latestRelease": {
+        "tag": "v33.003",
+        "publishedAt": "2022-06-22T15:52:46Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "farsi",
+        "font",
+        "persian",
+        "typeface"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:51.637Z"
+  },
+  {
+    "id": "aliftype-aref-ruqaa",
+    "repo": "aliftype/aref-ruqaa",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط رقعة عارف",
+      "en": "Aref Ruqaa Typeface"
+    },
+    "description": {
+      "ar": "خط عربي رقمي كلاسيكي يحاكي أسلوب خط الرقعة الأصيل من تصميم الخطاط خالد حسني.",
+      "en": "A classical Arabic typeface in Ruqaa style designed by Khaled Hosny."
+    },
+    "homepage": "https://github.com/aliftype/aref-ruqaa",
+    "featured": true,
+    "tags": [
+      "font",
+      "calligraphy",
+      "ruqaa",
+      "typography",
+      "opentype"
+    ],
+    "github": {
+      "owner": "aliftype",
+      "name": "aref-ruqaa",
+      "url": "https://github.com/aliftype/aref-ruqaa",
+      "stars": 133,
+      "forks": 18,
+      "openIssues": 4,
+      "license": {
+        "spdxId": "OFL-1.1",
+        "name": "SIL Open Font License 1.1"
+      },
+      "primaryLanguage": "Makefile",
+      "lastCommitAt": "2026-08-01T23:00:51Z",
+      "latestRelease": {
+        "tag": "v1.008",
+        "publishedAt": "2026-01-29T23:20:03Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-font",
+        "font",
+        "fonts",
+        "ruqaa"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:51.527Z"
+  },
+  {
+    "id": "fabrizioschiavi-pragmatapro",
+    "repo": "fabrizioschiavi/pragmatapro",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "pragmatapro",
+      "en": "Pragmatapro"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: PragmataPro font is designed to help pros to work better",
+      "en": "PragmataPro font is designed to help pros to work better"
+    },
+    "homepage": "https://fsd.it/shop/fonts/pragmatapro/",
+    "featured": true,
+    "tags": [
+      "rich text format",
+      "apl",
+      "arabic",
+      "arrows",
+      "bopomofo",
+      "coding-fonts"
+    ],
+    "github": {
+      "owner": "fabrizioschiavi",
+      "name": "pragmatapro",
+      "url": "https://github.com/fabrizioschiavi/pragmatapro",
+      "stars": 1645,
+      "forks": 42,
+      "openIssues": 34,
+      "primaryLanguage": "Rich Text Format",
+      "lastCommitAt": "2026-01-17T20:17:54Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "apl",
+        "arabic",
+        "arrows",
+        "bopomofo",
+        "coding-fonts",
+        "cyrillic-characters",
+        "font-awesome",
+        "fonts",
+        "greek",
+        "hebrew",
+        "ligatures",
+        "math",
+        "modular",
+        "monospaced",
+        "phonetics",
+        "pixel-perfect",
+        "programming-fonts",
+        "truetype-handhinting",
+        "unicode",
+        "unicode-coverage"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-15T00:09:52.967Z"
+  },
+  {
+    "id": "aminabedi68-estedad",
+    "repo": "aminabedi68/Estedad",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "Estedad",
+      "en": "Estedad"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Sans Serif Arabic-Latin text typeface",
+      "en": "Sans Serif Arabic-Latin text typeface"
+    },
+    "homepage": "https://aminabedi68.github.io/Estedad/",
+    "featured": true,
+    "tags": [
+      "python",
+      "arabic",
+      "farsi",
+      "font",
+      "text-font",
+      "typeface"
+    ],
+    "github": {
+      "owner": "aminabedi68",
+      "name": "Estedad",
+      "url": "https://github.com/aminabedi68/Estedad",
+      "stars": 412,
+      "forks": 28,
+      "openIssues": 8,
+      "license": {
+        "spdxId": "OFL-1.1",
+        "name": "SIL Open Font License 1.1"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-07-19T12:53:04Z",
+      "latestRelease": {
+        "tag": "8.5",
+        "publishedAt": "2026-03-20T03:04:22Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "farsi",
+        "font",
+        "text-font",
+        "typeface",
+        "variable-fonts"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:52.815Z"
+  },
+  {
+    "id": "bluemix-tourism-demo",
+    "repo": "bluemix/Tourism-Demo",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "Tourism-Demo",
+      "en": "Tourism Demo"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Flutter app backed by Redux, shows animations, internationalization (i18n), ClipPath, fonts and others...",
+      "en": "Flutter app backed by Redux, shows animations, internationalization (i18n), ClipPath, fonts and others..."
+    },
+    "homepage": "https://youtu.be/31WL1ep1Ce8",
+    "featured": true,
+    "tags": [
+      "dart",
+      "animations",
+      "arabic",
+      "clippath",
+      "english",
+      "flutter"
+    ],
+    "github": {
+      "owner": "bluemix",
+      "name": "Tourism-Demo",
+      "url": "https://github.com/bluemix/Tourism-Demo",
+      "stars": 307,
+      "forks": 73,
+      "openIssues": 2,
+      "primaryLanguage": "Dart",
+      "lastCommitAt": "2018-10-25T17:59:13Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "animations",
+        "arabic",
+        "clippath",
+        "english",
+        "flutter",
+        "fonts",
+        "i18n",
+        "internationalization",
+        "redux",
+        "restful",
+        "rotation"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:52.917Z"
+  },
+  {
+    "id": "quran-quran-android",
+    "repo": "quran/quran_android",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق قرآن أندرويد",
+      "en": "Quran Android"
+    },
+    "description": {
+      "ar": "التطبيق الرسمي مفتوح المصدر لقراءة وتصفح والاستماع للقرآن الكريم على أجهزة أندرويد.",
+      "en": "The official open-source Quran reading and listening application for Android."
+    },
+    "homepage": "http://android.quran.com",
+    "featured": true,
+    "tags": [
+      "kotlin",
+      "android",
+      "quran",
+      "audio",
+      "recitations"
+    ],
+    "github": {
+      "owner": "quran",
+      "name": "quran_android",
+      "url": "https://github.com/quran/quran_android",
+      "stars": 2393,
+      "forks": 993,
+      "openIssues": 411,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Kotlin",
+      "lastCommitAt": "2026-09-14T20:30:09Z",
+      "latestRelease": {
+        "tag": "v3.6.3",
+        "publishedAt": "2026-02-24T23:51:43Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "android",
+        "quran"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:54.320Z"
+  },
+  {
+    "id": "fawazahmed0-quran-api",
+    "repo": "fawazahmed0/quran-api",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة القرآن الكريم البرمجية",
+      "en": "Quran JSON REST API"
+    },
+    "description": {
+      "ar": "واجهة برمجية سريعة ومجانية لنصوص وتفاسير وترجمات القرآن الكريم بصيغة JSON بأكثر من 40 لغة.",
+      "en": "Free and comprehensive JSON REST API for Quranic texts, translations, and audio."
+    },
+    "homepage": "https://github.com/fawazahmed0/quran-api",
+    "featured": true,
+    "tags": [
+      "api",
+      "json",
+      "quran",
+      "translations",
+      "tafsir"
+    ],
+    "github": {
+      "owner": "fawazahmed0",
+      "name": "quran-api",
+      "url": "https://github.com/fawazahmed0/quran-api",
+      "stars": 1181,
+      "forks": 227,
+      "openIssues": 27,
+      "license": {
+        "spdxId": "Unlicense",
+        "name": "The Unlicense"
+      },
+      "lastCommitAt": "2026-09-12T19:01:33Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "al-quran",
+        "api",
+        "free",
+        "quran",
+        "quran-api",
+        "quran-digital",
+        "quran-info",
+        "quran-json",
+        "quran-offline",
+        "quran-online",
+        "quran-text",
+        "quran-translation",
+        "quran-transliteration"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:54.216Z"
+  },
+  {
+    "id": "fawazahmed0-hadith-api",
+    "repo": "fawazahmed0/hadith-api",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة الحديث الشريف البرمجية",
+      "en": "Hadith JSON API"
+    },
+    "description": {
+      "ar": "قاعدة بيانات وواجهة برمجية رقمية مفتوحة المصدر لكتب الحديث الشريف التسعة.",
+      "en": "Comprehensive and curated Hadith collections API with multiple translations in JSON."
+    },
+    "homepage": "https://github.com/fawazahmed0/hadith-api",
+    "featured": true,
+    "tags": [
+      "api",
+      "hadith",
+      "json",
+      "sunnah",
+      "datasets"
+    ],
+    "github": {
+      "owner": "fawazahmed0",
+      "name": "hadith-api",
+      "url": "https://github.com/fawazahmed0/hadith-api",
+      "stars": 550,
+      "forks": 128,
+      "openIssues": 69,
+      "license": {
+        "spdxId": "Unlicense",
+        "name": "The Unlicense"
+      },
+      "lastCommitAt": "2026-06-03T04:16:49Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "api",
+        "free",
+        "hadeeth",
+        "hadith",
+        "hadith-api",
+        "hadith-books",
+        "hadith-corpus",
+        "hadith-db",
+        "hadiths",
+        "sunat",
+        "sunnah"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:54.164Z"
+  },
+  {
+    "id": "batoulapps-adhan-js",
+    "repo": "batoulapps/adhan-js",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكتبة أذان لمواقيت الصلاة",
+      "en": "Adhan JS"
+    },
+    "description": {
+      "ar": "مكتبة فلكية عالية الدقة ومفتوحة المصدر لحساب مواقيت الصلاة الإسلامية لجافاسكريبت وNode.js.",
+      "en": "High precision prayer times calculation library for JavaScript and Node.js."
+    },
+    "homepage": "https://github.com/batoulapps/adhan-js",
+    "featured": true,
+    "tags": [
+      "javascript",
+      "typescript",
+      "prayer-times",
+      "islamic-tech"
+    ],
+    "github": {
+      "owner": "batoulapps",
+      "name": "adhan-js",
+      "url": "https://github.com/batoulapps/adhan-js",
+      "stars": 531,
+      "forks": 114,
+      "openIssues": 11,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "TypeScript",
+      "lastCommitAt": "2026-09-13T04:59:14Z",
+      "latestRelease": {
+        "tag": "v4.4.6",
+        "publishedAt": "2026-08-31T02:27:46Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:55.593Z"
+  },
+  {
+    "id": "gaitco-quran-database",
+    "repo": "gaitco/quran-database",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "quran-database",
+      "en": "Quran Database"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A complete, structured Quran database — verses, translations and metadata, free for any project.",
+      "en": "A complete, structured Quran database — verses, translations and metadata, free for any project."
+    },
+    "homepage": "https://gaitco.com/open-source/quran-database",
+    "featured": true,
+    "tags": [
+      "python",
+      "gait",
+      "mysql",
+      "quran",
+      "islamic tech"
+    ],
+    "github": {
+      "owner": "gaitco",
+      "name": "quran-database",
+      "url": "https://github.com/gaitco/quran-database",
+      "stars": 1919,
+      "forks": 328,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-08-22T06:32:16Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "gait",
+        "mysql",
+        "quran"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:55.638Z"
+  },
+  {
+    "id": "quran-quran-com-frontend-next",
+    "repo": "quran/quran.com-frontend-next",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "منصة قرآن.كوم الحديثة",
+      "en": "Quran.com Next.js Platform"
+    },
+    "description": {
+      "ar": "التطبيق البرمجي الكامل مفتوح المصدر لمنصة القرآن الكريم الرائدة عالمياً مبني بإطار Next.js و TypeScript.",
+      "en": "The official open-source Next.js web application for Quran.com."
+    },
+    "homepage": "https://quran.com",
+    "featured": true,
+    "tags": [
+      "typescript",
+      "nextjs",
+      "react",
+      "quran",
+      "web-app"
+    ],
+    "github": {
+      "owner": "quran",
+      "name": "quran.com-frontend-next",
+      "url": "https://github.com/quran/quran.com-frontend-next",
+      "stars": 1908,
+      "forks": 626,
+      "openIssues": 316,
+      "primaryLanguage": "TypeScript",
+      "lastCommitAt": "2026-04-27T17:32:54Z",
+      "latestRelease": {
+        "tag": "v0.0.12",
+        "publishedAt": "2025-03-29T16:41:16Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:55.522Z"
+  },
+  {
+    "id": "ojuba-org-othman",
+    "repo": "ojuba-org/othman",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "متصفح عثمان للقرآن الكريم",
+      "en": "Othman Quran Browser"
+    },
+    "description": {
+      "ar": "متصفح ومحرك بحث إلكتروني مفتوح المصدر للقرآن الكريم بالرسم العثماني لأنظمة سطح المكتب.",
+      "en": "An open-source electronic Quran browser and search engine in Othmani script."
+    },
+    "homepage": "https://github.com/ojuba-org/othman",
+    "featured": false,
+    "tags": [
+      "python",
+      "desktop",
+      "quran",
+      "search-engine",
+      "linux"
+    ],
+    "github": {
+      "owner": "ojuba-org",
+      "name": "othman",
+      "url": "https://github.com/ojuba-org/othman",
+      "stars": 44,
+      "forks": 22,
+      "openIssues": 4,
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2024-03-26T18:21:31Z",
+      "latestRelease": {
+        "tag": "1.0.0",
+        "publishedAt": "2023-04-28T00:16:59Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "python",
+        "quran"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:56.804Z"
+  },
+  {
+    "id": "eqraatech-software-engineering-in-arabic",
+    "repo": "Eqraatech/Software-Engineering-In-Arabic",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "Software-Engineering-In-Arabic",
+      "en": "Software Engineering In Arabic"
+    },
+    "description": {
+      "ar": "محتوى تقني متميز في مختلف مجالات هندسة البرمجيات عن طريق تبسيط المفاهيم البرمجية المعقدة بشكل سلس وباستخدام صور توضيحية مذهلة",
+      "en": "Open-source Arabic software repository for Software-Engineering-In-Arabic."
+    },
+    "homepage": "https://eqraatech.com",
+    "featured": true,
+    "tags": [
+      "python",
+      "databases",
+      "design-patterns",
+      "distributed-systems",
+      "programming-languages",
+      "software-engineering"
+    ],
+    "github": {
+      "owner": "Eqraatech",
+      "name": "Software-Engineering-In-Arabic",
+      "url": "https://github.com/Eqraatech/Software-Engineering-In-Arabic",
+      "stars": 722,
+      "forks": 34,
+      "openIssues": 2,
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-02-19T23:56:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "databases",
+        "design-patterns",
+        "distributed-systems",
+        "programming-languages",
+        "software-engineering",
+        "system-design"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-15T00:09:56.905Z"
+  },
+  {
+    "id": "shraga100-claude-desktop-rtl-patch",
+    "repo": "shraga100/claude-desktop-rtl-patch",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "claude-desktop-rtl-patch",
+      "en": "Claude Desktop Rtl Patch"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: CSS patch for Claude Desktop windows version to enable RTL (right-to-left) support for Hebrew and Arabic",
+      "en": "CSS patch for Claude Desktop windows version to enable RTL (right-to-left) support for Hebrew and Arabic"
+    },
+    "homepage": "https://github.com/shraga100/claude-desktop-rtl-patch",
+    "featured": true,
+    "tags": [
+      "powershell",
+      "arabic",
+      "claude",
+      "claude-desktop",
+      "hebrew",
+      "patch"
+    ],
+    "github": {
+      "owner": "shraga100",
+      "name": "claude-desktop-rtl-patch",
+      "url": "https://github.com/shraga100/claude-desktop-rtl-patch",
+      "stars": 205,
+      "forks": 24,
+      "openIssues": 4,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "PowerShell",
+      "lastCommitAt": "2026-07-26T00:02:42Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "claude",
+        "claude-desktop",
+        "hebrew",
+        "patch",
+        "rtl"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:56.841Z"
+  },
+  {
+    "id": "yaqiin-boycott",
+    "repo": "yaqiin/boycott",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "boycott",
+      "en": "Boycott"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A Web platform that promote ethical consumerism by providing alternatives to non-ethical products.",
+      "en": "A Web platform that promote ethical consumerism by providing alternatives to non-ethical products."
+    },
+    "homepage": "https://boycott.yaqiin.org",
+    "featured": true,
+    "tags": [
+      "typescript",
+      "arabic",
+      "boycott",
+      "boycott-israel",
+      "boycott-tech",
+      "free-palestine"
+    ],
+    "github": {
+      "owner": "yaqiin",
+      "name": "boycott",
+      "url": "https://github.com/yaqiin/boycott",
+      "stars": 190,
+      "forks": 46,
+      "openIssues": 8,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "TypeScript",
+      "lastCommitAt": "2026-01-14T13:47:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "boycott",
+        "boycott-israel",
+        "boycott-tech",
+        "free-palestine",
+        "palestine",
+        "react",
+        "web"
+      ]
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-15T00:09:58.193Z"
+  },
+  {
+    "id": "linuxscout-ayaspell",
+    "repo": "linuxscout/ayaspell",
+    "category": "dev-tools",
+    "title": {
+      "ar": "قاموس آياسبل للتدقيق الإملائي",
+      "en": "Ayaspell Spell Checker"
+    },
+    "description": {
+      "ar": "معجم وقاموس قواعدي متكامل للتدقيق الإملائي العربي متوافق مع أنظمة Hunspell و MySpell ومفتوح المصدر.",
+      "en": "Arabic spell checker dictionaries and morphological data for Hunspell/Myspell."
+    },
+    "homepage": "https://github.com/linuxscout/ayaspell",
+    "featured": false,
+    "tags": [
+      "hunspell",
+      "spell-checker",
+      "dictionary",
+      "linguistics"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "ayaspell",
+      "url": "https://github.com/linuxscout/ayaspell",
+      "stars": 49,
+      "forks": 8,
+      "openIssues": 6,
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "primaryLanguage": "Shell",
+      "lastCommitAt": "2020-08-27T19:48:14Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:58.128Z"
+  },
+  {
+    "id": "linuxscout-naftawayh",
+    "repo": "linuxscout/naftawayh",
+    "category": "dev-tools",
+    "title": {
+      "ar": "نفطويه لتصنيف الكلمات",
+      "en": "Naftawayh Word Classifier"
+    },
+    "description": {
+      "ar": "مكتبة بايثون لتصنيف بنية الكلمات العربية (اسم، فعل، حرف) والتعرف على الأسماء المبنية والمعربة.",
+      "en": "An Arabic word form classifier identifying nouns, verbs, particles, and inflections."
+    },
+    "homepage": "https://github.com/linuxscout/naftawayh",
+    "featured": false,
+    "tags": [
+      "python",
+      "word-classifier",
+      "nlp",
+      "linguistics"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "naftawayh",
+      "url": "https://github.com/linuxscout/naftawayh",
+      "stars": 12,
+      "forks": 4,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2020-08-27T19:21:17Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:58.089Z"
+  },
+  {
+    "id": "mostafa-saad-arabiccompetitiveprogramming",
+    "repo": "mostafa-saad/ArabicCompetitiveProgramming",
+    "category": "dev-tools",
+    "title": {
+      "ar": "ArabicCompetitiveProgramming",
+      "en": "ArabicCompetitiveProgramming"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel.",
+      "en": "The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel."
+    },
+    "homepage": "https://www.youtube.com/user/nobody123497",
+    "featured": true,
+    "tags": [
+      "c++",
+      "acm-icpc",
+      "algorithm",
+      "arabic",
+      "competitive-programming",
+      "data-structures"
+    ],
+    "github": {
+      "owner": "mostafa-saad",
+      "name": "ArabicCompetitiveProgramming",
+      "url": "https://github.com/mostafa-saad/ArabicCompetitiveProgramming",
+      "stars": 1680,
+      "forks": 545,
+      "openIssues": 11,
+      "primaryLanguage": "C++",
+      "lastCommitAt": "2023-09-05T01:09:54Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "acm-icpc",
+        "algorithm",
+        "arabic",
+        "competitive-programming",
+        "data-structures",
+        "library",
+        "training-materials",
+        "youtube"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:59.438Z"
+  },
+  {
+    "id": "shahabyazdi-react-multi-date-picker",
+    "repo": "shahabyazdi/react-multi-date-picker",
+    "category": "dev-tools",
+    "title": {
+      "ar": "react-multi-date-picker",
+      "en": "React Multi Date Picker"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: a simple React datepicker component for working with gregorian, persian, arabic and indian calendars",
+      "en": "a simple React datepicker component for working with gregorian, persian, arabic and indian calendars"
+    },
+    "homepage": "https://shahabyazdi.github.io/react-multi-date-picker/",
+    "featured": true,
+    "tags": [
+      "javascript",
+      "arabic",
+      "calendar",
+      "date",
+      "datepicker",
+      "farsi"
+    ],
+    "github": {
+      "owner": "shahabyazdi",
+      "name": "react-multi-date-picker",
+      "url": "https://github.com/shahabyazdi/react-multi-date-picker",
+      "stars": 989,
+      "forks": 111,
+      "openIssues": 140,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2024-09-03T09:40:56Z",
+      "latestRelease": {
+        "tag": "4.5.1",
+        "publishedAt": "2024-05-18T13:23:13Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "calendar",
+        "date",
+        "datepicker",
+        "farsi",
+        "gregorian",
+        "hijri",
+        "hindi",
+        "indian",
+        "jalali",
+        "locale",
+        "multi",
+        "multiple",
+        "persian",
+        "picker",
+        "range",
+        "rangepicker",
+        "react"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:09:59.295Z"
+  },
+  {
+    "id": "pnarimani-rtltmpro",
+    "repo": "pnarimani/RTLTMPro",
+    "category": "dev-tools",
+    "title": {
+      "ar": "RTLTMPro",
+      "en": "RTLTMPro"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Right-To-Left Text Mesh Pro for Unity. This plugin adds support for Persian and Arabic languages to TextMeshPro.",
+      "en": "Right-To-Left Text Mesh Pro for Unity. This plugin adds support for Persian and Arabic languages to TextMeshPro."
+    },
+    "homepage": "https://github.com/pnarimani/RTLTMPro",
+    "featured": true,
+    "tags": [
+      "shaderlab",
+      "arabic",
+      "persian",
+      "text",
+      "text-mesh-pro",
+      "unity3d"
+    ],
+    "github": {
+      "owner": "pnarimani",
+      "name": "RTLTMPro",
+      "url": "https://github.com/pnarimani/RTLTMPro",
+      "stars": 718,
+      "forks": 126,
+      "openIssues": 31,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "ShaderLab",
+      "lastCommitAt": "2026-04-29T22:09:44Z",
+      "latestRelease": {
+        "tag": "v4.0.0",
+        "publishedAt": "2026-04-21T09:09:42Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "persian",
+        "text",
+        "text-mesh-pro",
+        "unity3d"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:09:59.349Z"
+  },
+  {
+    "id": "arbml-klaam",
+    "repo": "ARBML/klaam",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مكتبة كلام للصوتيات العربية",
+      "en": "Klaam Speech Toolkit"
+    },
+    "description": {
+      "ar": "حزمة متقدمة للتعرف الآلي على الكلام العربي (ASR)، تحويل النص إلى صوت (TTS)، وتصنيف اللهجات.",
+      "en": "An Arabic speech recognition (ASR), text-to-speech (TTS), and classification toolkit."
+    },
+    "homepage": "https://github.com/ARBML/klaam",
+    "featured": true,
+    "tags": [
+      "python",
+      "speech-to-text",
+      "asr",
+      "tts",
+      "audio"
+    ],
+    "github": {
+      "owner": "ARBML",
+      "name": "klaam",
+      "url": "https://github.com/ARBML/klaam",
+      "stars": 434,
+      "forks": 84,
+      "openIssues": 15,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2023-09-30T08:50:06Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-speech-recognition",
+        "asr",
+        "tts"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:00.675Z"
+  },
+  {
+    "id": "ubc-nlp-arat5",
+    "repo": "UBC-NLP/araT5",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نموذج AraT5 التوليدي",
+      "en": "AraT5 Seq2Seq Model"
+    },
+    "description": {
+      "ar": "نموذج توليدي متقدم (Sequence-to-Sequence) مخصص لتوليد وتلخيص وترجمة النصوص العربية.",
+      "en": "A sequence-to-sequence pre-trained transformer model for Arabic text generation and translation."
+    },
+    "homepage": "https://github.com/UBC-NLP/araT5",
+    "featured": false,
+    "tags": [
+      "python",
+      "t5",
+      "transformers",
+      "seq2seq",
+      "summarization"
+    ],
+    "github": {
+      "owner": "UBC-NLP",
+      "name": "araT5",
+      "url": "https://github.com/UBC-NLP/araT5",
+      "stars": 97,
+      "forks": 23,
+      "openIssues": 14,
+      "lastCommitAt": "2024-05-16T17:39:24Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-nlp",
+        "generation",
+        "machine-translation",
+        "paraphrase",
+        "qa",
+        "summarization",
+        "t5",
+        "t5-model",
+        "text-to-text",
+        "transformer"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:00.928Z"
+  },
+  {
+    "id": "yongzhuo-macropodus",
+    "repo": "yongzhuo/Macropodus",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "Macropodus",
+      "en": "Macropodus"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: 自然语言处理工具Macropodus，基于Albert+BiLSTM+CRF深度学习网络架构，中文分词，词性标注，命名实体识别，新词发现，关键词，文本摘要，文本相似度，科学计算器，中文数字阿拉伯数字(罗马数字)转换，中文繁简转换，拼音转换。tookit(tool) of NLP，CWS(chinese word segnment)，POS(Part-Of-Speech Tagging)，NER(name entity recognition)，Find(new words discovery)，Keyword(keyword extraction)，Summarize(text summarization)，Sim(text similarity)，Calculate(scientific calculator)，Chi2num(chinese number to arabic number)",
+      "en": "自然语言处理工具Macropodus，基于Albert+BiLSTM+CRF深度学习网络架构，中文分词，词性标注，命名实体识别，新词发现，关键词，文本摘要，文本相似度，科学计算器，中文数字阿拉伯数字(罗马数字)转换，中文繁简转换，拼音转换。tookit(tool) of NLP，CWS(chinese word segnment)，POS(Part-Of-Speech Tagging)，NER(name entity recognition)，Find(new words discovery)，Keyword(keyword extraction)，Summarize(text summarization)，Sim(text similarity)，Calculate(scientific calculator)，Chi2num(chinese number to arabic number)"
+    },
+    "homepage": "https://blog.csdn.net/rensihui",
+    "featured": true,
+    "tags": [
+      "python",
+      "albert",
+      "calulator",
+      "crf",
+      "cws",
+      "keyword"
+    ],
+    "github": {
+      "owner": "yongzhuo",
+      "name": "Macropodus",
+      "url": "https://github.com/yongzhuo/Macropodus",
+      "stars": 659,
+      "forks": 92,
+      "openIssues": 5,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2023-03-24T22:22:42Z",
+      "latestRelease": {
+        "tag": "v0.0.7",
+        "publishedAt": "2020-12-31T06:42:42Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "albert",
+        "calulator",
+        "crf",
+        "cws",
+        "keyword",
+        "macropodus",
+        "ner",
+        "newword",
+        "nlp",
+        "segnment",
+        "similarity",
+        "text-summarization"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:00.684Z"
+  },
+  {
+    "id": "01walid-awesome-arabic",
+    "repo": "01walid/awesome-arabic",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "awesome-arabic",
+      "en": "Awesome Arabic"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A curated list of awesome projects and dev/design resources for supporting Arabic computational needs.",
+      "en": "A curated list of awesome projects and dev/design resources for supporting Arabic computational needs."
+    },
+    "homepage": "https://github.com/01walid/awesome-arabic",
+    "featured": true,
+    "tags": [
+      "arabic",
+      "natural-language-processing",
+      "nlp",
+      "nlp-arabic",
+      "rtl",
+      "nlp ai"
+    ],
+    "github": {
+      "owner": "01walid",
+      "name": "awesome-arabic",
+      "url": "https://github.com/01walid/awesome-arabic",
+      "stars": 562,
+      "forks": 112,
+      "openIssues": 19,
+      "lastCommitAt": "2026-06-09T14:00:51Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "natural-language-processing",
+        "nlp",
+        "nlp-arabic",
+        "rtl"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:10:02.199Z"
+  },
+  {
+    "id": "bakrianoo-aravec",
+    "repo": "bakrianoo/aravec",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "aravec",
+      "en": "Aravec"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: AraVec is a pre-trained distributed word representation (word embedding) open source project which aims to provide the Arabic NLP research community with free to use and powerful word embedding models.",
+      "en": "AraVec is a pre-trained distributed word representation (word embedding) open source project which aims to provide the Arabic NLP research community with free to use and powerful word embedding models."
+    },
+    "homepage": "https://github.com/bakrianoo/aravec",
+    "featured": true,
+    "tags": [
+      "jupyter notebook",
+      "arabic",
+      "embedded-models",
+      "gensim",
+      "nlp",
+      "text-mining"
+    ],
+    "github": {
+      "owner": "bakrianoo",
+      "name": "aravec",
+      "url": "https://github.com/bakrianoo/aravec",
+      "stars": 425,
+      "forks": 83,
+      "openIssues": 5,
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2021-04-04T11:57:09Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "embedded-models",
+        "gensim",
+        "nlp",
+        "text-mining",
+        "word2vec"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:02.125Z"
+  },
+  {
+    "id": "linuxscout-arramooz",
+    "repo": "linuxscout/arramooz",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "الراموز - معجم الكلمات العربية",
+      "en": "Arramooz Arabic Lexicon"
+    },
+    "description": {
+      "ar": "قاعدة بيانات معجمية عربية مفتوحة المصدر تحتوي على تصاريف وجذور الكلمات العربية.",
+      "en": "Open-source Arabic lexical database and dictionary for language engineering."
+    },
+    "homepage": "https://github.com/linuxscout/arramooz",
+    "featured": true,
+    "tags": [
+      "dataset",
+      "lexicon",
+      "dictionary",
+      "database",
+      "arabic"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "arramooz",
+      "url": "https://github.com/linuxscout/arramooz",
+      "stars": 163,
+      "forks": 24,
+      "openIssues": 6,
+      "license": {
+        "spdxId": "GPL-2.0",
+        "name": "GNU General Public License v2.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2024-08-26T16:45:10Z",
+      "latestRelease": {
+        "tag": "0.1",
+        "publishedAt": "2024-08-26T16:45:10Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:02.085Z"
+  },
+  {
+    "id": "shathatm-lk-hadith-corpus",
+    "repo": "ShathaTm/LK-Hadith-Corpus",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "LK-Hadith-Corpus",
+      "en": "LK Hadith Corpus"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Leeds University and King Saud University (LK) Hadith Corpus",
+      "en": "Leeds University and King Saud University (LK) Hadith Corpus"
+    },
+    "homepage": "https://github.com/ShathaTm/LK-Hadith-Corpus",
+    "featured": true,
+    "tags": [
+      "python",
+      "arabic-english",
+      "corpus",
+      "dataset",
+      "hadeeth",
+      "hadith"
+    ],
+    "github": {
+      "owner": "ShathaTm",
+      "name": "LK-Hadith-Corpus",
+      "url": "https://github.com/ShathaTm/LK-Hadith-Corpus",
+      "stars": 107,
+      "forks": 30,
+      "openIssues": 2,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2023-05-03T10:10:46Z",
+      "latestRelease": {
+        "tag": "v1.0",
+        "publishedAt": "2023-05-03T10:10:46Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic-english",
+        "corpus",
+        "dataset",
+        "hadeeth",
+        "hadith",
+        "parallel-corpus"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:03.367Z"
+  },
+  {
+    "id": "aliosm-arabic-text-diacritization",
+    "repo": "AliOsm/arabic-text-diacritization",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "arabic-text-diacritization",
+      "en": "Arabic Text Diacritization"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Benchmark Arabic text diacritization dataset",
+      "en": "Benchmark Arabic text diacritization dataset"
+    },
+    "homepage": "https://github.com/AliOsm/arabic-text-diacritization",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic-language",
+      "comparison",
+      "dataset",
+      "diacritization",
+      "iccais"
+    ],
+    "github": {
+      "owner": "AliOsm",
+      "name": "arabic-text-diacritization",
+      "url": "https://github.com/AliOsm/arabic-text-diacritization",
+      "stars": 80,
+      "forks": 22,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-04-07T17:55:31Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-language",
+        "comparison",
+        "dataset",
+        "diacritization",
+        "iccais",
+        "nlp",
+        "sequence-labeling"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:10:03.497Z"
+  },
+  {
+    "id": "nainiayoub-moroccan-darija-datasets",
+    "repo": "nainiayoub/moroccan-darija-datasets",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "moroccan-darija-datasets",
+      "en": "Moroccan Darija Datasets"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A list of Moroccan Darija Datasets grouped by name, data source, region and size.",
+      "en": "A list of Moroccan Darija Datasets grouped by name, data source, region and size."
+    },
+    "homepage": "https://nainiayoub.github.io/nlp-arabic-glossary/",
+    "featured": false,
+    "tags": [
+      "arabic-dataset",
+      "arabic-language",
+      "arabic-nlp",
+      "darija-dataset",
+      "darija-dialect",
+      "darija-nlp"
+    ],
+    "github": {
+      "owner": "nainiayoub",
+      "name": "moroccan-darija-datasets",
+      "url": "https://github.com/nainiayoub/moroccan-darija-datasets",
+      "stars": 61,
+      "forks": 5,
+      "openIssues": 0,
+      "lastCommitAt": "2024-05-10T11:46:45Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-dataset",
+        "arabic-language",
+        "arabic-nlp",
+        "darija-dataset",
+        "darija-dialect",
+        "darija-nlp",
+        "moroccan-dataset"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:03.375Z"
+  },
+  {
+    "id": "aub-mind-arabic-empathetic-chatbot",
+    "repo": "aub-mind/Arabic-Empathetic-Chatbot",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "Arabic-Empathetic-Chatbot",
+      "en": "Arabic Empathetic Chatbot"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Seq2Seq-based open domain empathetic conversational model for Arabic: Dataset & Model",
+      "en": "Seq2Seq-based open domain empathetic conversational model for Arabic: Dataset & Model"
+    },
+    "homepage": "https://github.com/aub-mind/Arabic-Empathetic-Chatbot",
+    "featured": false,
+    "tags": [
+      "jupyter notebook",
+      "dictionaries datasets"
+    ],
+    "github": {
+      "owner": "aub-mind",
+      "name": "Arabic-Empathetic-Chatbot",
+      "url": "https://github.com/aub-mind/Arabic-Empathetic-Chatbot",
+      "stars": 60,
+      "forks": 13,
+      "openIssues": 4,
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2025-02-25T16:29:09Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:04.834Z"
+  },
+  {
+    "id": "magedsaeed-farasapy",
+    "repo": "MagedSaeed/farasapy",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "فراسة بايثون للتحليل اللغوي",
+      "en": "FarasaPy NLP"
+    },
+    "description": {
+      "ar": "مكتبة بايثون للتفاعل السريع مع أدوات فراسة للتشكيل والتحليل الصرفي والإعرابي للغة العربية.",
+      "en": "Python wrapper for Farasa Arabic NLP tools for segmentation, NER, POS tagging and diacritization."
+    },
+    "homepage": "https://github.com/MagedSaeed/farasapy",
+    "featured": true,
+    "tags": [
+      "python",
+      "farasa",
+      "nlp",
+      "pos-tagging",
+      "tashkeel"
+    ],
+    "github": {
+      "owner": "MagedSaeed",
+      "name": "farasapy",
+      "url": "https://github.com/MagedSaeed/farasapy",
+      "stars": 145,
+      "forks": 23,
+      "openIssues": 4,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2025-09-11T08:06:36Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-nlp",
+        "diacritization",
+        "farasa",
+        "named-entity-recognition",
+        "nlp",
+        "postagging",
+        "python-library",
+        "python3",
+        "python36",
+        "stemmers",
+        "tokenizer"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:04.764Z"
+  },
+  {
+    "id": "linuxscout-tashaphyne",
+    "repo": "linuxscout/tashaphyne",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "تاشفين للتجذيع الخفيف",
+      "en": "Tashaphyne Light Stemmer"
+    },
+    "description": {
+      "ar": "مكتبة بايثون خفيفة وسريعة لتجذيع الكلمات العربية وفصل السوابق واللواحق للبحث والاسترجاع اللغوي.",
+      "en": "A lightweight Python library for Arabic light stemming and word segmentation."
+    },
+    "homepage": "https://github.com/linuxscout/tashaphyne",
+    "featured": true,
+    "tags": [
+      "python",
+      "stemmer",
+      "segmenter",
+      "linguistics",
+      "morphology"
+    ],
+    "github": {
+      "owner": "linuxscout",
+      "name": "tashaphyne",
+      "url": "https://github.com/linuxscout/tashaphyne",
+      "stars": 105,
+      "forks": 21,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2024-09-02T10:23:46Z",
+      "latestRelease": {
+        "tag": "0.3.6",
+        "publishedAt": "2022-01-29T10:15:14Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:04.800Z"
+  },
+  {
+    "id": "aliosm-shakkelha",
+    "repo": "AliOsm/shakkelha",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نظام شكّلها للتشكيل الآلي",
+      "en": "Shakkelha Diacritizer"
+    },
+    "description": {
+      "ar": "نظام وتطبيق ويب مفتوح المصدر لتشكيل وضبط الكلمات والجمل العربية آلياً.",
+      "en": "Automatic Arabic text diacritization system and web service."
+    },
+    "homepage": "https://shakkelha.up.railway.app",
+    "featured": false,
+    "tags": [
+      "python",
+      "tashkeel",
+      "diacritics",
+      "nlp"
+    ],
+    "github": {
+      "owner": "AliOsm",
+      "name": "shakkelha",
+      "url": "https://github.com/AliOsm/shakkelha",
+      "stars": 98,
+      "forks": 17,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2023-03-24T22:25:44Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-language",
+        "comparison",
+        "dataset",
+        "diacritization",
+        "ffnn",
+        "nlp",
+        "rnn",
+        "sequence-labeling"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:06.109Z"
+  },
+  {
+    "id": "qutuf-qutuf",
+    "repo": "Qutuf/Qutuf",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "Qutuf",
+      "en": "Qutuf"
+    },
+    "description": {
+      "ar": "Qutuf (قُطُوْف): An Arabic Morphological analyzer and Part-Of-Speech tagger as an Expert System.",
+      "en": "Open-source Arabic software repository for Qutuf."
+    },
+    "homepage": "http://Qutuf.com",
+    "featured": true,
+    "tags": [
+      "python",
+      "arabic",
+      "arabic-language",
+      "arabic-morphology",
+      "arabic-nlp",
+      "arabic-tagger"
+    ],
+    "github": {
+      "owner": "Qutuf",
+      "name": "Qutuf",
+      "url": "https://github.com/Qutuf/Qutuf",
+      "stars": 138,
+      "forks": 18,
+      "openIssues": 5,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2022-12-12T00:05:36Z",
+      "latestRelease": {
+        "tag": "v2.0",
+        "publishedAt": "2019-06-16T20:09:06Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-language",
+        "arabic-morphology",
+        "arabic-nlp",
+        "arabic-tagger",
+        "expert-system",
+        "heavy-stemming",
+        "lemmatization",
+        "light-stemming",
+        "morphological-analysis",
+        "overdue-tagging",
+        "part-of-speech-tagger",
+        "pattern-matching",
+        "pos-tagging",
+        "premature-tagging",
+        "role-based",
+        "root-extraction",
+        "rooting",
+        "stemmer",
+        "stemming"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:06.154Z"
+  },
+  {
+    "id": "mohabmes-arabycia",
+    "repo": "mohabmes/Arabycia",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "Arabycia",
+      "en": "Arabycia"
+    },
+    "description": {
+      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc..",
+      "en": "Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc.."
+    },
+    "homepage": "https://github.com/mohabmes/Arabycia",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic-language",
+      "arabic-nlp",
+      "nlp",
+      "text tashkeel"
+    ],
+    "github": {
+      "owner": "mohabmes",
+      "name": "Arabycia",
+      "url": "https://github.com/mohabmes/Arabycia",
+      "stars": 91,
+      "forks": 12,
+      "openIssues": 4,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2021-02-07T22:05:14Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic-language",
+        "arabic-nlp",
+        "nlp"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T00:10:06.069Z"
   }
 ]
