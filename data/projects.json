@@ -4096,5 +4096,594 @@
       "edtech",
       "platforms-apps"
     ]
+  },
+  {
+    "id": "arabic-neural-root-finder",
+    "repo": "tb0yd/rootfinder",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مستخرج جذور الكلمات العربية بالذكاء الاصطناعي",
+      "en": "Arabic Neural Root Finder"
+    },
+    "description": {
+      "ar": "أداة ونموذج شبكات عصبية متقدم لاستخراج الجذور الثلاثية والرباعية للكلمات العربية بدقة لغوية عالية.",
+      "en": "A neural network-based Arabic root extraction tool to determine trilateral and quadrilateral word roots."
+    },
+    "tags": [
+      "root-extraction",
+      "morphology",
+      "neural-network",
+      "nlp",
+      "arabic-stemmer"
+    ],
+    "featured": true
+  },
+  {
+    "id": "large-arabic-sentiment-resources",
+    "repo": "hadyelsahar/large-arabic-sentiment-analysis-resouces",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "المدونة الشاملة لتحليل المشاعر في العربية",
+      "en": "Large Arabic Sentiment Analysis Benchmark"
+    },
+    "description": {
+      "ar": "مجموعة بيانات ومعاجم موسعة لتدريب وتقييم نماذج تصنيف المشاعر والانطباعات في النصوص والآراء العربية.",
+      "en": "Large-scale benchmark datasets and multi-domain lexicons for Arabic sentiment analysis and opinion mining."
+    },
+    "tags": [
+      "dataset",
+      "sentiment-analysis",
+      "opinion-mining",
+      "nlp-benchmark",
+      "corpus"
+    ],
+    "featured": true
+  },
+  {
+    "id": "moment-hijri-plugin",
+    "repo": "xsoh/moment-hijri",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة التقويم الهجري لمومنت",
+      "en": "Moment Hijri Calendar Plugin"
+    },
+    "description": {
+      "ar": "إضافة لمكتبة Moment.js لحساب وتنسيق وعرض التواريخ بالتقويم الهجري وفق حسابات تقويم أم القرى.",
+      "en": "A Hijri calendar plugin for moment.js based on official Umm al-Qura astronomical calculations."
+    },
+    "tags": [
+      "javascript",
+      "hijri",
+      "momentjs",
+      "calendar",
+      "utilities"
+    ],
+    "featured": true
+  },
+  {
+    "id": "libraqm-text-layout",
+    "repo": "HOST-Oman/libraqm",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "مكتبة راقم للتشكيل وضبط الخط العربي",
+      "en": "Libraqm Complex Text Layout Engine"
+    },
+    "description": {
+      "ar": "مكتبة برمجية بلغة C لصف وتنسيق النصوص المعقدة ودعم الاتجاهين وضبط الحروف العربية بالتعاون مع HarfBuzz.",
+      "en": "A C library that provides complex text layout, OpenType shaping, and bidirectional support for Arabic script."
+    },
+    "tags": [
+      "c",
+      "typography",
+      "opentype",
+      "text-layout",
+      "harfbuzz",
+      "bidi"
+    ],
+    "featured": true
+  },
+  {
+    "id": "fuzzy-arabic-dictionary",
+    "repo": "michelleful/FuzzyArabicDict",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاموس البحث التقريبي للكلمات العربية",
+      "en": "Fuzzy Arabic Dictionary App"
+    },
+    "description": {
+      "ar": "تطبيق معجمي ذكي يتيح البحث التقريبي عن الكلمات العربية عبر كتابتها بالنقحرة اللاتينية أو الهجاء غير الدقيق.",
+      "en": "A smart dictionary application allowing users to search Arabic words using transliteration and fuzzy phonetic matching."
+    },
+    "tags": [
+      "dictionary",
+      "fuzzy-search",
+      "transliteration",
+      "lexicon",
+      "search-app"
+    ],
+    "featured": false
+  },
+  {
+    "id": "semantic-frontiers-arabicnlp",
+    "repo": "SemanticFrontiers/ArabicNLP",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "حزمة المعالجة النصية واللغوية للعربية",
+      "en": "Semantic Frontiers ArabicNLP Suite"
+    },
+    "description": {
+      "ar": "مجموعة من الأدوات والسكربتات بلغة بايثون لتنظيف النصوص العربية، إزالة التشكيل، وتجزيء الكلمات.",
+      "en": "Collection of Python utilities for Arabic text normalization, diacritic removal, and morphological segmentation."
+    },
+    "tags": [
+      "python",
+      "text-processing",
+      "normalization",
+      "tashkeel",
+      "nlp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "php-number-to-arabic-words",
+    "repo": "bluemix/NumberToArabicWords",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الأرقام إلى نصوص عربية بلغة PHP",
+      "en": "PHP Number to Arabic Words"
+    },
+    "description": {
+      "ar": "مكتبة بلغة PHP لتحويل الأرقام الحسابية إلى كلمات عربية مكتوبة مع مراعاة قواعد العدد والمعدود.",
+      "en": "A PHP library for converting numbers into grammatically correct Arabic written words and currency amounts."
+    },
+    "tags": [
+      "php",
+      "tafqeet",
+      "numbers-to-words",
+      "grammar",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-string-helper-js",
+    "repo": "ahmads/arabicString",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة معالجة السلاسل النصية العربية",
+      "en": "ArabicString Helper Library"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت توسع كائن السلاسل النصية (String) بدوال متخصصة لفحص وتنظيف النصوص العربية.",
+      "en": "JavaScript library extending String with specialized helper methods for handling and validating Arabic strings."
+    },
+    "tags": [
+      "javascript",
+      "string-manipulation",
+      "text-processing",
+      "npm",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ara-terminal-display-tool",
+    "repo": "latiif/ara",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أداة عرض النصوص العربية في الطرفية",
+      "en": "Ara Arabic Terminal Display Tool"
+    },
+    "description": {
+      "ar": "أداة سطر أوامر تقوم بضبط وقلب وتشكيل النصوص العربية لتعرض بشكل سليم داخل بيئات سطر الأوامر (Terminal).",
+      "en": "A command-line tool that reshapes and flips Arabic text to display properly in Linux and macOS terminals."
+    },
+    "tags": [
+      "cli",
+      "terminal",
+      "reshaper",
+      "bidi",
+      "unix"
+    ],
+    "featured": false
+  },
+  {
+    "id": "labr-arabic-book-reviews-dataset",
+    "repo": "mohamedadaly/LABR",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة مراجعات الكتب العربية (LABR)",
+      "en": "LABR Arabic Book Reviews Dataset"
+    },
+    "description": {
+      "ar": "أكبر مدونة عربية مفتوحة لمراجعات الكتب وتقييمات القراء، وتعد معياراً أساسياً لأبحاث تحليل المشاعر.",
+      "en": "The largest open-source Arabic dataset for book reviews, serving as a benchmark for sentiment analysis."
+    },
+    "tags": [
+      "dataset",
+      "sentiment-analysis",
+      "book-reviews",
+      "nlp-benchmark",
+      "corpus"
+    ],
+    "featured": true
+  },
+  {
+    "id": "oktob-js-arabizi-transliteration",
+    "repo": "Fcmam5/oktob.js",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة اكتب لتحويل العربيزي إلى عربية",
+      "en": "Oktob.js Arabizi Transliteration Library"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت مرنة تقوم باستبدال الأحرف اللاتينية والأرقام أثناء الكتابة بالحروف العربية المقابلة فورياً.",
+      "en": "A JavaScript library that converts Arabizi (Latin characters with numbers) into Arabic script in real time."
+    },
+    "tags": [
+      "javascript",
+      "transliteration",
+      "arabizi",
+      "keyboard-input",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-datetime-laravel",
+    "repo": "maherelgamil/arabicdatetime",
+    "category": "dev-tools",
+    "title": {
+      "ar": "منسق التواريخ العربية لإطار لارافيل",
+      "en": "Arabic DateTime for Laravel"
+    },
+    "description": {
+      "ar": "حزمة برمجية لإطار عمل Laravel لتنسيق وعرض التواريخ والأوقات بأسماء الشهور والأيام العربية الفصحى.",
+      "en": "A Laravel package to format and display dates with Arabic month and day names seamlessly."
+    },
+    "tags": [
+      "php",
+      "laravel",
+      "date-formatting",
+      "localization",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabish-phonetic-transliteration",
+    "repo": "amasad/arabish",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكتبة أرابيش للنقحرة الصوتية",
+      "en": "Arabish Arabic Transliteration"
+    },
+    "description": {
+      "ar": "حزمة بايثون من تطوير أمجد مسعد للنقحرة والتحويل الصوتي بين الأبجدية العربية والحروف اللاتينية.",
+      "en": "A Python library by Amjad Masad for phonetic transliteration and bi-directional conversion between Arabic and Latin script."
+    },
+    "tags": [
+      "python",
+      "transliteration",
+      "arabizi",
+      "phonetics",
+      "text-processing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabterm-technical-dictionary",
+    "repo": "forzagreen/arabterm",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معجم أراب تيرم للمصطلحات التقنية",
+      "en": "Arabterm Technical Dictionaries Collection"
+    },
+    "description": {
+      "ar": "قاعدة بيانات معجمية ثلاثية اللغة (عربي-إنجليزي-فرنسي) تغطي المصطلحات العلمية والتقنية والهندسية الموحدة.",
+      "en": "A curated collection of structured trilingual (Arabic/English/French) scientific and technical dictionaries."
+    },
+    "tags": [
+      "dictionary",
+      "technical-terms",
+      "trilingual",
+      "lexicon",
+      "dataset"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nibras-technical-lexicon",
+    "repo": "01walid/Nibras",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاموس نبراس للمصطلحات التقنية والجامعية",
+      "en": "Nibras French-Arabic Technical Lexicon"
+    },
+    "description": {
+      "ar": "قاموس فرنسي-عربي تفاعلي موجه لطلبة الشعب التقنية والجامعية لتيسير دراسة العلوم بالعربية.",
+      "en": "An interactive French-Arabic technical lexicon designed for university engineering students."
+    },
+    "tags": [
+      "dictionary",
+      "desktop-app",
+      "technical-lexicon",
+      "education",
+      "translations"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tafgeetjs-currency-words",
+    "repo": "mmahgoub/tafgeetjs",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة تفقيط للأموال والعملات في نود",
+      "en": "TafgeetJS Currency Converter"
+    },
+    "description": {
+      "ar": "حزمة NPM لتحويل القيم النقدية والأرقام الحسابية إلى نصوص عربية مقروءة مع مراعاة قواعد الصرف والعملات.",
+      "en": "An NPM module to convert numerical currency digits into written Arabic words with currency formatting."
+    },
+    "tags": [
+      "npm",
+      "javascript",
+      "tafqeet",
+      "currency",
+      "fintech"
+    ],
+    "featured": false
+  },
+  {
+    "id": "alexrutherford-arabic-social-nlp",
+    "repo": "alexrutherford/arabic_nlp",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أدوات تطبيع النصوص وتحليل المشاعر",
+      "en": "Arabic Social NLP Toolkit"
+    },
+    "description": {
+      "ar": "حزمة بايثون لتطبيع وتوحيد النصوص العربية واستخراج المشاعر والانطباعات من منشورات وسائل التواصل.",
+      "en": "Python tools to normalize, stem, and derive sentiment polarity from Arabic social media content."
+    },
+    "tags": [
+      "python",
+      "nlp",
+      "sentiment-analysis",
+      "normalization",
+      "social-media"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-verb-form-conjugator",
+    "repo": "awillborn/Arabic-Conjugator",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك تصريف الأفعال القياسية",
+      "en": "Arabic Verb Form Conjugator"
+    },
+    "description": {
+      "ar": "برنامج بايثون لتصريف الأفعال العربية الفصحى تلقائياً بناءً على الجذور وأوزان الأفعال العشرة والضمائر.",
+      "en": "A Python tool that conjugates Modern Standard Arabic verbs given root letters, verb form, tense, and pronoun."
+    },
+    "tags": [
+      "python",
+      "verb-conjugation",
+      "morphology",
+      "grammar",
+      "linguistics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "dalwadani-hijri-converter",
+    "repo": "dalwadani/hijri-converter",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول التواريخ الهجرية الدقيق",
+      "en": "Python Hijri Converter"
+    },
+    "description": {
+      "ar": "مكتبة بايثون عالية الدقة للتحويل الرياضي بين التاريخين الهجري (أم القرى) والميلادي.",
+      "en": "A fast, accurate Python library to convert between Gregorian and Hijri (Umm al-Qura) calendar dates."
+    },
+    "tags": [
+      "python",
+      "hijri-converter",
+      "calendar",
+      "dates",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "devjustly-english-arabic-dictionary",
+    "repo": "devjustly/en_ar_dict",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "القاموس الإنجليزي العربي المكتبي",
+      "en": "English-Arabic Desktop Dictionary"
+    },
+    "description": {
+      "ar": "تطبيق معجمي مكتبي يعمل بدون إنترنت مكتوب بلغة بايثون وواجهة Qt للبحث السريع في المفردات وترجماتها.",
+      "en": "An offline English-Arabic dictionary desktop application written in Python and PySide/Qt."
+    },
+    "tags": [
+      "python",
+      "qt",
+      "desktop-app",
+      "dictionary",
+      "offline"
+    ],
+    "featured": false
+  },
+  {
+    "id": "pyarabicshaping-bindings",
+    "repo": "fribidi/pyarabicshaping",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "مكتبة تشكيل الحروف العربية لبايثون",
+      "en": "PyArabicShaping"
+    },
+    "description": {
+      "ar": "تطبيق لخوارزميات FriBidi بلغة بايثون لربط وتشكيل الحروف العربية وتحديد المواضع الطباعية للمحارف.",
+      "en": "Python bindings and implementation of FriBidi Arabic shaping algorithms for text rendering."
+    },
+    "tags": [
+      "python",
+      "arabic-shaping",
+      "typography",
+      "bidi",
+      "fribidi"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-webfonts-wordpress",
+    "repo": "mohamdio/Arabic-Webfonts",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "إضافة الخطوط العربية للويب في ووردبريس",
+      "en": "Arabic Webfonts WordPress Plugin"
+    },
+    "description": {
+      "ar": "إضافة لمنصة WordPress تتيح دمج واستخدام أشهر الخطوط العربية الحديثة في القوالب بسهولة دون كتابة كود.",
+      "en": "A WordPress plugin that allows webmasters to integrate and render Arabic web fonts in any theme easily."
+    },
+    "tags": [
+      "wordpress",
+      "webfonts",
+      "typography",
+      "arabic-fonts",
+      "plugin"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-number-to-word-qt",
+    "repo": "01walid/ArabicNumberToWord",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الأرقام إلى نصوص عبر Qt/C++",
+      "en": "Arabic Number To Word Qt/C++"
+    },
+    "description": {
+      "ar": "أداة سطح مكتب متعددة المنصات مكتوبة بلغة C++ وإطار Qt لتحويل الأرقام الحسابية والمبالغ إلى كلمات عربية.",
+      "en": "A cross-platform desktop tool using Qt/C++ to convert numbers and currency amounts into written Arabic words."
+    },
+    "tags": [
+      "cpp",
+      "qt",
+      "tafqeet",
+      "desktop-app",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "aln9-arabic-markup-language",
+    "repo": "mznmel/aln9",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة التوصيف العربية «النص»",
+      "en": "Aln9 Arabic Markup Language"
+    },
+    "description": {
+      "ar": "لغة توصيف خفيفة ومحلل نصوص مصمم خصيصاً للمحتوى العربي بدلالات ووسوم متوافقة مع طبيعة اللغة.",
+      "en": "A lightweight markup language and parser designed specifically with Arabic syntax and semantics."
+    },
+    "tags": [
+      "markup-language",
+      "parser",
+      "arabic-syntax",
+      "dsl",
+      "text-processing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nlp-arabic-ruby-gem",
+    "repo": "othmanela/nlp_arabic",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "جوهرة روبي للمعالجة اللغوية العربية",
+      "en": "NLP Arabic Ruby Gem"
+    },
+    "description": {
+      "ar": "حزمة برمجية لمطوري لغة Ruby توفر أدوات متكاملة لتجذيع وتطبيع واستخراج الكلمات المفتاحية من النصوص العربية.",
+      "en": "A Ruby gem providing comprehensive Arabic natural language processing, light stemming, and text normalization."
+    },
+    "tags": [
+      "ruby",
+      "nlp",
+      "stemming",
+      "normalization",
+      "gem"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-utils-npm",
+    "repo": "justgo97/arabic-utils",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة أدوات معالجة الكلمات العربية",
+      "en": "Arabic Utils NPM Package"
+    },
+    "description": {
+      "ar": "حزمة برمجية لبيئتي المتصفح وNode.js تقدم أدوات لمعالجة النصوص، البحث في الرموز، وإزالة علامات التشكيل.",
+      "en": "An NPM package for browser and Node.js providing utilities for Arabic string manipulation and token search."
+    },
+    "tags": [
+      "npm",
+      "javascript",
+      "string-utilities",
+      "diacritics",
+      "text-processing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "fahm-arabic-learning-extension",
+    "repo": "malikolivier/fahm",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "إضافة فهم التعليمية لمتصفح كروم",
+      "en": "Fahm Arabic Learning Extension"
+    },
+    "description": {
+      "ar": "إضافة متصفح تفاعلية تعرض قاموساً منبثقاً لشرح وتحليل الكلمات والمفردات العربية أثناء القراءة للمتعلمين.",
+      "en": "An interactive browser extension providing a pop-up Arabic dictionary and vocabulary helper for learners."
+    },
+    "tags": [
+      "browser-extension",
+      "edtech",
+      "learn-arabic",
+      "dictionary",
+      "education"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-coco-captions-dataset",
+    "repo": "canesee-project/Arabic-COCO",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة كوكو للتعليق على الصور بالعربية",
+      "en": "Arabic COCO Vision-Language Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات معيارية متعددة الوسائط تضم توصيفات وتعليقات نصية عربية لصور قاعدة بيانات MS COCO.",
+      "en": "A multimodal vision-language benchmark dataset providing authentic Arabic captions for MS COCO images."
+    },
+    "tags": [
+      "dataset",
+      "vision-language",
+      "multimodal",
+      "image-captioning",
+      "nlp-benchmark"
+    ],
+    "featured": false
   }
 ]

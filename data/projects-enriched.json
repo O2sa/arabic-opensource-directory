@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:07.845Z"
+    "lastSyncedAt": "2026-09-15T20:36:07.463Z"
   },
   {
     "id": "arabert",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:07.860Z"
+    "lastSyncedAt": "2026-09-15T20:36:07.565Z"
   },
   {
     "id": "pyarabic",
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:07.668Z"
+    "lastSyncedAt": "2026-09-15T20:36:07.403Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:09.104Z"
+    "lastSyncedAt": "2026-09-15T20:36:08.974Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:09.168Z"
+    "lastSyncedAt": "2026-09-15T20:36:08.909Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:09.156Z"
+    "lastSyncedAt": "2026-09-15T20:36:08.984Z"
   },
   {
     "id": "amiri-font",
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:10.343Z"
+    "lastSyncedAt": "2026-09-15T20:36:10.389Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:10.381Z"
+    "lastSyncedAt": "2026-09-15T20:36:10.171Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:10.546Z"
+    "lastSyncedAt": "2026-09-15T20:36:10.317Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:11.908Z"
+    "lastSyncedAt": "2026-09-15T20:36:11.824Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:11.761Z"
+    "lastSyncedAt": "2026-09-15T20:36:11.659Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,7 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:11.784Z"
+    "lastSyncedAt": "2026-09-15T20:36:11.676Z"
   },
   {
     "id": "masader",
@@ -634,7 +634,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:13.208Z"
+    "lastSyncedAt": "2026-09-15T20:36:13.191Z"
   },
   {
     "id": "maidaly-arabic-ocr",
@@ -671,7 +671,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:13.207Z"
+    "lastSyncedAt": "2026-09-15T20:36:13.174Z"
   },
   {
     "id": "husseinyoussef-arabic-ocr",
@@ -725,7 +725,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:13.166Z"
+    "lastSyncedAt": "2026-09-15T20:36:13.190Z"
   },
   {
     "id": "pythonation-mistral-arabic-ocr-test",
@@ -759,7 +759,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:14.488Z"
+    "lastSyncedAt": "2026-09-15T20:36:14.508Z"
   },
   {
     "id": "aliftype-reem-kufi",
@@ -808,7 +808,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:14.482Z"
+    "lastSyncedAt": "2026-09-15T20:36:14.445Z"
   },
   {
     "id": "aliftype-aref-ruqaa",
@@ -858,7 +858,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:14.456Z"
+    "lastSyncedAt": "2026-09-15T20:36:14.514Z"
   },
   {
     "id": "aliftype-mada",
@@ -911,7 +911,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:15.799Z"
+    "lastSyncedAt": "2026-09-15T20:36:15.772Z"
   },
   {
     "id": "linuxscout-ayaspell",
@@ -951,7 +951,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:15.767Z"
+    "lastSyncedAt": "2026-09-15T20:36:15.856Z"
   },
   {
     "id": "linuxscout-naftawayh",
@@ -991,7 +991,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:15.878Z"
+    "lastSyncedAt": "2026-09-15T20:36:15.772Z"
   },
   {
     "id": "arbml-tkseem",
@@ -1037,7 +1037,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:17.337Z"
+    "lastSyncedAt": "2026-09-15T20:36:17.166Z"
   },
   {
     "id": "arbml-klaam",
@@ -1083,7 +1083,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:17.205Z"
+    "lastSyncedAt": "2026-09-15T20:36:17.202Z"
   },
   {
     "id": "ubc-nlp-arat5",
@@ -1131,7 +1131,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:17.240Z"
+    "lastSyncedAt": "2026-09-15T20:36:17.203Z"
   },
   {
     "id": "bakrianoo-aravec",
@@ -1176,7 +1176,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:18.802Z"
+    "lastSyncedAt": "2026-09-15T20:36:18.604Z"
   },
   {
     "id": "linuxscout-arramooz",
@@ -1220,7 +1220,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:18.529Z"
+    "lastSyncedAt": "2026-09-15T20:36:18.460Z"
   },
   {
     "id": "aliosm-arabic-text-diacritization",
@@ -1270,7 +1270,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:18.629Z"
+    "lastSyncedAt": "2026-09-15T20:36:18.489Z"
   },
   {
     "id": "nainiayoub-moroccan-darija-datasets",
@@ -1315,7 +1315,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:20.136Z"
+    "lastSyncedAt": "2026-09-15T20:36:19.889Z"
   },
   {
     "id": "aub-mind-arabic-empathetic-chatbot",
@@ -1349,7 +1349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:20.069Z"
+    "lastSyncedAt": "2026-09-15T20:36:19.935Z"
   },
   {
     "id": "magedsaeed-farasapy",
@@ -1403,7 +1403,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:20.067Z"
+    "lastSyncedAt": "2026-09-15T20:36:19.906Z"
   },
   {
     "id": "linuxscout-tashaphyne",
@@ -1447,7 +1447,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:21.490Z"
+    "lastSyncedAt": "2026-09-15T20:36:21.333Z"
   },
   {
     "id": "aliosm-shakkelha",
@@ -1496,7 +1496,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:21.471Z"
+    "lastSyncedAt": "2026-09-15T20:36:21.304Z"
   },
   {
     "id": "qutuf-qutuf",
@@ -1558,7 +1558,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:21.537Z"
+    "lastSyncedAt": "2026-09-15T20:36:21.355Z"
   },
   {
     "id": "mohabmes-arabycia",
@@ -1599,7 +1599,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:22.790Z"
+    "lastSyncedAt": "2026-09-15T20:36:22.656Z"
   },
   {
     "id": "ahr-ocr2024-arabic-handwriting-recognition",
@@ -1636,7 +1636,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T20:25:22.909Z"
+    "lastSyncedAt": "2026-09-15T20:36:22.658Z"
   },
   {
     "id": "camel-lab-arafix-ocr",
@@ -1681,7 +1681,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:22.857Z"
+    "lastSyncedAt": "2026-09-15T20:36:22.657Z"
   },
   {
     "id": "manshar-manshar",
@@ -1726,7 +1726,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:24.207Z"
+    "lastSyncedAt": "2026-09-15T20:36:24.142Z"
   },
   {
     "id": "arbml-qawafi",
@@ -1774,7 +1774,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:24.246Z"
+    "lastSyncedAt": "2026-09-15T20:36:24.003Z"
   },
   {
     "id": "alifcommunity-alif5",
@@ -1817,7 +1817,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:25.172Z"
+    "lastSyncedAt": "2026-09-15T20:36:24.918Z"
   },
   {
     "id": "aliftype-qahiri",
@@ -1866,7 +1866,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:26.416Z"
+    "lastSyncedAt": "2026-09-15T20:36:26.237Z"
   },
   {
     "id": "arbml-calliar",
@@ -1913,7 +1913,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:26.491Z"
+    "lastSyncedAt": "2026-09-15T20:36:26.192Z"
   },
   {
     "id": "swivid-habibi-tts",
@@ -1957,7 +1957,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:26.424Z"
+    "lastSyncedAt": "2026-09-15T20:36:26.076Z"
   },
   {
     "id": "linuxscout-qutrub",
@@ -2002,7 +2002,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:27.937Z"
+    "lastSyncedAt": "2026-09-15T20:36:27.564Z"
   },
   {
     "id": "arbml-tnkeeh",
@@ -2048,7 +2048,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:27.843Z"
+    "lastSyncedAt": "2026-09-15T20:36:27.589Z"
   },
   {
     "id": "nipponjo-tts-arabic-pytorch",
@@ -2105,7 +2105,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:27.789Z"
+    "lastSyncedAt": "2026-09-15T20:36:27.740Z"
   },
   {
     "id": "alisafaya-arabic-bert",
@@ -2153,7 +2153,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:29.160Z"
+    "lastSyncedAt": "2026-09-15T20:36:29.025Z"
   },
   {
     "id": "yoosif0-arabic-tacotron-tts",
@@ -2194,7 +2194,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:29.185Z"
+    "lastSyncedAt": "2026-09-15T20:36:29.041Z"
   },
   {
     "id": "linuxscout-festival-tts-arabic-voices",
@@ -2235,7 +2235,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:29.227Z"
+    "lastSyncedAt": "2026-09-15T20:36:29.003Z"
   },
   {
     "id": "ubc-nlp-turjuman",
@@ -2295,7 +2295,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:30.536Z"
+    "lastSyncedAt": "2026-09-15T20:36:30.397Z"
   },
   {
     "id": "camel-lab-camelbert",
@@ -2340,7 +2340,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:30.510Z"
+    "lastSyncedAt": "2026-09-15T20:36:30.390Z"
   },
   {
     "id": "mbzuai-oryx-ain",
@@ -2390,7 +2390,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:31.220Z"
+    "lastSyncedAt": "2026-09-15T20:36:30.376Z"
   },
   {
     "id": "sinalab-arabicner",
@@ -2431,7 +2431,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:32.594Z"
+    "lastSyncedAt": "2026-09-15T20:36:31.811Z"
   },
   {
     "id": "mawdoo3-multi-dialect-arabic-bert",
@@ -2475,7 +2475,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:32.486Z"
+    "lastSyncedAt": "2026-09-15T20:36:31.846Z"
   },
   {
     "id": "arbml-arbml",
@@ -2522,7 +2522,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:32.578Z"
+    "lastSyncedAt": "2026-09-15T20:36:31.799Z"
   },
   {
     "id": "arbml-ashaar",
@@ -2559,7 +2559,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:34.074Z"
+    "lastSyncedAt": "2026-09-15T20:36:33.104Z"
   },
   {
     "id": "noorbayan-tanqeeh",
@@ -2597,7 +2597,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:33.864Z"
+    "lastSyncedAt": "2026-09-15T20:36:33.149Z"
   },
   {
     "id": "bassem-i-arabic-english-subtitling",
@@ -2631,7 +2631,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:33.787Z"
+    "lastSyncedAt": "2026-09-15T20:36:33.144Z"
   },
   {
     "id": "assem-ch-arabicstemmer",
@@ -2681,7 +2681,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:35.423Z"
+    "lastSyncedAt": "2026-09-15T20:36:34.460Z"
   },
   {
     "id": "camel-lab-arabic-gec",
@@ -2734,7 +2734,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:35.232Z"
+    "lastSyncedAt": "2026-09-15T20:36:34.385Z"
   },
   {
     "id": "camel-lab-camel-morph",
@@ -2775,7 +2775,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:35.418Z"
+    "lastSyncedAt": "2026-09-15T20:36:34.450Z"
   },
   {
     "id": "konash-arabic-support-unity",
@@ -2813,7 +2813,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:36.680Z"
+    "lastSyncedAt": "2026-09-15T20:36:35.767Z"
   },
   {
     "id": "abjadai-catt",
@@ -2854,7 +2854,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:36.915Z"
+    "lastSyncedAt": "2026-09-15T20:36:35.737Z"
   },
   {
     "id": "mush42-libtashkeel",
@@ -2901,7 +2901,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:36.632Z"
+    "lastSyncedAt": "2026-09-15T20:36:35.786Z"
   },
   {
     "id": "kariminf-jslingua",
@@ -2966,7 +2966,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:38.172Z"
+    "lastSyncedAt": "2026-09-15T20:36:37.119Z"
   },
   {
     "id": "otakar-smrz-elixir-fm",
@@ -3000,7 +3000,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:38.227Z"
+    "lastSyncedAt": "2026-09-15T20:36:37.080Z"
   },
   {
     "id": "anwarvic-arabic-tashkeela-model",
@@ -3045,7 +3045,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:38.281Z"
+    "lastSyncedAt": "2026-09-15T20:36:37.351Z"
   },
   {
     "id": "abdullahdiaa-garabic",
@@ -3099,7 +3099,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:39.406Z"
+    "lastSyncedAt": "2026-09-15T20:36:38.741Z"
   },
   {
     "id": "aliftype-raqq",
@@ -3147,7 +3147,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:39.557Z"
+    "lastSyncedAt": "2026-09-15T20:36:38.684Z"
   },
   {
     "id": "aliftype-rana-kufi",
@@ -3196,7 +3196,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:39.590Z"
+    "lastSyncedAt": "2026-09-15T20:36:38.746Z"
   },
   {
     "id": "aliftype-amiri-typewriter",
@@ -3244,7 +3244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:40.973Z"
+    "lastSyncedAt": "2026-09-15T20:36:40.102Z"
   },
   {
     "id": "emran-alhaddad-saudi-riyal-font",
@@ -3298,7 +3298,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:40.971Z"
+    "lastSyncedAt": "2026-09-15T20:36:39.965Z"
   },
   {
     "id": "basshelal-wudooh",
@@ -3352,7 +3352,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:40.855Z"
+    "lastSyncedAt": "2026-09-15T20:36:39.983Z"
   },
   {
     "id": "linuxscout-adawat",
@@ -3393,7 +3393,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:42.294Z"
+    "lastSyncedAt": "2026-09-15T20:36:41.432Z"
   },
   {
     "id": "alsaydi-sarf",
@@ -3441,7 +3441,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:42.540Z"
+    "lastSyncedAt": "2026-09-15T20:36:41.936Z"
   },
   {
     "id": "linuxscout-yaraspell",
@@ -3482,7 +3482,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:42.277Z"
+    "lastSyncedAt": "2026-09-15T20:36:41.388Z"
   },
   {
     "id": "motazsaad-comparable-text-miner",
@@ -3532,7 +3532,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:43.829Z"
+    "lastSyncedAt": "2026-09-15T20:36:43.292Z"
   },
   {
     "id": "disooqi-arabicprocessingcog",
@@ -3581,7 +3581,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:43.888Z"
+    "lastSyncedAt": "2026-09-15T20:36:43.247Z"
   },
   {
     "id": "omaralalwi-gpdf",
@@ -3647,7 +3647,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:43.703Z"
+    "lastSyncedAt": "2026-09-15T20:36:43.235Z"
   },
   {
     "id": "simplyahmazing-noor",
@@ -3681,7 +3681,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:45.104Z"
+    "lastSyncedAt": "2026-09-15T20:36:44.503Z"
   },
   {
     "id": "alifcommunity-alif",
@@ -3725,7 +3725,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:45.099Z"
+    "lastSyncedAt": "2026-09-15T20:36:44.586Z"
   },
   {
     "id": "arbml-cidar",
@@ -3766,7 +3766,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:45.211Z"
+    "lastSyncedAt": "2026-09-15T20:36:44.595Z"
   },
   {
     "id": "jamalamch-arabic-words-sentences",
@@ -3807,7 +3807,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:46.509Z"
+    "lastSyncedAt": "2026-09-15T20:36:45.832Z"
   },
   {
     "id": "mbzuai-oryx-camel-bench",
@@ -3857,7 +3857,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:46.568Z"
+    "lastSyncedAt": "2026-09-15T20:36:45.873Z"
   },
   {
     "id": "iabufarha-isarcasmeval",
@@ -3904,7 +3904,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:46.509Z"
+    "lastSyncedAt": "2026-09-15T20:36:45.863Z"
   },
   {
     "id": "wizsk-arabic-lexicons",
@@ -3952,7 +3952,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:47.839Z"
+    "lastSyncedAt": "2026-09-15T20:36:47.073Z"
   },
   {
     "id": "ubc-nlp-peacock",
@@ -3984,7 +3984,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:48.181Z"
+    "lastSyncedAt": "2026-09-15T20:36:47.233Z"
   },
   {
     "id": "huzaifa-x-whisper-small-openai-finetuned-on-arabic-language",
@@ -4022,7 +4022,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:47.782Z"
+    "lastSyncedAt": "2026-09-15T20:36:47.043Z"
   },
   {
     "id": "runehol-kindlearadict",
@@ -4060,7 +4060,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:49.454Z"
+    "lastSyncedAt": "2026-09-15T20:36:48.473Z"
   },
   {
     "id": "arbml-bayanat",
@@ -4107,7 +4107,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:49.456Z"
+    "lastSyncedAt": "2026-09-15T20:36:48.495Z"
   },
   {
     "id": "mbzuai-oryx-kitab-bench",
@@ -4158,7 +4158,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:49.668Z"
+    "lastSyncedAt": "2026-09-15T20:36:48.545Z"
   },
   {
     "id": "mbzuai-oryx-bimedix2",
@@ -4202,7 +4202,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:50.988Z"
+    "lastSyncedAt": "2026-09-15T20:36:49.880Z"
   },
   {
     "id": "h9-tec-manazir-ocr",
@@ -4240,7 +4240,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:25:50.972Z"
+    "lastSyncedAt": "2026-09-15T20:36:49.911Z"
   },
   {
     "id": "kareem-emad-arabic-ocr",
@@ -4285,7 +4285,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:51.000Z"
+    "lastSyncedAt": "2026-09-15T20:36:49.964Z"
   },
   {
     "id": "misraj-ai-qalam",
@@ -4326,7 +4326,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:52.176Z"
+    "lastSyncedAt": "2026-09-15T20:36:51.231Z"
   },
   {
     "id": "nguptahq-arabic-handwritten-text-image-recognition",
@@ -4369,7 +4369,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:52.241Z"
+    "lastSyncedAt": "2026-09-15T20:36:51.359Z"
   },
   {
     "id": "muzammilpervaiz-arabic-handwritten-ocr",
@@ -4401,7 +4401,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:52.273Z"
+    "lastSyncedAt": "2026-09-15T20:36:51.264Z"
   },
   {
     "id": "mohamedwael-basicarabicocr",
@@ -4447,7 +4447,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:53.497Z"
+    "lastSyncedAt": "2026-09-15T20:36:52.840Z"
   },
   {
     "id": "jordanopensource-arabic-ocr-studygroup",
@@ -4488,7 +4488,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:53.581Z"
+    "lastSyncedAt": "2026-09-15T20:36:52.684Z"
   },
   {
     "id": "zaakki-ahamed-arabic-ocr-from-pdf",
@@ -4530,7 +4530,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:53.525Z"
+    "lastSyncedAt": "2026-09-15T20:36:52.760Z"
   },
   {
     "id": "hedrax-invizo-ocr",
@@ -4585,7 +4585,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:54.749Z"
+    "lastSyncedAt": "2026-09-15T20:36:54.105Z"
   },
   {
     "id": "omarsamirz-arabic-ocr-tesseract",
@@ -4638,7 +4638,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:54.869Z"
+    "lastSyncedAt": "2026-09-15T20:36:54.145Z"
   },
   {
     "id": "mohamedbassel24-ocr-for-arabic-scripts",
@@ -4675,7 +4675,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:54.868Z"
+    "lastSyncedAt": "2026-09-15T20:36:54.080Z"
   },
   {
     "id": "yayaiu6-trocr-arabic",
@@ -4716,7 +4716,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:25:56.111Z"
+    "lastSyncedAt": "2026-09-15T20:36:55.415Z"
   },
   {
     "id": "kabikaj-jabalin",
@@ -4757,7 +4757,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:56.129Z"
+    "lastSyncedAt": "2026-09-15T20:36:55.444Z"
   },
   {
     "id": "linuxscout-festival-arabic",
@@ -4798,7 +4798,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:56.153Z"
+    "lastSyncedAt": "2026-09-15T20:36:55.456Z"
   },
   {
     "id": "rn0x-farraghli",
@@ -4852,7 +4852,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:57.275Z"
+    "lastSyncedAt": "2026-09-15T20:36:56.783Z"
   },
   {
     "id": "mdanok-arajs",
@@ -4899,7 +4899,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:57.428Z"
+    "lastSyncedAt": "2026-09-15T20:36:56.783Z"
   },
   {
     "id": "rabraghib-darijascript",
@@ -4943,7 +4943,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:57.365Z"
+    "lastSyncedAt": "2026-09-15T20:36:56.741Z"
   },
   {
     "id": "01walid-goarabic",
@@ -4992,7 +4992,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:58.760Z"
+    "lastSyncedAt": "2026-09-15T20:36:58.024Z"
   },
   {
     "id": "nuqayah-kitab-font",
@@ -5035,7 +5035,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:58.882Z"
+    "lastSyncedAt": "2026-09-15T20:36:58.157Z"
   },
   {
     "id": "louy-javascript-arabic-reshaper",
@@ -5079,7 +5079,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:25:58.830Z"
+    "lastSyncedAt": "2026-09-15T20:36:58.158Z"
   },
   {
     "id": "aliftype-anti",
@@ -5127,7 +5127,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:26:00.188Z"
+    "lastSyncedAt": "2026-09-15T20:36:59.600Z"
   },
   {
     "id": "aliftype-astrolabe",
@@ -5176,7 +5176,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:00.104Z"
+    "lastSyncedAt": "2026-09-15T20:36:59.448Z"
   },
   {
     "id": "linuxscout-yarob",
@@ -5217,7 +5217,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:00.080Z"
+    "lastSyncedAt": "2026-09-15T20:36:59.536Z"
   },
   {
     "id": "linuxscout-ghalatawi",
@@ -5261,7 +5261,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:01.376Z"
+    "lastSyncedAt": "2026-09-15T20:37:00.796Z"
   },
   {
     "id": "linuxscout-fareh",
@@ -5302,7 +5302,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:01.472Z"
+    "lastSyncedAt": "2026-09-15T20:37:00.888Z"
   },
   {
     "id": "yalang-ya",
@@ -5347,7 +5347,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:01.520Z"
+    "lastSyncedAt": "2026-09-15T20:37:00.949Z"
   },
   {
     "id": "albari54-alif",
@@ -5387,7 +5387,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:02.834Z"
+    "lastSyncedAt": "2026-09-15T20:37:02.261Z"
   },
   {
     "id": "linuxscout-mishtar",
@@ -5435,7 +5435,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:02.766Z"
+    "lastSyncedAt": "2026-09-15T20:37:02.231Z"
   },
   {
     "id": "msarhan-lucene-arabic-analyzer",
@@ -5478,7 +5478,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:02.798Z"
+    "lastSyncedAt": "2026-09-15T20:37:02.256Z"
   },
   {
     "id": "ejtaal-jsastem",
@@ -5515,7 +5515,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:04.192Z"
+    "lastSyncedAt": "2026-09-15T20:37:03.526Z"
   },
   {
     "id": "seen-arabic-services",
@@ -5568,7 +5568,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:04.117Z"
+    "lastSyncedAt": "2026-09-15T20:37:03.717Z"
   },
   {
     "id": "hamza5-multilevel-diacritizer",
@@ -5611,7 +5611,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:04.278Z"
+    "lastSyncedAt": "2026-09-15T20:37:03.576Z"
   },
   {
     "id": "motazsaad-khoja-stemmer",
@@ -5660,7 +5660,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:05.648Z"
+    "lastSyncedAt": "2026-09-15T20:37:05.007Z"
   },
   {
     "id": "motazsaad-arabic-light-stemmer",
@@ -5709,7 +5709,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:05.581Z"
+    "lastSyncedAt": "2026-09-15T20:37:05.142Z"
   },
   {
     "id": "omar-al-sharif-meshakkelaty",
@@ -5746,7 +5746,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:05.586Z"
+    "lastSyncedAt": "2026-09-15T20:37:04.991Z"
   },
   {
     "id": "nipponjo-arabic-vocalization",
@@ -5792,7 +5792,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:06.912Z"
+    "lastSyncedAt": "2026-09-15T20:37:06.420Z"
   },
   {
     "id": "troboto-maha",
@@ -5841,7 +5841,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:07.218Z"
+    "lastSyncedAt": "2026-09-15T20:37:06.528Z"
   },
   {
     "id": "husseinmozannar-soqal",
@@ -5891,7 +5891,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:06.857Z"
+    "lastSyncedAt": "2026-09-15T20:37:06.410Z"
   },
   {
     "id": "motazsaad-process-arabic-text",
@@ -5936,7 +5936,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:08.455Z"
+    "lastSyncedAt": "2026-09-15T20:37:07.798Z"
   },
   {
     "id": "iamaziz-ar-embeddings",
@@ -5986,7 +5986,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:08.533Z"
+    "lastSyncedAt": "2026-09-15T20:37:07.831Z"
   },
   {
     "id": "saidziani-arabic-news-classification",
@@ -6032,7 +6032,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:08.533Z"
+    "lastSyncedAt": "2026-09-15T20:37:07.818Z"
   },
   {
     "id": "adhaamehab-textblob-ar",
@@ -6086,7 +6086,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T20:26:09.866Z"
+    "lastSyncedAt": "2026-09-15T20:37:09.074Z"
   },
   {
     "id": "mbzuai-oryx-arb",
@@ -6133,7 +6133,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:09.887Z"
+    "lastSyncedAt": "2026-09-15T20:37:09.137Z"
   },
   {
     "id": "qcri-arabic-speech-code-switching",
@@ -6183,7 +6183,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:09.845Z"
+    "lastSyncedAt": "2026-09-15T20:37:09.163Z"
   },
   {
     "id": "linuxscout-arramooz-pysqlite",
@@ -6224,7 +6224,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:11.095Z"
+    "lastSyncedAt": "2026-09-15T20:37:10.421Z"
   },
   {
     "id": "camel-lab-arabic-frequency-lists",
@@ -6267,7 +6267,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:11.182Z"
+    "lastSyncedAt": "2026-09-15T20:37:10.544Z"
   },
   {
     "id": "ubc-nlp-ara-emotion",
@@ -6312,7 +6312,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:11.241Z"
+    "lastSyncedAt": "2026-09-15T20:37:10.581Z"
   },
   {
     "id": "ojuba-org-arabic-ml-data",
@@ -6349,7 +6349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:12.637Z"
+    "lastSyncedAt": "2026-09-15T20:37:12.004Z"
   },
   {
     "id": "ubc-nlp-orca",
@@ -6390,7 +6390,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:12.545Z"
+    "lastSyncedAt": "2026-09-15T20:37:11.894Z"
   },
   {
     "id": "linuxscout-aghlat",
@@ -6431,7 +6431,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:12.478Z"
+    "lastSyncedAt": "2026-09-15T20:37:12.195Z"
   },
   {
     "id": "alhazen-arabic-ocr",
@@ -6467,7 +6467,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:13.891Z"
+    "lastSyncedAt": "2026-09-15T20:37:13.528Z"
   },
   {
     "id": "openiti-arabic-script-ocr-models",
@@ -6502,7 +6502,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:13.893Z"
+    "lastSyncedAt": "2026-09-15T20:37:13.574Z"
   },
   {
     "id": "arabic-pdf-chat",
@@ -6553,7 +6553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:13.756Z"
+    "lastSyncedAt": "2026-09-15T20:37:13.569Z"
   },
   {
     "id": "craneset-arabic-ocr-data",
@@ -6601,7 +6601,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:15.146Z"
+    "lastSyncedAt": "2026-09-15T20:37:14.855Z"
   },
   {
     "id": "glass-hud-arabic-translator",
@@ -6660,7 +6660,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:15.060Z"
+    "lastSyncedAt": "2026-09-15T20:37:14.793Z"
   },
   {
     "id": "mirza-arabic-font",
@@ -6700,7 +6700,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:15.304Z"
+    "lastSyncedAt": "2026-09-15T20:37:15.005Z"
   },
   {
     "id": "sahl-naskh-font",
@@ -6739,7 +6739,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T20:26:16.623Z"
+    "lastSyncedAt": "2026-09-15T20:37:16.356Z"
   },
   {
     "id": "midad-arabic-ereader",
@@ -6791,7 +6791,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:16.461Z"
+    "lastSyncedAt": "2026-09-15T20:37:16.213Z"
   },
   {
     "id": "scheherazade-new-font",
@@ -6834,7 +6834,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:16.494Z"
+    "lastSyncedAt": "2026-09-15T20:37:16.250Z"
   },
   {
     "id": "huruf-arabic-extension",
@@ -6874,7 +6874,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T20:26:17.850Z"
+    "lastSyncedAt": "2026-09-15T20:37:17.658Z"
   },
   {
     "id": "raqim-kashida-library",
@@ -6920,7 +6920,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:17.969Z"
+    "lastSyncedAt": "2026-09-15T20:37:17.782Z"
   },
   {
     "id": "qutrubi-mobile-app",
@@ -6960,7 +6960,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:17.882Z"
+    "lastSyncedAt": "2026-09-15T20:37:17.591Z"
   },
   {
     "id": "tebyan-text-reshaper",
@@ -6999,7 +6999,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:19.189Z"
+    "lastSyncedAt": "2026-09-15T20:37:19.189Z"
   },
   {
     "id": "arqamar-js",
@@ -7046,7 +7046,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:19.348Z"
+    "lastSyncedAt": "2026-09-15T20:37:19.078Z"
   },
   {
     "id": "narabicwords-converter",
@@ -7093,7 +7093,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:19.221Z"
+    "lastSyncedAt": "2026-09-15T20:37:19.084Z"
   },
   {
     "id": "tafqit-arabic-currency",
@@ -7133,7 +7133,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:20.627Z"
+    "lastSyncedAt": "2026-09-15T20:37:20.991Z"
   },
   {
     "id": "arabic-ala-lc-romanization",
@@ -7172,7 +7172,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:20.760Z"
+    "lastSyncedAt": "2026-09-15T20:37:20.605Z"
   },
   {
     "id": "aranizer-arabic-tokenizer",
@@ -7212,7 +7212,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:20.653Z"
+    "lastSyncedAt": "2026-09-15T20:37:20.540Z"
   },
   {
     "id": "shellshal-arabic-cli-scripts",
@@ -7252,7 +7252,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:21.967Z"
+    "lastSyncedAt": "2026-09-15T20:37:22.420Z"
   },
   {
     "id": "garga-arabic-programming-language",
@@ -7300,7 +7300,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:22.063Z"
+    "lastSyncedAt": "2026-09-15T20:37:22.292Z"
   },
   {
     "id": "arwiki-dump-parser",
@@ -7340,7 +7340,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:22.125Z"
+    "lastSyncedAt": "2026-09-15T20:37:22.235Z"
   },
   {
     "id": "pipeline-diacritizer",
@@ -7386,7 +7386,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:23.424Z"
+    "lastSyncedAt": "2026-09-15T20:37:23.723Z"
   },
   {
     "id": "deep-diacritization-arabic",
@@ -7433,7 +7433,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:23.379Z"
+    "lastSyncedAt": "2026-09-15T20:37:23.681Z"
   },
   {
     "id": "tashkeel-remover-regex",
@@ -7469,7 +7469,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:23.384Z"
+    "lastSyncedAt": "2026-09-15T20:37:23.703Z"
   },
   {
     "id": "lingz-arabic-linguistic-tools",
@@ -7505,7 +7505,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:24.633Z"
+    "lastSyncedAt": "2026-09-15T20:37:25.115Z"
   },
   {
     "id": "arabic-light-stemming-python",
@@ -7553,7 +7553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:24.828Z"
+    "lastSyncedAt": "2026-09-15T20:37:25.078Z"
   },
   {
     "id": "tashkeela2-corpus",
@@ -7592,7 +7592,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:24.656Z"
+    "lastSyncedAt": "2026-09-15T20:37:25.323Z"
   },
   {
     "id": "miknaaz-morphology-corpus",
@@ -7632,7 +7632,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:26.045Z"
+    "lastSyncedAt": "2026-09-15T20:37:26.810Z"
   },
   {
     "id": "arabic-vocalizer-onnx",
@@ -7682,7 +7682,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:26.240Z"
+    "lastSyncedAt": "2026-09-15T20:37:26.586Z"
   },
   {
     "id": "qatara-qcri-tools",
@@ -7718,7 +7718,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:26.397Z"
+    "lastSyncedAt": "2026-09-15T20:37:26.576Z"
   },
   {
     "id": "dialectal-arabic-segmenter-qcri",
@@ -7758,7 +7758,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:27.691Z"
+    "lastSyncedAt": "2026-09-15T20:37:28.131Z"
   },
   {
     "id": "dialectid-e2e-audio",
@@ -7812,7 +7812,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:27.645Z"
+    "lastSyncedAt": "2026-09-15T20:37:28.100Z"
   },
   {
     "id": "arabic-sentiment-analysis-tweets",
@@ -7857,7 +7857,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T20:26:27.634Z"
+    "lastSyncedAt": "2026-09-15T20:37:28.113Z"
   },
   {
     "id": "arabic-handwritten-recognition-dl",
@@ -7905,7 +7905,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:28.939Z"
+    "lastSyncedAt": "2026-09-15T20:37:29.409Z"
   },
   {
     "id": "arabica-text-mining",
@@ -7949,7 +7949,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:28.939Z"
+    "lastSyncedAt": "2026-09-15T20:37:29.503Z"
   },
   {
     "id": "arabic-ner-anercorp",
@@ -7990,7 +7990,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:29.548Z"
+    "lastSyncedAt": "2026-09-15T20:37:29.399Z"
   },
   {
     "id": "hatmimoha-arabic-ner",
@@ -8030,7 +8030,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:30.852Z"
+    "lastSyncedAt": "2026-09-15T20:37:30.769Z"
   },
   {
     "id": "anwarvic-arabic-speech-recognition",
@@ -8080,7 +8080,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:30.827Z"
+    "lastSyncedAt": "2026-09-15T20:37:30.770Z"
   },
   {
     "id": "qwencleo-egyptian-asr",
@@ -8140,7 +8140,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:30.886Z"
+    "lastSyncedAt": "2026-09-15T20:37:31.048Z"
   },
   {
     "id": "arabic-phonetic-dictionary-generator",
@@ -8185,7 +8185,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:32.207Z"
+    "lastSyncedAt": "2026-09-15T20:37:32.295Z"
   },
   {
     "id": "arz-callhome-corpus",
@@ -8225,7 +8225,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:32.120Z"
+    "lastSyncedAt": "2026-09-15T20:37:32.326Z"
   },
   {
     "id": "arabic-hatespeech-dataset",
@@ -8270,7 +8270,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:32.145Z"
+    "lastSyncedAt": "2026-09-15T20:37:32.336Z"
   },
   {
     "id": "alexandria-dialectal-dataset",
@@ -8313,7 +8313,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T20:26:33.503Z"
+    "lastSyncedAt": "2026-09-15T20:37:33.874Z"
   },
   {
     "id": "pearl-multimodal-arabic-dataset",
@@ -8349,7 +8349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:33.494Z"
+    "lastSyncedAt": "2026-09-15T20:37:33.620Z"
   },
   {
     "id": "rightnow-arabic-llm-corpus",
@@ -8394,7 +8394,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:33.581Z"
+    "lastSyncedAt": "2026-09-15T20:37:33.610Z"
   },
   {
     "id": "baved-arabic-vocal-emotions",
@@ -8429,7 +8429,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:34.838Z"
+    "lastSyncedAt": "2026-09-15T20:37:35.137Z"
   },
   {
     "id": "iraqi-dialect-tts-corpus",
@@ -8473,7 +8473,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:34.825Z"
+    "lastSyncedAt": "2026-09-15T20:37:35.177Z"
   },
   {
     "id": "classical-arabic-ner-corpus",
@@ -8512,7 +8512,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:34.852Z"
+    "lastSyncedAt": "2026-09-15T20:37:35.232Z"
   },
   {
     "id": "nakhlah-js-arabic-learning",
@@ -8568,6 +8568,1154 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T20:26:36.144Z"
+    "lastSyncedAt": "2026-09-15T20:37:36.508Z"
+  },
+  {
+    "id": "arabic-neural-root-finder",
+    "repo": "tb0yd/rootfinder",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مستخرج جذور الكلمات العربية بالذكاء الاصطناعي",
+      "en": "Arabic Neural Root Finder"
+    },
+    "description": {
+      "ar": "أداة ونموذج شبكات عصبية متقدم لاستخراج الجذور الثلاثية والرباعية للكلمات العربية بدقة لغوية عالية.",
+      "en": "A neural network-based Arabic root extraction tool to determine trilateral and quadrilateral word roots."
+    },
+    "tags": [
+      "root-extraction",
+      "morphology",
+      "neural-network",
+      "nlp",
+      "arabic-stemmer"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "tb0yd",
+      "name": "rootfinder",
+      "url": "https://github.com/tb0yd/rootfinder",
+      "stars": 142,
+      "forks": 14,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2018-08-18T19:19:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:36.581Z"
+  },
+  {
+    "id": "large-arabic-sentiment-resources",
+    "repo": "hadyelsahar/large-arabic-sentiment-analysis-resouces",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "المدونة الشاملة لتحليل المشاعر في العربية",
+      "en": "Large Arabic Sentiment Analysis Benchmark"
+    },
+    "description": {
+      "ar": "مجموعة بيانات ومعاجم موسعة لتدريب وتقييم نماذج تصنيف المشاعر والانطباعات في النصوص والآراء العربية.",
+      "en": "Large-scale benchmark datasets and multi-domain lexicons for Arabic sentiment analysis and opinion mining."
+    },
+    "tags": [
+      "dataset",
+      "sentiment-analysis",
+      "opinion-mining",
+      "nlp-benchmark",
+      "corpus"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "hadyelsahar",
+      "name": "large-arabic-sentiment-analysis-resouces",
+      "url": "https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces",
+      "stars": 121,
+      "forks": 58,
+      "openIssues": 0,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2018-04-16T09:07:13Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:36.740Z"
+  },
+  {
+    "id": "moment-hijri-plugin",
+    "repo": "xsoh/moment-hijri",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة التقويم الهجري لمومنت",
+      "en": "Moment Hijri Calendar Plugin"
+    },
+    "description": {
+      "ar": "إضافة لمكتبة Moment.js لحساب وتنسيق وعرض التواريخ بالتقويم الهجري وفق حسابات تقويم أم القرى.",
+      "en": "A Hijri calendar plugin for moment.js based on official Umm al-Qura astronomical calculations."
+    },
+    "tags": [
+      "javascript",
+      "hijri",
+      "momentjs",
+      "calendar",
+      "utilities"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "xsoh",
+      "name": "moment-hijri",
+      "url": "https://github.com/xsoh/moment-hijri",
+      "stars": 231,
+      "forks": 88,
+      "openIssues": 48,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2026-09-13T07:12:38Z",
+      "latestRelease": {
+        "tag": "v3.0.0",
+        "publishedAt": "2024-10-31T17:14:15Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "calendar",
+        "hijri",
+        "hijri-calendar",
+        "javascript",
+        "lunar",
+        "moment",
+        "moment-hijri"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T20:37:37.898Z"
+  },
+  {
+    "id": "libraqm-text-layout",
+    "repo": "HOST-Oman/libraqm",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "مكتبة راقم للتشكيل وضبط الخط العربي",
+      "en": "Libraqm Complex Text Layout Engine"
+    },
+    "description": {
+      "ar": "مكتبة برمجية بلغة C لصف وتنسيق النصوص المعقدة ودعم الاتجاهين وضبط الحروف العربية بالتعاون مع HarfBuzz.",
+      "en": "A C library that provides complex text layout, OpenType shaping, and bidirectional support for Arabic script."
+    },
+    "tags": [
+      "c",
+      "typography",
+      "opentype",
+      "text-layout",
+      "harfbuzz",
+      "bidi"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "HOST-Oman",
+      "name": "libraqm",
+      "url": "https://github.com/HOST-Oman/libraqm",
+      "stars": 333,
+      "forks": 76,
+      "openIssues": 6,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "C",
+      "lastCommitAt": "2026-07-23T10:13:31Z",
+      "latestRelease": {
+        "tag": "v0.11.0",
+        "publishedAt": "2026-07-23T10:19:47Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T20:37:38.002Z"
+  },
+  {
+    "id": "fuzzy-arabic-dictionary",
+    "repo": "michelleful/FuzzyArabicDict",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاموس البحث التقريبي للكلمات العربية",
+      "en": "Fuzzy Arabic Dictionary App"
+    },
+    "description": {
+      "ar": "تطبيق معجمي ذكي يتيح البحث التقريبي عن الكلمات العربية عبر كتابتها بالنقحرة اللاتينية أو الهجاء غير الدقيق.",
+      "en": "A smart dictionary application allowing users to search Arabic words using transliteration and fuzzy phonetic matching."
+    },
+    "tags": [
+      "dictionary",
+      "fuzzy-search",
+      "transliteration",
+      "lexicon",
+      "search-app"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "michelleful",
+      "name": "FuzzyArabicDict",
+      "url": "https://github.com/michelleful/FuzzyArabicDict",
+      "stars": 64,
+      "forks": 12,
+      "openIssues": 9,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-02-17T14:27:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "maintained",
+    "lastSyncedAt": "2026-09-15T20:37:38.069Z"
+  },
+  {
+    "id": "semantic-frontiers-arabicnlp",
+    "repo": "SemanticFrontiers/ArabicNLP",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "حزمة المعالجة النصية واللغوية للعربية",
+      "en": "Semantic Frontiers ArabicNLP Suite"
+    },
+    "description": {
+      "ar": "مجموعة من الأدوات والسكربتات بلغة بايثون لتنظيف النصوص العربية، إزالة التشكيل، وتجزيء الكلمات.",
+      "en": "Collection of Python utilities for Arabic text normalization, diacritic removal, and morphological segmentation."
+    },
+    "tags": [
+      "python",
+      "text-processing",
+      "normalization",
+      "tashkeel",
+      "nlp"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "SemanticFrontiers",
+      "name": "ArabicNLP",
+      "url": "https://github.com/SemanticFrontiers/ArabicNLP",
+      "stars": 61,
+      "forks": 19,
+      "openIssues": 4,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2013-10-10T05:20:33Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:39.439Z"
+  },
+  {
+    "id": "php-number-to-arabic-words",
+    "repo": "bluemix/NumberToArabicWords",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الأرقام إلى نصوص عربية بلغة PHP",
+      "en": "PHP Number to Arabic Words"
+    },
+    "description": {
+      "ar": "مكتبة بلغة PHP لتحويل الأرقام الحسابية إلى كلمات عربية مكتوبة مع مراعاة قواعد العدد والمعدود.",
+      "en": "A PHP library for converting numbers into grammatically correct Arabic written words and currency amounts."
+    },
+    "tags": [
+      "php",
+      "tafqeet",
+      "numbers-to-words",
+      "grammar",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "bluemix",
+      "name": "NumberToArabicWords",
+      "url": "https://github.com/bluemix/NumberToArabicWords",
+      "stars": 57,
+      "forks": 15,
+      "openIssues": 2,
+      "primaryLanguage": "Java",
+      "lastCommitAt": "2023-07-11T08:58:52Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "java",
+        "numbers",
+        "words"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:39.362Z"
+  },
+  {
+    "id": "arabic-string-helper-js",
+    "repo": "ahmads/arabicString",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة معالجة السلاسل النصية العربية",
+      "en": "ArabicString Helper Library"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت توسع كائن السلاسل النصية (String) بدوال متخصصة لفحص وتنظيف النصوص العربية.",
+      "en": "JavaScript library extending String with specialized helper methods for handling and validating Arabic strings."
+    },
+    "tags": [
+      "javascript",
+      "string-manipulation",
+      "text-processing",
+      "npm",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "ahmads",
+      "name": "arabicString",
+      "url": "https://github.com/ahmads/arabicString",
+      "stars": 57,
+      "forks": 12,
+      "openIssues": 4,
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2018-09-12T19:44:49Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:39.369Z"
+  },
+  {
+    "id": "ara-terminal-display-tool",
+    "repo": "latiif/ara",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أداة عرض النصوص العربية في الطرفية",
+      "en": "Ara Arabic Terminal Display Tool"
+    },
+    "description": {
+      "ar": "أداة سطر أوامر تقوم بضبط وقلب وتشكيل النصوص العربية لتعرض بشكل سليم داخل بيئات سطر الأوامر (Terminal).",
+      "en": "A command-line tool that reshapes and flips Arabic text to display properly in Linux and macOS terminals."
+    },
+    "tags": [
+      "cli",
+      "terminal",
+      "reshaper",
+      "bidi",
+      "unix"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "latiif",
+      "name": "ara",
+      "url": "https://github.com/latiif/ara",
+      "stars": 56,
+      "forks": 4,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Go",
+      "lastCommitAt": "2026-08-07T16:02:06Z",
+      "latestRelease": {
+        "tag": "v0.8",
+        "publishedAt": "2026-08-07T16:03:15Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "command-line-tool",
+        "terminal",
+        "unicode"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T20:37:40.687Z"
+  },
+  {
+    "id": "labr-arabic-book-reviews-dataset",
+    "repo": "mohamedadaly/LABR",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة مراجعات الكتب العربية (LABR)",
+      "en": "LABR Arabic Book Reviews Dataset"
+    },
+    "description": {
+      "ar": "أكبر مدونة عربية مفتوحة لمراجعات الكتب وتقييمات القراء، وتعد معياراً أساسياً لأبحاث تحليل المشاعر.",
+      "en": "The largest open-source Arabic dataset for book reviews, serving as a benchmark for sentiment analysis."
+    },
+    "tags": [
+      "dataset",
+      "sentiment-analysis",
+      "book-reviews",
+      "nlp-benchmark",
+      "corpus"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "mohamedadaly",
+      "name": "LABR",
+      "url": "https://github.com/mohamedadaly/LABR",
+      "stars": 46,
+      "forks": 22,
+      "openIssues": 3,
+      "license": {
+        "spdxId": "GPL-2.0",
+        "name": "GNU General Public License v2.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2014-11-14T13:16:03Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:41.048Z"
+  },
+  {
+    "id": "oktob-js-arabizi-transliteration",
+    "repo": "Fcmam5/oktob.js",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة اكتب لتحويل العربيزي إلى عربية",
+      "en": "Oktob.js Arabizi Transliteration Library"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت مرنة تقوم باستبدال الأحرف اللاتينية والأرقام أثناء الكتابة بالحروف العربية المقابلة فورياً.",
+      "en": "A JavaScript library that converts Arabizi (Latin characters with numbers) into Arabic script in real time."
+    },
+    "tags": [
+      "javascript",
+      "transliteration",
+      "arabizi",
+      "keyboard-input",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "Fcmam5",
+      "name": "oktob.js",
+      "url": "https://github.com/Fcmam5/oktob.js",
+      "stars": 42,
+      "forks": 3,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2019-10-22T12:16:23Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:40.765Z"
+  },
+  {
+    "id": "arabic-datetime-laravel",
+    "repo": "maherelgamil/arabicdatetime",
+    "category": "dev-tools",
+    "title": {
+      "ar": "منسق التواريخ العربية لإطار لارافيل",
+      "en": "Arabic DateTime for Laravel"
+    },
+    "description": {
+      "ar": "حزمة برمجية لإطار عمل Laravel لتنسيق وعرض التواريخ والأوقات بأسماء الشهور والأيام العربية الفصحى.",
+      "en": "A Laravel package to format and display dates with Arabic month and day names seamlessly."
+    },
+    "tags": [
+      "php",
+      "laravel",
+      "date-formatting",
+      "localization",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "maherelgamil",
+      "name": "arabicdatetime",
+      "url": "https://github.com/maherelgamil/arabicdatetime",
+      "stars": 41,
+      "forks": 9,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "PHP",
+      "lastCommitAt": "2021-06-22T12:33:10Z",
+      "latestRelease": {
+        "tag": "4.2.0",
+        "publishedAt": "2021-06-22T12:33:10Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "composer",
+        "hijri",
+        "hijri-months",
+        "laravel",
+        "locale-language",
+        "php"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:42.360Z"
+  },
+  {
+    "id": "arabish-phonetic-transliteration",
+    "repo": "amasad/arabish",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكتبة أرابيش للنقحرة الصوتية",
+      "en": "Arabish Arabic Transliteration"
+    },
+    "description": {
+      "ar": "حزمة بايثون من تطوير أمجد مسعد للنقحرة والتحويل الصوتي بين الأبجدية العربية والحروف اللاتينية.",
+      "en": "A Python library by Amjad Masad for phonetic transliteration and bi-directional conversion between Arabic and Latin script."
+    },
+    "tags": [
+      "python",
+      "transliteration",
+      "arabizi",
+      "phonetics",
+      "text-processing"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "amasad",
+      "name": "arabish",
+      "url": "https://github.com/amasad/arabish",
+      "stars": 36,
+      "forks": 10,
+      "openIssues": 2,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2013-08-19T12:35:48Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:42.366Z"
+  },
+  {
+    "id": "arabterm-technical-dictionary",
+    "repo": "forzagreen/arabterm",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معجم أراب تيرم للمصطلحات التقنية",
+      "en": "Arabterm Technical Dictionaries Collection"
+    },
+    "description": {
+      "ar": "قاعدة بيانات معجمية ثلاثية اللغة (عربي-إنجليزي-فرنسي) تغطي المصطلحات العلمية والتقنية والهندسية الموحدة.",
+      "en": "A curated collection of structured trilingual (Arabic/English/French) scientific and technical dictionaries."
+    },
+    "tags": [
+      "dictionary",
+      "technical-terms",
+      "trilingual",
+      "lexicon",
+      "dataset"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "forzagreen",
+      "name": "arabterm",
+      "url": "https://github.com/forzagreen/arabterm",
+      "stars": 35,
+      "forks": 5,
+      "openIssues": 0,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2026-09-13T10:35:54Z",
+      "latestRelease": {
+        "tag": "v2.3.0",
+        "publishedAt": "2026-09-12T22:28:46Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabterm",
+        "dictionary",
+        "language",
+        "translation"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T20:37:42.319Z"
+  },
+  {
+    "id": "nibras-technical-lexicon",
+    "repo": "01walid/Nibras",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاموس نبراس للمصطلحات التقنية والجامعية",
+      "en": "Nibras French-Arabic Technical Lexicon"
+    },
+    "description": {
+      "ar": "قاموس فرنسي-عربي تفاعلي موجه لطلبة الشعب التقنية والجامعية لتيسير دراسة العلوم بالعربية.",
+      "en": "An interactive French-Arabic technical lexicon designed for university engineering students."
+    },
+    "tags": [
+      "dictionary",
+      "desktop-app",
+      "technical-lexicon",
+      "education",
+      "translations"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "01walid",
+      "name": "Nibras",
+      "url": "https://github.com/01walid/Nibras",
+      "stars": 34,
+      "forks": 6,
+      "openIssues": 5,
+      "primaryLanguage": "C++",
+      "lastCommitAt": "2014-12-10T16:13:59Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:43.647Z"
+  },
+  {
+    "id": "tafgeetjs-currency-words",
+    "repo": "mmahgoub/tafgeetjs",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة تفقيط للأموال والعملات في نود",
+      "en": "TafgeetJS Currency Converter"
+    },
+    "description": {
+      "ar": "حزمة NPM لتحويل القيم النقدية والأرقام الحسابية إلى نصوص عربية مقروءة مع مراعاة قواعد الصرف والعملات.",
+      "en": "An NPM module to convert numerical currency digits into written Arabic words with currency formatting."
+    },
+    "tags": [
+      "npm",
+      "javascript",
+      "tafqeet",
+      "currency",
+      "fintech"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "mmahgoub",
+      "name": "tafgeetjs",
+      "url": "https://github.com/mmahgoub/tafgeetjs",
+      "stars": 30,
+      "forks": 16,
+      "openIssues": 2,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2026-09-01T06:15:08Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T20:37:43.668Z"
+  },
+  {
+    "id": "alexrutherford-arabic-social-nlp",
+    "repo": "alexrutherford/arabic_nlp",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أدوات تطبيع النصوص وتحليل المشاعر",
+      "en": "Arabic Social NLP Toolkit"
+    },
+    "description": {
+      "ar": "حزمة بايثون لتطبيع وتوحيد النصوص العربية واستخراج المشاعر والانطباعات من منشورات وسائل التواصل.",
+      "en": "Python tools to normalize, stem, and derive sentiment polarity from Arabic social media content."
+    },
+    "tags": [
+      "python",
+      "nlp",
+      "sentiment-analysis",
+      "normalization",
+      "social-media"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "alexrutherford",
+      "name": "arabic_nlp",
+      "url": "https://github.com/alexrutherford/arabic_nlp",
+      "stars": 27,
+      "forks": 14,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2018-03-01T12:53:19Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:43.793Z"
+  },
+  {
+    "id": "arabic-verb-form-conjugator",
+    "repo": "awillborn/Arabic-Conjugator",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك تصريف الأفعال القياسية",
+      "en": "Arabic Verb Form Conjugator"
+    },
+    "description": {
+      "ar": "برنامج بايثون لتصريف الأفعال العربية الفصحى تلقائياً بناءً على الجذور وأوزان الأفعال العشرة والضمائر.",
+      "en": "A Python tool that conjugates Modern Standard Arabic verbs given root letters, verb form, tense, and pronoun."
+    },
+    "tags": [
+      "python",
+      "verb-conjugation",
+      "morphology",
+      "grammar",
+      "linguistics"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "awillborn",
+      "name": "Arabic-Conjugator",
+      "url": "https://github.com/awillborn/Arabic-Conjugator",
+      "stars": 17,
+      "forks": 2,
+      "openIssues": 2,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Ruby",
+      "lastCommitAt": "2015-06-10T21:13:00Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:45.096Z"
+  },
+  {
+    "id": "dalwadani-hijri-converter",
+    "repo": "dalwadani/hijri-converter",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول التواريخ الهجرية الدقيق",
+      "en": "Python Hijri Converter"
+    },
+    "description": {
+      "ar": "مكتبة بايثون عالية الدقة للتحويل الرياضي بين التاريخين الهجري (أم القرى) والميلادي.",
+      "en": "A fast, accurate Python library to convert between Gregorian and Hijri (Umm al-Qura) calendar dates."
+    },
+    "tags": [
+      "python",
+      "hijri-converter",
+      "calendar",
+      "dates",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "dalwadani",
+      "name": "hijri-converter",
+      "url": "https://github.com/dalwadani/hijri-converter",
+      "stars": 17,
+      "forks": 6,
+      "openIssues": 3,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2020-12-06T10:53:19Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "hijri",
+        "hijri-dates-converter"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:45.056Z"
+  },
+  {
+    "id": "devjustly-english-arabic-dictionary",
+    "repo": "devjustly/en_ar_dict",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "القاموس الإنجليزي العربي المكتبي",
+      "en": "English-Arabic Desktop Dictionary"
+    },
+    "description": {
+      "ar": "تطبيق معجمي مكتبي يعمل بدون إنترنت مكتوب بلغة بايثون وواجهة Qt للبحث السريع في المفردات وترجماتها.",
+      "en": "An offline English-Arabic dictionary desktop application written in Python and PySide/Qt."
+    },
+    "tags": [
+      "python",
+      "qt",
+      "desktop-app",
+      "dictionary",
+      "offline"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "devjustly",
+      "name": "en_ar_dict",
+      "url": "https://github.com/devjustly/en_ar_dict",
+      "stars": 17,
+      "forks": 8,
+      "openIssues": 1,
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2013-11-23T07:13:43Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:45.036Z"
+  },
+  {
+    "id": "pyarabicshaping-bindings",
+    "repo": "fribidi/pyarabicshaping",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "مكتبة تشكيل الحروف العربية لبايثون",
+      "en": "PyArabicShaping"
+    },
+    "description": {
+      "ar": "تطبيق لخوارزميات FriBidi بلغة بايثون لربط وتشكيل الحروف العربية وتحديد المواضع الطباعية للمحارف.",
+      "en": "Python bindings and implementation of FriBidi Arabic shaping algorithms for text rendering."
+    },
+    "tags": [
+      "python",
+      "arabic-shaping",
+      "typography",
+      "bidi",
+      "fribidi"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "fribidi",
+      "name": "pyarabicshaping",
+      "url": "https://github.com/fribidi/pyarabicshaping",
+      "stars": 16,
+      "forks": 1,
+      "openIssues": 1,
+      "license": {
+        "spdxId": "LGPL-2.1",
+        "name": "GNU Lesser General Public License v2.1"
+      },
+      "primaryLanguage": "Python",
+      "lastCommitAt": "2021-02-28T18:37:18Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:46.336Z"
+  },
+  {
+    "id": "arabic-webfonts-wordpress",
+    "repo": "mohamdio/Arabic-Webfonts",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "إضافة الخطوط العربية للويب في ووردبريس",
+      "en": "Arabic Webfonts WordPress Plugin"
+    },
+    "description": {
+      "ar": "إضافة لمنصة WordPress تتيح دمج واستخدام أشهر الخطوط العربية الحديثة في القوالب بسهولة دون كتابة كود.",
+      "en": "A WordPress plugin that allows webmasters to integrate and render Arabic web fonts in any theme easily."
+    },
+    "tags": [
+      "wordpress",
+      "webfonts",
+      "typography",
+      "arabic-fonts",
+      "plugin"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "mohamdio",
+      "name": "Arabic-Webfonts",
+      "url": "https://github.com/mohamdio/Arabic-Webfonts",
+      "stars": 14,
+      "forks": 5,
+      "openIssues": 3,
+      "license": {
+        "spdxId": "GPL-2.0",
+        "name": "GNU General Public License v2.0"
+      },
+      "primaryLanguage": "PHP",
+      "lastCommitAt": "2018-02-17T14:32:46Z",
+      "latestRelease": {
+        "tag": "v1.0",
+        "publishedAt": "2015-04-23T10:11:14Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:46.482Z"
+  },
+  {
+    "id": "arabic-number-to-word-qt",
+    "repo": "01walid/ArabicNumberToWord",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الأرقام إلى نصوص عبر Qt/C++",
+      "en": "Arabic Number To Word Qt/C++"
+    },
+    "description": {
+      "ar": "أداة سطح مكتب متعددة المنصات مكتوبة بلغة C++ وإطار Qt لتحويل الأرقام الحسابية والمبالغ إلى كلمات عربية.",
+      "en": "A cross-platform desktop tool using Qt/C++ to convert numbers and currency amounts into written Arabic words."
+    },
+    "tags": [
+      "cpp",
+      "qt",
+      "tafqeet",
+      "desktop-app",
+      "utilities"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "01walid",
+      "name": "ArabicNumberToWord",
+      "url": "https://github.com/01walid/ArabicNumberToWord",
+      "stars": 13,
+      "forks": 2,
+      "openIssues": 0,
+      "primaryLanguage": "C++",
+      "lastCommitAt": "2015-08-24T11:06:28Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:46.504Z"
+  },
+  {
+    "id": "aln9-arabic-markup-language",
+    "repo": "mznmel/aln9",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة التوصيف العربية «النص»",
+      "en": "Aln9 Arabic Markup Language"
+    },
+    "description": {
+      "ar": "لغة توصيف خفيفة ومحلل نصوص مصمم خصيصاً للمحتوى العربي بدلالات ووسوم متوافقة مع طبيعة اللغة.",
+      "en": "A lightweight markup language and parser designed specifically with Arabic syntax and semantics."
+    },
+    "tags": [
+      "markup-language",
+      "parser",
+      "arabic-syntax",
+      "dsl",
+      "text-processing"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "mznmel",
+      "name": "aln9",
+      "url": "https://github.com/mznmel/aln9",
+      "stars": 12,
+      "forks": 4,
+      "openIssues": 0,
+      "primaryLanguage": "HTML",
+      "lastCommitAt": "2015-04-17T05:04:06Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:47.852Z"
+  },
+  {
+    "id": "nlp-arabic-ruby-gem",
+    "repo": "othmanela/nlp_arabic",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "جوهرة روبي للمعالجة اللغوية العربية",
+      "en": "NLP Arabic Ruby Gem"
+    },
+    "description": {
+      "ar": "حزمة برمجية لمطوري لغة Ruby توفر أدوات متكاملة لتجذيع وتطبيع واستخراج الكلمات المفتاحية من النصوص العربية.",
+      "en": "A Ruby gem providing comprehensive Arabic natural language processing, light stemming, and text normalization."
+    },
+    "tags": [
+      "ruby",
+      "nlp",
+      "stemming",
+      "normalization",
+      "gem"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "othmanela",
+      "name": "nlp_arabic",
+      "url": "https://github.com/othmanela/nlp_arabic",
+      "stars": 11,
+      "forks": 3,
+      "openIssues": 0,
+      "primaryLanguage": "Ruby",
+      "lastCommitAt": "2015-05-11T22:18:54Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:47.858Z"
+  },
+  {
+    "id": "arabic-utils-npm",
+    "repo": "justgo97/arabic-utils",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة أدوات معالجة الكلمات العربية",
+      "en": "Arabic Utils NPM Package"
+    },
+    "description": {
+      "ar": "حزمة برمجية لبيئتي المتصفح وNode.js تقدم أدوات لمعالجة النصوص، البحث في الرموز، وإزالة علامات التشكيل.",
+      "en": "An NPM package for browser and Node.js providing utilities for Arabic string manipulation and token search."
+    },
+    "tags": [
+      "npm",
+      "javascript",
+      "string-utilities",
+      "diacritics",
+      "text-processing"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "justgo97",
+      "name": "arabic-utils",
+      "url": "https://github.com/justgo97/arabic-utils",
+      "stars": 9,
+      "forks": 0,
+      "openIssues": 4,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "TypeScript",
+      "lastCommitAt": "2024-05-01T14:32:12Z",
+      "latestRelease": {
+        "tag": "v6.0.1",
+        "publishedAt": "2024-03-09T08:52:55Z"
+      },
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-diacritics",
+        "arabic-language",
+        "diacritics",
+        "javascript",
+        "npm",
+        "npm-package",
+        "typescript"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:48.064Z"
+  },
+  {
+    "id": "fahm-arabic-learning-extension",
+    "repo": "malikolivier/fahm",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "إضافة فهم التعليمية لمتصفح كروم",
+      "en": "Fahm Arabic Learning Extension"
+    },
+    "description": {
+      "ar": "إضافة متصفح تفاعلية تعرض قاموساً منبثقاً لشرح وتحليل الكلمات والمفردات العربية أثناء القراءة للمتعلمين.",
+      "en": "An interactive browser extension providing a pop-up Arabic dictionary and vocabulary helper for learners."
+    },
+    "tags": [
+      "browser-extension",
+      "edtech",
+      "learn-arabic",
+      "dictionary",
+      "education"
+    ],
+    "featured": true,
+    "github": {
+      "owner": "malikolivier",
+      "name": "fahm",
+      "url": "https://github.com/malikolivier/fahm",
+      "stars": 7,
+      "forks": 1,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "primaryLanguage": "JavaScript",
+      "lastCommitAt": "2017-01-31T02:08:56Z",
+      "latestRelease": {
+        "tag": "v0.1.4.1",
+        "publishedAt": "2016-07-14T14:34:47Z"
+      },
+      "isArchived": false,
+      "topics": []
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:49.381Z"
+  },
+  {
+    "id": "arabic-coco-captions-dataset",
+    "repo": "canesee-project/Arabic-COCO",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة كوكو للتعليق على الصور بالعربية",
+      "en": "Arabic COCO Vision-Language Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات معيارية متعددة الوسائط تضم توصيفات وتعليقات نصية عربية لصور قاعدة بيانات MS COCO.",
+      "en": "A multimodal vision-language benchmark dataset providing authentic Arabic captions for MS COCO images."
+    },
+    "tags": [
+      "dataset",
+      "vision-language",
+      "multimodal",
+      "image-captioning",
+      "nlp-benchmark"
+    ],
+    "featured": false,
+    "github": {
+      "owner": "canesee-project",
+      "name": "Arabic-COCO",
+      "url": "https://github.com/canesee-project/Arabic-COCO",
+      "stars": 6,
+      "forks": 1,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "BSD-2-Clause",
+        "name": "BSD 2-Clause \"Simplified\" License"
+      },
+      "lastCommitAt": "2020-10-07T11:24:18Z",
+      "latestRelease": null,
+      "isArchived": false,
+      "topics": [
+        "arabic",
+        "arabic-language",
+        "captions",
+        "image-captioning",
+        "mscoco",
+        "mscoco-dataset",
+        "mscoco-image-dataset",
+        "scene-recognition"
+      ]
+    },
+    "activityStatus": "inactive",
+    "lastSyncedAt": "2026-09-15T20:37:49.604Z"
   }
 ]
