@@ -2,7 +2,7 @@
 ### Arabic Open Source Directory & Showcase Hub
 
 <p align="center">
-  <img src="https://img.shields.io/badge/مشاريع_عربية-190+-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
+  <img src="https://img.shields.io/badge/مشاريع_عربية-240+-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
   <img src="https://img.shields.io/badge/التصنيفات-7-06b6d4?style=for-the-badge" alt="Categories" />
   <img src="https://img.shields.io/badge/التحديث-تلقائي_أسبوعياً-f59e0b?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation" />
   <img src="https://img.shields.io/badge/الرخصة-MIT-3b82f6?style=for-the-badge" alt="License" />
