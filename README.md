@@ -46,7 +46,7 @@ The **Arabic Open Source Directory** is a centralized, living showcase dedicated
 
 يمكنك فحص أي مشروع مرشح آلياً للتأكد من استيفائه لكافة الشروط قبل تقديمه عبر الأمر:
 ```bash
-npm run check-candidate <owner/repo>
+pnpm run check-candidate <owner/repo>
 ```
 
 ---
@@ -83,7 +83,7 @@ npm run check-candidate <owner/repo>
 ```
 3. تأكد من صحة البيانات بتشغيل فاحص البنية:
 ```bash
-npm run validate
+pnpm validate
 ```
 4. افتح طلب سحب (Pull Request)!
 
@@ -91,23 +91,23 @@ npm run validate
 
 ## 🛠️ التشغيل والتطوير المحلي | Local Development
 
-يتطلب المشروع توفر بيئة [Node.js](https://nodejs.org/) (إصدار 18 فما فوق).
+يتطلب المشروع توفر بيئة [Node.js](https://nodejs.org/) (إصدار 18 فما فوق) ومدير الحزم [pnpm](https://pnpm.io/) (إصدار 9 فما فوق).
 
 ```bash
 # 1. تثبيت الحزم والاعتماديات
-npm install
+pnpm install
 
 # 2. تشغيل خادم التطوير المحلي
-npm run dev
+pnpm dev
 
 # 3. فحص صحة بيانات الكتالوج
-npm run validate
+pnpm validate
 
 # 4. تحديث إحصائيات المشاريع من GitHub API
-npm run sync
+pnpm sync
 
 # 5. بناء الحزمة النهائية للإنتاج
-npm run build
+pnpm build
 ```
 
 ---

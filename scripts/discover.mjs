@@ -986,7 +986,7 @@ async function main() {
     console.log(`📈 Catalog expanded from ${existingProjects.length} to ${mergedProjects.length} projects.`);
   } else {
     console.log('\n💡 Run with --apply to automatically ingest candidates, e.g.:');
-    console.log('   npm run discover:apply');
+    console.log('   pnpm run discover:apply');
   }
 }
 

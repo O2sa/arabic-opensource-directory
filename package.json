@@ -11,7 +11,13 @@
     "sync": "node scripts/sync.mjs",
     "discover": "node scripts/discover.mjs",
     "discover:apply": "node scripts/discover.mjs --apply",
-    "check-candidate": "node scripts/check-candidate.mjs"
+    "check-candidate": "node scripts/check-candidate.mjs",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "packageManager": "pnpm@9.12.2",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
   },
   "dependencies": {
     "clsx": "^2.1.1",
