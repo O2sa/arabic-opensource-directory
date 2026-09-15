@@ -157,13 +157,46 @@ function isHighQuality(repo) {
   const topics = (repo.topics || []).join(' ').toLowerCase();
   const combined = `${name} ${desc} ${topics}`;
 
+  // Blacklist of repositories whose primary role is NOT Arabic (general multilingual or non-Arabic)
+  const NON_ARABIC_FIRST = [
+    'jaidedai/easyocr',
+    'zibo-chen/ocr-rs',
+    'fabrizioschiavi/pragmatapro',
+    'bluemix/tourism-demo',
+    'shraga100/claude-desktop-rtl-patch',
+    'yaqiin/boycott',
+    'shahabyazdi/react-multi-date-picker',
+    'pnarimani/rtltmpro',
+    'yongzhuo/macropodus',
+    '01walid/awesome-arabic',
+    'lightsidekittens/unitext',
+    'eymenefealtun/all-words-in-all-languages',
+    'peter-tharwat/dashboard',
+    'abdumostafa/awesome-in-arabic'
+  ];
+
+  if (NON_ARABIC_FIRST.includes(repo.full_name.toLowerCase())) {
+    return false;
+  }
+
+  // Exclude pure curation/awesome lists without software code
+  if (name.startsWith('awesome-') || desc.startsWith('a curated list') || desc.startsWith('curated list')) {
+    return false;
+  }
+
+  // Exclude generic multilingual projects where Arabic is merely an incidental language
+  const multilingualMarkers = ['80+ languages', '100+ languages', 'multilingual ocr', 'chinese nlp', 'chinese', 'latin alphabet'];
+  if (multilingualMarkers.some(m => desc.includes(m))) {
+    return false;
+  }
+
   // Filter out irrelevant or junk repos
   const excludeKeywords = ['homework', 'course', 'assignment', 'tutorial', 'learn-arabic', 'flashcard', 'cheat-sheet', 'interview'];
   if (excludeKeywords.some(kw => combined.includes(kw))) {
     return false;
   }
 
-  // Must have Arabic relevance
+  // Must have Arabic relevance as its primary subject
   const arabicMarkers = ['arabic', 'arab', 'quran', 'hadith', 'tashkeel', 'hijri', 'islam', 'amiri', 'naskh', 'ruqaa', 'shakkala', 'mishkal', 'morphology', 'diacriti'];
   const hasMarker = arabicMarkers.some(m => combined.includes(m)) || hasArabicText(repo.description) || hasArabicText(repo.name);
   if (!hasMarker) return false;
@@ -173,15 +206,6 @@ function isHighQuality(repo) {
 
 // Curated metadata dictionary for known flagship repositories
 const CURATED_DESCRIPTIONS = {
-  'jaidedai/easyocr': {
-    category: 'ocr-vision',
-    title: { ar: 'EasyOCR للتعرف البصري', en: 'EasyOCR' },
-    description: {
-      ar: 'أشهر مكتبة مفتوحة المصدر للتعرف الضوئي على النصوص (OCR) مع دعم كامل ورسمي للغة العربية والكتابة من اليمين لليسار.',
-      en: 'Ready-to-use OCR with 80+ supported languages including Arabic and right-to-left scripts.'
-    },
-    tags: ['python', 'ocr', 'pytorch', 'deep-learning', 'computer-vision']
-  },
   'maidaly/arabic_ocr': {
     category: 'ocr-vision',
     title: { ar: 'تطبيق استخراج النصوص العربية', en: 'Arabic OCR with CRAFT' },
@@ -361,6 +385,87 @@ const CURATED_DESCRIPTIONS = {
       en: 'Open-source Arabic lexical database and dictionary for language engineering.'
     },
     tags: ['dataset', 'lexicon', 'dictionary', 'database', 'arabic']
+  },
+  'ahr-ocr2024/arabic-handwriting-recognition': {
+    category: 'ocr-vision',
+    title: { ar: 'نظام التعرف على خط اليد العربي', en: 'Arabic Handwriting Recognition' },
+    description: {
+      ar: 'نموذج تعلم عميق للتعرف البصري واستخراج النصوص المكتوبة بخط اليد باللغة العربية بدقة عالية.',
+      en: 'End-to-end deep learning pipeline for offline Arabic handwritten text recognition.'
+    },
+    tags: ['python', 'ocr', 'handwriting', 'deep-learning', 'computer-vision']
+  },
+  'camel-lab/arafix_ocr': {
+    category: 'ocr-vision',
+    title: { ar: 'أداة تدقيق أخطاء التعرف الضوئي', en: 'Arafix Arabic OCR Correction' },
+    description: {
+      ar: 'أداة متخصصة من مختبر CAMeL لتصحيح وتدقيق الأخطاء الناتجة عن محركات التعرف الضوئي على النصوص العربية.',
+      en: 'CAMeL Lab post-processing and error correction toolkit for Arabic OCR output text.'
+    },
+    tags: ['python', 'ocr', 'error-correction', 'camel-lab', 'nlp']
+  },
+  'manshar/manshar': {
+    category: 'platforms-apps',
+    title: { ar: 'منصة منشر للتدوين المفتوح', en: 'Manshar Publishing Platform' },
+    description: {
+      ar: 'منصة تدوين ونشر مفتوحة المصدر مخصصة لدعم المحتوى العربي وتجربة القراءة والكتابة العربية على الويب.',
+      en: 'An open-source Arabic-first publishing and blogging platform built for the web.'
+    },
+    tags: ['ruby', 'rails', 'publishing', 'blogging', 'arabic-web']
+  },
+  'arbml/qawafi': {
+    category: 'platforms-apps',
+    title: { ar: 'منصة قوافي لعروض الشعر العربي', en: 'Qawafi Arabic Poetry Platform' },
+    description: {
+      ar: 'أداة وتطبيق ويب مفتوح المصدر لتحليل بحور الشعر العربي، وتقطيع الأبيات، واكتشاف القوافي آلياً.',
+      en: 'Open-source Arabic poetry analysis, poetic meter detection, and rhyming tool.'
+    },
+    tags: ['python', 'poetry', 'meter', 'literature', 'arbml']
+  },
+  'swivid/habibi-tts': {
+    category: 'nlp-ai',
+    title: { ar: 'حبيبي لتوليد الصوت العربي', en: 'Habibi Arabic TTS' },
+    description: {
+      ar: 'محرك ونظام ذكاء اصطناعي مفتوح المصدر لتوليد ونطق الكلام العربي بأصوات طبيعية عالية الجودة.',
+      en: 'Open-source high-quality neural Arabic text-to-speech (TTS) synthesis system.'
+    },
+    tags: ['python', 'tts', 'speech-synthesis', 'voice', 'deep-learning']
+  },
+  'arbml/calliar': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'كاليار للخط العربي الرقمي', en: 'Calliar Calligraphy Tool' },
+    description: {
+      ar: 'أكبر مشروع مفتوح لبيانات وخوارزميات رسم ومحاكاة الخط العربي وتوليد اللوحات الخطية بالحاسوب.',
+      en: 'The largest open-source stroked Arabic calligraphy dataset and stroke generation toolkit.'
+    },
+    tags: ['calligraphy', 'arabic-art', 'stroke', 'dataset', 'typography']
+  },
+  'aliftype/qahiri': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط قاهري الكوفي', en: 'Qahiri Kufic Font' },
+    description: {
+      ar: 'خط عربي رقمي مفتوح المصدر يحاكي الطراز الكوفي القيرواني والأنماط المعمارية الكلاسيكية من تصميم خالد حسني.',
+      en: 'A digital Kufic typeface inspired by classical architectural inscriptions by Khaled Hosny.'
+    },
+    tags: ['font', 'kufi', 'calligraphy', 'typography', 'opentype']
+  },
+  'linuxscout/qutrub': {
+    category: 'dev-tools',
+    title: { ar: 'قطرب لتصريف الأفعال العربية', en: 'Qutrub Verb Conjugator' },
+    description: {
+      ar: 'مكتبة بايثون متقدمة لتصريف الأفعال العربية في كافة الأزمنة وحالات الإسناد للضمائر.',
+      en: 'Comprehensive Python library for Arabic verb conjugation across tenses and pronouns.'
+    },
+    tags: ['python', 'conjugation', 'verbs', 'linguistics', 'arabic']
+  },
+  'arbml/tnkeeh': {
+    category: 'text-tashkeel',
+    title: { ar: 'تنقيح لمعالجة النصوص العربية', en: 'Tnkeeh Preprocessing' },
+    description: {
+      ar: 'حزمة بايثون خفيفة وسريعة لتنظيف وتجهيز النصوص العربية وتجريد التشكيل والترميز لنماذج الذكاء الاصطناعي.',
+      en: 'A fast Python library for preprocessing, cleaning, and normalizing Arabic text for NLP models.'
+    },
+    tags: ['python', 'nlp', 'preprocessing', 'cleaning', 'normalization']
   }
 };
 

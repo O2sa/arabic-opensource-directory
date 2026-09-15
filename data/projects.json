@@ -304,28 +304,6 @@
     ]
   },
   {
-    "id": "jaidedai-easyocr",
-    "repo": "JaidedAI/EasyOCR",
-    "category": "ocr-vision",
-    "title": {
-      "ar": "EasyOCR للتعرف البصري",
-      "en": "EasyOCR"
-    },
-    "description": {
-      "ar": "أشهر مكتبة مفتوحة المصدر للتعرف الضوئي على النصوص (OCR) مع دعم كامل ورسمي للغة العربية والكتابة من اليمين لليسار.",
-      "en": "Ready-to-use OCR with 80+ supported languages including Arabic and right-to-left scripts."
-    },
-    "homepage": "https://www.jaided.ai",
-    "featured": true,
-    "tags": [
-      "python",
-      "ocr",
-      "pytorch",
-      "deep-learning",
-      "computer-vision"
-    ]
-  },
-  {
     "id": "maidaly-arabic-ocr",
     "repo": "maidaly/Arabic_OCR",
     "category": "ocr-vision",
@@ -368,29 +346,6 @@
       "computer-vision",
       "dataset",
       "image-processing"
-    ]
-  },
-  {
-    "id": "zibo-chen-ocr-rs",
-    "repo": "zibo-chen/ocr-rs",
-    "category": "ocr-vision",
-    "title": {
-      "ar": "ocr-rs",
-      "en": "Ocr Rs"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: 高性能OCR识别库，支持上百种语言，提供命令行、图形界面及C API多种调用方式，使用便捷高效。  High-performance OCR library powered by PaddleOCR v4/v5/v6 with MNN backend. Supports 10+ languages (Chinese, English, Japanese, Korean, Arabic, Cyrillic, Thai, etc). Provides Rust crate + C API + CLI tools. Fast, lightweight, easy-to-integrate.",
-      "en": "高性能OCR识别库，支持上百种语言，提供命令行、图形界面及C API多种调用方式，使用便捷高效。  High-performance OCR library powered by PaddleOCR v4/v5/v6 with MNN backend. Supports 10+ languages (Chinese, English, Japanese, Korean, Arabic, Cyrillic, Thai, etc). Provides Rust crate + C API + CLI tools. Fast, lightweight, easy-to-integrate."
-    },
-    "homepage": "https://crates.io/crates/ocr-rs",
-    "featured": true,
-    "tags": [
-      "rust",
-      "ocr",
-      "ocr-rs",
-      "paddleocr",
-      "tesseract-ocr",
-      "ocr vision"
     ]
   },
   {
@@ -457,29 +412,6 @@
     ]
   },
   {
-    "id": "fabrizioschiavi-pragmatapro",
-    "repo": "fabrizioschiavi/pragmatapro",
-    "category": "fonts-calligraphy",
-    "title": {
-      "ar": "pragmatapro",
-      "en": "Pragmatapro"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: PragmataPro font is designed to help pros to work better",
-      "en": "PragmataPro font is designed to help pros to work better"
-    },
-    "homepage": "https://fsd.it/shop/fonts/pragmatapro/",
-    "featured": true,
-    "tags": [
-      "rich text format",
-      "apl",
-      "arabic",
-      "arrows",
-      "bopomofo",
-      "coding-fonts"
-    ]
-  },
-  {
     "id": "aminabedi68-estedad",
     "repo": "aminabedi68/Estedad",
     "category": "fonts-calligraphy",
@@ -500,29 +432,6 @@
       "font",
       "text-font",
       "typeface"
-    ]
-  },
-  {
-    "id": "bluemix-tourism-demo",
-    "repo": "bluemix/Tourism-Demo",
-    "category": "fonts-calligraphy",
-    "title": {
-      "ar": "Tourism-Demo",
-      "en": "Tourism Demo"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Flutter app backed by Redux, shows animations, internationalization (i18n), ClipPath, fonts and others...",
-      "en": "Flutter app backed by Redux, shows animations, internationalization (i18n), ClipPath, fonts and others..."
-    },
-    "homepage": "https://youtu.be/31WL1ep1Ce8",
-    "featured": true,
-    "tags": [
-      "dart",
-      "animations",
-      "arabic",
-      "clippath",
-      "english",
-      "flutter"
     ]
   },
   {
@@ -702,52 +611,6 @@
     ]
   },
   {
-    "id": "shraga100-claude-desktop-rtl-patch",
-    "repo": "shraga100/claude-desktop-rtl-patch",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "claude-desktop-rtl-patch",
-      "en": "Claude Desktop Rtl Patch"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: CSS patch for Claude Desktop windows version to enable RTL (right-to-left) support for Hebrew and Arabic",
-      "en": "CSS patch for Claude Desktop windows version to enable RTL (right-to-left) support for Hebrew and Arabic"
-    },
-    "homepage": "https://github.com/shraga100/claude-desktop-rtl-patch",
-    "featured": true,
-    "tags": [
-      "powershell",
-      "arabic",
-      "claude",
-      "claude-desktop",
-      "hebrew",
-      "patch"
-    ]
-  },
-  {
-    "id": "yaqiin-boycott",
-    "repo": "yaqiin/boycott",
-    "category": "platforms-apps",
-    "title": {
-      "ar": "boycott",
-      "en": "Boycott"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A Web platform that promote ethical consumerism by providing alternatives to non-ethical products.",
-      "en": "A Web platform that promote ethical consumerism by providing alternatives to non-ethical products."
-    },
-    "homepage": "https://boycott.yaqiin.org",
-    "featured": true,
-    "tags": [
-      "typescript",
-      "arabic",
-      "boycott",
-      "boycott-israel",
-      "boycott-tech",
-      "free-palestine"
-    ]
-  },
-  {
     "id": "linuxscout-ayaspell",
     "repo": "linuxscout/ayaspell",
     "category": "dev-tools",
@@ -813,52 +676,6 @@
     ]
   },
   {
-    "id": "shahabyazdi-react-multi-date-picker",
-    "repo": "shahabyazdi/react-multi-date-picker",
-    "category": "dev-tools",
-    "title": {
-      "ar": "react-multi-date-picker",
-      "en": "React Multi Date Picker"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: a simple React datepicker component for working with gregorian, persian, arabic and indian calendars",
-      "en": "a simple React datepicker component for working with gregorian, persian, arabic and indian calendars"
-    },
-    "homepage": "https://shahabyazdi.github.io/react-multi-date-picker/",
-    "featured": true,
-    "tags": [
-      "javascript",
-      "arabic",
-      "calendar",
-      "date",
-      "datepicker",
-      "farsi"
-    ]
-  },
-  {
-    "id": "pnarimani-rtltmpro",
-    "repo": "pnarimani/RTLTMPro",
-    "category": "dev-tools",
-    "title": {
-      "ar": "RTLTMPro",
-      "en": "RTLTMPro"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Right-To-Left Text Mesh Pro for Unity. This plugin adds support for Persian and Arabic languages to TextMeshPro.",
-      "en": "Right-To-Left Text Mesh Pro for Unity. This plugin adds support for Persian and Arabic languages to TextMeshPro."
-    },
-    "homepage": "https://github.com/pnarimani/RTLTMPro",
-    "featured": true,
-    "tags": [
-      "shaderlab",
-      "arabic",
-      "persian",
-      "text",
-      "text-mesh-pro",
-      "unity3d"
-    ]
-  },
-  {
     "id": "arbml-klaam",
     "repo": "ARBML/klaam",
     "category": "nlp-ai",
@@ -900,52 +717,6 @@
       "transformers",
       "seq2seq",
       "summarization"
-    ]
-  },
-  {
-    "id": "yongzhuo-macropodus",
-    "repo": "yongzhuo/Macropodus",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "Macropodus",
-      "en": "Macropodus"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: 自然语言处理工具Macropodus，基于Albert+BiLSTM+CRF深度学习网络架构，中文分词，词性标注，命名实体识别，新词发现，关键词，文本摘要，文本相似度，科学计算器，中文数字阿拉伯数字(罗马数字)转换，中文繁简转换，拼音转换。tookit(tool) of NLP，CWS(chinese word segnment)，POS(Part-Of-Speech Tagging)，NER(name entity recognition)，Find(new words discovery)，Keyword(keyword extraction)，Summarize(text summarization)，Sim(text similarity)，Calculate(scientific calculator)，Chi2num(chinese number to arabic number)",
-      "en": "自然语言处理工具Macropodus，基于Albert+BiLSTM+CRF深度学习网络架构，中文分词，词性标注，命名实体识别，新词发现，关键词，文本摘要，文本相似度，科学计算器，中文数字阿拉伯数字(罗马数字)转换，中文繁简转换，拼音转换。tookit(tool) of NLP，CWS(chinese word segnment)，POS(Part-Of-Speech Tagging)，NER(name entity recognition)，Find(new words discovery)，Keyword(keyword extraction)，Summarize(text summarization)，Sim(text similarity)，Calculate(scientific calculator)，Chi2num(chinese number to arabic number)"
-    },
-    "homepage": "https://blog.csdn.net/rensihui",
-    "featured": true,
-    "tags": [
-      "python",
-      "albert",
-      "calulator",
-      "crf",
-      "cws",
-      "keyword"
-    ]
-  },
-  {
-    "id": "01walid-awesome-arabic",
-    "repo": "01walid/awesome-arabic",
-    "category": "nlp-ai",
-    "title": {
-      "ar": "awesome-arabic",
-      "en": "Awesome Arabic"
-    },
-    "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: A curated list of awesome projects and dev/design resources for supporting Arabic computational needs.",
-      "en": "A curated list of awesome projects and dev/design resources for supporting Arabic computational needs."
-    },
-    "homepage": "https://github.com/01walid/awesome-arabic",
-    "featured": true,
-    "tags": [
-      "arabic",
-      "natural-language-processing",
-      "nlp",
-      "nlp-arabic",
-      "rtl",
-      "nlp ai"
     ]
   },
   {
@@ -1189,6 +960,225 @@
       "arabic-nlp",
       "nlp",
       "text tashkeel"
+    ]
+  },
+  {
+    "id": "ahr-ocr2024-arabic-handwriting-recognition",
+    "repo": "AHR-OCR2024/Arabic-Handwriting-Recognition",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نظام التعرف على خط اليد العربي",
+      "en": "Arabic Handwriting Recognition"
+    },
+    "description": {
+      "ar": "نموذج تعلم عميق للتعرف البصري واستخراج النصوص المكتوبة بخط اليد باللغة العربية بدقة عالية.",
+      "en": "End-to-end deep learning pipeline for offline Arabic handwritten text recognition."
+    },
+    "homepage": "https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "handwriting",
+      "deep-learning",
+      "computer-vision"
+    ]
+  },
+  {
+    "id": "camel-lab-arafix-ocr",
+    "repo": "CAMeL-Lab/arafix_ocr",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "أداة تدقيق أخطاء التعرف الضوئي",
+      "en": "Arafix Arabic OCR Correction"
+    },
+    "description": {
+      "ar": "أداة متخصصة من مختبر CAMeL لتصحيح وتدقيق الأخطاء الناتجة عن محركات التعرف الضوئي على النصوص العربية.",
+      "en": "CAMeL Lab post-processing and error correction toolkit for Arabic OCR output text."
+    },
+    "homepage": "https://github.com/CAMeL-Lab/arafix_ocr",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "error-correction",
+      "camel-lab",
+      "nlp"
+    ]
+  },
+  {
+    "id": "manshar-manshar",
+    "repo": "manshar/manshar",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "منصة منشر للتدوين المفتوح",
+      "en": "Manshar Publishing Platform"
+    },
+    "description": {
+      "ar": "منصة تدوين ونشر مفتوحة المصدر مخصصة لدعم المحتوى العربي وتجربة القراءة والكتابة العربية على الويب.",
+      "en": "An open-source Arabic-first publishing and blogging platform built for the web."
+    },
+    "homepage": "https://github.com/manshar/manshar",
+    "featured": true,
+    "tags": [
+      "ruby",
+      "rails",
+      "publishing",
+      "blogging",
+      "arabic-web"
+    ]
+  },
+  {
+    "id": "arbml-qawafi",
+    "repo": "ARBML/qawafi",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "منصة قوافي لعروض الشعر العربي",
+      "en": "Qawafi Arabic Poetry Platform"
+    },
+    "description": {
+      "ar": "أداة وتطبيق ويب مفتوح المصدر لتحليل بحور الشعر العربي، وتقطيع الأبيات، واكتشاف القوافي آلياً.",
+      "en": "Open-source Arabic poetry analysis, poetic meter detection, and rhyming tool."
+    },
+    "homepage": "https://github.com/ARBML/qawafi",
+    "featured": false,
+    "tags": [
+      "python",
+      "poetry",
+      "meter",
+      "literature",
+      "arbml"
+    ]
+  },
+  {
+    "id": "alifcommunity-alif5",
+    "repo": "alifcommunity/Alif5",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "لغة البرمجة العربية «ألف»",
+      "en": "Alif Programming Language"
+    },
+    "description": {
+      "ar": "لغة برمجة عربية حديثة ومفتوحة المصدر مكتوبة بلغة C++ لتمكين البرمجة والتعليم بلغة الضاد.",
+      "en": "A modern open-source Arabic programming language implemented in C++."
+    },
+    "homepage": "https://aliflang.org",
+    "featured": true,
+    "tags": [
+      "cpp",
+      "compiler",
+      "programming-language",
+      "education"
+    ]
+  },
+  {
+    "id": "aliftype-qahiri",
+    "repo": "aliftype/qahiri",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط قاهري الكوفي",
+      "en": "Qahiri Kufic Font"
+    },
+    "description": {
+      "ar": "خط عربي رقمي مفتوح المصدر يحاكي الطراز الكوفي القيرواني والأنماط المعمارية الكلاسيكية من تصميم خالد حسني.",
+      "en": "A digital Kufic typeface inspired by classical architectural inscriptions by Khaled Hosny."
+    },
+    "homepage": "https://github.com/aliftype/qahiri",
+    "featured": false,
+    "tags": [
+      "font",
+      "kufi",
+      "calligraphy",
+      "typography",
+      "opentype"
+    ]
+  },
+  {
+    "id": "arbml-calliar",
+    "repo": "ARBML/Calliar",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "كاليار للخط العربي الرقمي",
+      "en": "Calliar Calligraphy Tool"
+    },
+    "description": {
+      "ar": "أكبر مشروع مفتوح لبيانات وخوارزميات رسم ومحاكاة الخط العربي وتوليد اللوحات الخطية بالحاسوب.",
+      "en": "The largest open-source stroked Arabic calligraphy dataset and stroke generation toolkit."
+    },
+    "homepage": "https://github.com/ARBML/Calliar",
+    "featured": true,
+    "tags": [
+      "calligraphy",
+      "arabic-art",
+      "stroke",
+      "dataset",
+      "typography"
+    ]
+  },
+  {
+    "id": "swivid-habibi-tts",
+    "repo": "SWivid/Habibi-TTS",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "حبيبي لتوليد الصوت العربي",
+      "en": "Habibi Arabic TTS"
+    },
+    "description": {
+      "ar": "محرك ونظام ذكاء اصطناعي مفتوح المصدر لتوليد ونطق الكلام العربي بأصوات طبيعية عالية الجودة.",
+      "en": "Open-source high-quality neural Arabic text-to-speech (TTS) synthesis system."
+    },
+    "homepage": "https://github.com/SWivid/Habibi-TTS",
+    "featured": true,
+    "tags": [
+      "python",
+      "tts",
+      "speech-synthesis",
+      "voice",
+      "deep-learning"
+    ]
+  },
+  {
+    "id": "linuxscout-qutrub",
+    "repo": "linuxscout/qutrub",
+    "category": "dev-tools",
+    "title": {
+      "ar": "قطرب لتصريف الأفعال العربية",
+      "en": "Qutrub Verb Conjugator"
+    },
+    "description": {
+      "ar": "مكتبة بايثون متقدمة لتصريف الأفعال العربية في كافة الأزمنة وحالات الإسناد للضمائر.",
+      "en": "Comprehensive Python library for Arabic verb conjugation across tenses and pronouns."
+    },
+    "homepage": "https://qutrub.arabeyes.org",
+    "featured": true,
+    "tags": [
+      "python",
+      "conjugation",
+      "verbs",
+      "linguistics",
+      "arabic"
+    ]
+  },
+  {
+    "id": "arbml-tnkeeh",
+    "repo": "ARBML/tnkeeh",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "تنقيح لمعالجة النصوص العربية",
+      "en": "Tnkeeh Preprocessing"
+    },
+    "description": {
+      "ar": "حزمة بايثون خفيفة وسريعة لتنظيف وتجهيز النصوص العربية وتجريد التشكيل والترميز لنماذج الذكاء الاصطناعي.",
+      "en": "A fast Python library for preprocessing, cleaning, and normalizing Arabic text for NLP models."
+    },
+    "homepage": "https://github.com/ARBML/tnkeeh",
+    "featured": false,
+    "tags": [
+      "python",
+      "nlp",
+      "preprocessing",
+      "cleaning",
+      "normalization"
     ]
   }
 ]
