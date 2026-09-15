@@ -2603,5 +2603,2471 @@
       "ocr-arabic",
       "ocr-java"
     ]
+  },
+  {
+    "id": "jordanopensource-arabic-ocr-studygroup",
+    "repo": "jordanopensource/arabic-ocr-studygroup",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "مجموعة دراسة التعرف الضوئي العربي",
+      "en": "Arabic OCR Study Group"
+    },
+    "description": {
+      "ar": "مجموعة بيانات وشيفرات برمجية مفتوحة المصدر لتدريب نماذج التعلم العميق على التعرف على خط اليد العربي.",
+      "en": "Arabic handwriting dataset and deep learning starter models developed by the Jordan Open Source Association."
+    },
+    "homepage": "https://jordanopensource.org",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "handwriting",
+      "jordan-open-source",
+      "deep-learning"
+    ]
+  },
+  {
+    "id": "zaakki-ahamed-arabic-ocr-from-pdf",
+    "repo": "zaakki-ahamed/Arabic_OCR_From_PDF",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "استخراج نصوص PDF العربية",
+      "en": "Arabic OCR from PDF"
+    },
+    "description": {
+      "ar": "أداة مفتوحة المصدر لاستخراج النصوص والتعرف الضوئي على محتوى ملفات PDF والمستندات المصورة باللغة العربية.",
+      "en": "Open-source pipeline for performing optical character recognition on scanned Arabic PDF documents."
+    },
+    "homepage": "https://github.com/zaakki-ahamed/Arabic_OCR_From_PDF",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "pdf",
+      "arabic-ocr",
+      "text-extraction"
+    ]
+  },
+  {
+    "id": "hedrax-invizo-ocr",
+    "repo": "Hedrax/Invizo-OCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "منظومة إنفيزو للتعرف البصري",
+      "en": "Invizo Arabic OCR"
+    },
+    "description": {
+      "ar": "حل برمجي متكامل مفتوح المصدر للتعرف الضوئي على الحروف والنصوص العربية المطبوعة والمكتوبة بخط اليد.",
+      "en": "An end-to-end Arabic optical character recognition solution for both handwritten and printed text."
+    },
+    "homepage": "https://github.com/Hedrax/Invizo-OCR",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr",
+      "computer-vision",
+      "deep-learning",
+      "arabic"
+    ]
+  },
+  {
+    "id": "omarsamirz-arabic-ocr-tesseract",
+    "repo": "OmarSamirz/Fine-Tuning-an-Arabic-OCR-Model-using-Tesseract-5.0",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "ضبط تيسيراكت 5 للعربية",
+      "en": "Tesseract 5 Arabic Fine-Tuning"
+    },
+    "description": {
+      "ar": "أدوات ونماذج تدريب لضبط وتطوير دقة محرك Tesseract 5.0 للتعرف على الخطوط والمستندات العربية المعقدة.",
+      "en": "Fine-tuning pipeline and models for optimizing Tesseract 5.0 OCR for complex Arabic typography."
+    },
+    "homepage": "https://github.com/OmarSamirz/Fine-Tuning-an-Arabic-OCR-Model-using-Tesseract-5.0",
+    "featured": false,
+    "tags": [
+      "ocr",
+      "tesseract",
+      "arabic-ocr",
+      "fine-tuning",
+      "python"
+    ]
+  },
+  {
+    "id": "mohamedbassel24-ocr-for-arabic-scripts",
+    "repo": "mohamedbassel24/OCR-for-Arabic-Scripts",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "محرك قراءة الخط العربي",
+      "en": "Arabic Scripts OCR Engine"
+    },
+    "description": {
+      "ar": "نظام رؤية حاسوبية وتعلم عميق لتحويل صور النصوص العربية والمستندات الرقمية إلى نصوص قابلة للبحث والتحرير.",
+      "en": "Computer vision and deep learning system converting Arabic script images into editable, searchable text."
+    },
+    "homepage": "https://github.com/mohamedbassel24/OCR-for-Arabic-Scripts",
+    "featured": false,
+    "tags": [
+      "python",
+      "deep-learning",
+      "ocr",
+      "computer-vision",
+      "arabic"
+    ]
+  },
+  {
+    "id": "yayaiu6-trocr-arabic",
+    "repo": "yayaiu6/Text-Vision-Advanced-Arabic-OCR-Model-Using-TrOCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نموذج TrOCR المحول للعربية",
+      "en": "Arabic TrOCR Vision Model"
+    },
+    "description": {
+      "ar": "نموذج محولات بصرية متقدم مبني على TrOCR ومدرب خصيصاً للتعرف على الكلمات والنصوص العربية بدقة متناهية.",
+      "en": "Advanced transformer-based vision model fine-tuning TrOCR for high-accuracy Arabic text recognition."
+    },
+    "homepage": "https://github.com/yayaiu6/Text-Vision-Advanced-Arabic-OCR-Model-Using-TrOCR",
+    "featured": false,
+    "tags": [
+      "trocr",
+      "transformers",
+      "ocr",
+      "pytorch",
+      "vision"
+    ]
+  },
+  {
+    "id": "kabikaj-jabalin",
+    "repo": "kabikaj/jabalin",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق جبلين لتصريف الأفعال",
+      "en": "Jabalín Verb Conjugator App"
+    },
+    "description": {
+      "ar": "تطبيق تفاعلي مفتوح المصدر لتوليد وتصريف الأفعال في اللغة العربية الفصحى وعرض جداول الإسناد.",
+      "en": "An interactive open-source application for generating and conjugating verbs in Modern Standard Arabic."
+    },
+    "homepage": "https://github.com/kabikaj/jabalin",
+    "featured": false,
+    "tags": [
+      "python",
+      "verbs",
+      "conjugator",
+      "linguistics",
+      "arabic"
+    ]
+  },
+  {
+    "id": "linuxscout-festival-arabic",
+    "repo": "linuxscout/festival-arabic",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "نظام فيستفال الصوتي العربي",
+      "en": "Festival Arabic Speech Engine"
+    },
+    "description": {
+      "ar": "نظام دعم اللغة العربية ومعالجة الفونيمات وقواعد النطق الصوتي لمنظومة توليد الكلام Festival.",
+      "en": "Arabic linguistic and phonetic support modules for the Festival speech synthesis system."
+    },
+    "homepage": "https://github.com/linuxscout/festival-arabic",
+    "featured": false,
+    "tags": [
+      "speech",
+      "festival",
+      "phonetics",
+      "tts",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "rn0x-farraghli",
+    "repo": "rn0x/farraghli",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "أداة فرّغلي لتفريغ الصوتيات",
+      "en": "Farraghli Audio Transcriber"
+    },
+    "description": {
+      "ar": "تطبيق مكتبي وأداة مفتوحة المصدر لتفريغ التسجيلات الصوتية والمحاضرات العربية إلى نصوص مكتوبة بدقة.",
+      "en": "An open-source desktop tool for automatic transcription of Arabic audio recordings and lectures."
+    },
+    "homepage": "https://github.com/rn0x/farraghli",
+    "featured": false,
+    "tags": [
+      "electron",
+      "speech-to-text",
+      "transcription",
+      "whisper",
+      "arabic"
+    ]
+  },
+  {
+    "id": "mdanok-arajs",
+    "repo": "mdanok/arajs",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "مكتبة أراجيس لمعالجة العربية",
+      "en": "AraJS Node Engine"
+    },
+    "description": {
+      "ar": "حزمة Node.js خفيفة وسريعة توفر أدوات لمعالجة النصوص العربية وتشكيلها وتحويل الأرقام لحروف.",
+      "en": "A fast Node.js module providing Arabic natural language processing, tafqeet, and reshaping tools."
+    },
+    "homepage": "https://github.com/mdanok/arajs",
+    "featured": false,
+    "tags": [
+      "javascript",
+      "nodejs",
+      "arabic-nlp",
+      "tafqeet",
+      "text-processing"
+    ]
+  },
+  {
+    "id": "rabraghib-darijascript",
+    "repo": "rabraghib/darijascript",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "لغة البرمجة دارجة سكريبت",
+      "en": "DarijaScript"
+    },
+    "description": {
+      "ar": "لغة برمجة تعليمية طريفة ومفتوحة المصدر مستوحاة من الدارجة المغربية تترجم الشيفرات إلى جافاسكريبت.",
+      "en": "An open-source educational programming language inspired by Moroccan Arabic (Darija) transpiling to JS."
+    },
+    "homepage": "https://github.com/rabraghib/darijascript",
+    "featured": false,
+    "tags": [
+      "compiler",
+      "programming-language",
+      "moroccan-arabic",
+      "transpiler",
+      "javascript"
+    ]
+  },
+  {
+    "id": "01walid-goarabic",
+    "repo": "01walid/goarabic",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "حزمة جو-عربيك للخطوط والتشكيل",
+      "en": "GoArabic Font & Shaping"
+    },
+    "description": {
+      "ar": "حزمة برمجية بلغة Go لتصحيح وتشكيل الحروف العربية وضبط اتجاه النصوص وتوصيل الحروف في الرسوميات.",
+      "en": "A Golang package for Arabic font glyph reshaping, bidirectional text handling, and graphical rendering."
+    },
+    "homepage": "https://github.com/01walid/goarabic",
+    "featured": false,
+    "tags": [
+      "golang",
+      "arabic",
+      "font-shaping",
+      "glyph",
+      "bidi"
+    ]
+  },
+  {
+    "id": "nuqayah-kitab-font",
+    "repo": "nuqayah/kitab-font",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط كِتَاب النسخي الكلاسيكي",
+      "en": "Kitab Naskh Font"
+    },
+    "description": {
+      "ar": "خط رقمي نسخي كلاسيكي عالي الجودة مخصص لطباعة المصاحف الشريفة والكتب التراثية والمؤلفات العلمية.",
+      "en": "A classical Arabic Naskh digital typeface crafted for publishing Holy Quran texts and classical books."
+    },
+    "homepage": "https://nuqayah.com",
+    "featured": false,
+    "tags": [
+      "font",
+      "naskh",
+      "typography",
+      "quran",
+      "opentype"
+    ]
+  },
+  {
+    "id": "quranacademy-test-arabic-fonts",
+    "repo": "quranacademy/test-arabic-fonts",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "منصة فحص الخطوط العربية",
+      "en": "Arabic Fonts Tester"
+    },
+    "description": {
+      "ar": "تطبيق ويب وأداة مفتوحة المصدر لاختبار توافقية وعرض الخطوط العربية والقرآنية عبر المتصفحات والشاشات.",
+      "en": "An open-source testing platform to render and evaluate Arabic Quranic typefaces across browsers."
+    },
+    "homepage": "https://github.com/quranacademy/test-arabic-fonts",
+    "featured": false,
+    "tags": [
+      "font",
+      "testing",
+      "arabic-fonts",
+      "webfont",
+      "typography"
+    ]
+  },
+  {
+    "id": "louy-javascript-arabic-reshaper",
+    "repo": "louy/Javascript-Arabic-Reshaper",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "معيد تشكيل الحروف جافاسكريبت",
+      "en": "JavaScript Arabic Reshaper"
+    },
+    "description": {
+      "ar": "محرك جافاسكريبت خفيف وسريع لإعادة تشكيل ووصل الحروف العربية للبيئات والأنظمة التي تفتقر لدعم العربية.",
+      "en": "Pure JavaScript Arabic text reshaping engine ensuring correct glyph forms in unsupported environments."
+    },
+    "homepage": "https://github.com/louy/Javascript-Arabic-Reshaper",
+    "featured": false,
+    "tags": [
+      "javascript",
+      "reshaper",
+      "font",
+      "bidi",
+      "arabic"
+    ]
+  },
+  {
+    "id": "aliftype-anti",
+    "repo": "aliftype/anti",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط «أنتِ» التجريبي",
+      "en": "Anti Experimental Typeface"
+    },
+    "description": {
+      "ar": "خط عربي رقمي فني وتجريبي مخصص للتصميم البصري والطباعة المعاصرة من تصميم خالد حسني.",
+      "en": "A playful and contemporary experimental Arabic typeface crafted for display design by Khaled Hosny."
+    },
+    "homepage": "https://aliftype.com",
+    "featured": false,
+    "tags": [
+      "font",
+      "aliftype",
+      "typography",
+      "display-font",
+      "opentype"
+    ]
+  },
+  {
+    "id": "aliftype-astrolabe",
+    "repo": "aliftype/astrolabe",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط أسطرلاب الكوفي",
+      "en": "Astrolabe Kufic Font"
+    },
+    "description": {
+      "ar": "خط كوفي رقمي مستوحى من النقوش المحفورة على الأسطرلابات والأدوات الفلكية الإسلامية التاريخية.",
+      "en": "A digital Kufic typeface inspired by classical astronomical inscriptions on Islamic astrolabes."
+    },
+    "homepage": "https://aliftype.com",
+    "featured": false,
+    "tags": [
+      "font",
+      "kufic",
+      "astrolabe",
+      "typography",
+      "historical"
+    ]
+  },
+  {
+    "id": "linuxscout-yarob",
+    "repo": "linuxscout/yarob",
+    "category": "dev-tools",
+    "title": {
+      "ar": "يَعرُب لقواعد وإعراب العربية",
+      "en": "Yarob Arabic Inflection"
+    },
+    "description": {
+      "ar": "مكتبة بايثون لمعالجة قواعد النحو والإعراب وتوليد الصيغ الصرفية وتحديد الحالات الإعرابية للكلمات.",
+      "en": "A Python library for Arabic syntactic analysis, inflection generation, and grammatical parsing."
+    },
+    "homepage": "https://github.com/linuxscout/yarob",
+    "featured": false,
+    "tags": [
+      "python",
+      "syntax",
+      "parsing",
+      "linguistics",
+      "arabic"
+    ]
+  },
+  {
+    "id": "linuxscout-ghalatawi",
+    "repo": "linuxscout/ghalatawi",
+    "category": "dev-tools",
+    "title": {
+      "ar": "غلطاوي للتصحيح الإملائي التلقائي",
+      "en": "Ghalatawi Arabic Autocorrect"
+    },
+    "description": {
+      "ar": "مكتبة بايثون ذكية لاكتشاف وتصحيح الأخطاء الشائعة في كتابة النصوص العربية والهمزات والياء والألف.",
+      "en": "An intelligent Python library for detecting and autocorrecting common Arabic spelling mistakes."
+    },
+    "homepage": "https://github.com/linuxscout/ghalatawi",
+    "featured": false,
+    "tags": [
+      "python",
+      "spelling",
+      "autocorrect",
+      "nlp",
+      "arabic"
+    ]
+  },
+  {
+    "id": "linuxscout-fareh",
+    "repo": "linuxscout/fareh",
+    "category": "dev-tools",
+    "title": {
+      "ar": "فارح لمعالجة نصوص العربية",
+      "en": "Fareh Arabic Morphology"
+    },
+    "description": {
+      "ar": "مكتبة وأدوات بايثون لمعالجة النصوص العربية واشتقاق الجذور والمطابقة النمطية للكلمات.",
+      "en": "Python utilities and helpers for Arabic text manipulation, morphology, and word pattern matching."
+    },
+    "homepage": "https://github.com/linuxscout/fareh",
+    "featured": false,
+    "tags": [
+      "python",
+      "morphology",
+      "linguistics",
+      "text-processing",
+      "arabic"
+    ]
+  },
+  {
+    "id": "yalang-ya",
+    "repo": "yalang/ya",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة البرمجة العربية «ياء»",
+      "en": "Ya Programming Language"
+    },
+    "description": {
+      "ar": "مترجم وبيئة تشغيل للغة برمجة حديثة ومفتوحة المصدر تُكتب قواعدها وتعليماتها باللغة العربية بالكامل.",
+      "en": "An open-source compiler and runtime for Ya, a modern programming language written entirely in Arabic."
+    },
+    "homepage": "https://github.com/yalang/ya",
+    "featured": false,
+    "tags": [
+      "compiler",
+      "programming-language",
+      "arabic-syntax",
+      "rust",
+      "c"
+    ]
+  },
+  {
+    "id": "albari54-alif",
+    "repo": "albari54/alif",
+    "category": "dev-tools",
+    "title": {
+      "ar": "بيئة تطوير لغة ألف",
+      "en": "Alif Language Environment"
+    },
+    "description": {
+      "ar": "مجموعة أدوات وبيئة تشغيل مخصصة للبرمجة بلغة ألف العربية مع حزم وأمثلة برمجية تعليمية.",
+      "en": "Toolchain and runtime environment for building applications with the Alif Arabic programming language."
+    },
+    "homepage": "https://github.com/albari54/alif",
+    "featured": false,
+    "tags": [
+      "programming-language",
+      "arabic-code",
+      "tools",
+      "developer-tools"
+    ]
+  },
+  {
+    "id": "linuxscout-mishtar",
+    "repo": "linuxscout/mishtar",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مشطار لاستخراج الكيانات العربية",
+      "en": "Mishtar Entity Chunker"
+    },
+    "description": {
+      "ar": "مكتبة بايثون متخصصة في استخراج الكيانات المسماة والتعبيرات الزمنية والأعداد في النصوص العربية.",
+      "en": "A Python library for chunking named entities, temporal expressions, and numbers in Arabic text."
+    },
+    "homepage": "https://github.com/linuxscout/mishtar",
+    "featured": false,
+    "tags": [
+      "python",
+      "ner",
+      "chunker",
+      "temporal",
+      "arabic-nlp"
+    ]
+  },
+  {
+    "id": "msarhan-lucene-arabic-analyzer",
+    "repo": "msarhan/lucene-arabic-analyzer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محلل لوسين الصرفي للعربية",
+      "en": "Lucene Arabic Root Analyzer"
+    },
+    "description": {
+      "ar": "محلل نصوص مفتوح المصدر لمحرك Apache Lucene يدعم استخراج الجذور الصرفية والبحث اللغوي العربي الدقيق.",
+      "en": "Apache Lucene text analyzer for Arabic language featuring root-based stemming and linguistic search."
+    },
+    "homepage": "https://github.com/msarhan/lucene-arabic-analyzer",
+    "featured": false,
+    "tags": [
+      "java",
+      "lucene",
+      "stemmer",
+      "search",
+      "arabic"
+    ]
+  },
+  {
+    "id": "ejtaal-jsastem",
+    "repo": "ejtaal/jsastem",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكتبة جافاسكريبت للاشتقاق الخفيف",
+      "en": "Jsastem Arabic Stemmer"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت خفيفة وسريعة لتجريد السوابق واللواحق والاشتقاق الخفيف للكلمات العربية في المتصفح.",
+      "en": "A fast and lightweight client-side JavaScript Arabic light stemmer for browser-based text search."
+    },
+    "homepage": "https://github.com/ejtaal/jsastem",
+    "featured": false,
+    "tags": [
+      "javascript",
+      "stemmer",
+      "search",
+      "arabic-nlp",
+      "browser"
+    ]
+  },
+  {
+    "id": "seen-arabic-services",
+    "repo": "Seen-Arabic/Arabic-Services-JavaScript",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "خدمات سين لمعالجة النصوص",
+      "en": "Seen Arabic Text Services"
+    },
+    "description": {
+      "ar": "مكتبة شاملة توفر دوالاً لمعالجة وضبط وتشكيل النصوص العربية وتحويل الأرقام وحساب الجمل والتقويم الهجري.",
+      "en": "A versatile JavaScript library offering utilities for Arabic text diacritics, tafqeet, and Hijri dates."
+    },
+    "homepage": "https://github.com/Seen-Arabic/Arabic-Services-JavaScript",
+    "featured": false,
+    "tags": [
+      "javascript",
+      "arabic",
+      "tashkeel",
+      "tafqeet",
+      "utilities"
+    ]
+  },
+  {
+    "id": "hamza5-multilevel-diacritizer",
+    "repo": "Hamza5/multilevel-diacritizer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مشكّل النصوص متعدد المستويات",
+      "en": "Multilevel Arabic Diacritizer"
+    },
+    "description": {
+      "ar": "أداة تعلم عميق قابلة للتوسع لإعادة التشكيل الآلي للنصوص العربية بمستويات دقة متعددة.",
+      "en": "Extensible deep learning automatic Arabic diacritization tool supporting multiple model backends."
+    },
+    "homepage": "https://github.com/Hamza5/multilevel-diacritizer",
+    "featured": false,
+    "tags": [
+      "python",
+      "deep-learning",
+      "diacritization",
+      "tashkeel",
+      "nlp"
+    ]
+  },
+  {
+    "id": "motazsaad-khoja-stemmer",
+    "repo": "motazsaad/khoja-stemmer-command-line",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محلل جذوع خوجة العربي",
+      "en": "Khoja Arabic Root Stemmer"
+    },
+    "description": {
+      "ar": "تطبيق سطر أوامر مفتوح المصدر لخوارزمية شيرين خوجة الشهيرة لاستخراج الجذور الأصلية للكلمات العربية.",
+      "en": "Command-line implementation of the renowned Khoja Arabic root extraction stemming algorithm."
+    },
+    "homepage": "https://github.com/motazsaad/khoja-stemmer-command-line",
+    "featured": false,
+    "tags": [
+      "python",
+      "khoja",
+      "stemmer",
+      "root",
+      "arabic"
+    ]
+  },
+  {
+    "id": "motazsaad-arabic-light-stemmer",
+    "repo": "motazsaad/arabic-light-stemmer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "المجذع العربي الخفيف",
+      "en": "Arabic Light Stemmer CLI"
+    },
+    "description": {
+      "ar": "أداة مفتوحة المصدر لإجراء الاشتقاق الخفيف للكلمات العربية عن طريق إزالة السوابق واللواحق بكفاءة.",
+      "en": "Efficient light stemmer for Arabic text removing prefixes and suffixes without harming word roots."
+    },
+    "homepage": "https://github.com/motazsaad/arabic-light-stemmer",
+    "featured": false,
+    "tags": [
+      "python",
+      "light-stemmer",
+      "nlp",
+      "text-processing",
+      "arabic"
+    ]
+  },
+  {
+    "id": "omar-al-sharif-meshakkelaty",
+    "repo": "Omar-Al-Sharif/Meshakkelaty.ai",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك مشكّلتي للضبط العصبي",
+      "en": "Meshakkelaty.ai Diacritizer"
+    },
+    "description": {
+      "ar": "محرك عصبي وإحصائي متقدم لوضع التشكيل والحركات على النصوص العربية بدقة إعرابية وصرفية عالية.",
+      "en": "A neural and statistical engine for accurately adding diacritics and Tashkeel to Arabic text."
+    },
+    "homepage": "https://github.com/Omar-Al-Sharif/Meshakkelaty.ai",
+    "featured": false,
+    "tags": [
+      "python",
+      "tashkeel",
+      "diacritics",
+      "deep-learning",
+      "nlp"
+    ]
+  },
+  {
+    "id": "nipponjo-arabic-vocalization",
+    "repo": "nipponjo/arabic-vocalization",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نماذج التشكيل الصوتي العصبي",
+      "en": "Arabic Vocalization Models"
+    },
+    "description": {
+      "ar": "نماذج تعلم عميق مدربة لضبط الكلمات العربية صوتياً وصرفياً تمهيداً لأنظمة تحويل النصوص إلى كلام.",
+      "en": "Deep learning vocalization and diacritization models tailored for neural text-to-speech pipelines."
+    },
+    "homepage": "https://github.com/nipponjo/arabic-vocalization",
+    "featured": false,
+    "tags": [
+      "python",
+      "deep-learning",
+      "vocalization",
+      "tts",
+      "tashkeel"
+    ]
+  },
+  {
+    "id": "troboto-maha",
+    "repo": "TRoboto/Maha",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مكتبة مها لمعالجة النصوص",
+      "en": "Maha Arabic Text Toolkit"
+    },
+    "description": {
+      "ar": "مكتبة بايثون حديثة ومفتوحة المصدر مصممة خصيصاً لمعالجة واستخراج الميزات والكيانات من النصوص العربية.",
+      "en": "A modern Python text processing library specially developed for feature extraction from Arabic text."
+    },
+    "homepage": "https://github.com/TRoboto/Maha",
+    "featured": false,
+    "tags": [
+      "python",
+      "nlp",
+      "text-processing",
+      "extraction",
+      "arabic"
+    ]
+  },
+  {
+    "id": "husseinmozannar-soqal",
+    "repo": "husseinmozannar/SOQAL",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نظام صُقال للإجابة عن الأسئلة",
+      "en": "SOQAL Question Answering"
+    },
+    "description": {
+      "ar": "نظام ذكاء اصطناعي مفتوح المصدر للإجابة الآلية عن الأسئلة باللغة العربية بالاعتماد على الفهم القرائي العصبي.",
+      "en": "Arabic Open Domain Question Answering System leveraging neural reading comprehension models."
+    },
+    "homepage": "https://github.com/husseinmozannar/SOQAL",
+    "featured": false,
+    "tags": [
+      "python",
+      "qa",
+      "reading-comprehension",
+      "neural-network",
+      "arabic-nlp"
+    ]
+  },
+  {
+    "id": "motazsaad-process-arabic-text",
+    "repo": "motazsaad/process-arabic-text",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "معالج ومجهّز النصوص العربية",
+      "en": "Arabic Text Preprocessor"
+    },
+    "description": {
+      "ar": "حزمة أدوات بايثون لمعالجة النصوص وتجريد التشكيل والترقيم وتكرار الحروف لإعداد البيانات للتعلم الآلي.",
+      "en": "Python toolkit to preprocess Arabic text: remove diacritics, normalize letters, and strip noise for ML."
+    },
+    "homepage": "https://github.com/motazsaad/process-arabic-text",
+    "featured": false,
+    "tags": [
+      "python",
+      "nlp",
+      "preprocessing",
+      "normalization",
+      "arabic"
+    ]
+  },
+  {
+    "id": "hazemabdelkawy-qurangpt",
+    "repo": "hazemabdelkawy/QuranGPT",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "منظومة قرآن جي بي تي",
+      "en": "QuranGPT Semantic AI"
+    },
+    "description": {
+      "ar": "مشروع ذكاء اصطناعي لغوي للبحث الدلالي والإجابة عن الأسئلة والاستفسارات التفسيرية لآيات القرآن الكريم.",
+      "en": "A semantic exploration and QA system leveraging modern LLMs for understanding Quranic verses."
+    },
+    "homepage": "https://github.com/hazemabdelkawy/QuranGPT",
+    "featured": false,
+    "tags": [
+      "python",
+      "quran",
+      "gpt",
+      "semantic-search",
+      "ai"
+    ]
+  },
+  {
+    "id": "iamaziz-ar-embeddings",
+    "repo": "iamaziz/ar-embeddings",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "تضمينات النصوص العربية والمشاعر",
+      "en": "Arabic Text Embeddings"
+    },
+    "description": {
+      "ar": "نماذج تضمين الكلمات وتحليل المشاعر وتصنيف الآراء للنصوص العربية المعاصرة وتغريدات مواقع التواصل.",
+      "en": "Pretrained word embeddings and sentiment analysis models for Modern Standard Arabic and social text."
+    },
+    "homepage": "https://github.com/iamaziz/ar-embeddings",
+    "featured": false,
+    "tags": [
+      "python",
+      "word2vec",
+      "embeddings",
+      "sentiment-analysis",
+      "arabic-nlp"
+    ]
+  },
+  {
+    "id": "saidziani-arabic-news-classification",
+    "repo": "saidziani/Arabic-News-Article-Classification",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مصنف المقالات الإخبارية العربية",
+      "en": "Arabic News Classifier"
+    },
+    "description": {
+      "ar": "أنظمة تعلم آلي لتصنيف وفهرسة المقالات والنصوص الإخبارية العربية آلياً حسب الموضوع والمحتوى.",
+      "en": "Machine learning pipelines for automated categorization and topic classification of Arabic news articles."
+    },
+    "homepage": "https://github.com/saidziani/Arabic-News-Article-Classification",
+    "featured": false,
+    "tags": [
+      "python",
+      "classification",
+      "machine-learning",
+      "news",
+      "arabic-nlp"
+    ]
+  },
+  {
+    "id": "adhaamehab-textblob-ar",
+    "repo": "adhaamehab/textblob-ar",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "تيكست بلوب لمعالجة العربية",
+      "en": "TextBlob Arabic Extension"
+    },
+    "description": {
+      "ar": "إضافة ومكتبة بايثون تتيح استخدام قدرات TextBlob في تحليل المشاعر والتقطيع للنصوص باللغة العربية.",
+      "en": "An Arabic language support extension for TextBlob providing sentiment analysis and part-of-speech tagging."
+    },
+    "homepage": "https://github.com/adhaamehab/textblob-ar",
+    "featured": false,
+    "tags": [
+      "python",
+      "textblob",
+      "sentiment",
+      "pos-tagging",
+      "nlp"
+    ]
+  },
+  {
+    "id": "mbzuai-oryx-arb",
+    "repo": "mbzuai-oryx/ARB",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معيار الاستدلال العربي الشامل",
+      "en": "ARB Multimodal Benchmark"
+    },
+    "description": {
+      "ar": "معيار تقييم علمي شامل ومتعدد الوسائط للاستدلال والمنطق باللغة العربية من جامعة محمد بن زايد.",
+      "en": "A comprehensive Arabic multimodal reasoning benchmark designed for state-of-the-art vision-language models."
+    },
+    "homepage": "https://github.com/mbzuai-oryx/ARB",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "benchmark",
+      "multimodal",
+      "reasoning",
+      "mbzuai"
+    ]
+  },
+  {
+    "id": "qcri-arabic-speech-code-switching",
+    "repo": "qcri/Arabic_speech_code_switching",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة التبديل اللغوي المنطوق",
+      "en": "QCRI Dialectal Code Switching"
+    },
+    "description": {
+      "ar": "أول مدونة صوتية متخصصة في ظاهرة التبديل اللغوي واللهجات العربية المنطوقة من معهد قطر لبحوث الحوسبة.",
+      "en": "The first dialectal Arabic code-switching corpus (DACS) from broadcast speech by QCRI."
+    },
+    "homepage": "https://github.com/qcri/Arabic_speech_code_switching",
+    "featured": false,
+    "tags": [
+      "speech",
+      "qcri",
+      "corpus",
+      "code-switching",
+      "dialects"
+    ]
+  },
+  {
+    "id": "linuxscout-arramooz-pysqlite",
+    "repo": "linuxscout/arramooz-pysqlite",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاعدة بيانات القاموس الصرفي الراموز",
+      "en": "Arramooz SQLite Lexicon"
+    },
+    "description": {
+      "ar": "معجم وقاعدة بيانات صرفية للغة العربية مبنية بصيغة SQLite مع واجهة بايثون للاستعلام والتحليل السريع.",
+      "en": "Arabic morphological dictionary and database packaged with SQLite and Python bindings."
+    },
+    "homepage": "https://github.com/linuxscout/arramooz-pysqlite",
+    "featured": false,
+    "tags": [
+      "sqlite",
+      "python",
+      "lexicon",
+      "dictionary",
+      "morphology"
+    ]
+  },
+  {
+    "id": "camel-lab-arabic-frequency-lists",
+    "repo": "CAMeL-Lab/Camel_Arabic_Frequency_Lists",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قوائم شيوع وتكرار الكلمات كامل",
+      "en": "CAMeL Arabic Frequency Lists"
+    },
+    "description": {
+      "ar": "قوائم إحصائية متكاملة لمدى شيوع وتردد المفردات والكلمات العربية مبنية من مليارات الكلمات بواسطة مختبر CAMeL.",
+      "en": "Comprehensive dataset of word and lemma frequency lists across classical, standard, and dialectal Arabic."
+    },
+    "homepage": "https://github.com/CAMeL-Lab/Camel_Arabic_Frequency_Lists",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "frequency",
+      "lexicon",
+      "camel-lab",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "ubc-nlp-ara-emotion",
+    "repo": "UBC-NLP/ara_emotion_naacl2018",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "ذخيرة المشاعر والانفعالات العربية",
+      "en": "AraEmotion Sentiment Corpus"
+    },
+    "description": {
+      "ar": "مجموعة بيانات ومعيار لغوي مصنف لكشف الانفعالات والمشاعر المتعددة في التغريدات والنصوص العربية.",
+      "en": "Annotated benchmark dataset for Arabic emotion detection and affective computing from UBC-NLP."
+    },
+    "homepage": "https://github.com/UBC-NLP/ara_emotion_naacl2018",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "emotion",
+      "sentiment",
+      "ubc-nlp",
+      "naacl"
+    ]
+  },
+  {
+    "id": "ojuba-org-arabic-ml-data",
+    "repo": "ojuba-org/arabic-ml-data",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "بيانات تدريب تعلم الآلة عيون أعجوبة",
+      "en": "Ojuba Arabic ML Datasets"
+    },
+    "description": {
+      "ar": "مجموعات بيانات ومدونات نصية عربية مجهزة ومجمعة لتدريب خوارزميات ونماذج الذكاء الاصطناعي من مشروع أعجوبة.",
+      "en": "Curated Arabic text datasets specifically structured for training machine learning and NLP classifiers."
+    },
+    "homepage": "https://github.com/ojuba-org/arabic-ml-data",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "ojuba",
+      "machine-learning",
+      "text-data",
+      "open-source"
+    ]
+  },
+  {
+    "id": "ubc-nlp-orca",
+    "repo": "UBC-NLP/orca",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معيار أوركا لفهم اللغة العربية",
+      "en": "ORCA Evaluation Benchmark"
+    },
+    "description": {
+      "ar": "معيار تقييم واسع النطاق لنماذج فهم وتوليد اللغة العربية عبر عشرات المهام اللغوية المختلفة من UBC-NLP.",
+      "en": "A large-scale benchmark for evaluating Arabic language understanding models across diverse tasks."
+    },
+    "homepage": "https://github.com/UBC-NLP/orca",
+    "featured": false,
+    "tags": [
+      "benchmark",
+      "evaluation",
+      "ubc-nlp",
+      "arabic-nlp",
+      "transformers"
+    ]
+  },
+  {
+    "id": "linuxscout-aghlat",
+    "repo": "linuxscout/aghlat",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة أغلاط للأخطاء الشائعة",
+      "en": "Aghlat Misspelling Corpus"
+    },
+    "description": {
+      "ar": "مدونة وقاعدة بيانات للأخطاء الإملائية والطباعية الشائعة في كتابة اللغة العربية لتطوير المدققات الإملائية.",
+      "en": "A curated corpus of common Arabic typographical and spelling errors for spell-checker evaluation."
+    },
+    "homepage": "https://github.com/linuxscout/aghlat",
+    "featured": false,
+    "tags": [
+      "corpus",
+      "misspellings",
+      "spellchecker",
+      "dataset",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "ahmedbaset-hadith-json",
+    "repo": "AhmedBaset/hadith-json",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "قاعدة بيانات الحديث الشريف JSON",
+      "en": "Hadith JSON Database"
+    },
+    "description": {
+      "ar": "قاعدة بيانات برمجية مفتوحة تضم أكثر من 50 ألف حديث نبوي شريف من 17 كتاباً من كتب السنة بصيغة JSON المنظمة.",
+      "en": "Open-source database of 50,884 prophetic hadiths from 17 canonical books in structured JSON format."
+    },
+    "homepage": "https://github.com/AhmedBaset/hadith-json",
+    "featured": false,
+    "tags": [
+      "hadith",
+      "json",
+      "islamic-tech",
+      "database",
+      "sunnah"
+    ]
+  },
+  {
+    "id": "alfaazplus-quranapp",
+    "repo": "AlfaazPlus/QuranApp",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق القرآن الكريم ألفاظ بلس",
+      "en": "Alfaaz QuranApp"
+    },
+    "description": {
+      "ar": "تطبيق إلكتروني مفتوح المصدر وخالٍ تماماً من الإعلانات لقراءة وبحث وتدبر القرآن الكريم مع احترام الخصوصية.",
+      "en": "An ad-free and privacy-focused open-source cross-platform application for exploring the Holy Quran."
+    },
+    "homepage": "https://github.com/AlfaazPlus/QuranApp",
+    "featured": false,
+    "tags": [
+      "flutter",
+      "quran",
+      "privacy",
+      "cross-platform",
+      "mobile"
+    ]
+  },
+  {
+    "id": "metinkale38-prayer-times-android",
+    "repo": "metinkale38/prayer-times-android",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق مواقيت الصلاة أندرويد",
+      "en": "Android Prayer Times App"
+    },
+    "description": {
+      "ar": "تطبيق أندرويد مفتوح المصدر لحساب مواقيت الصلاة بدقة فائقة وتحديد القبلة وعرض التقويم الهجري للمسلمين.",
+      "en": "An open-source Android application for high-precision prayer times, Qibla compass, and Hijri calendar."
+    },
+    "homepage": "https://github.com/metinkale38/prayer-times-android",
+    "featured": false,
+    "tags": [
+      "android",
+      "prayer-times",
+      "qibla",
+      "hijri",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "rn0x-quran-data",
+    "repo": "rn0x/Quran-Data",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مستودع بيانات القرآن الرقمية",
+      "en": "Quran Digital Data"
+    },
+    "description": {
+      "ar": "مجموعة بيانات وقواعد مفتوحة المصدر لنصوص السور والآيات القرآنية وأرقامها ومواقعها في المصحف الشريف.",
+      "en": "Structured open-source data repository containing surah details, verse texts, and Quranic metadata."
+    },
+    "homepage": "https://github.com/rn0x/Quran-Data",
+    "featured": false,
+    "tags": [
+      "quran",
+      "json",
+      "data",
+      "islamic-tech",
+      "api"
+    ]
+  },
+  {
+    "id": "mohamed-nagdy-quran-app-data",
+    "repo": "Mohamed-Nagdy/Quran-App-Data",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "بيانات وتفاسير القرآن الشاملة",
+      "en": "Quran & Tafsir App Data"
+    },
+    "description": {
+      "ar": "مستودع بيانات منظم يضم نصوص القرآن الكريم ومعاني الكلمات وعدة تفاسير معتمدة بصيغ برمجية سهلة الدمج.",
+      "en": "Structured dataset featuring Quranic text, word meanings, and multiple classical Tafsir books."
+    },
+    "homepage": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
+    "featured": false,
+    "tags": [
+      "quran",
+      "tafsir",
+      "json",
+      "sqlite",
+      "islamic-tech"
+    ]
+  },
+  {
+    "id": "mobadarah-tajmeeaton",
+    "repo": "mobadarah/tajmeeaton",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "منصة تجميعات التعليمية",
+      "en": "Tajmeeaton Learning App"
+    },
+    "description": {
+      "ar": "تطبيق ومنصة برمجية مفتوحة المصدر مخصصة لإتاحة وتجميع الموارد والمحتوى الإسلامي واللغوي الرقمي.",
+      "en": "An open-source educational platform and application organizing digital Islamic and Arabic knowledge resources."
+    },
+    "homepage": "https://github.com/mobadarah/tajmeeaton",
+    "featured": false,
+    "tags": [
+      "flutter",
+      "learning",
+      "islamic-tech",
+      "arabic",
+      "mobile-app"
+    ]
+  },
+  {
+    "id": "alhazen-arabic-ocr",
+    "repo": "khaled-alshamaa/Alhazen",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نظام الحازن للتعرف الضوئي على الحروف العربية",
+      "en": "Alhazen Arabic OCR Engine"
+    },
+    "description": {
+      "ar": "محرك مفتوح المصدر للتعرف الضوئي على الحروف والنصوص العربية المطبوعة بلغة PHP.",
+      "en": "An experimental open-source Arabic optical character recognition engine written in PHP."
+    },
+    "tags": [
+      "ocr",
+      "arabic-ocr",
+      "php",
+      "computer-vision",
+      "document-analysis"
+    ],
+    "featured": false
+  },
+  {
+    "id": "openiti-arabic-script-ocr-models",
+    "repo": "OpenITI/arabic_script_ocr_models",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نماذج أوبن آي تي آي للتعرف الضوئي على الخطوط العربية",
+      "en": "OpenITI Arabic Script OCR Models"
+    },
+    "description": {
+      "ar": "نماذج مدربة متخصصة للتعرف الضوئي على النصوص والخطوط العربية الكلاسيكية والمخطوطات الإسلامية التاريخية.",
+      "en": "Production-ready OCR models optimized for Arabic script, Islamic manuscripts, and classical printed texts."
+    },
+    "tags": [
+      "ocr",
+      "arabic-script",
+      "kraken",
+      "manuscripts",
+      "islamic-heritage"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-pdf-chat",
+    "repo": "MohammedNasserAhmed/arabic-pdf-chat",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "محادثة المستندات العربية الممسوحة ضوئياً",
+      "en": "Arabic PDF Chat with OCR"
+    },
+    "description": {
+      "ar": "نظام تفاعلي لتحليل مستندات PDF العربية والتعرف الضوئي على محتواها والإجابة عن الأسئلة بلغة طبيعية.",
+      "en": "Interactive Arabic document analysis and question answering system using OCR and LLMs."
+    },
+    "tags": [
+      "ocr",
+      "pdf-chat",
+      "rag",
+      "arabic-documents",
+      "computer-vision"
+    ],
+    "featured": false
+  },
+  {
+    "id": "craneset-arabic-ocr-data",
+    "repo": "craneset/ocr-data",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "بيانات تدريب نماذج التعرف الضوئي على النصوص العربية",
+      "en": "Arabic OCR Training Datasets"
+    },
+    "description": {
+      "ar": "مجموعة بيانات موسعة لصور المستندات والنصوص العربية المنسوخة والموثقة لتدريب نماذج التعرف الضوئي.",
+      "en": "Curated collection of Arabic document images and ground truth transcriptions for OCR model training."
+    },
+    "tags": [
+      "ocr",
+      "dataset",
+      "arabic-documents",
+      "computer-vision",
+      "ground-truth"
+    ],
+    "featured": false
+  },
+  {
+    "id": "glass-hud-arabic-translator",
+    "repo": "BaselMGAG/glass_hud_translator",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "مترجم شاشات الألعاب إلى العربية الفوري",
+      "en": "Glass HUD Real-Time Arabic Game Translator"
+    },
+    "description": {
+      "ar": "أداة تراكب بصرية فورية للتعرف الضوئي على نصوص الألعاب وترجمتها إلى العربية في الوقت الفعلي.",
+      "en": "Real-time OCR overlay and Arabic translator for video games and on-screen text without native Arabic support."
+    },
+    "tags": [
+      "ocr",
+      "screen-translator",
+      "arabic-gaming",
+      "real-time",
+      "hud"
+    ],
+    "featured": false
+  },
+  {
+    "id": "mirza-arabic-font",
+    "repo": "Tarobish/Mirza",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط ميرزا النسخي العربي",
+      "en": "Mirza Arabic Font"
+    },
+    "description": {
+      "ar": "خط عربي بأسلوب النسخ الحديث مصمم لتحقيق أعلى درجات المقروئية على الشاشات الرقمية والمطبوعات.",
+      "en": "A modern Arabic Naskh typeface designed for high legibility on screens and editorial layouts."
+    },
+    "tags": [
+      "font",
+      "typeface",
+      "naskh",
+      "arabic-typography",
+      "opentype"
+    ],
+    "featured": false
+  },
+  {
+    "id": "sahl-naskh-font",
+    "repo": "khaledhosny/sahl-naskh",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط سهل نسخ للأستاذ خالد حسني",
+      "en": "Sahl Naskh Font"
+    },
+    "description": {
+      "ar": "خط عربي نسخي أنيق من تصميم الخطاط والمطور خالد حسني محسن لقراءة الكتب والنصوص العربية الطويلة.",
+      "en": "Elegant open-source Arabic Naskh typeface by Khaled Hosny optimized for continuous book reading."
+    },
+    "tags": [
+      "font",
+      "typeface",
+      "naskh",
+      "khaled-hosny",
+      "typography"
+    ],
+    "featured": true
+  },
+  {
+    "id": "midad-arabic-ereader",
+    "repo": "sfoulad/midad-by-foulad",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "نظام مداد للطباعة والقراءة الرقمية بالعربية",
+      "en": "Midad Arabic Typography & E-Reader"
+    },
+    "description": {
+      "ar": "نظام وخوارزميات طباعية مخصصة لتحسين عرض الخطوط وقراءة النصوص العربية على شاشات الحبر الإلكتروني.",
+      "en": "Arabic-first typography and firmware integration for e-paper devices, enhancing Arabic digital reading."
+    },
+    "tags": [
+      "typography",
+      "e-ink",
+      "ereader",
+      "arabic-fonts",
+      "digital-reading"
+    ],
+    "featured": false
+  },
+  {
+    "id": "scheherazade-new-font",
+    "repo": "silnrsi/font-scheherazade",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط شهرزاد النسخي المطور",
+      "en": "Scheherazade New Font"
+    },
+    "description": {
+      "ar": "خط نسخي عربي تقليدي متقدم من SIL يغطي شتى أشكال الرسم القرآني والكتابة العربية المتنوعة.",
+      "en": "Extended Arabic script font designed by SIL, covering traditional Naskh styles and Quranic orthographies."
+    },
+    "tags": [
+      "font",
+      "typeface",
+      "naskh",
+      "quranic-script",
+      "sil"
+    ],
+    "featured": true
+  },
+  {
+    "id": "huruf-arabic-extension",
+    "repo": "jopetty/Huruf",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "إضافة حروف لتحسين الطباعة العربية على الويب",
+      "en": "Huruf Arabic Typography Extension"
+    },
+    "description": {
+      "ar": "إضافة متصفح لتحسين تجربة قراءة النصوص العربية على الويب باستبدال الخطوط الرديئة بخطوط مقروءة وأنيقة.",
+      "en": "Browser extension that enhances Arabic web reading by replacing unreadable fonts with optimized Arabic typefaces."
+    },
+    "tags": [
+      "browser-extension",
+      "typography",
+      "arabic-reading",
+      "web-fonts",
+      "user-experience"
+    ],
+    "featured": false
+  },
+  {
+    "id": "raqim-kashida-library",
+    "repo": "aliftype/raqim-kashida",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "مكتبة رقيم للكشيدة والتطويل في الخط العربي",
+      "en": "Raqim Kashida Library"
+    },
+    "description": {
+      "ar": "خوارزمية ومكتبة متخصصة لتحديد نقاط وأولويات إدراج الكشيدة (التطويل) في صف وتنسيق الخطوط العربية.",
+      "en": "Specialized algorithm and library for finding kashida (tatweel) insertion points and typographic priorities in Arabic script."
+    },
+    "tags": [
+      "typography",
+      "kashida",
+      "tatweel",
+      "arabic-script",
+      "opentype"
+    ],
+    "featured": true
+  },
+  {
+    "id": "quran-companion-desktop",
+    "repo": "0xzer0x/quran-companion",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "رفيق القرآن لسطح المكتب",
+      "en": "Quran Companion Desktop"
+    },
+    "description": {
+      "ar": "تطبيق مكتبي عصري مفتوح المصدر لقراءة القرآن الكريم والاستماع للتلاوات بأصوات نخبة من القراء.",
+      "en": "Modern, free, and open-source desktop Quran reader and audio player with multi-reciter support."
+    },
+    "tags": [
+      "desktop-app",
+      "quran",
+      "audio-player",
+      "cross-platform",
+      "electron"
+    ],
+    "featured": true
+  },
+  {
+    "id": "qutrubi-mobile-app",
+    "repo": "linuxscout/qutrubi",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق قطربي لتصريف الأفعال العربية",
+      "en": "Qutrubi Arabic Verb Conjugator"
+    },
+    "description": {
+      "ar": "تطبيق للهواتف الذكية لتصريف الأفعال العربية مبني على محرك قطرب ويدعم مختلف الأزمنة والضمائر.",
+      "en": "Mobile application for Arabic verb conjugation based on the Qutrub engine, supporting past, present, and imperative forms."
+    },
+    "tags": [
+      "mobile-app",
+      "verb-conjugation",
+      "arabic-grammar",
+      "android",
+      "morphology"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tebyan-text-reshaper",
+    "repo": "MrGamesKingPro/Tebyan",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "برنامج تبيان لمعالجة وتصحيح النصوص العربية",
+      "en": "Tebyan Arabic Text Reforming Utility"
+    },
+    "description": {
+      "ar": "أداة سطح مكتب لمعالجة وتشكيل وقلب النصوص العربية لتظهر بالشكل الصحيح داخل الألعاب والبرامج غير الداعمة لـ RTL.",
+      "en": "Desktop utility to reshape, invert, and prepare Arabic text for proper rendering in games and non-RTL software."
+    },
+    "tags": [
+      "desktop-app",
+      "text-reshaper",
+      "arabic-games",
+      "bidi",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "alquran-alkareem-flutter",
+    "repo": "alheekmahlib/alquranalkareem",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق القرآن الكريم طبعة المدينة المنورة",
+      "en": "Al-Quran Al-Kareem Flutter App"
+    },
+    "description": {
+      "ar": "تطبيق فلاتر عالي الجودة لقراءة القرآن الكريم مطابق لصفحات مصحف مجمع الملك فهد لطباعة المصحف الشريف.",
+      "en": "Comprehensive Flutter application for reading the Holy Quran with high-fidelity King Fahd Mushaf page renderings."
+    },
+    "tags": [
+      "flutter",
+      "mobile-app",
+      "quran",
+      "mushaf",
+      "cross-platform"
+    ],
+    "featured": true
+  },
+  {
+    "id": "noble-quran-hafs-flutter",
+    "repo": "HoussemTN/Al-quran-Al-karim",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق القرآن الكريم برواية حفص عن عاصم",
+      "en": "Noble Quran Hafs Flutter App"
+    },
+    "description": {
+      "ar": "تطبيق خفيف وسلس مفتوح المصدر لقراءة القرآن الكريم برواية حفص عن عاصم مبني بأحدث تقنيات فلاتر.",
+      "en": "Clean, lightweight open-source Arabic Quran reading application for Android and iOS developed in Flutter."
+    },
+    "tags": [
+      "flutter",
+      "quran",
+      "hafs",
+      "arabic-app",
+      "mobile"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arqamar-js",
+    "repo": "MohsenAlyafei/arqamAR",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة الأرقام العربية المدمجة",
+      "en": "arqamAR Arabic Numbers Utility"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت فائقة الخفة للتحويل بين الأرقام العربية والمشرقية والمغربية وتنسيقها للأجهزة.",
+      "en": "Ultra-lightweight JavaScript utility for converting between Arabic-Indic, Eastern, and Western numerals."
+    },
+    "tags": [
+      "javascript",
+      "numerals",
+      "arabic-numbers",
+      "converters",
+      "utilities"
+    ],
+    "featured": false
+  },
+  {
+    "id": "narabicwords-converter",
+    "repo": "MohsenAlyafei/nArabicWords",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الأعداد إلى كلمات ونصوص عربية",
+      "en": "nArabicWords Number to Arabic Words"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت مصغرة لتحويل الأرقام والكسور العشرية إلى كلمات ونصوص عربية مع مراعاة قواعد النحو العربي.",
+      "en": "Compact JavaScript library for converting integers and decimals into grammatically correct Arabic words."
+    },
+    "tags": [
+      "javascript",
+      "tafqeet",
+      "arabic-words",
+      "numbers-to-words",
+      "grammar"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tafqit-arabic-currency",
+    "repo": "MohsenAlyafei/tafqit",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة تفقيط للأرقام والعملات العربية",
+      "en": "Tafqit Currency & Number Converter"
+    },
+    "description": {
+      "ar": "أداة تفقيط متقدمة وموثوقة لتحويل الأرقام الحسابية إلى نصوص عربية مقروءة مع دعم العملات العربية.",
+      "en": "Accurate Arabic number-to-words converter supporting major Arab currencies and custom grammatical rules."
+    },
+    "tags": [
+      "tafqeet",
+      "arabic-currencies",
+      "javascript",
+      "number-conversion",
+      "fintech"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-ala-lc-romanization",
+    "repo": "CAMeL-Lab/Arabic_ALA-LC_Romanization",
+    "category": "dev-tools",
+    "title": {
+      "ar": "نظام النقحرة الصوتية القياسي للعربية",
+      "en": "Arabic ALA-LC Romanization"
+    },
+    "description": {
+      "ar": "أداة من مختبر CAMeL لنقحرة النصوص والفهارس والمكتبات العربية وفق معيار مكتبة الكونغرس ALA-LC.",
+      "en": "Tool for Romanizing Arabic bibliographic and textual records following the ALA-LC international library standard."
+    },
+    "tags": [
+      "romanization",
+      "ala-lc",
+      "transliteration",
+      "library-standards",
+      "camel-lab"
+    ],
+    "featured": false
+  },
+  {
+    "id": "aranizer-arabic-tokenizer",
+    "repo": "riotu-lab/aranizer",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مجزئ الكلمات والنصوص العربية أرانايزر",
+      "en": "Aranizer Arabic BPE Tokenizer"
+    },
+    "description": {
+      "ar": "مجزئ نصوص ومفردات مبني على خوارزميات BPE و SentencePiece ومخصص للغة العربية وبنيتها الصرفية والاشتقاقية.",
+      "en": "Specialized subword BPE and SentencePiece tokenizer optimized specifically for Arabic morphology and prefixes."
+    },
+    "tags": [
+      "tokenizer",
+      "bpe",
+      "sentencepiece",
+      "arabic-llm",
+      "subword"
+    ],
+    "featured": true
+  },
+  {
+    "id": "shellshal-arabic-cli-scripts",
+    "repo": "linuxscout/shellshal",
+    "category": "dev-tools",
+    "title": {
+      "ar": "سكربتات شلشال لمعالجة النصوص العربية",
+      "en": "ShellShal Arabic CLI Scripts"
+    },
+    "description": {
+      "ar": "مجموعة متكاملة من سكربتات شل يونكس لمعالجة وفحص وتحويل النصوص والكلمات العربية عبر الطرفية.",
+      "en": "Collection of powerful Unix command-line scripts and tools for processing, filtering, and transforming Arabic text."
+    },
+    "tags": [
+      "bash",
+      "shell-scripts",
+      "cli",
+      "text-processing",
+      "unix"
+    ],
+    "featured": false
+  },
+  {
+    "id": "garga-arabic-programming-language",
+    "repo": "hashemi/garga",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة قرقة البرمجية بالعربية",
+      "en": "Garga Arabic Syntax Programming Language"
+    },
+    "description": {
+      "ar": "لغة برمجة تعليمية تجريبية تعتمد على قواعد ومفردات عربية واضحة لتسهيل استيعاب مفاهيم البرمجة للناطقين بالعربية.",
+      "en": "Experimental educational programming language designed with authentic Arabic keywords and syntax."
+    },
+    "tags": [
+      "programming-language",
+      "arabic-syntax",
+      "compiler",
+      "education",
+      "dsl"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arwiki-dump-parser",
+    "repo": "owo/arwiki_parser",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محلل مقالات ونصوص ويكيبيديا العربية",
+      "en": "Arabic Wikipedia Dump Parser"
+    },
+    "description": {
+      "ar": "أداة سريعة لتحليل وتجريد ملفات ويكيبيديا العربية XML واستخراج الجمل الصافية لتغذية النماذج اللغوية.",
+      "en": "Fast parser and cleaner for Arabic Wikipedia XML dumps, extracting clean sentences and articles."
+    },
+    "tags": [
+      "parser",
+      "wikipedia",
+      "data-extraction",
+      "text-cleaning",
+      "corpus-building"
+    ],
+    "featured": false
+  },
+  {
+    "id": "pipeline-diacritizer",
+    "repo": "Hamza5/Pipeline-diacritizer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "خط أنابيب التشكيل الآلي للنصوص العربية",
+      "en": "Pipeline Arabic Diacritizer"
+    },
+    "description": {
+      "ar": "خط معالجة عصبي متكامل لإعادة تشكيل وضبط أواخر الكلمات والنصوص العربية بدقة عالية.",
+      "en": "End-to-end neural Arabic diacritization pipeline combining acoustic, character-level, and recurrent architectures."
+    },
+    "tags": [
+      "tashkeel",
+      "diacritization",
+      "deep-learning",
+      "nlp",
+      "neural-network"
+    ],
+    "featured": true
+  },
+  {
+    "id": "deep-diacritization-arabic",
+    "repo": "BKHMSI/deep-diacritization",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نظام التشكيل العصبي العميق",
+      "en": "Deep Diacritization for Arabic"
+    },
+    "description": {
+      "ar": "نموذج شبكات عصبية عميقة ثنائية الاتجاه للتشكيل والضبط النحوي والصرفي للكلمات العربية بدقة متقدمة.",
+      "en": "Deep bidirectional LSTM and convolutional architecture for high-accuracy Arabic text vocalization."
+    },
+    "tags": [
+      "tashkeel",
+      "diacritization",
+      "bilstm",
+      "pytorch",
+      "arabic-vocalization"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tashkeel-remover-regex",
+    "repo": "hubail/TashkeelRemover",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "أداة تجريد التشكيل والزوائد السريعة",
+      "en": "Tashkeel Remover JS"
+    },
+    "description": {
+      "ar": "تعبير نمطي جافاسكريبت فائق السرعة لتجريد النصوص العربية من علامات التشكيل والحركات والتطويل والزخارف.",
+      "en": "Fast, dependency-free JavaScript RegExp utility for stripping diacritics, tatweel, and decorative marks from Arabic text."
+    },
+    "tags": [
+      "tashkeel",
+      "text-cleaning",
+      "javascript",
+      "regex",
+      "preprocessing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "lingz-arabic-linguistic-tools",
+    "repo": "lingz/arabic_tools",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "أدوات المعالجة الصوتية والإملائية للعربية",
+      "en": "Arabic Linguistic & Phonetic Tools"
+    },
+    "description": {
+      "ar": "حزمة بايثون تشمل مشكلاً آلياً ومحولاً للأبجدية الصوتية الدولية (IPA) ومصفيات للنصوص العربية الأصيلة.",
+      "en": "Python toolkit containing an Arabic rule-based diacritizer, IPA phonetic converter, and Arabic-only character filters."
+    },
+    "tags": [
+      "tashkeel",
+      "phonetics",
+      "ipa",
+      "linguistics",
+      "python"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-light-stemming-python",
+    "repo": "motazsaad/arabic-light-stemming-py",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك التجذيع الخفيف للكلمات العربية",
+      "en": "Arabic Light Stemming in Python"
+    },
+    "description": {
+      "ar": "تطبيق بلغة بايثون لخوارزمية التجذيع الخفيف للكلمات العربية لدعم فهارس البحث واسترجاع المعلومات وتجريد الزوائد.",
+      "en": "Python implementation of Arabic light stemming algorithms for information retrieval and search indexing."
+    },
+    "tags": [
+      "stemmer",
+      "light-stemming",
+      "information-retrieval",
+      "morphology",
+      "python"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tashkeela2-corpus",
+    "repo": "linuxscout/tashkeela2",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مدونة تشكيلة 2 للنصوص العربية المشكولة",
+      "en": "Tashkeela 2 Diacritized Text Corpus"
+    },
+    "description": {
+      "ar": "الإصدار الثاني من مدونة تشكيلة للنصوص العربية المشكولة، يضم ملايين الكلمات المضبوطة لتدريب النماذج اللغوية.",
+      "en": "The Tashkeela 2 open-source vocalized Arabic corpus containing millions of fully diacritized words for NLP research."
+    },
+    "tags": [
+      "tashkeel",
+      "corpus",
+      "vocalized-text",
+      "benchmark",
+      "linguistics"
+    ],
+    "featured": true
+  },
+  {
+    "id": "miknaaz-morphology-corpus",
+    "repo": "linuxscout/miknaaz",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكنـاز: مولد المعيار الذهبي للصرف العربي",
+      "en": "Miknaaz Morphology Standard Corpus"
+    },
+    "description": {
+      "ar": "إطار عمل لبناء وتوليد المدونات المرجعية (المعيار الذهبي) لتقييم أدوات التحليل الصرفي والتجذيع في العربية.",
+      "en": "Framework and tools for generating golden standard corpora for Arabic morphological analysis and stemming evaluation."
+    },
+    "tags": [
+      "morphology",
+      "stemming",
+      "golden-standard",
+      "evaluation",
+      "corpus"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-vocalizer-onnx",
+    "repo": "nipponjo/arabic_vocalizer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك التشكيل العصبي عبر بيئة ONNX",
+      "en": "Arabic Vocalizer ONNX Runtime"
+    },
+    "description": {
+      "ar": "محرك تشغيل فائق السرعة لنماذج التشكيل العصبي (شكالة وشكلها) بالاعتماد على بيئة ONNX المحسنة للإنتاج.",
+      "en": "High-speed ONNX runtime wrappers for Arabic deep-learning diacritization models (Shakkala and Shakkelha)."
+    },
+    "tags": [
+      "tashkeel",
+      "onnx",
+      "diacritization",
+      "shakkala",
+      "inference"
+    ],
+    "featured": false
+  },
+  {
+    "id": "qatara-qcri-tools",
+    "repo": "kdarwish/Qatara",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "أدوات قطارة للتحليل الصرفي والإحصائي",
+      "en": "QATARA QCRI Arabic Toolkit"
+    },
+    "description": {
+      "ar": "حزمة أدوات متقدمة من معهد قطر لبحوث الحوسبة للتحليل الإحصائي والتجزيء والوسم الصرفي للنصوص العربية.",
+      "en": "QCRI Advanced Tools for Arabic (QATARA), featuring statistical tokenization, POS tagging, and morphology."
+    },
+    "tags": [
+      "qcri",
+      "pos-tagging",
+      "tokenization",
+      "morphology",
+      "statistical-nlp"
+    ],
+    "featured": true
+  },
+  {
+    "id": "dialectal-arabic-segmenter-qcri",
+    "repo": "qcri/dialectal_arabic_segmenter",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مجزئ اللهجات العربية من كيو سي آر آي",
+      "en": "QCRI Dialectal Arabic Segmenter"
+    },
+    "description": {
+      "ar": "نموذج تجزيء عميق مخصص لمعالجة اللهجات العربية العامية باستخدام شبكات BiLSTM وCRF.",
+      "en": "Deep-learning segmenter tailored for Arabic dialects using BiLSTM and Chain CRF architectures."
+    },
+    "tags": [
+      "dialects",
+      "segmentation",
+      "bilstm",
+      "crf",
+      "qcri"
+    ],
+    "featured": false
+  },
+  {
+    "id": "dialectid-e2e-audio",
+    "repo": "swshon/dialectID_e2e",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "منظومة التعرف على اللهجات العربية المنطوقة",
+      "en": "End-to-End Arabic Dialect Identification"
+    },
+    "description": {
+      "ar": "شبكة عصبية التفافية متكاملة للتعرف التلقائي على اللهجات العربية المنطوقة وتصنيفها من الصوت مباشرة.",
+      "en": "End-to-end convolutional neural network for recognizing and classifying spoken Arabic dialects."
+    },
+    "tags": [
+      "dialect-identification",
+      "speech",
+      "deep-learning",
+      "audio-classification",
+      "dialects"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-sentiment-analysis-tweets",
+    "repo": "motazsaad/arabic-sentiment-analysis",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "تحليل المشاعر في التغريدات والنصوص العربية",
+      "en": "Arabic Sentiment Analysis in Tweets"
+    },
+    "description": {
+      "ar": "حزمة نماذج وخوارزميات تعلم آلي لتصنيف وتحليل المشاعر والانطباعات في النصوص والتغريدات العربية.",
+      "en": "Machine learning and deep learning pipelines for Arabic sentiment polarity classification."
+    },
+    "tags": [
+      "sentiment-analysis",
+      "nlp",
+      "text-classification",
+      "arabic-tweets",
+      "machine-learning"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-handwritten-recognition-dl",
+    "repo": "AmrHendy/Arabic-Handwritten-Images-Recognition",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "تمييز الحروف والأرقام العربية المكتوبة بخط اليد",
+      "en": "Arabic Handwritten Character Recognition"
+    },
+    "description": {
+      "ar": "شبكة عصبية التفافية عميقة لتصنيف والتعرف على الحروف والأرقام العربية المكتوبة بخط اليد من الصور.",
+      "en": "Deep convolutional neural network for classifying handwritten Arabic letters and digits from raw images."
+    },
+    "tags": [
+      "handwriting",
+      "cnn",
+      "deep-learning",
+      "arabic-letters",
+      "computer-vision"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabica-text-mining",
+    "repo": "PetrKorab/Arabica",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "حزمة أرابيكا للتنقيب في النصوص العربية",
+      "en": "Arabica Text Mining for Arabic & Arabizi"
+    },
+    "description": {
+      "ar": "مكتبة بايثون للتحليل الاستكشافي والتنقيب في النصوص العربية ونصوص العربيزي وتحليل تكرارات الكلمات.",
+      "en": "Python package for exploratory text mining and n-gram analysis of Arabic, Arabizi, and regional texts."
+    },
+    "tags": [
+      "text-mining",
+      "arabizi",
+      "ngram",
+      "python",
+      "text-analytics"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-ner-anercorp",
+    "repo": "EmnamoR/Arabic-named-entity-recognition",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نظام استخراج الكيانات المسماة بالعربية",
+      "en": "Arabic Named Entity Recognition (ANER)"
+    },
+    "description": {
+      "ar": "نظام لاستخراج وتحديد الكيانات المسماة (الأشخاص، الأماكن، المنظمات) في النصوص العربية بالاعتماد على ANERcorp.",
+      "en": "Named entity recognition system for Arabic text trained on ANERcorp to detect persons, locations, and organizations."
+    },
+    "tags": [
+      "ner",
+      "named-entity-recognition",
+      "anercorp",
+      "nlp",
+      "information-extraction"
+    ],
+    "featured": false
+  },
+  {
+    "id": "hatmimoha-arabic-ner",
+    "repo": "hatmimoha/arabic-ner",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "منظومة حاتمي لتمييز الكيانات المسماة العربية",
+      "en": "Hatmimoha Arabic NER System"
+    },
+    "description": {
+      "ar": "خط معالجة مفتوح المصدر لاستخراج الميزات وتصنيف الكيانات المسماة في المقالات والمدونات الإخبارية العربية.",
+      "en": "Open-source Arabic Named Entity Recognition pipeline with feature extraction and classification models."
+    },
+    "tags": [
+      "ner",
+      "entity-extraction",
+      "nlp",
+      "arabic-corpus",
+      "classification"
+    ],
+    "featured": false
+  },
+  {
+    "id": "anwarvic-arabic-speech-recognition",
+    "repo": "Anwarvic/Arabic-Speech-Recognition",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "منظومة التعرف الآلي على الكلام العربي",
+      "en": "Arabic Speech Recognition Framework"
+    },
+    "description": {
+      "ar": "تطبيق عملي لبناء نماذج صوتية ومحركات تعرف آلي على الكلام المنطوق باللغة العربية الفصحى.",
+      "en": "Practical implementation of acoustic models and speech recognition engines for modern Arabic speech."
+    },
+    "tags": [
+      "asr",
+      "speech-recognition",
+      "acoustic-model",
+      "audio",
+      "deep-learning"
+    ],
+    "featured": false
+  },
+  {
+    "id": "qwencleo-egyptian-asr",
+    "repo": "MohammedAly22/qwencleo-asr",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نموذج قوين كليو للتعرف على اللهجة المصرية",
+      "en": "QwenCleo Egyptian Arabic ASR"
+    },
+    "description": {
+      "ar": "نموذج حديث مفتوح المصدر تم تدريبه خصيصاً للتعرف الآلي الدقيق على الكلام المنطوق باللهجة المصرية العامية.",
+      "en": "State-of-the-art open-source speech recognition model fine-tuned for Egyptian Arabic colloquial speech."
+    },
+    "tags": [
+      "asr",
+      "speech-to-text",
+      "egyptian-arabic",
+      "qwen",
+      "whisper"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-phonetic-dictionary-generator",
+    "repo": "mohdali/Arabic-Phonetic-Dictionary",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مولد المعجم الصوتي للغة العربية",
+      "en": "Arabic Phonetic Dictionary Generator"
+    },
+    "description": {
+      "ar": "أداة توليد المعاجم الصوتية والقواعد النطقية للكلمات العربية لاستخدامها في تطبيقات التعرف على الكلام وتوليده.",
+      "en": "Automated generator for Arabic phonetic pronunciation dictionaries used in ASR and speech synthesis."
+    },
+    "tags": [
+      "phonetics",
+      "speech-synthesis",
+      "asr",
+      "pronunciation-dictionary",
+      "linguistics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "quranic-svm-parser-kaisdukes",
+    "repo": "kaisdukes/quran-svm-parser",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "المحلل الإعرابي لمدونة القرآن الكريم",
+      "en": "Quranic Corpus SVM Parser"
+    },
+    "description": {
+      "ar": "المحلل الآلي الأصلي المعتمد على خوارزميات SVM من تصميم قيس دوكس لتوليد شجرة الإعراب والتحليل الصرفي للقرآن.",
+      "en": "The original machine learning parser by Kais Dukes that generated the foundational morphological treebank for Quranic Arabic."
+    },
+    "tags": [
+      "syntax-parser",
+      "quranic-corpus",
+      "svm",
+      "treebank",
+      "morphology"
+    ],
+    "featured": true
+  },
+  {
+    "id": "quranic-semantic-search-engine",
+    "repo": "ahr9n/quranic-search-v2",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "محرك البحث الدلالي واللفظي للقرآن الكريم",
+      "en": "Quranic Semantic & Lexical Search Engine"
+    },
+    "description": {
+      "ar": "محرك بحث قرآني متقدم يجمع بين البحث اللفظي الدقيق والبحث الدلالي المعتمد على التضمينات المتجهية.",
+      "en": "Lexical and semantic search engine for the Holy Quran using Arabic vector embeddings and BM25 ranking."
+    },
+    "tags": [
+      "semantic-search",
+      "vector-embeddings",
+      "quran",
+      "bm25",
+      "information-retrieval"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arz-callhome-corpus",
+    "repo": "noisychannel/ARZ_callhome_corpus",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة كولهوم للغة العربية المصرية",
+      "en": "CALLHOME Egyptian Arabic Corpus"
+    },
+    "description": {
+      "ar": "مدونة كولهوم للمحادثات الصوتية ونصوصها المفرغة والمترجمة باللهجة المصرية لدعم أبحاث الحوسبة اللغوية.",
+      "en": "The CALLHOME Egyptian Arabic speech transcription and translation dataset for colloquial NLP research."
+    },
+    "tags": [
+      "corpus",
+      "egyptian-arabic",
+      "speech-translation",
+      "dialects",
+      "dataset"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-hatespeech-dataset",
+    "repo": "motazsaad/arabic-hatespeech-data",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مجموعة بيانات رصد خطاب الكراهية بالعربية",
+      "en": "Arabic Hate Speech Benchmark Dataset"
+    },
+    "description": {
+      "ar": "مدونة نصوص عربية موسومة ومصنفة من وسائل التواصل لرصد وتحليل خطابات الكراهية والألفاظ النابية.",
+      "en": "Annotated dataset of Arabic social media posts classified for hate speech and offensive language detection."
+    },
+    "tags": [
+      "dataset",
+      "hate-speech",
+      "offensive-language",
+      "social-media",
+      "nlp-benchmark"
+    ],
+    "featured": false
+  },
+  {
+    "id": "alexandria-dialectal-dataset",
+    "repo": "UBC-NLP/Alexandria",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة الإسكندرية لترجمة اللهجات العربية",
+      "en": "Alexandria Multi-Domain Dialectal Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات معيارية متعددة المجالات لترجمة اللهجات العربية المحكية من مختبر UBC-NLP.",
+      "en": "Multi-domain machine translation dataset and benchmark across multiple spoken Arab dialects from UBC-NLP."
+    },
+    "tags": [
+      "dataset",
+      "machine-translation",
+      "arabic-dialects",
+      "ubc-nlp",
+      "benchmark"
+    ],
+    "featured": true
+  },
+  {
+    "id": "pearl-multimodal-arabic-dataset",
+    "repo": "UBC-NLP/pearl",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة لؤلؤة المتعددة الوسائط للثقافة العربية",
+      "en": "Pearl Arabic Multimodal Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات متعددة الوسائط متجذرة في الثقافة العربية لتدريب نماذج الذكاء الاصطناعي البصرية اللغوية.",
+      "en": "Culturally-grounded Arabic vision-language dataset for training culturally-aware multimodal AI models."
+    },
+    "tags": [
+      "multimodal",
+      "vision-language",
+      "cultural-ai",
+      "dataset",
+      "ubc-nlp"
+    ],
+    "featured": true
+  },
+  {
+    "id": "rightnow-arabic-llm-corpus",
+    "repo": "RightNow-AI/rightnow-arabic-llm-corpus",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة رايت ناو لتدريب النماذج اللغوية العربية",
+      "en": "RightNow Arabic LLM Corpus"
+    },
+    "description": {
+      "ar": "مدونة نصوص عربية ضخمة ومنقاة ومعدة لتدريب نماذج الذكاء الاصطناعي اللغوية وتغذيتها بمعرفة عربية رصينة.",
+      "en": "Massive, filtered, high-quality open Arabic text dataset designed for LLM pre-training and alignment."
+    },
+    "tags": [
+      "dataset",
+      "llm-pretraining",
+      "arabic-corpus",
+      "clean-text",
+      "foundation-models"
+    ],
+    "featured": true
+  },
+  {
+    "id": "baved-arabic-vocal-emotions",
+    "repo": "40uf411/Basic-Arabic-Vocal-Emotions-Dataset",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة المشاعر والانفعالات الصوتية العربية (BAVED)",
+      "en": "BAVED Arabic Vocal Emotions Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات صوتية قياسية تضم تسجيلات لكلمات عربية منسوخة ومسجلة بنبرات انفعالية متنوعة.",
+      "en": "The Basic Arabic Vocal Emotions Dataset (BAVED), featuring recordings of Arabic words spoken across emotional states."
+    },
+    "tags": [
+      "dataset",
+      "audio-dataset",
+      "speech-emotion",
+      "vocal-dataset",
+      "phonetics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "iraqi-dialect-tts-corpus",
+    "repo": "hayderkharrufa/iraqi-dialect-tts-corpus",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة الكلام المنطوق باللهجة العراقية",
+      "en": "Iraqi Dialect Speech Corpus"
+    },
+    "description": {
+      "ar": "مدونة صوتية مسجلة وموسومة فونيمياً لتدريب محركات توليد ونطق الكلام باللهجة العراقية.",
+      "en": "Comprehensive phonetic dataset designed for training Text-to-Speech (TTS) and speech synthesis models in Iraqi Arabic."
+    },
+    "tags": [
+      "dataset",
+      "iraqi-dialect",
+      "tts",
+      "speech-synthesis",
+      "dialects"
+    ],
+    "featured": false
+  },
+  {
+    "id": "classical-arabic-ner-corpus",
+    "repo": "RamziSalah/Classical-Arabic-Named-Entity-Recognition-Corpus",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة الكيانات المسماة في التراث العربي الكلاسيكي",
+      "en": "Classical Arabic NER Corpus"
+    },
+    "description": {
+      "ar": "مدونة موسومة للكيانات المسماة مخصصة للنصوص التراثية والتاريخية والكتب الأدبية العربية القديمة.",
+      "en": "Annotated classical Arabic corpus for named entity recognition across historical, biographical, and literary texts."
+    },
+    "tags": [
+      "ner",
+      "classical-arabic",
+      "corpus",
+      "heritage-texts",
+      "dataset"
+    ],
+    "featured": false
+  },
+  {
+    "id": "adhan-swift-library",
+    "repo": "batoulapps/adhan-swift",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكتبة أذان لحساب أوقات الصلاة بلغة سويفت",
+      "en": "Adhan Swift Prayer Times Library"
+    },
+    "description": {
+      "ar": "مكتبة عالية الدقة بلغة سويفت لحساب مواقيت الصلاة والقبلة والتقويم الهجري لكافة منصات أبل.",
+      "en": "High-precision Islamic prayer times calculation library in Swift for iOS, macOS, watchOS, and tvOS."
+    },
+    "tags": [
+      "swift",
+      "prayer-times",
+      "adhan",
+      "islamic-tech",
+      "ios"
+    ],
+    "featured": true
+  },
+  {
+    "id": "adhan-kotlin-library",
+    "repo": "batoulapps/adhan-kotlin",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكتبة أذان لحساب مواقيت الصلاة للأندرويد وجافا",
+      "en": "Adhan Kotlin & Java Library"
+    },
+    "description": {
+      "ar": "المكتبة الرسمية بلغة كوتلن وجافا لحساب المواقيت الفلكية الدقيقة للصلوات الخمس واتجاه القبلة.",
+      "en": "Official Kotlin and Java library for calculating astronomical Islamic prayer times and Qibla bearings."
+    },
+    "tags": [
+      "kotlin",
+      "java",
+      "prayer-times",
+      "adhan",
+      "android"
+    ],
+    "featured": true
+  },
+  {
+    "id": "open-hadith-database",
+    "repo": "mhashim6/Open-Hadith-Data",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "قاعدة بيانات كتب الحديث النبوي الشريف المفتوحة",
+      "en": "Open Hadith Data Library"
+    },
+    "description": {
+      "ar": "قواعد بيانات مهيكلة وشاملة لكتب الحديث التسعة (بما فيها الكتب الستة) بصيغ JSON و SQLite.",
+      "en": "Structured, comprehensive databases of the Nine Hadith Books (including the Six Kutub) in clean JSON and SQLite."
+    },
+    "tags": [
+      "hadith",
+      "database",
+      "sunnah",
+      "open-data",
+      "sqlite"
+    ],
+    "featured": true
+  },
+  {
+    "id": "qurany-app-flutter",
+    "repo": "MahmoudMabrok/QuranyApp",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق قرآني للقراءة والاستماع والتفسير",
+      "en": "Qurany App for Reading & Tafseer"
+    },
+    "description": {
+      "ar": "تطبيق قرآني مفتوح المصدر ومتكامل يتيح القراءة والاستماع لمختلف القراء واختبار الحفظ وتصفح التفاسير.",
+      "en": "Feature-packed open-source Holy Quran application with interactive recitations, verse testing, and Arabic tafseer."
+    },
+    "tags": [
+      "flutter",
+      "quran",
+      "tafseer",
+      "audio-recitations",
+      "open-source"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tafsir-rest-api",
+    "repo": "spa5k/tafsir_api",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة برمجة تطبيقات تفاسير القرآن الكريم",
+      "en": "Tafsir REST API Service"
+    },
+    "description": {
+      "ar": "خدمة برمجية سريعة تتيح واجهات REST لتصفح وقراءة أشهر كتب التفسير العربية لآيات القرآن الكريم.",
+      "en": "Production-ready REST API and JSON endpoints serving classical Arabic Quranic Tafseers (Ibn Kathir, Al-Tabari, Al-Saadi)."
+    },
+    "tags": [
+      "tafsir",
+      "api",
+      "rest-api",
+      "quranic-studies",
+      "json"
+    ],
+    "featured": true
+  },
+  {
+    "id": "quran-library-flutter-pkg",
+    "repo": "alheekmahlib/quran_library",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "حزمة عرض صفحات المصحف في فلاتر",
+      "en": "Quran Library Flutter Package"
+    },
+    "description": {
+      "ar": "حزمة برمجية لمطوري فلاتر لعرض صفحات القرآن الكريم بضبط وطباعة مطابقة تماماً لمصحف مجمع الملك فهد.",
+      "en": "Specialized Flutter developer package for rendering the Holy Quran with exact typography matching the King Fahd Complex Mushaf."
+    },
+    "tags": [
+      "flutter-package",
+      "quran-display",
+      "mushaf",
+      "dart",
+      "developer-library"
+    ],
+    "featured": false
+  },
+  {
+    "id": "open-mushaf-native-app",
+    "repo": "adelpro/open-mushaf-native",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق المصحف المفتوح ريأكت نيتف",
+      "en": "Open-Mushaf Native"
+    },
+    "description": {
+      "ar": "تطبيق مصحف حديث ومفتوح المصدر مبني بتقنيات ريأكت نيتف وإكسبو يعرض الصفحات بالرسم العثماني الأصيل.",
+      "en": "Modern, open-source Quran reading application built with Expo and React Native with authentic Arabic calligraphy layouts."
+    },
+    "tags": [
+      "react-native",
+      "expo",
+      "quran",
+      "mushaf",
+      "arabic-calligraphy"
+    ],
+    "featured": false
+  },
+  {
+    "id": "rn-tajweed-verse-component",
+    "repo": "ariona/rn-tajweed-verse",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكون تلوين أحكام التجويد في ريأكت نيتف",
+      "en": "React Native Tajweed Verse"
+    },
+    "description": {
+      "ar": "مكون واجهات لمطوري ريأكت نيتف لتحليل أحكام التجويد في الآيات وتلوين حروفها بالألوان التجويدية القياسية.",
+      "en": "React Native UI component for parsing Arabic Quranic verses and highlighting Tajweed rules with traditional color codes."
+    },
+    "tags": [
+      "react-native",
+      "tajweed",
+      "quran",
+      "color-coding",
+      "ui-component"
+    ],
+    "featured": false
+  },
+  {
+    "id": "mushaf-imad-expo-app",
+    "repo": "adelpro/mushaf-imad-expo",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تطبيق مصحف عماد التفاعلي",
+      "en": "Mushaf Imad Expo App"
+    },
+    "description": {
+      "ar": "تطبيق قراءة قرآني سلس يعرض المصحف صفحة بصفحة مع حفظ الفواصل والاستماع لتلاوات القراء دون إنترنت.",
+      "en": "Clean React Native Quran reading application featuring page-by-page rendering, bookmarking, and offline audio recitations."
+    },
+    "tags": [
+      "expo",
+      "react-native",
+      "quran-reader",
+      "offline-mode",
+      "audio"
+    ],
+    "featured": false
+  },
+  {
+    "id": "react-quran-viewer-component",
+    "repo": "6km/react-quran",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكون عارض القرآن لتطبيقات ريأكت",
+      "en": "React Quran Viewer Component"
+    },
+    "description": {
+      "ar": "مكون ريأكت تفاعلي لتضمين عارض القرآن الكريم وتصفح الآيات والسور داخل تطبيقات الويب بسهولة.",
+      "en": "Embeddable React component for viewing, navigating, and searching the Holy Quran inside modern web applications."
+    },
+    "tags": [
+      "react",
+      "react-component",
+      "quran-viewer",
+      "web-app",
+      "islamic-tech"
+    ],
+    "featured": false
   }
 ]
