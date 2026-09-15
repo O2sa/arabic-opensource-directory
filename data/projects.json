@@ -1177,5 +1177,1431 @@
       "cleaning",
       "normalization"
     ]
+  },
+  {
+    "id": "tarteelai-quranic-universal-library",
+    "repo": "TarteelAI/quranic-universal-library",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "المكتبة القرآنية الشاملة ترتيل",
+      "en": "Tarteel Quranic Universal Library"
+    },
+    "description": {
+      "ar": "مستودع شامل ومكتبة برمجية مفتوحة المصدر تضم بيانات السور والآيات والترجمات الصوتية والنصية.",
+      "en": "A comprehensive collection of open-source Quranic text resources, recitations, and audio metadata."
+    },
+    "homepage": "https://qul.tarteel.ai/",
+    "featured": true,
+    "tags": [
+      "quran",
+      "islamic-tech",
+      "datasets",
+      "tarteel",
+      "audio"
+    ]
+  },
+  {
+    "id": "sunnah-com-api",
+    "repo": "sunnah-com/api",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة برمجية موقع سنة.كوم",
+      "en": "Sunnah.com API"
+    },
+    "description": {
+      "ar": "الواجهة البرمجية الرسمية ومستودع بيانات كتب الحديث الشريف باللغة العربية وترجماتها المعتمدة.",
+      "en": "The official API backend for Sunnah.com offering structured access to canonical Hadith collections."
+    },
+    "homepage": "https://sunnah.com",
+    "featured": true,
+    "tags": [
+      "php",
+      "hadith",
+      "api",
+      "islamic-tech",
+      "rest-api"
+    ]
+  },
+  {
+    "id": "yazinsai-tilawa",
+    "repo": "yazinsai/tilawa",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "تلاوة للتعرف الصوتي على الآيات",
+      "en": "Tilawa Audio Recognition"
+    },
+    "description": {
+      "ar": "نظام ومكتبة مفتوحة المصدر للتعرف على الآيات والسور من التلاوات الصوتية دون الحاجة لاتصال بالإنترنت.",
+      "en": "Offline Quran verse and surah recognition from audio recitations using acoustic matching."
+    },
+    "homepage": "https://tilawa.dev",
+    "featured": true,
+    "tags": [
+      "python",
+      "audio-recognition",
+      "quran",
+      "speech",
+      "signal-processing"
+    ]
+  },
+  {
+    "id": "cpfair-quran-align",
+    "repo": "cpfair/quran-align",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "محاذاة التلاوات القرآنية",
+      "en": "Quran Audio Align"
+    },
+    "description": {
+      "ar": "نظام مفتوح المصدر لحساب الطوابع الزمنية الدقيقة لكل كلمة في التلاوات القرآنية الصوتية.",
+      "en": "Word-accurate timestamps and alignment generator for Quranic audio recitations."
+    },
+    "homepage": "https://github.com/cpfair/quran-align",
+    "featured": true,
+    "tags": [
+      "python",
+      "audio-alignment",
+      "speech",
+      "quran",
+      "forced-alignment"
+    ]
+  },
+  {
+    "id": "quran-quran-com-frontend",
+    "repo": "quran/quran.com-frontend",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "واجهة قرآن.كوم الكلاسيكية",
+      "en": "Quran.com Frontend"
+    },
+    "description": {
+      "ar": "واجهة الويب المفتوحة المصدر لمنصة القرآن الكريم العالمية وتصفح السور والتلاوات والتفاسير.",
+      "en": "Open-source web interface for Quran.com, featuring verse browsing, recitations, and commentaries."
+    },
+    "homepage": "https://quran.com",
+    "featured": true,
+    "tags": [
+      "javascript",
+      "allah",
+      "islam",
+      "koran",
+      "muslim",
+      "quran"
+    ]
+  },
+  {
+    "id": "semarketir-quranjson",
+    "repo": "semarketir/quranjson",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "قاعدة بيانات القرآن بصيغة JSON",
+      "en": "QuranJSON"
+    },
+    "description": {
+      "ar": "قاعدة بيانات مفتوحة ومنظمة للقرآن الكريم تشمل 6236 آية و 114 سورة و 30 جزءاً بصيغة JSON الخفيفة.",
+      "en": "Structured, lightweight JSON dataset of the Holy Quran covering all 6,236 verses, 114 surahs, and 30 juz."
+    },
+    "homepage": "https://semarketir.github.io/quranjson-web",
+    "featured": true,
+    "tags": [
+      "audio",
+      "data",
+      "islam",
+      "json",
+      "juz",
+      "moslem"
+    ]
+  },
+  {
+    "id": "risan-quran-json",
+    "repo": "risan/quran-json",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "مكتبة نصوص القرآن JSON",
+      "en": "Quran JSON Texts"
+    },
+    "description": {
+      "ar": "مستودع مفتوح المصدر يحتوي على النصوص القرآنية الكاملة والترجمات المتعددة بصيغة JSON للمطورين.",
+      "en": "Complete open-source Quranic text and multi-language translations structured for application developers."
+    },
+    "homepage": "https://github.com/risan/quran-json",
+    "featured": true,
+    "tags": [
+      "python",
+      "quran",
+      "tanzil",
+      "translation",
+      "islamic tech"
+    ]
+  },
+  {
+    "id": "quran-quran-ios",
+    "repo": "quran/quran-ios",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "محرك تطبيق قرآن لنظام iOS",
+      "en": "Quran iOS Engine"
+    },
+    "description": {
+      "ar": "المحرك البرمجي المفتوح المصدر الذي يدير تطبيق Quran.com الرسمي على أجهزة الآيفون والآيباد.",
+      "en": "The core open-source engine powering the official Quran.com application for iOS and iPadOS."
+    },
+    "homepage": "https://github.com/quran/quran-ios",
+    "featured": true,
+    "tags": [
+      "swift",
+      "ios",
+      "quran",
+      "islamic tech"
+    ]
+  },
+  {
+    "id": "quran-quran-com-images",
+    "repo": "quran/quran.com-images",
+    "category": "islamic-tech",
+    "title": {
+      "ar": "صور صفحات المصحف الشريف",
+      "en": "Quran Page Images"
+    },
+    "description": {
+      "ar": "صور عالية الدقة لصفحات المصحف الشريف مستخرجة من خطوط مجمع الملك فهد لطباعة المصحف الشريف.",
+      "en": "High-resolution Quranic page images rendered using official King Fahd Complex typefaces."
+    },
+    "homepage": "http://quran.com",
+    "featured": true,
+    "tags": [
+      "perl",
+      "islamic tech"
+    ]
+  },
+  {
+    "id": "nipponjo-tts-arabic-pytorch",
+    "repo": "nipponjo/tts-arabic-pytorch",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "حزمة توليد الصوت العربي تاكوترون",
+      "en": "Arabic TTS PyTorch"
+    },
+    "description": {
+      "ar": "نماذج شبكات عصبية لتحويل النصوص العربية إلى كلام صوتي طبيعي بالاعتماد على Tacotron 2 و FastPitch.",
+      "en": "Neural network models for Arabic text-to-speech synthesis using Tacotron 2 and FastPitch."
+    },
+    "homepage": "https://github.com/nipponjo/tts-arabic-pytorch",
+    "featured": true,
+    "tags": [
+      "python",
+      "tts",
+      "speech",
+      "pytorch",
+      "deep-learning"
+    ]
+  },
+  {
+    "id": "alisafaya-arabic-bert",
+    "repo": "alisafaya/Arabic-BERT",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نموذج بيرت العربي",
+      "en": "Arabic BERT"
+    },
+    "description": {
+      "ar": "نماذج لغوية محولة مسبقة التدريب مخصصة لفهم ومعالجة اللغة العربية واللهجات المتعددة بدقة عالية.",
+      "en": "Pretrained BERT language models customized for Arabic language understanding and representation."
+    },
+    "homepage": "https://github.com/alisafaya/Arabic-BERT",
+    "featured": true,
+    "tags": [
+      "nlp",
+      "bert",
+      "transformers",
+      "pytorch",
+      "arabic-nlp"
+    ]
+  },
+  {
+    "id": "yoosif0-arabic-tacotron-tts",
+    "repo": "yoosif0/arabic-tacotron-tts",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نظام تاكوترون لنطق العربية",
+      "en": "Arabic Tacotron TTS"
+    },
+    "description": {
+      "ar": "نظام متكامل لتوليد الكلام الصوتي العربي عالي الدقة مبني على نموذج Tacotron و WaveRNN.",
+      "en": "An end-to-end neural Arabic speech synthesis system based on Tacotron and WaveRNN."
+    },
+    "homepage": "https://github.com/yoosif0/arabic-tacotron-tts",
+    "featured": true,
+    "tags": [
+      "python",
+      "tts",
+      "speech-synthesis",
+      "tacotron",
+      "audio"
+    ]
+  },
+  {
+    "id": "linuxscout-festival-tts-arabic-voices",
+    "repo": "linuxscout/festival-tts-arabic-voices",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أصوات فيستفال العربية",
+      "en": "Festival Arabic Voices"
+    },
+    "description": {
+      "ar": "قواعد بيانات صوتية وأصوات عربية مفتوحة المصدر لنظام نطق وتوليد الكلام Festival.",
+      "en": "Open-source Arabic voice databases and phonetic mappings for the Festival speech synthesis system."
+    },
+    "homepage": "https://github.com/linuxscout/festival-tts-arabic-voices",
+    "featured": false,
+    "tags": [
+      "tts",
+      "speech",
+      "festival",
+      "voice",
+      "arabic"
+    ]
+  },
+  {
+    "id": "ubc-nlp-turjuman",
+    "repo": "UBC-NLP/turjuman",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "ترجمان للترجمة العصبية",
+      "en": "Turjuman Neural Translation"
+    },
+    "description": {
+      "ar": "أداة ونموذج عصبي مفتوح المصدر متخصص في ترجمة النصوص إلى اللغة العربية من أكثر من 20 لغة.",
+      "en": "A neural machine translation toolkit specifically optimized for translating into the Arabic language."
+    },
+    "homepage": "https://demos.dlnlp.ai/turjuman",
+    "featured": false,
+    "tags": [
+      "python",
+      "translation",
+      "nmt",
+      "transformers",
+      "nlp"
+    ]
+  },
+  {
+    "id": "camel-lab-camelbert",
+    "repo": "CAMeL-Lab/CAMeLBERT",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نماذج كامل بيرت العربية",
+      "en": "CAMeLBERT Models"
+    },
+    "description": {
+      "ar": "سلسلة نماذج محولات مسبقة التدريب من جامعة نيويورك أبوظبي متخصصة في العربية الفصحى واللهجات والشعر.",
+      "en": "Pretrained BERT models for classical Arabic, modern standard Arabic, and dialectal Arabic."
+    },
+    "homepage": "https://aclanthology.org/2021.wanlp-1.10",
+    "featured": false,
+    "tags": [
+      "nlp",
+      "bert",
+      "transformers",
+      "camel-lab",
+      "arabic"
+    ]
+  },
+  {
+    "id": "mbzuai-oryx-ain",
+    "repo": "mbzuai-oryx/AIN",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نموذج عَين البصري اللغوي",
+      "en": "AIN Multimodal Model"
+    },
+    "description": {
+      "ar": "أول نموذج بصري لغوي متعدد الوسائط باللغة العربية طورته جامعة محمد بن زايد للذكاء الاصطناعي.",
+      "en": "The first Arabic-first multimodal large language model excelling in visual and textual Arabic comprehension."
+    },
+    "homepage": "https://mbzuai-oryx.github.io/AIN/",
+    "featured": false,
+    "tags": [
+      "multimodal",
+      "vision-language",
+      "arabic-llm",
+      "deep-learning",
+      "mbzuai"
+    ]
+  },
+  {
+    "id": "sinalab-arabicner",
+    "repo": "SinaLab/ArabicNER",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مستخرج الكيانات المسماة العربي",
+      "en": "SinaLab ArabicNER"
+    },
+    "description": {
+      "ar": "أداة ونموذج مفتوح المصدر من مختبر سينا لاستخراج الكيانات المسماة المتداخلة في النصوص العربية.",
+      "en": "Arabic nested named entity recognition pipeline and benchmark developed by SinaLab."
+    },
+    "homepage": "https://github.com/SinaLab/ArabicNER",
+    "featured": false,
+    "tags": [
+      "python",
+      "ner",
+      "information-extraction",
+      "nlp",
+      "deep-learning"
+    ]
+  },
+  {
+    "id": "mawdoo3-multi-dialect-arabic-bert",
+    "repo": "mawdoo3/Multi-dialect-Arabic-BERT",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "بيرت موضوع للهجات العربية",
+      "en": "Mawdoo3 Dialectal BERT"
+    },
+    "description": {
+      "ar": "نموذج محولات مسبق التدريب من فريق موضوع لفهم وتمثيل اللهجات العربية المتعددة والنصوص العامية.",
+      "en": "Pre-trained multi-dialect Arabic BERT model designed for dialectal Arabic NLP tasks."
+    },
+    "homepage": "https://github.com/mawdoo3/Multi-dialect-Arabic-BERT",
+    "featured": false,
+    "tags": [
+      "nlp",
+      "bert",
+      "dialects",
+      "mawdoo3",
+      "transformers"
+    ]
+  },
+  {
+    "id": "arbml-arbml",
+    "repo": "ARBML/ARBML",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "منظومة الذكاء الاصطناعي العربي",
+      "en": "ARBML Arabic AI Suite"
+    },
+    "description": {
+      "ar": "مجموعة برمجيات ومشاريع تطبيقية مفتوحة المصدر لمعالجة اللغة العربية والرؤية الحاسوبية مع عروض حية.",
+      "en": "Comprehensive open-source suite of Arabic NLP and Computer Vision implementations with live demos."
+    },
+    "homepage": "https://arbml.github.io/ARBML/Interfaces/Website/",
+    "featured": true,
+    "tags": [
+      "javascript",
+      "arabic",
+      "arabic-nlp",
+      "colab",
+      "demo",
+      "nlp ai"
+    ]
+  },
+  {
+    "id": "zonetecde-qurancaption",
+    "repo": "zonetecde/QuranCaption",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "أداة كتابة الآيات المرئية",
+      "en": "QuranCaption"
+    },
+    "description": {
+      "ar": "أداة مفتوحة المصدر لتوليد ومزامنة نصوص الآيات القرآنية تلقائياً على المقاطع الصوتية والفيديوهات.",
+      "en": "Transform Quranic recitations into synchronized captioned videos with professional typography."
+    },
+    "homepage": "https://qurancaption.com",
+    "featured": true,
+    "tags": [
+      "python",
+      "quran",
+      "caption",
+      "video",
+      "automation"
+    ]
+  },
+  {
+    "id": "rn0x-altaqwaa-desktop",
+    "repo": "rn0x/altaqwaa-desktop",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق التقوى المكتبي",
+      "en": "Altaqwaa Desktop"
+    },
+    "description": {
+      "ar": "تطبيق إلكتروني مكتبي مفتوح المصدر لقراءة القرآن الكريم وعرض مواقيت الصلاة والأذكار النبوية.",
+      "en": "Open-source desktop application for Quran reading, prayer times reminders, and Azkar."
+    },
+    "homepage": "https://altaqwaa.i8x.net/",
+    "featured": true,
+    "tags": [
+      "electron",
+      "vue",
+      "desktop",
+      "quran",
+      "prayer-times"
+    ]
+  },
+  {
+    "id": "arbml-ashaar",
+    "repo": "ARBML/Ashaar",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "أشعار لتحليل ونظم الشعر",
+      "en": "Ashaar Arabic Poetry"
+    },
+    "description": {
+      "ar": "أدوات ذكاء اصطناعي مفتوحة المصدر لوزن القصائد العربية، وتحليل القوافي، والمساعدة في نظم الشعر.",
+      "en": "Open-source AI tools for Arabic poetic meter classification, rhyming analysis, and poetry generation."
+    },
+    "homepage": "https://github.com/ARBML/Ashaar",
+    "featured": false,
+    "tags": [
+      "python",
+      "poetry",
+      "meter",
+      "nlp",
+      "literature"
+    ]
+  },
+  {
+    "id": "noorbayan-noor",
+    "repo": "NoorBayan/Noor",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "منصة نور لخدمة القرآن",
+      "en": "Noor Quran Platform"
+    },
+    "description": {
+      "ar": "منصة برمجية رقمية مفتوحة المصدر لخدمة نصوص القرآن الكريم وتوفير أدوات البحث والعرض القرآني.",
+      "en": "A digital open-source platform providing tools, services, and APIs for Holy Quran text exploration."
+    },
+    "homepage": "https://github.com/NoorBayan/Noor",
+    "featured": true,
+    "tags": [
+      "dart",
+      "platforms apps"
+    ]
+  },
+  {
+    "id": "noorbayan-tanqeeh",
+    "repo": "NoorBayan/Tanqeeh",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "مكتبة تنقيح لمعالجة العربية",
+      "en": "Tanqeeh Text Cleaner"
+    },
+    "description": {
+      "ar": "مكتبة بايثون لمعالجة وتجهيز النصوص العربية وإزالة التشكيل وتوحيد الحروف لتطبيقات الذكاء الاصطناعي.",
+      "en": "A Python library designed to preprocess, clean, normalize, and strip diacritics from Arabic texts."
+    },
+    "homepage": "https://github.com/NoorBayan/Tanqeeh",
+    "featured": false,
+    "tags": [
+      "python",
+      "platforms apps"
+    ]
+  },
+  {
+    "id": "adelpro-open-tarteel",
+    "repo": "adelpro/open-tarteel",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "تطبيق ترتيل القرآني المفتوح",
+      "en": "Open Tarteel"
+    },
+    "description": {
+      "ar": "تطبيق قرآني مفتوح المصدر مصمم لتقديم تجربة قراءة واستماع حديثة للقرآن الكريم عبر مختلف الأجهزة.",
+      "en": "An open-source Quran application designed to provide a modern reading and listening experience."
+    },
+    "homepage": "https://tarteel.quran.us.kg",
+    "featured": false,
+    "tags": [
+      "typescript",
+      "jotai",
+      "nextjs",
+      "player",
+      "pwa",
+      "quran"
+    ]
+  },
+  {
+    "id": "bassem-i-arabic-english-subtitling",
+    "repo": "bassem-i/Arabic-English-Subtitling",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "نظام ترجمة وتوليد النصوص للفيديو",
+      "en": "Arabic-English Subtitling"
+    },
+    "description": {
+      "ar": "نظام آلي لتوليد الترجمات النصية المتزامنة لمقاطع الفيديو العربية والإنجليزية باستخدام التعرف الصوتي.",
+      "en": "An automatic video subtitling system for Arabic/English audio using speech recognition models."
+    },
+    "homepage": "https://github.com/bassem-i/Arabic-English-Subtitling",
+    "featured": false,
+    "tags": [
+      "shell",
+      "platforms apps"
+    ]
+  },
+  {
+    "id": "assem-ch-arabicstemmer",
+    "repo": "assem-ch/arabicstemmer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محلل الجذوع العربي عاصم",
+      "en": "Assem Arabic Stemmer"
+    },
+    "description": {
+      "ar": "مكتبة وخوارزمية مفتوحة المصدر للاشتقاق الخفيف واستخراج جذوع الكلمات العربية مبنية على خوارزمية Snowball.",
+      "en": "Open-source Snowball-based light stemming algorithm and library for the Arabic language."
+    },
+    "homepage": "http://arabicstemmer.com",
+    "featured": true,
+    "tags": [
+      "nlp",
+      "stemmer",
+      "snowball",
+      "arabic-stemmer",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "camel-lab-arabic-gec",
+    "repo": "CAMeL-Lab/arabic-gec",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مصحح الأخطاء النحوية العربية",
+      "en": "Arabic GEC"
+    },
+    "description": {
+      "ar": "أدوات ونماذج تعلم عميق مفتوحة المصدر لاكتشاف وتصحيح الأخطاء الإملائية والنحوية في النصوص العربية.",
+      "en": "Open-source models and dataset for Arabic grammatical error correction (GEC)."
+    },
+    "homepage": "https://aclanthology.org/2023.emnlp-main.396",
+    "featured": false,
+    "tags": [
+      "nlp",
+      "gec",
+      "grammar-correction",
+      "camel-lab",
+      "deep-learning"
+    ]
+  },
+  {
+    "id": "camel-lab-camel-morph",
+    "repo": "CAMeL-Lab/camel_morph",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نماذج كامل للصرف العربي",
+      "en": "Camel Morph"
+    },
+    "description": {
+      "ar": "مجموعة متكاملة مفتوحة المصدر لبناء وتدريب نماذج الصرف للغة العربية الفصحى واللهجات الدارجة.",
+      "en": "Large-scale open-source morphological models and databases for Modern Standard Arabic and dialects."
+    },
+    "homepage": "https://github.com/CAMeL-Lab/camel_morph",
+    "featured": false,
+    "tags": [
+      "python",
+      "morphology",
+      "camel-lab",
+      "nlp",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "konash-arabic-support-unity",
+    "repo": "Konash/arabic-support-unity",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "دعم العربية لمحرك يونيتي",
+      "en": "Arabic Support for Unity"
+    },
+    "description": {
+      "ar": "إضافة ومكتبة مفتوحة المصدر تمكن مطوري الألعاب في محرك Unity من إظهار النصوص العربية بشكل صحيح واتجاه سليم.",
+      "en": "A popular Unity plugin that correctly reshapes and aligns Arabic bidirectional text in games."
+    },
+    "homepage": "https://github.com/Konash/arabic-support-unity",
+    "featured": true,
+    "tags": [
+      "c#",
+      "text tashkeel"
+    ]
+  },
+  {
+    "id": "abjadai-catt",
+    "repo": "abjadai/catt",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نماذج تشكيل النصوص كات",
+      "en": "CATT Arabic Diacritizer"
+    },
+    "description": {
+      "ar": "التطبيق الرسمي لنماذج CATT العصبية المتقدمة للتشكيل الآلي الكامل للنصوص العربية بدقة فائقة.",
+      "en": "The official implementation of advanced CATT neural models for accurate Arabic text diacritization."
+    },
+    "homepage": "https://github.com/abjadai/catt",
+    "featured": false,
+    "tags": [
+      "python",
+      "text tashkeel"
+    ]
+  },
+  {
+    "id": "mush42-libtashkeel",
+    "repo": "mush42/libtashkeel",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكتبة تشكيل السريعة متعددة اللغات",
+      "en": "Libtashkeel"
+    },
+    "description": {
+      "ar": "مكتبة فائقة السرعة لإضافة التشكيل للنصوص العربية تدعم Rust و Python و C++ و WebAssembly.",
+      "en": "Fast multi-language library to add Arabic diacritics using Rust, Python, C++, and WebAssembly."
+    },
+    "homepage": "https://mush42.github.io/libtashkeel/",
+    "featured": false,
+    "tags": [
+      "rust",
+      "arabic",
+      "diacritics",
+      "nlp",
+      "tashkeel",
+      "text tashkeel"
+    ]
+  },
+  {
+    "id": "kariminf-jslingua",
+    "repo": "kariminf/jslingua",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "مكتبة جسلينجوا اللغوية",
+      "en": "Jslingua Linguistics"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت مفتوحة المصدر لمعالجة قواعد وصرف وتحويل الأرقام للنصوص في اللغة العربية.",
+      "en": "A JavaScript linguistics library providing morphology, verb conjugation, and number conversion for Arabic."
+    },
+    "homepage": "https://github.com/kariminf/jslingua",
+    "featured": false,
+    "tags": [
+      "javascript",
+      "arabic",
+      "conjugation",
+      "english",
+      "french",
+      "frontend"
+    ]
+  },
+  {
+    "id": "otakar-smrz-elixir-fm",
+    "repo": "otakar-smrz/elixir-fm",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "إكسير للصرف العربي الوظيفي",
+      "en": "ElixirFM Morphology"
+    },
+    "description": {
+      "ar": "نظام ومكتبة مفتوحة المصدر متخصصة في الصرف الوظيفي واشتقاق الأوزان والمعاجم اللغوية العربية.",
+      "en": "An open-source functional morphology system and lexicon implementation for Arabic language computation."
+    },
+    "homepage": "http://elixir-fm.sf.net/",
+    "featured": false,
+    "tags": [
+      "haskell",
+      "text tashkeel"
+    ]
+  },
+  {
+    "id": "anwarvic-arabic-tashkeela-model",
+    "repo": "Anwarvic/Arabic-Tashkeela-Model",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نموذج تشكيلة العصبي",
+      "en": "Tashkeela Diacritization Model"
+    },
+    "description": {
+      "ar": "نموذج شبكات عصبية بالتعلم العميق مدرب على ذخائر تشكيلة لوضع الحركات والضبط الصرفي للنصوص العربية.",
+      "en": "A deep learning neural diacritization model trained on Tashkeela corpora for Arabic vocalization."
+    },
+    "homepage": "https://github.com/Anwarvic/Arabic-Tashkeela-Model",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic-diacritics",
+      "arabic-nlp",
+      "character-level-language-model",
+      "hmm-model",
+      "nlp"
+    ]
+  },
+  {
+    "id": "abdullahdiaa-garabic",
+    "repo": "AbdullahDiaa/garabic",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "حزمة جـ-عربيك للغة Go",
+      "en": "Garabic Go Toolkit"
+    },
+    "description": {
+      "ar": "حزمة برمجية مفتوحة المصدر مكتوبة بلغة Go توفر دوالاً لمعالجة وإعادة تشكيل وتنظيف النصوص العربية.",
+      "en": "A set of lightweight utility functions for Arabic text reshaping, cleaning, and processing in Golang."
+    },
+    "homepage": "https://pkg.go.dev/github.com/AbdullahDiaa/garabic",
+    "featured": false,
+    "tags": [
+      "go",
+      "arabic",
+      "glyph",
+      "golang",
+      "harakat",
+      "normalization"
+    ]
+  },
+  {
+    "id": "aliftype-raqq",
+    "repo": "aliftype/raqq",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط رَقّ الكوفي",
+      "en": "Raqq Manuscript Kufic"
+    },
+    "description": {
+      "ar": "خط رقمي تاريخي مستوحى من المخطوطات القرآنية القديمة على الرق في القرون الهجرية الأولى من تصميم خالد حسني.",
+      "en": "A historical manuscript Kufic typeface inspired by early Quranic parchments by Khaled Hosny."
+    },
+    "homepage": "https://aliftype.com/raqq",
+    "featured": false,
+    "tags": [
+      "font",
+      "kufic",
+      "manuscript",
+      "typography",
+      "quran"
+    ]
+  },
+  {
+    "id": "aliftype-rana-kufi",
+    "repo": "aliftype/rana-kufi",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط كوفي رنا",
+      "en": "Rana Kufi Typeface"
+    },
+    "description": {
+      "ar": "خط كوفي رقمي مستلهم من النمط الفاطمي التذكاري المستخدم في العمارة والنقوش التاريخية في القاهرة.",
+      "en": "A digital Fatimid Kufic typeface inspired by monumental architectural inscriptions in Cairo."
+    },
+    "homepage": "https://aliftype.com/rana-kufi",
+    "featured": false,
+    "tags": [
+      "font",
+      "kufic",
+      "fatimid",
+      "typography",
+      "arabic-font"
+    ]
+  },
+  {
+    "id": "aliftype-amiri-typewriter",
+    "repo": "aliftype/amiri-typewriter",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط أميري الآلة الكاتبة",
+      "en": "Amiri Typewriter Font"
+    },
+    "description": {
+      "ar": "نسخة ثابتة العرض (Monospace) من خط أميري الكلاسيكي مخصصة لكتابة الشيفرات البرمجية والآلة الكاتبة.",
+      "en": "A monospaced companion to the classical Amiri font family designed for code editors and terminals."
+    },
+    "homepage": "https://github.com/aliftype/amiri-typewriter",
+    "featured": false,
+    "tags": [
+      "font",
+      "monospace",
+      "typography",
+      "amiri",
+      "webfont"
+    ]
+  },
+  {
+    "id": "emran-alhaddad-saudi-riyal-font",
+    "repo": "emran-alhaddad/Saudi-Riyal-Font",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط رمز الريال السعودي الرسمي",
+      "en": "Saudi Riyal Currency Font"
+    },
+    "description": {
+      "ar": "الخط الرقمي الرسمي مفتوح المصدر المعتمد لرمز عملة الريال السعودي، متوافق مع معايير الويب والتطبيقات.",
+      "en": "The official open-source font family for the Saudi Riyal currency symbol across web and print."
+    },
+    "homepage": "https://emran-alhaddad.github.io/Saudi-Riyal-Font/examples/demo.html",
+    "featured": true,
+    "tags": [
+      "css",
+      "arabic",
+      "currency-symbol",
+      "font",
+      "icon-fontsaudi-riyalcurrency-symbol",
+      "open-source"
+    ]
+  },
+  {
+    "id": "basshelal-wudooh",
+    "repo": "basshelal/Wudooh",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "إضافة وضوح لقراءة النصوص العربية",
+      "en": "Wudooh Script Enhancer"
+    },
+    "description": {
+      "ar": "إضافة متصفح مفتوحة المصدر تتيح تخصيص وتعديل خطوط وحجم وتباعد النصوص العربية لتحسين وضوح القراءة.",
+      "en": "An open-source browser extension that customizes Arabic typography, sizes, and clarity on web pages."
+    },
+    "homepage": "https://wudooh.app",
+    "featured": true,
+    "tags": [
+      "typescript",
+      "accessibility",
+      "arabic",
+      "arabic-font",
+      "browser-extension",
+      "chrome-extension"
+    ]
+  },
+  {
+    "id": "linuxscout-adawat",
+    "repo": "linuxscout/adawat",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أدوات معالجة النصوص العربية",
+      "en": "Adawat Arabic Text Tools"
+    },
+    "description": {
+      "ar": "حزمة أدوات سطر أوامر ومكتبات لمعالجة وضبط وتحويل النصوص العربية وفصل الكلمات والتصنيف.",
+      "en": "Command-line tools and utilities for Arabic text manipulation, conversion, and token filtering."
+    },
+    "homepage": "https://github.com/linuxscout/adawat",
+    "featured": false,
+    "tags": [
+      "python",
+      "cli",
+      "arabic-tools",
+      "nlp",
+      "text-processing"
+    ]
+  },
+  {
+    "id": "alsaydi-sarf",
+    "repo": "alsaydi/sarf",
+    "category": "dev-tools",
+    "title": {
+      "ar": "نظام الصرف العربي",
+      "en": "Sarf Morphology System"
+    },
+    "description": {
+      "ar": "نظام ومكتبة مفتوحة المصدر للتحليل الصرفي وتوليد الأوزان وتصريف الكلمات العربية وفق القواعد النحوية.",
+      "en": "An open-source morphological system for Arabic root extraction, pattern generation, and word inflections."
+    },
+    "homepage": "https://github.com/alsaydi/sarf",
+    "featured": false,
+    "tags": [
+      "arabic",
+      "morphology",
+      "sarf",
+      "linguistics",
+      "nlp"
+    ]
+  },
+  {
+    "id": "linuxscout-yaraspell",
+    "repo": "linuxscout/yaraspell",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مدقق يارا الإملائي المبسط",
+      "en": "YaraSpell Arabic Checker"
+    },
+    "description": {
+      "ar": "مدقق إملائي ومعجم لغوي خفيف ومبسط للغة العربية مبني لتطبيقات الويب والمحررات النصية.",
+      "en": "A lightweight and simplified Arabic spell checker and lexicon designed for text editors and web apps."
+    },
+    "homepage": "https://github.com/linuxscout/yaraspell",
+    "featured": false,
+    "tags": [
+      "spellchecker",
+      "arabic",
+      "hunspell",
+      "linguistics",
+      "text-tools"
+    ]
+  },
+  {
+    "id": "motazsaad-comparable-text-miner",
+    "repo": "motazsaad/comparable-text-miner",
+    "category": "dev-tools",
+    "title": {
+      "ar": "منقب النصوص الصرفي المقارن",
+      "en": "Comparable Text Miner"
+    },
+    "description": {
+      "ar": "نظام استخراج وتحليل صرفي للنصوص العربية والإنجليزية لبناء المعاجم الثنائية واستخراج المصطلحات.",
+      "en": "Morphological analysis and comparable documents miner for Arabic-English parallel extraction."
+    },
+    "homepage": "https://github.com/motazsaad/comparable-text-miner",
+    "featured": false,
+    "tags": [
+      "python",
+      "morphology",
+      "bilingual",
+      "nlp",
+      "text-mining"
+    ]
+  },
+  {
+    "id": "disooqi-arabicprocessingcog",
+    "repo": "disooqi/ArabicProcessingCog",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة معالجة النصوص العربية",
+      "en": "ArabicProcessingCog"
+    },
+    "description": {
+      "ar": "حزمة بايثون متخصصة في تجذيع وتقطيع النصوص العربية وتقسيم الجمل وإزالة علامات الترقيم.",
+      "en": "A Python package for Arabic stemming, tokenization, sentence breaking, and text cleaning."
+    },
+    "homepage": "https://github.com/disooqi/ArabicProcessingCog",
+    "featured": false,
+    "tags": [
+      "python",
+      "stemmer",
+      "tokenization",
+      "arabic-nlp",
+      "preprocessing"
+    ]
+  },
+  {
+    "id": "omaralalwi-gpdf",
+    "repo": "omaralalwi/Gpdf",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مكتبة توليد PDF العربية للارافيل",
+      "en": "Gpdf Laravel PDF Generator"
+    },
+    "description": {
+      "ar": "حزمة بي إتش بي مفتوحة المصدر لتحويل HTML إلى مستندات PDF مع دعم كامل للنصوص العربية واتجاه RTL.",
+      "en": "PHP & Laravel package to generate PDF documents from HTML with native Arabic and RTL support."
+    },
+    "homepage": "https://github.com/omaralalwi/Gpdf",
+    "featured": true,
+    "tags": [
+      "php",
+      "arabic-pdf",
+      "arabic-text",
+      "dompdf-alternative",
+      "export-pdf",
+      "html-to-pdf"
+    ]
+  },
+  {
+    "id": "simplyahmazing-noor",
+    "repo": "SimplyAhmazing/noor",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة البرمجة العربية «نور»",
+      "en": "Noor Programming Language"
+    },
+    "description": {
+      "ar": "لغة برمجة عربية مبسطة ومفتوحة المصدر تهدف لتيسير تعليم البرمجة والخوارزميات بلغة الضاد.",
+      "en": "A simple, intuitive open-source Arabic programming language designed for learning and education."
+    },
+    "homepage": "https://github.com/SimplyAhmazing/noor",
+    "featured": true,
+    "tags": [
+      "javascript",
+      "dev tools"
+    ]
+  },
+  {
+    "id": "alifcommunity-alif",
+    "repo": "alifcommunity/Alif",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مفسر لغة ألف البرمجية",
+      "en": "Alif Language Core"
+    },
+    "description": {
+      "ar": "المستودع الأساسي لمفسر لغة ألف البرمجية العربية، متضمناً شجرة البناء اللغوي وأدوات التشغيل الأساسية.",
+      "en": "The core repository and interpreter implementation of the Alif Arabic programming language."
+    },
+    "homepage": "https://www.aliflang.org",
+    "featured": false,
+    "tags": [
+      "c++",
+      "programming",
+      "programming-language",
+      "programming-languages",
+      "dev tools"
+    ]
+  },
+  {
+    "id": "arbml-cidar",
+    "repo": "ARBML/CIDAR",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مجموعة تعليمات صيدار",
+      "en": "CIDAR Instruction Dataset"
+    },
+    "description": {
+      "ar": "أكبر مجموعة تعليمات وأوامر عربية مفتوحة المصدر لتدريب وتوجيه النماذج التوليدية ونماذج المحادثة.",
+      "en": "The largest open-source Arabic instruction dataset comprising 10,000 diverse prompts and answers."
+    },
+    "homepage": "https://huggingface.co/datasets/arbml/CIDAR",
+    "featured": false,
+    "tags": [
+      "dataset",
+      "instruction-tuning",
+      "arabic-llm",
+      "chatgpt",
+      "nlp"
+    ]
+  },
+  {
+    "id": "jamalamch-arabic-words-sentences",
+    "repo": "jamalamch/Arabic-Words-Sentences",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "ذخيرة الجمل والمفردات العربية",
+      "en": "Arabic Words & Sentences Corpus"
+    },
+    "description": {
+      "ar": "قاعدة بيانات مفتوحة المصدر تحتوي على ملايين الجمل والكلمات العربية المصنفة للتدريب اللغوي والبحث.",
+      "en": "A comprehensive open-source database of structured Arabic words and sentences for NLP training."
+    },
+    "homepage": "https://github.com/jamalamch/Arabic-Words-Sentences",
+    "featured": false,
+    "tags": [
+      "arabic",
+      "arabic-dictionaries",
+      "arabic-language",
+      "arabic-lexicons",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "mbzuai-oryx-camel-bench",
+    "repo": "mbzuai-oryx/Camel-Bench",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "منصة تقييم كامل بنش",
+      "en": "CAMEL-Bench Benchmark"
+    },
+    "description": {
+      "ar": "معيار تقييم متعدد المجالات لنماذج الذكاء الاصطناعي التوليدي واللغوي باللغة العربية من جامعة MBZUAI.",
+      "en": "A comprehensive multi-domain Arabic benchmark for evaluating generative language models."
+    },
+    "homepage": "https://mbzuai-oryx.github.io/Camel-Bench/",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic",
+      "benchmark",
+      "large-multimodal-models",
+      "mbzuai",
+      "multimodal-learning"
+    ]
+  },
+  {
+    "id": "iabufarha-isarcasmeval",
+    "repo": "iabufarha/iSarcasmEval",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "بيانات كشف التهكم العربي",
+      "en": "iSarcasmEval Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات ومعيار لغوي مفتوح المصدر لكشف السخرية والتهكم في التغريدات والنصوص العربية.",
+      "en": "Annotated benchmark dataset for Arabic sarcasm and irony detection in social media text."
+    },
+    "homepage": "https://github.com/iabufarha/iSarcasmEval",
+    "featured": false,
+    "tags": [
+      "arabic",
+      "arabic-nlp",
+      "arabic-sarcasm",
+      "irony-detection",
+      "sarcasm-detection",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "wizsk-arabic-lexicons",
+    "repo": "wizsk/arabic_lexicons",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معاجم اللغة العربية الـ11",
+      "en": "11 Offline Arabic Lexicons"
+    },
+    "description": {
+      "ar": "تطبيق ومستودع مفتوح يجمع 11 معجماً لغوياً عربياً تاريخياً مدمجاً مع وضع قراءة وبحث بدون اتصال.",
+      "en": "Open-source application packaging 11 historical Arabic lexicons with built-in offline search and reader."
+    },
+    "homepage": "https://wizsk.github.io/apps/arabic_lexicons.html",
+    "featured": false,
+    "tags": [
+      "dart",
+      "arabic",
+      "arabic-language",
+      "lexicon",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "ubc-nlp-peacock",
+    "repo": "UBC-NLP/peacock",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "سلسلة نماذج طاووس التوليدية",
+      "en": "Peacock Arabic LLM Family"
+    },
+    "description": {
+      "ar": "سلسلة نماذج لغوية متعددة الوسائط متخصصة في توليد النصوص وفهم المحتوى العربي من جامعة كولومبيا البريطانية.",
+      "en": "Official repository for Peacock, a family of Arabic multimodal language generation models."
+    },
+    "homepage": "https://github.com/UBC-NLP/peacock",
+    "featured": false,
+    "tags": [
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "huzaifa-x-whisper-small-openai-finetuned-on-arabic-language",
+    "repo": "Huzaifa-X/Whisper_small_openai_finetuned_on_arabic_language",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "نموذج ويسبر المضبوط للعربية",
+      "en": "Whisper Arabic Fine-Tuned"
+    },
+    "description": {
+      "ar": "نموذج Whisper المضبوط بدقة على التسجيلات الصوتية العربية للتعرف الآلي الدقيق على الكلام المنطوق.",
+      "en": "An OpenAI Whisper model fine-tuned on diverse Arabic speech datasets for enhanced transcription."
+    },
+    "homepage": "https://github.com/Huzaifa-X/Whisper_small_openai_finetuned_on_arabic_language",
+    "featured": false,
+    "tags": [
+      "jupyter notebook",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "runehol-kindlearadict",
+    "repo": "runehol/kindlearadict",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "معجم كيندل الصرفي العربي-الإنجليزي",
+      "en": "Kindle Arabic-English Dictionary"
+    },
+    "description": {
+      "ar": "معجم صرفي رقمي مخصص لأجهزة وقارئات كيندل يدعم كشف الجذور والترجمة الفورية للكلمات العربية.",
+      "en": "A morphological Arabic-English dictionary specifically crafted for Amazon Kindle e-readers."
+    },
+    "homepage": "https://github.com/runehol/kindlearadict",
+    "featured": false,
+    "tags": [
+      "python",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "arbml-bayanat",
+    "repo": "ARBML/bayanat",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مستكشف مجموعات البيانات بيانات",
+      "en": "Bayanat Dataset Explorer"
+    },
+    "description": {
+      "ar": "أداة تفاعلية مفتوحة المصدر لاستكشاف وتحليل محتوى مجموعات البيانات والمدونات النصية العربية.",
+      "en": "An interactive open-source tool for exploring and visualizing Arabic text datasets and corpora."
+    },
+    "homepage": "https://github.com/ARBML/bayanat",
+    "featured": false,
+    "tags": [
+      "jupyter notebook",
+      "arabic",
+      "arabic-nlp",
+      "stats",
+      "visualization",
+      "dictionaries datasets"
+    ]
+  },
+  {
+    "id": "mbzuai-oryx-kitab-bench",
+    "repo": "mbzuai-oryx/KITAB-Bench",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "معيار كِتاب للتعرف البصري",
+      "en": "KITAB-Bench Document OCR"
+    },
+    "description": {
+      "ar": "معيار تقييم شامل ومتعدد المجالات لمحركات التعرف الضوئي (OCR) وفهم المستندات العربية من MBZUAI.",
+      "en": "A comprehensive multi-domain benchmark for Arabic document OCR and visual text understanding."
+    },
+    "homepage": "https://mbzuai-oryx.github.io/KITAB-Bench/",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic",
+      "benchmark",
+      "layout-detection",
+      "ocr",
+      "pdf-to-text"
+    ]
+  },
+  {
+    "id": "mbzuai-oryx-bimedix2",
+    "repo": "mbzuai-oryx/BiMediX2",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نموذج بايميدكس الطبي العربي",
+      "en": "BiMediX2 Medical Arabic Model"
+    },
+    "description": {
+      "ar": "نموذج ذكاء اصطناعي طبي متخصص ثنائي اللغة (عربي-إنجليزي) للإجابة عن الاستفسارات الطبية السريرية.",
+      "en": "A bilingual biomedical expert language model with clinical understanding in English and Arabic."
+    },
+    "homepage": "https://github.com/mbzuai-oryx/BiMediX2",
+    "featured": false,
+    "tags": [
+      "python",
+      "medical-benchmarking",
+      "medical-imaging",
+      "medical-vision-language-model",
+      "mllm",
+      "vision-language-model"
+    ]
+  },
+  {
+    "id": "h9-tec-manazir-ocr",
+    "repo": "h9-tec/Manazir-OCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "محرك مناظر للتعرف الضوئي",
+      "en": "Manazir Arabic OCR"
+    },
+    "description": {
+      "ar": "محرك مفتوح المصدر مستوحى من البصريات العربية لاستخراج النصوص من الوثائق والمخطوطات العربية بدقة.",
+      "en": "Arabic-first, optics-inspired multi-model OCR engine extracting text from complex documents."
+    },
+    "homepage": "https://github.com/h9-tec/Manazir-OCR",
+    "featured": false,
+    "tags": [
+      "python",
+      "ocr vision"
+    ]
+  },
+  {
+    "id": "kareem-emad-arabic-ocr",
+    "repo": "Kareem-Emad/arabic-ocr",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "محرك استخراج النصوص المطبوعة",
+      "en": "Printed Arabic OCR"
+    },
+    "description": {
+      "ar": "نظام ومكتبة مفتوحة المصدر للتعرف الضوئي على النصوص العربية المطبوعة في الصور والمستندات الورقية.",
+      "en": "Open-source OCR pipeline for recognizing printed Arabic text in digitized documents and images."
+    },
+    "homepage": "https://github.com/Kareem-Emad/arabic-ocr",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic",
+      "character-segmentation",
+      "computer-vision",
+      "ocr",
+      "segmentation-based-detection"
+    ]
+  },
+  {
+    "id": "misraj-ai-qalam",
+    "repo": "misraj-ai/qalam",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "مكتبة قلم لاستخراج نصوص PDF",
+      "en": "Qalam Arabic PDF Extractor"
+    },
+    "description": {
+      "ar": "مكتبة متقدمة لاستخراج النصوص العربية من ملفات PDF دون تشويه للمحارف أو التشكيل أو ترتيب الكلمات.",
+      "en": "Arabic PDF text extraction library preserving ligatures, diacritics, and bidirectional formatting."
+    },
+    "homepage": "https://github.com/misraj-ai/qalam",
+    "featured": false,
+    "tags": [
+      "rust",
+      "ocr vision"
+    ]
+  },
+  {
+    "id": "nguptahq-arabic-handwritten-text-image-recognition",
+    "repo": "nguptaHQ/Arabic-Handwritten-Text-Image-Recognition",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "التعرف على الخط العربي اليدوي",
+      "en": "Arabic Handwritten Recognition"
+    },
+    "description": {
+      "ar": "خوارزميات ذكاء اصطناعي لتحويل صور المخطوطات والوثائق المكتوبة بخط اليد العربي إلى نصوص رقمية.",
+      "en": "Deep learning pipeline for converting handwritten Arabic document images into digital text."
+    },
+    "homepage": "https://github.com/nguptaHQ/Arabic-Handwritten-Text-Image-Recognition",
+    "featured": false,
+    "tags": [
+      "python",
+      "arabic-language",
+      "handwriting-recognition",
+      "handwritten-text-recognition",
+      "tensorflow",
+      "ocr vision"
+    ]
+  },
+  {
+    "id": "muzammilpervaiz-arabic-handwritten-ocr",
+    "repo": "MUZAMMILPERVAIZ/Arabic-Handwritten-OCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "نظام التعرف العصبي على خط اليد",
+      "en": "Neural Arabic Handwritten OCR"
+    },
+    "description": {
+      "ar": "نموذج تعلم عميق يجمع شبكات DCNNs و Bi-LSTMs للتعرف على الحروف والكلمات المكتوبة يدوياً بالعربية.",
+      "en": "A deep learning model combining DCNNs and BiLSTMs for handwritten Arabic character and word recognition."
+    },
+    "homepage": "https://github.com/MUZAMMILPERVAIZ/Arabic-Handwritten-OCR",
+    "featured": false,
+    "tags": [
+      "ocr vision"
+    ]
+  },
+  {
+    "id": "mohamedwael-basicarabicocr",
+    "repo": "MohamedWael/BasicArabicOCR",
+    "category": "ocr-vision",
+    "title": {
+      "ar": "محرك التعرف الضوئي الأساسي",
+      "en": "Basic Arabic OCR"
+    },
+    "description": {
+      "ar": "تطبيق ومحرك خفيف للتعرف الضوئي على الحروف العربية مبني على Tesseract ومكتوب بلغة جافا.",
+      "en": "A lightweight Arabic optical character recognition engine written in Java using Tesseract."
+    },
+    "homepage": "http://mohamedwael.github.io/BasicArabicOCR/",
+    "featured": false,
+    "tags": [
+      "java",
+      "arabic",
+      "arabic-nlp",
+      "ocr",
+      "ocr-arabic",
+      "ocr-java"
+    ]
   }
 ]

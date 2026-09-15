@@ -72,7 +72,7 @@ const CATEGORY_RULES = {
   },
 };
 
-// Known Arabic tech organizations & curators
+// Known Arabic tech organizations & research labs & prolific creators
 const TARGET_ORGS = [
   'CAMeL-Lab',
   'aub-mind',
@@ -87,9 +87,28 @@ const TARGET_ORGS = [
   'qcri',
   'Barqawiz',
   'AudarAI',
+  'mbzuai-oryx',
+  'mawdoo3',
+  'Alfanous-team',
+  'TarteelAI',
+  'sunnah-com',
+  'SinaLab',
+  'rn0x',
+  'zonetecde',
+  'AHR-OCR2024',
+  'SWivid',
+  'AliOsm',
+  'MagedSaeed',
+  'mohabmes',
+  'alisafaya',
+  'assem-ch',
+  'alsaydi',
+  'disooqi',
+  'cpfair',
+  'yazinsai'
 ];
 
-// Topic queries
+// High-signal topic queries across Arabic software and linguistics
 const TARGET_TOPICS = [
   'arabic-ocr',
   'arabic-nlp',
@@ -99,22 +118,36 @@ const TARGET_TOPICS = [
   'islamic-tech',
   'arabic-speech',
   'arabic-font',
+  'arabic-fonts',
+  'arabic-calligraphy',
   'arabic-dataset',
   'arabic-language',
-  'arabic',
+  'arabic-tts',
+  'arabic-asr',
+  'arabic-stemmer',
+  'arabic-morphology',
+  'arabic-programming-language',
+  'arabic-llm'
 ];
 
-// Keyword search queries
+// Focused, high-yield search queries covering specialized Arabic domains
 const TARGET_QUERIES = [
-  'arabic OCR stars:>5',
-  'arabic speech OR asr OR tts stars:>10',
-  'arabic stemmer OR morphology stars:>5',
-  'arabic font OR calligraphy stars:>10',
-  'arabic diacritization OR tashkeel stars:>5',
-  'القرآن الكريم stars:>15',
-  'حديث stars:>10',
-  'quran app OR platform stars:>20',
-  'arabic programming language stars:>5',
+  'arabic ocr stars:>2',
+  'arabic speech stars:>2',
+  'arabic tts stars:>2',
+  'arabic asr stars:>2',
+  'arabic stemmer stars:>2',
+  'arabic morphology stars:>2',
+  'arabic diacritization stars:>2',
+  'arabic tashkeel stars:>2',
+  'arabic tokenizer stars:>2',
+  'arabic font stars:>2',
+  'arabic bert stars:>2',
+  'arabic nlp stars:>5',
+  'arabic programming language stars:>2',
+  'quran audio stars:>10',
+  'quran api stars:>10',
+  'القرآن الكريم stars:>20'
 ];
 
 function hasArabicText(text) {
@@ -517,6 +550,258 @@ const CURATED_DESCRIPTIONS = {
       en: 'A fast Python library for preprocessing, cleaning, and normalizing Arabic text for NLP models.'
     },
     tags: ['python', 'nlp', 'preprocessing', 'cleaning', 'normalization']
+  },
+  'alisafaya/arabic-bert': {
+    category: 'nlp-ai',
+    title: { ar: 'نموذج بيرت العربي', en: 'Arabic BERT' },
+    description: {
+      ar: 'نماذج لغوية محولة مسبقة التدريب مخصصة لفهم ومعالجة اللغة العربية واللهجات المتعددة بدقة عالية.',
+      en: 'Pretrained BERT language models customized for Arabic language understanding and representation.'
+    },
+    tags: ['nlp', 'bert', 'transformers', 'pytorch', 'arabic-nlp']
+  },
+  'assem-ch/arabicstemmer': {
+    category: 'text-tashkeel',
+    title: { ar: 'محلل الجذوع العربي عاصم', en: 'Assem Arabic Stemmer' },
+    description: {
+      ar: 'مكتبة وخوارزمية مفتوحة المصدر للاشتقاق الخفيف واستخراج جذوع الكلمات العربية مبنية على خوارزمية Snowball.',
+      en: 'Open-source Snowball-based light stemming algorithm and library for the Arabic language.'
+    },
+    tags: ['nlp', 'stemmer', 'snowball', 'arabic-stemmer', 'linguistics']
+  },
+  'nipponjo/tts-arabic-pytorch': {
+    category: 'nlp-ai',
+    title: { ar: 'حزمة توليد الصوت العربي تاكوترون', en: 'Arabic TTS PyTorch' },
+    description: {
+      ar: 'نماذج شبكات عصبية لتحويل النصوص العربية إلى كلام صوتي طبيعي بالاعتماد على Tacotron 2 و FastPitch.',
+      en: 'Neural network models for Arabic text-to-speech synthesis using Tacotron 2 and FastPitch.'
+    },
+    tags: ['python', 'tts', 'speech', 'pytorch', 'deep-learning']
+  },
+  'yoosif0/arabic-tacotron-tts': {
+    category: 'nlp-ai',
+    title: { ar: 'نظام تاكوترون لنطق العربية', en: 'Arabic Tacotron TTS' },
+    description: {
+      ar: 'نظام متكامل لتوليد الكلام الصوتي العربي عالي الدقة مبني على نموذج Tacotron و WaveRNN.',
+      en: 'An end-to-end neural Arabic speech synthesis system based on Tacotron and WaveRNN.'
+    },
+    tags: ['python', 'tts', 'speech-synthesis', 'tacotron', 'audio']
+  },
+  'alsaydi/sarf': {
+    category: 'dev-tools',
+    title: { ar: 'نظام الصرف العربي', en: 'Sarf Morphology System' },
+    description: {
+      ar: 'نظام ومكتبة مفتوحة المصدر للتحليل الصرفي وتوليد الأوزان وتصريف الكلمات العربية وفق القواعد النحوية.',
+      en: 'An open-source morphological system for Arabic root extraction, pattern generation, and word inflections.'
+    },
+    tags: ['arabic', 'morphology', 'sarf', 'linguistics', 'nlp']
+  },
+  'mbzuai-oryx/ain': {
+    category: 'nlp-ai',
+    title: { ar: 'نموذج عَين البصري اللغوي', en: 'AIN Multimodal Model' },
+    description: {
+      ar: 'أول نموذج بصري لغوي متعدد الوسائط باللغة العربية طورته جامعة محمد بن زايد للذكاء الاصطناعي.',
+      en: 'The first Arabic-first multimodal large language model excelling in visual and textual Arabic comprehension.'
+    },
+    tags: ['multimodal', 'vision-language', 'arabic-llm', 'deep-learning', 'mbzuai']
+  },
+  'camel-lab/camel_morph': {
+    category: 'text-tashkeel',
+    title: { ar: 'نماذج كامل للصرف العربي', en: 'Camel Morph' },
+    description: {
+      ar: 'مجموعة متكاملة مفتوحة المصدر لبناء وتدريب نماذج الصرف للغة العربية الفصحى واللهجات الدارجة.',
+      en: 'Large-scale open-source morphological models and databases for Modern Standard Arabic and dialects.'
+    },
+    tags: ['python', 'morphology', 'camel-lab', 'nlp', 'linguistics']
+  },
+  'camel-lab/camelbert': {
+    category: 'nlp-ai',
+    title: { ar: 'نماذج كامل بيرت العربية', en: 'CAMeLBERT Models' },
+    description: {
+      ar: 'سلسلة نماذج محولات مسبقة التدريب من جامعة نيويورك أبوظبي متخصصة في العربية الفصحى واللهجات والشعر.',
+      en: 'Pretrained BERT models for classical Arabic, modern standard Arabic, and dialectal Arabic.'
+    },
+    tags: ['nlp', 'bert', 'transformers', 'camel-lab', 'arabic']
+  },
+  'camel-lab/arabic-gec': {
+    category: 'text-tashkeel',
+    title: { ar: 'مصحح الأخطاء النحوية العربية', en: 'Arabic GEC' },
+    description: {
+      ar: 'أدوات ونماذج تعلم عميق مفتوحة المصدر لاكتشاف وتصحيح الأخطاء الإملائية والنحوية في النصوص العربية.',
+      en: 'Open-source models and dataset for Arabic grammatical error correction (GEC).'
+    },
+    tags: ['nlp', 'gec', 'grammar-correction', 'camel-lab', 'deep-learning']
+  },
+  'aliftype/raqq': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط رَقّ الكوفي', en: 'Raqq Manuscript Kufic' },
+    description: {
+      ar: 'خط رقمي تاريخي مستوحى من المخطوطات القرآنية القديمة على الرق في القرون الهجرية الأولى من تصميم خالد حسني.',
+      en: 'A historical manuscript Kufic typeface inspired by early Quranic parchments by Khaled Hosny.'
+    },
+    tags: ['font', 'kufic', 'manuscript', 'typography', 'quran']
+  },
+  'aliftype/rana-kufi': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط كوفي رنا', en: 'Rana Kufi Typeface' },
+    description: {
+      ar: 'خط كوفي رقمي مستلهم من النمط الفاطمي التذكاري المستخدم في العمارة والنقوش التاريخية في القاهرة.',
+      en: 'A digital Fatimid Kufic typeface inspired by monumental architectural inscriptions in Cairo.'
+    },
+    tags: ['font', 'kufic', 'fatimid', 'typography', 'arabic-font']
+  },
+  'aliftype/amiri-typewriter': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط أميري الآلة الكاتبة', en: 'Amiri Typewriter Font' },
+    description: {
+      ar: 'نسخة ثابتة العرض (Monospace) من خط أميري الكلاسيكي مخصصة لكتابة الشيفرات البرمجية والآلة الكاتبة.',
+      en: 'A monospaced companion to the classical Amiri font family designed for code editors and terminals.'
+    },
+    tags: ['font', 'monospace', 'typography', 'amiri', 'webfont']
+  },
+  'linuxscout/adawat': {
+    category: 'dev-tools',
+    title: { ar: 'أدوات معالجة النصوص العربية', en: 'Adawat Arabic Text Tools' },
+    description: {
+      ar: 'حزمة أدوات سطر أوامر ومكتبات لمعالجة وضبط وتحويل النصوص العربية وفصل الكلمات والتصنيف.',
+      en: 'Command-line tools and utilities for Arabic text manipulation, conversion, and token filtering.'
+    },
+    tags: ['python', 'cli', 'arabic-tools', 'nlp', 'text-processing']
+  },
+  'linuxscout/yaraspell': {
+    category: 'dev-tools',
+    title: { ar: 'مدقق يارا الإملائي المبسط', en: 'YaraSpell Arabic Checker' },
+    description: {
+      ar: 'مدقق إملائي ومعجم لغوي خفيف ومبسط للغة العربية مبني لتطبيقات الويب والمحررات النصية.',
+      en: 'A lightweight and simplified Arabic spell checker and lexicon designed for text editors and web apps.'
+    },
+    tags: ['spellchecker', 'arabic', 'hunspell', 'linguistics', 'text-tools']
+  },
+  'linuxscout/festival-tts-arabic-voices': {
+    category: 'nlp-ai',
+    title: { ar: 'أصوات فيستفال العربية', en: 'Festival Arabic Voices' },
+    description: {
+      ar: 'قواعد بيانات صوتية وأصوات عربية مفتوحة المصدر لنظام نطق وتوليد الكلام Festival.',
+      en: 'Open-source Arabic voice databases and phonetic mappings for the Festival speech synthesis system.'
+    },
+    tags: ['tts', 'speech', 'festival', 'voice', 'arabic']
+  },
+  'arbml/ashaar': {
+    category: 'platforms-apps',
+    title: { ar: 'أشعار لتحليل ونظم الشعر', en: 'Ashaar Arabic Poetry' },
+    description: {
+      ar: 'أدوات ذكاء اصطناعي مفتوحة المصدر لوزن القصائد العربية، وتحليل القوافي، والمساعدة في نظم الشعر.',
+      en: 'Open-source AI tools for Arabic poetic meter classification, rhyming analysis, and poetry generation.'
+    },
+    tags: ['python', 'poetry', 'meter', 'nlp', 'literature']
+  },
+  'arbml/cidar': {
+    category: 'dictionaries-datasets',
+    title: { ar: 'مجموعة تعليمات صيدار', en: 'CIDAR Instruction Dataset' },
+    description: {
+      ar: 'أكبر مجموعة تعليمات وأوامر عربية مفتوحة المصدر لتدريب وتوجيه النماذج التوليدية ونماذج المحادثة.',
+      en: 'The largest open-source Arabic instruction dataset comprising 10,000 diverse prompts and answers.'
+    },
+    tags: ['dataset', 'instruction-tuning', 'arabic-llm', 'chatgpt', 'nlp']
+  },
+  'tarteelai/quranic-universal-library': {
+    category: 'islamic-tech',
+    title: { ar: 'المكتبة القرآنية الشاملة ترتيل', en: 'Tarteel Quranic Universal Library' },
+    description: {
+      ar: 'مستودع شامل ومكتبة برمجية مفتوحة المصدر تضم بيانات السور والآيات والترجمات الصوتية والنصية.',
+      en: 'A comprehensive collection of open-source Quranic text resources, recitations, and audio metadata.'
+    },
+    tags: ['quran', 'islamic-tech', 'datasets', 'tarteel', 'audio']
+  },
+  'zonetecde/qurancaption': {
+    category: 'platforms-apps',
+    title: { ar: 'أداة كتابة الآيات المرئية', en: 'QuranCaption' },
+    description: {
+      ar: 'أداة مفتوحة المصدر لتوليد ومزامنة نصوص الآيات القرآنية تلقائياً على المقاطع الصوتية والفيديوهات.',
+      en: 'Transform Quranic recitations into synchronized captioned videos with professional typography.'
+    },
+    tags: ['python', 'quran', 'caption', 'video', 'automation']
+  },
+  'yazinsai/tilawa': {
+    category: 'islamic-tech',
+    title: { ar: 'تلاوة للتعرف الصوتي على الآيات', en: 'Tilawa Audio Recognition' },
+    description: {
+      ar: 'نظام ومكتبة مفتوحة المصدر للتعرف على الآيات والسور من التلاوات الصوتية دون الحاجة لاتصال بالإنترنت.',
+      en: 'Offline Quran verse and surah recognition from audio recitations using acoustic matching.'
+    },
+    tags: ['python', 'audio-recognition', 'quran', 'speech', 'signal-processing']
+  },
+  'cpfair/quran-align': {
+    category: 'islamic-tech',
+    title: { ar: 'محاذاة التلاوات القرآنية', en: 'Quran Audio Align' },
+    description: {
+      ar: 'نظام مفتوح المصدر لحساب الطوابع الزمنية الدقيقة لكل كلمة في التلاوات القرآنية الصوتية.',
+      en: 'Word-accurate timestamps and alignment generator for Quranic audio recitations.'
+    },
+    tags: ['python', 'audio-alignment', 'speech', 'quran', 'forced-alignment']
+  },
+  'rn0x/altaqwaa-desktop': {
+    category: 'platforms-apps',
+    title: { ar: 'تطبيق التقوى المكتبي', en: 'Altaqwaa Desktop' },
+    description: {
+      ar: 'تطبيق إلكتروني مكتبي مفتوح المصدر لقراءة القرآن الكريم وعرض مواقيت الصلاة والأذكار النبوية.',
+      en: 'Open-source desktop application for Quran reading, prayer times reminders, and Azkar.'
+    },
+    tags: ['electron', 'vue', 'desktop', 'quran', 'prayer-times']
+  },
+  'sunnah-com/api': {
+    category: 'islamic-tech',
+    title: { ar: 'واجهة برمجية موقع سنة.كوم', en: 'Sunnah.com API' },
+    description: {
+      ar: 'الواجهة البرمجية الرسمية ومستودع بيانات كتب الحديث الشريف باللغة العربية وترجماتها المعتمدة.',
+      en: 'The official API backend for Sunnah.com offering structured access to canonical Hadith collections.'
+    },
+    tags: ['php', 'hadith', 'api', 'islamic-tech', 'rest-api']
+  },
+  'sinalab/arabicner': {
+    category: 'nlp-ai',
+    title: { ar: 'مستخرج الكيانات المسماة العربي', en: 'SinaLab ArabicNER' },
+    description: {
+      ar: 'أداة ونموذج مفتوح المصدر من مختبر سينا لاستخراج الكيانات المسماة المتداخلة في النصوص العربية.',
+      en: 'Arabic nested named entity recognition pipeline and benchmark developed by SinaLab.'
+    },
+    tags: ['python', 'ner', 'information-extraction', 'nlp', 'deep-learning']
+  },
+  'ubc-nlp/turjuman': {
+    category: 'nlp-ai',
+    title: { ar: 'ترجمان للترجمة العصبية', en: 'Turjuman Neural Translation' },
+    description: {
+      ar: 'أداة ونموذج عصبي مفتوح المصدر متخصص في ترجمة النصوص إلى اللغة العربية من أكثر من 20 لغة.',
+      en: 'A neural machine translation toolkit specifically optimized for translating into the Arabic language.'
+    },
+    tags: ['python', 'translation', 'nmt', 'transformers', 'nlp']
+  },
+  'disooqi/arabicprocessingcog': {
+    category: 'dev-tools',
+    title: { ar: 'مكتبة معالجة النصوص العربية', en: 'ArabicProcessingCog' },
+    description: {
+      ar: 'حزمة بايثون متخصصة في تجذيع وتقطيع النصوص العربية وتقسيم الجمل وإزالة علامات الترقيم.',
+      en: 'A Python package for Arabic stemming, tokenization, sentence breaking, and text cleaning.'
+    },
+    tags: ['python', 'stemmer', 'tokenization', 'arabic-nlp', 'preprocessing']
+  },
+  'motazsaad/comparable-text-miner': {
+    category: 'dev-tools',
+    title: { ar: 'منقب النصوص الصرفي المقارن', en: 'Comparable Text Miner' },
+    description: {
+      ar: 'نظام استخراج وتحليل صرفي للنصوص العربية والإنجليزية لبناء المعاجم الثنائية واستخراج المصطلحات.',
+      en: 'Morphological analysis and comparable documents miner for Arabic-English parallel extraction.'
+    },
+    tags: ['python', 'morphology', 'bilingual', 'nlp', 'text-mining']
+  },
+  'mawdoo3/multi-dialect-arabic-bert': {
+    category: 'nlp-ai',
+    title: { ar: 'بيرت موضوع للهجات العربية', en: 'Mawdoo3 Dialectal BERT' },
+    description: {
+      ar: 'نموذج محولات مسبق التدريب من فريق موضوع لفهم وتمثيل اللهجات العربية المتعددة والنصوص العامية.',
+      en: 'Pre-trained multi-dialect Arabic BERT model designed for dialectal Arabic NLP tasks.'
+    },
+    tags: ['nlp', 'bert', 'dialects', 'mawdoo3', 'transformers']
   }
 };
 
@@ -585,9 +870,16 @@ function synthesizeProject(repo, detectedCategory) {
   };
 }
 
-async function apiFetch(url) {
+async function apiFetch(url, retries = 2) {
   try {
     const res = await fetch(url, { headers });
+    if (res.status === 403 || res.status === 429) {
+      if (retries > 0) {
+        console.warn(`\n  ⚠️ GitHub API rate-limit reached. Waiting 25s before retrying...`);
+        await new Promise(r => setTimeout(r, 25000));
+        return apiFetch(url, retries - 1);
+      }
+    }
     if (!res.ok) {
       console.warn(`  [HTTP ${res.status}] ${url}`);
       return null;
@@ -599,10 +891,17 @@ async function apiFetch(url) {
   }
 }
 
-async function searchRepositories(query) {
-  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`;
-  const data = await apiFetch(url);
-  return data?.items || [];
+async function searchRepositories(query, maxPages = 2) {
+  let allItems = [];
+  for (let page = 1; page <= maxPages; page++) {
+    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30&page=${page}`;
+    const data = await apiFetch(url);
+    if (!data?.items || data.items.length === 0) break;
+    allItems.push(...data.items);
+    if (data.items.length < 30) break;
+    await new Promise(r => setTimeout(r, 2200));
+  }
+  return allItems;
 }
 
 async function fetchOrgRepositories(org) {
@@ -635,7 +934,7 @@ async function main() {
       }
     }
     console.log(`found ${repos.length} repos, +${addedCount} candidates.`);
-    await new Promise(r => setTimeout(r, 400));
+    await new Promise(r => setTimeout(r, 300));
   }
 
   // 2. Search Topics
@@ -652,7 +951,7 @@ async function main() {
       }
     }
     console.log(`returned ${repos.length} items, +${addedCount} new.`);
-    await new Promise(r => setTimeout(r, 600));
+    await new Promise(r => setTimeout(r, 2200));
   }
 
   // 3. Search Targeted Domain Queries
@@ -669,7 +968,7 @@ async function main() {
       }
     }
     console.log(`returned ${repos.length} items, +${addedCount} new.`);
-    await new Promise(r => setTimeout(r, 600));
+    await new Promise(r => setTimeout(r, 2200));
   }
 
   const allCandidates = Array.from(candidateMap.values());
@@ -714,7 +1013,7 @@ async function main() {
 
     // Select top high-quality candidates per category ensuring balanced representation
     const toAdd = [];
-    const MAX_PER_CATEGORY = 5;
+    const MAX_PER_CATEGORY = 10;
     const addedRepos = new Set(registeredRepos);
 
     for (const [cat, items] of Object.entries(categoryGroups)) {
