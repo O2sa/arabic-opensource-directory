@@ -2,12 +2,13 @@ import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import { Sun, Moon, Globe, Plus } from 'lucide-react';
 import { GithubIcon } from './GithubIcon';
+import { SITE_CONFIG } from '../config/site';
 
 interface NavbarProps {
   repoUrl?: string;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ repoUrl = 'https://github.com/' }) => {
+export const Navbar: React.FC<NavbarProps> = ({ repoUrl = SITE_CONFIG.repoUrl }) => {
   const { lang, toggleLang, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
 

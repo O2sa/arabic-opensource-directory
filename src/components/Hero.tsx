@@ -2,13 +2,14 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { EcosystemStats } from '../types';
 import { Sparkles, Star, Activity, Layers, Package, ArrowDown } from 'lucide-react';
+import { SITE_CONFIG } from '../config/site';
 
 interface HeroProps {
   stats: EcosystemStats;
   repoUrl?: string;
 }
 
-export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = 'https://github.com/' }) => {
+export const Hero: React.FC<HeroProps> = ({ stats, repoUrl = SITE_CONFIG.repoUrl }) => {
   const { lang, t } = useLanguage();
 
   const formatNumber = (num: number): string => {

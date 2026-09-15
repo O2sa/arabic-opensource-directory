@@ -6,6 +6,7 @@ import { Hero } from './components/Hero';
 import { SearchAndFilters } from './components/SearchAndFilters';
 import { ProjectGrid } from './components/ProjectGrid';
 import { Footer } from './components/Footer';
+import { SITE_CONFIG } from './config/site';
 
 export const App: React.FC = () => {
   const { lang } = useLanguage();
@@ -27,10 +28,10 @@ export const App: React.FC = () => {
 
   return (
     <div id="top" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Navbar />
+      <Navbar repoUrl={SITE_CONFIG.repoUrl} />
 
       <main style={{ flex: 1 }}>
-        <Hero stats={stats} />
+        <Hero stats={stats} repoUrl={SITE_CONFIG.repoUrl} />
 
         <section className="container" style={{ paddingBottom: '3rem' }}>
           <SearchAndFilters
@@ -56,7 +57,7 @@ export const App: React.FC = () => {
         </section>
       </main>
 
-      <Footer />
+      <Footer repoUrl={SITE_CONFIG.repoUrl} />
     </div>
   );
 };

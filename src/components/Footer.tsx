@@ -2,12 +2,13 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Heart, Plus, Sparkles } from 'lucide-react';
 import { GithubIcon } from './GithubIcon';
+import { SITE_CONFIG } from '../config/site';
 
 interface FooterProps {
   repoUrl?: string;
 }
 
-export const Footer: React.FC<FooterProps> = ({ repoUrl = 'https://github.com/' }) => {
+export const Footer: React.FC<FooterProps> = ({ repoUrl = SITE_CONFIG.repoUrl }) => {
   const { lang, t } = useLanguage();
 
   return (
