@@ -4685,5 +4685,614 @@
       "nlp-benchmark"
     ],
     "featured": false
+  },
+  {
+    "id": "darija-open-dataset",
+    "repo": "darija-open-dataset/dataset",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "قاعدة بيانات الدارجة المفتوحة",
+      "en": "Darija Open Dataset"
+    },
+    "description": {
+      "ar": "أكبر مدونة بيانات لغوية مفتوحة المصدر للهجة الدارجة المغربية متضمنة ترجمات إنجليزية وجمل منسقة لأبحاث الذكاء الاصطناعي.",
+      "en": "A comprehensive open dataset for Moroccan Darija paired with English translations and structured sentences for AI and NLP."
+    },
+    "tags": [
+      "dataset",
+      "darija",
+      "moroccan-arabic",
+      "nlp-benchmark",
+      "parallel-corpus"
+    ],
+    "featured": true
+  },
+  {
+    "id": "noorbayan-nazm-poetry-system",
+    "repo": "NoorBayan/Nazm",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نظام نَظْم لمعالجة الشعر العربي",
+      "en": "Nazm Arabic Poetry Processing System"
+    },
+    "description": {
+      "ar": "نظام ذكاء اصطناعي شامل لمعالجة الشعر العربي يقدم تصنيف البحور العروضية واستخراج القوافي والتقطيع العروضي الآلي بدقة عالية.",
+      "en": "A comprehensive AI system for processing Arabic poetry, offering poetic meter classification, rhyme extraction, and prosody."
+    },
+    "tags": [
+      "nlp",
+      "arabic-poetry",
+      "meter-classification",
+      "prosody",
+      "literature"
+    ],
+    "featured": true
+  },
+  {
+    "id": "lfi3a-programming-language",
+    "repo": "Oussama-jabrane/lfi3a",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لغة البرمجة «لفيعة»",
+      "en": "LFI3A Programming Language"
+    },
+    "description": {
+      "ar": "لغة برمجة مفتوحة المصدر موجهة للمبتدئين تمزج مفاهيم البرمجة بمفردات وكلمات عربية ودارجة مكتوبة بلغة C++ ومحرك متكامل.",
+      "en": "A beginner-friendly open-source programming language implemented in C++ that blends coding concepts with Arabic and Darija keywords."
+    },
+    "tags": [
+      "cpp",
+      "compiler",
+      "programming-language",
+      "arabic-code",
+      "interpreter"
+    ],
+    "featured": true
+  },
+  {
+    "id": "mtg-arabic-transliterator",
+    "repo": "MTG/ArabicTransliterator",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مترجم الحروف العربية حسب معيار ALA-LC",
+      "en": "MTG Arabic Transliterator"
+    },
+    "description": {
+      "ar": "مكتبة بايثون لنقحرة ونقل الحروف العربية إلى الحروف اللاتينية وفق معيار جمعية المكتبات الأمريكية ومكتبة الكونغرس (ALA-LC).",
+      "en": "A Python library for transliterating Arabic text using the official American Library Association - Library of Congress (ALA-LC) standard."
+    },
+    "tags": [
+      "python",
+      "transliteration",
+      "ala-lc",
+      "romanization",
+      "linguistics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "linuxscout-alyahmor-morphology",
+    "repo": "linuxscout/alyahmor",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "اليحمور لتوليد الصرف العربي",
+      "en": "Alyahmor Arabic Morphology Generator"
+    },
+    "description": {
+      "ar": "مكتبة بايثون لتوليد التصاريف والاشتقاقات الصرفية للأفعال والأسماء العربية بدقة لغوية من تطوير طه زروقي.",
+      "en": "A specialized Python library for generating Arabic flexional morphology and word derivations by Taha Zerrouki."
+    },
+    "tags": [
+      "python",
+      "morphology",
+      "linguistics",
+      "arabic-grammar",
+      "inflection"
+    ],
+    "featured": true
+  },
+  {
+    "id": "silma-arabic-tts-system",
+    "repo": "SILMA-AI/silma-tts",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "محرك سِلما لتوليد الكلام العربي",
+      "en": "SILMA Arabic TTS System"
+    },
+    "description": {
+      "ar": "نموذج عصبي خفيف ومفتوح المصدر لتوليد ونطق الكلام العربي والإنجليزي بأصوات طبيعية وتشكيل فوري.",
+      "en": "A lightweight open neural speech synthesis (TTS) system optimized for natural Arabic voice generation."
+    },
+    "tags": [
+      "python",
+      "tts",
+      "speech-synthesis",
+      "voice",
+      "deep-learning"
+    ],
+    "featured": true
+  },
+  {
+    "id": "sard-arabic-reader",
+    "repo": "Limitless-Soul1/Sard",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "قارئ سرد للطباعة العربية",
+      "en": "Sard Arabic Typography Reader"
+    },
+    "description": {
+      "ar": "تطبيق قراءة مكتبي لكتب EPUB ومستندات PDF صُمم خصيصاً ليقدم أرقى تجربة طباعية للنصوص والتشكيل والخطوط العربية.",
+      "en": "A desktop EPUB and PDF reader crafted specifically with first-class Arabic typography, shaping, and diacritics rendering."
+    },
+    "tags": [
+      "desktop-app",
+      "typography",
+      "reader",
+      "epub",
+      "arabic-shaping"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-letter-connector-tool",
+    "repo": "sinantaifour/arabic-letter-connector",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أداة وصل الحروف العربية",
+      "en": "Arabic Letter Connector"
+    },
+    "description": {
+      "ar": "أداة ومكتبة برمجية لاستبدال الحروف العربية المتقطعة بنظائرها المتصلة وفق موقعها السياقي في الكلمة في بيئات معالجة النصوص.",
+      "en": "A programming tool to replace disconnected Arabic characters with their proper contextual connected forms."
+    },
+    "tags": [
+      "ruby",
+      "text-processing",
+      "arabic-shaping",
+      "glyph-connection",
+      "bidi"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tareq-alomari-arabic-compiler",
+    "repo": "tareq-alomari/ArabicCompiler",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مترجم ومحلل لغات البرمجة العربية",
+      "en": "Tareq Arabic Compiler"
+    },
+    "description": {
+      "ar": "مشروع مفتوح المصدر بلغة C++ لبناء مترجم برمجي متكامل ومحلل نحوي ودلالي للأكواد المكتوبة باللغة العربية.",
+      "en": "An open-source C++ compiler and lexical/semantic analyzer for programming languages utilizing Arabic syntax."
+    },
+    "tags": [
+      "cpp",
+      "compiler",
+      "lexer",
+      "parser",
+      "arabic-programming"
+    ],
+    "featured": false
+  },
+  {
+    "id": "voicetut-egyptian-tts",
+    "repo": "MohammedAly22/VoiceTuT-TTS",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نظام فويس توت للنطق باللهجة المصرية",
+      "en": "VoiceTuT Egyptian TTS"
+    },
+    "description": {
+      "ar": "نظام لتحويل النص العربي إلى كلام منطوق مخصص للهجة المصرية مبني ومدرب بالتعلم العميق من نموذج OmniVoice.",
+      "en": "An Egyptian-Arabic text-to-speech system fine-tuned with deep learning for authentic dialectal pronunciation."
+    },
+    "tags": [
+      "python",
+      "tts",
+      "egyptian-arabic",
+      "speech-synthesis",
+      "audio"
+    ],
+    "featured": false
+  },
+  {
+    "id": "franco-arabic-transliterator-pkg",
+    "repo": "AMR-KELEG/Franco-Arabic-Transliterator",
+    "category": "dev-tools",
+    "title": {
+      "ar": "محول الفرانكو إلى حروف عربية",
+      "en": "Franco-Arabic Transliterator"
+    },
+    "description": {
+      "ar": "حزمة بايثون قائمة على القواعد لتحويل نصوص الفرانكو آراب (العربيزي) إلى نصوص عربية صحيحة بدقة عالية.",
+      "en": "A rule-based Python package to convert romanized Franco-Arabic (Arabizi) text into correct Arabic script."
+    },
+    "tags": [
+      "python",
+      "transliteration",
+      "arabizi",
+      "franco-arabic",
+      "text-processing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "kenton-murray-buckwalter",
+    "repo": "KentonMurray/Buckwalter",
+    "category": "dev-tools",
+    "title": {
+      "ar": "مترجم بوكوالتر للنقحرة الصوتية",
+      "en": "Buckwalter Arabic Transliteration"
+    },
+    "description": {
+      "ar": "حزمة بايثون معيارية للتحويل الثنائي بين الأبجدية العربية وترميز بوكوالتر المستعمل بكثرة في أبحاث المعالجة اللغوية.",
+      "en": "A Python library providing bi-directional transliteration between Arabic script and standard Buckwalter notation."
+    },
+    "tags": [
+      "python",
+      "buckwalter",
+      "transliteration",
+      "nlp",
+      "text-processing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "sudanese-arabic-llm-project",
+    "repo": "AnwarCS/Sudanese-Arabic-LLM",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نموذج الذكاء الاصطناعي للهجة السودانية",
+      "en": "Sudanese Arabic LLM"
+    },
+    "description": {
+      "ar": "مشروع مفتوح المصدر لجمع بيانات اللهجة العربية السودانية وضبط النماذج اللغوية الكبيرة لتحسين فهمها للمفردات السودانية.",
+      "en": "An open-source initiative building a Sudanese Arabic dialect dataset and fine-tuning LLMs for dialectal representation."
+    },
+    "tags": [
+      "nlp",
+      "arabic-llm",
+      "sudanese-arabic",
+      "dialects",
+      "dataset"
+    ],
+    "featured": false
+  },
+  {
+    "id": "bodmagh-darija-dataset",
+    "repo": "ImadSaddik/BoDmaghDataset",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة بو دماغ لتدريب الدارجة",
+      "en": "BoDmagh Darija SFT Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات تعليمية مفتوحة المصدر مخصصة للضبط الدقيق للتعليمات (SFT) بالدارجة المغربية للنماذج اللغوية الكبيرة.",
+      "en": "A supervised fine-tuning (SFT) instruction dataset specifically curated for Moroccan Darija in large language models."
+    },
+    "tags": [
+      "dataset",
+      "darija",
+      "instruction-tuning",
+      "llm",
+      "moroccan-arabic"
+    ],
+    "featured": false
+  },
+  {
+    "id": "seen-language-sdk",
+    "repo": "abukhadra/seen",
+    "category": "dev-tools",
+    "title": {
+      "ar": "حزمة تطوير لغة البرمجة سين",
+      "en": "Seen Language SDK"
+    },
+    "description": {
+      "ar": "حزمة أدوات ومترجم لغة البرمجة سين (Seen) المصممة لكتابة الأكواد والبرمجيات ببنية ودلالات عربية أصيلة.",
+      "en": "The SDK, compiler, and tools for the Seen programming language designed for native Arabic code development."
+    },
+    "tags": [
+      "javascript",
+      "compiler",
+      "programming-language",
+      "arabic-code",
+      "dsl"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arabic-offensive-social-dataset",
+    "repo": "shammur/Arabic-Offensive-Multi-Platform-SocialMedia-Comment-Dataset",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة تصنيف المحتوى المسيء في شبكات التواصل",
+      "en": "Arabic Offensive Social Media Dataset"
+    },
+    "description": {
+      "ar": "مدونة بيانات واسعة تضم تعليقات من مختلف منصات التواصل باللهجات العربية المتعددة لتدريب نماذج الرقابة الآلية وكشف الإساءة.",
+      "en": "A multi-platform Arabic dialectal benchmark dataset for training NLP models to detect offensive language and hate speech."
+    },
+    "tags": [
+      "dataset",
+      "sentiment-analysis",
+      "content-moderation",
+      "nlp-benchmark",
+      "dialects"
+    ],
+    "featured": false
+  },
+  {
+    "id": "elokab-arabic-terminal",
+    "repo": "zakariakov/elokab-terminal",
+    "category": "platforms-apps",
+    "title": {
+      "ar": "محاكي الطرفية العقاب الداعم للعربية",
+      "en": "Elokab Arabic Terminal Emulator"
+    },
+    "description": {
+      "ar": "برنامج طرفية خفيف وسريع لأنظمة لينكس يوفر دعماً أصيلاً للغة العربية والنصوص ثنائية الاتجاه دون تشوه الأحرف.",
+      "en": "A lightweight terminal emulator for Linux featuring native support for Arabic script and bidirectional text rendering."
+    },
+    "tags": [
+      "cpp",
+      "terminal",
+      "bidi",
+      "desktop-app",
+      "linux"
+    ],
+    "featured": false
+  },
+  {
+    "id": "almodhfer-arabic-diacritization",
+    "repo": "almodhfer/Arabic_Diacritization",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محرك تشكيل النصوص العربية بالتعلم العميق",
+      "en": "Almodhfer Deep Diacritizer"
+    },
+    "description": {
+      "ar": "مجموعة نماذج تعلم عميق مبنية بإطار PyTorch لإعادة وتوليد حركات التشكيل للنصوص العربية الفصحى تلقائياً بدقة ممتازة.",
+      "en": "Deep learning models implemented in PyTorch for automatic restoration of Arabic diacritical marks."
+    },
+    "tags": [
+      "python",
+      "tashkeel",
+      "diacritization",
+      "pytorch",
+      "deep-learning"
+    ],
+    "featured": true
+  },
+  {
+    "id": "arabic-without-dots-keyboard",
+    "repo": "AhmedTeleb96/Arabic-without-Dots-Keyboard",
+    "category": "dev-tools",
+    "title": {
+      "ar": "لوحة مفاتيح الخط العربي غير المنقوط",
+      "en": "Arabic Without Dots Keyboard"
+    },
+    "description": {
+      "ar": "أداة وتخطيط لوحة مفاتيح يتيح للمستخدمين والمحققين الكتابة بالحروف العربية المجردة من النقاط كما في المخطوطات القديمة.",
+      "en": "A dedicated Arabic keyboard layout allowing users and scholars to type in historical unpointed Arabic script."
+    },
+    "tags": [
+      "keyboard",
+      "unpointed-arabic",
+      "calligraphy",
+      "linguistics",
+      "historical-text"
+    ],
+    "featured": false
+  },
+  {
+    "id": "bio-colab-arafix",
+    "repo": "bio-colab/arafix",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أداة ترميم النصوص العربية في ملفات PDF",
+      "en": "Arafix PDF Text Restorer"
+    },
+    "description": {
+      "ar": "أداة بايثون لتشخيص وإصلاح النصوص العربية المعكوسة أو المقطعة المستخرجة من ملفات PDF دون تخمين عشوائي.",
+      "en": "A Python utility to diagnose and repair reversed or broken Arabic text extracted from digital PDF documents."
+    },
+    "tags": [
+      "python",
+      "pdf",
+      "text-repair",
+      "bidi",
+      "shaping"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ubc-nlp-aoc-dialect-id",
+    "repo": "UBC-NLP/aoc_id",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أداة تصنيف اللهجات العربية AOC",
+      "en": "UBC Arabic Dialect Identification"
+    },
+    "description": {
+      "ar": "أداة ونماذج تصنيف اللهجات العربية المتعددة من مختبر UBC-NLP مبنية على مدونة تعليقات القراء العربية (AOC).",
+      "en": "Arabic dialect identification toolkit and models trained on the Arabic Online Commentary corpus by UBC-NLP."
+    },
+    "tags": [
+      "python",
+      "nlp",
+      "dialect-identification",
+      "ubc-nlp",
+      "classification"
+    ],
+    "featured": false
+  },
+  {
+    "id": "boknilev-seq2seq-diacritization",
+    "repo": "boknilev/diacritization",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "نموذج التشكيل الآلي المتسلسل",
+      "en": "Boknilev Seq2Seq Diacritizer"
+    },
+    "description": {
+      "ar": "نموذج شبكات عصبية متسلسلة (Sequence-to-Sequence) لتشكيل وضبط بنية الكلمات والجمل العربية بدقة إعرابية.",
+      "en": "A sequence-to-sequence neural network model for automatic Arabic text vocalization and diacritization."
+    },
+    "tags": [
+      "python",
+      "diacritization",
+      "seq2seq",
+      "tashkeel",
+      "neural-network"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ubc-nlp-octopus-nlg",
+    "repo": "UBC-NLP/octopus",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "حزمة أخطبوط لتوليد النصوص العربية",
+      "en": "Octopus Arabic NLG Toolkit"
+    },
+    "description": {
+      "ar": "حزمة أدوات ذكاء اصطناعي عصبية لتوليد وصياغة النصوص والترجمة باللغة العربية طُوّرت في مختبر UBC-NLP.",
+      "en": "A neural machine generation toolkit for Arabic natural language generation (NLG) and text generation by UBC-NLP."
+    },
+    "tags": [
+      "python",
+      "nlg",
+      "text-generation",
+      "ubc-nlp",
+      "transformers"
+    ],
+    "featured": false
+  },
+  {
+    "id": "owo-madamira-diac-cli",
+    "repo": "owo/madamira_diac",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "أداة تشكيل النصوص عبر مداميرا",
+      "en": "MADAMIRA Diacritization CLI"
+    },
+    "description": {
+      "ar": "أداة سطر أوامر خفيفة لتشكيل النصوص العربية بدقة عالية بالاعتماد على خوارزميات التحليل الصرفي لمنظومة MADAMIRA.",
+      "en": "A command-line utility for diacritizing Arabic text utilizing the MADAMIRA morphological analysis system."
+    },
+    "tags": [
+      "python",
+      "madamira",
+      "diacritization",
+      "cli",
+      "morphology"
+    ],
+    "featured": false
+  },
+  {
+    "id": "muhammad-abdelsattar-arabic-diacritizer",
+    "repo": "Muhammad-Abdelsattar/Arabic-Diacritizer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "منظومة التشكيل العربي بالتعلم الآلي",
+      "en": "Arabic Diacritizer ML Suite"
+    },
+    "description": {
+      "ar": "منظومة تعلم آلي متكاملة لتدريب ونشر نماذج تشكيل النصوص العربية بسهولة مع خطوط أنابيب لمعالجة البيانات.",
+      "en": "An end-to-end Arabic diacritizer machine learning suite designed for seamless model training and inference."
+    },
+    "tags": [
+      "python",
+      "machine-learning",
+      "tashkeel",
+      "diacritics",
+      "nlp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "amrnn90-arabic-stemmer-js",
+    "repo": "amrnn90/arabic-stemmer",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "محلل الجذوع العربي بجافاسكريبت",
+      "en": "JS Arabic Stemmer"
+    },
+    "description": {
+      "ar": "مكتبة جافاسكريبت سريعة وخفيفة لاستخراج جذوع الكلمات العربية وفصل السوابق واللواحق لمحركات البحث ومواقع الويب.",
+      "en": "A fast, lightweight JavaScript library for Arabic word stemming and affix removal in web applications."
+    },
+    "tags": [
+      "javascript",
+      "stemmer",
+      "text-processing",
+      "search-engine",
+      "nlp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "motazsaad-arwiki-extracts",
+    "repo": "motazsaad/arwikiExtracts",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة مقتطفات ويكيبيديا العربية",
+      "en": "Arabic Wikipedia Extracts"
+    },
+    "description": {
+      "ar": "أداة ومدونة نصية موسعة ونظيفة مستخلصة من مقالات ويكيبيديا العربية مجهزة لتدريب نماذج اللغة وخوارزميات الذكاء الاصطناعي.",
+      "en": "A cleaned, structured text corpus extracted from the Arabic Wikipedia for language modeling and NLP benchmarks."
+    },
+    "tags": [
+      "dataset",
+      "wikipedia",
+      "corpus",
+      "nlp",
+      "text-mining"
+    ],
+    "featured": false
+  },
+  {
+    "id": "motazsaad-arabic-news-dataset",
+    "repo": "motazsaad/Arabic-News",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مدونة تصنيف الأخبار العربية",
+      "en": "Arabic News Classification Dataset"
+    },
+    "description": {
+      "ar": "قاعدة بيانات معيارية لنصوص الأخبار العربية مصنفة موضوعياً من كبرى وكالات الأنباء لتدريب نماذج تصنيف النصوص.",
+      "en": "A benchmark dataset of categorized Arabic news articles for training and evaluating text classification models."
+    },
+    "tags": [
+      "dataset",
+      "classification",
+      "news",
+      "benchmark",
+      "nlp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nipponjo-tts-arabic-onnx",
+    "repo": "nipponjo/tts_arabic",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "نماذج توليد الصوت العربي بنسق ONNX",
+      "en": "ONNX Arabic TTS Models"
+    },
+    "description": {
+      "ar": "حزمة ونماذج لتوليد الكلام العربي عالي الدقة بنسق ONNX فائق السرعة مبنية على طرازي FastPitch و Mixer-TTS.",
+      "en": "High-speed neural Arabic text-to-speech models (FastPitch, Mixer-TTS) exported in ONNX format for production inference."
+    },
+    "tags": [
+      "python",
+      "tts",
+      "onnx",
+      "speech-synthesis",
+      "fastpitch"
+    ],
+    "featured": true
   }
 ]
