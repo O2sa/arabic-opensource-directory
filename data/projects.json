@@ -308,21 +308,21 @@
     "repo": "maidaly/Arabic_OCR",
     "category": "ocr-vision",
     "title": {
-      "ar": "تطبيق استخراج النصوص العربية",
+      "ar": "تطبيق التعرف البصري العربي CRAFT",
       "en": "Arabic OCR with CRAFT"
     },
     "description": {
-      "ar": "تطبيق مفتوح المصدر لاستخراج النصوص العربية من الصور والمستندات باستخدام خوارزمية CRAFT ومكتبة EasyOCR.",
-      "en": "Open-source application for Arabic text extraction from images using CRAFT and EasyOCR."
+      "ar": "تطبيق وبرمجية مفتوحة المصدر للتعرف الضوئي على الحروف واستخراج النصوص العربية بدقة عالية من المستندات والصور.",
+      "en": "Open-source application and pipeline for high-accuracy Arabic text extraction and character recognition from images."
     },
     "homepage": "https://github.com/maidaly/Arabic_OCR",
     "featured": false,
     "tags": [
       "python",
       "ocr",
+      "arabic-ocr",
       "craft",
-      "computer-vision",
-      "easyocr"
+      "computer-vision"
     ]
   },
   {
@@ -368,25 +368,25 @@
     ]
   },
   {
-    "id": "rastikerdar-vazirmatn",
-    "repo": "rastikerdar/vazirmatn",
+    "id": "aliftype-reem-kufi",
+    "repo": "aliftype/reem-kufi",
     "category": "fonts-calligraphy",
     "title": {
-      "ar": "خط وزير متن",
-      "en": "Vazirmatn Typeface"
+      "ar": "خط كوفي ريم",
+      "en": "Reem Kufi Typeface"
     },
     "description": {
-      "ar": "خط رقمي حديث وعالي الوضوح مخصص لشاشات الويب والقراءة يدعم الأبجدية العربية والفارسية.",
-      "en": "A modern, highly legible Arabic and Persian typeface crafted for digital screens and reading."
+      "ar": "خط كوفي رقمي حديث مخصص للعناوين والنصوص البصرية مستوحى من خطوط المصاحف والكتابات الكوفية المبكرة.",
+      "en": "A modern digital Kufic typeface designed for display and text, inspired by early Quranic and architectural calligraphy."
     },
-    "homepage": "https://rastikerdar.github.io/vazirmatn/",
+    "homepage": "https://aliftype.com/reem-kufi/",
     "featured": true,
     "tags": [
       "font",
       "typography",
-      "webfont",
+      "kufic",
       "arabic",
-      "farsi"
+      "arabic-font"
     ]
   },
   {
@@ -412,26 +412,25 @@
     ]
   },
   {
-    "id": "aminabedi68-estedad",
-    "repo": "aminabedi68/Estedad",
+    "id": "aliftype-mada",
+    "repo": "aliftype/mada",
     "category": "fonts-calligraphy",
     "title": {
-      "ar": "Estedad",
-      "en": "Estedad"
+      "ar": "خط مدى",
+      "en": "Mada Typeface"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Sans Serif Arabic-Latin text typeface",
-      "en": "Sans Serif Arabic-Latin text typeface"
+      "ar": "خط عربي حديث ذو تباين منخفض وهندسة بصرية واضحة، مصمم خصيصاً لشاشات الأجهزة الرقمية وتطبيقات الويب.",
+      "en": "A geometric, low-contrast Arabic typeface designed specifically for digital interfaces, user experiences, and web screens."
     },
-    "homepage": "https://aminabedi68.github.io/Estedad/",
-    "featured": true,
+    "homepage": "https://aliftype.com/mada/",
+    "featured": false,
     "tags": [
-      "python",
-      "arabic",
-      "farsi",
       "font",
-      "text-font",
-      "typeface"
+      "typography",
+      "webfont",
+      "arabic",
+      "arabic-font"
     ]
   },
   {
@@ -588,26 +587,25 @@
     ]
   },
   {
-    "id": "eqraatech-software-engineering-in-arabic",
-    "repo": "Eqraatech/Software-Engineering-In-Arabic",
+    "id": "alfanous-team-alfanous",
+    "repo": "Alfanous-team/alfanous",
     "category": "platforms-apps",
     "title": {
-      "ar": "Software-Engineering-In-Arabic",
-      "en": "Software Engineering In Arabic"
+      "ar": "محرك بحث الفانوس",
+      "en": "Alfanous Search Engine"
     },
     "description": {
-      "ar": "محتوى تقني متميز في مختلف مجالات هندسة البرمجيات عن طريق تبسيط المفاهيم البرمجية المعقدة بشكل سلس وباستخدام صور توضيحية مذهلة",
-      "en": "Open-source Arabic software repository for Software-Engineering-In-Arabic."
+      "ar": "محرك وبوابة برمجية متقدمة مفتوحة المصدر للبحث اللغوي والدلالي والصوتي في نصوص القرآن الكريم والمعاجم العربية.",
+      "en": "An advanced open-source Arabic search engine API and platform providing linguistic, semantic, and vocalic search in Quranic texts."
     },
-    "homepage": "https://eqraatech.com",
+    "homepage": "http://www.alfanous.org",
     "featured": true,
     "tags": [
       "python",
-      "databases",
-      "design-patterns",
-      "distributed-systems",
-      "programming-languages",
-      "software-engineering"
+      "arabic-search",
+      "quran",
+      "linguistics",
+      "search-engine"
     ]
   },
   {
@@ -653,26 +651,25 @@
     ]
   },
   {
-    "id": "mostafa-saad-arabiccompetitiveprogramming",
-    "repo": "mostafa-saad/ArabicCompetitiveProgramming",
+    "id": "arbml-tkseem",
+    "repo": "ARBML/tkseem",
     "category": "dev-tools",
     "title": {
-      "ar": "ArabicCompetitiveProgramming",
-      "en": "ArabicCompetitiveProgramming"
+      "ar": "مكتبة تقسيم للتقطيع اللغوي",
+      "en": "Tkseem Tokenizer"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel.",
-      "en": "The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel."
+      "ar": "مكتبة بايثون متخصصة لتقطيع الكلمات والنصوص العربية (Tokenization) تدعم خوارزميات BPE وWordPiece والتحليل الصرفي.",
+      "en": "A dedicated Python library for Arabic tokenization supporting subword algorithms (BPE, WordPiece) and morphological tokenizers."
     },
-    "homepage": "https://www.youtube.com/user/nobody123497",
+    "homepage": "https://arbml.github.io/tkseem/",
     "featured": true,
     "tags": [
-      "c++",
-      "acm-icpc",
-      "algorithm",
-      "arabic",
-      "competitive-programming",
-      "data-structures"
+      "python",
+      "nlp",
+      "tokenization",
+      "arabic-nlp",
+      "preprocessing"
     ]
   },
   {
@@ -922,12 +919,12 @@
     "repo": "Qutuf/Qutuf",
     "category": "text-tashkeel",
     "title": {
-      "ar": "Qutuf",
-      "en": "Qutuf"
+      "ar": "نظام قُطوف للتحليل الصرفي",
+      "en": "Qutuf Morphological Analyzer"
     },
     "description": {
-      "ar": "Qutuf (قُطُوْف): An Arabic Morphological analyzer and Part-Of-Speech tagger as an Expert System.",
-      "en": "Open-source Arabic software repository for Qutuf."
+      "ar": "محلل صرفي ومصنف دلالي خبير ومفتوح المصدر للغة العربية، يستخرج الجذور والأوزان ويحلل بنية الكلمات بدقة.",
+      "en": "An open-source expert system for Arabic morphological analysis and Part-Of-Speech tagging."
     },
     "homepage": "http://Qutuf.com",
     "featured": true,
@@ -945,12 +942,12 @@
     "repo": "mohabmes/Arabycia",
     "category": "text-tashkeel",
     "title": {
-      "ar": "Arabycia",
-      "en": "Arabycia"
+      "ar": "حزمة عربيسيا لمعالجة العربية",
+      "en": "Arabycia NLP Toolkit"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc..",
-      "en": "Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc.."
+      "ar": "حزمة برمجية متكاملة ومفتوحة المصدر لمعالجة اللغة العربية، تدعم التشكيل الآلي، والبحث النصي، وتصنيف أقسام الكلام.",
+      "en": "An open-source Arabic NLP toolkit for text processing, diacritization, POS tagging, and advanced search."
     },
     "homepage": "https://github.com/mohabmes/Arabycia",
     "featured": false,

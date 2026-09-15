@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:24.442Z"
+    "lastSyncedAt": "2026-09-15T00:26:17.468Z"
   },
   {
     "id": "arabert",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:24.370Z"
+    "lastSyncedAt": "2026-09-15T00:26:17.616Z"
   },
   {
     "id": "pyarabic",
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T00:21:24.240Z"
+    "lastSyncedAt": "2026-09-15T00:26:17.756Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T00:21:25.659Z"
+    "lastSyncedAt": "2026-09-15T00:26:18.981Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:25.715Z"
+    "lastSyncedAt": "2026-09-15T00:26:19.029Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:25.761Z"
+    "lastSyncedAt": "2026-09-15T00:26:19.084Z"
   },
   {
     "id": "amiri-font",
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:26.977Z"
+    "lastSyncedAt": "2026-09-15T00:26:20.720Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:26.912Z"
+    "lastSyncedAt": "2026-09-15T00:26:20.268Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:27.084Z"
+    "lastSyncedAt": "2026-09-15T00:26:20.355Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:28.537Z"
+    "lastSyncedAt": "2026-09-15T00:26:21.969Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:28.222Z"
+    "lastSyncedAt": "2026-09-15T00:26:21.826Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,7 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:28.423Z"
+    "lastSyncedAt": "2026-09-15T00:26:21.988Z"
   },
   {
     "id": "hadith-datasets",
@@ -635,7 +635,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:29.765Z"
+    "lastSyncedAt": "2026-09-15T00:26:23.261Z"
   },
   {
     "id": "masader",
@@ -681,28 +681,28 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:29.758Z"
+    "lastSyncedAt": "2026-09-15T00:26:23.250Z"
   },
   {
     "id": "maidaly-arabic-ocr",
     "repo": "maidaly/Arabic_OCR",
     "category": "ocr-vision",
     "title": {
-      "ar": "تطبيق استخراج النصوص العربية",
+      "ar": "تطبيق التعرف البصري العربي CRAFT",
       "en": "Arabic OCR with CRAFT"
     },
     "description": {
-      "ar": "تطبيق مفتوح المصدر لاستخراج النصوص العربية من الصور والمستندات باستخدام خوارزمية CRAFT ومكتبة EasyOCR.",
-      "en": "Open-source application for Arabic text extraction from images using CRAFT and EasyOCR."
+      "ar": "تطبيق وبرمجية مفتوحة المصدر للتعرف الضوئي على الحروف واستخراج النصوص العربية بدقة عالية من المستندات والصور.",
+      "en": "Open-source application and pipeline for high-accuracy Arabic text extraction and character recognition from images."
     },
     "homepage": "https://github.com/maidaly/Arabic_OCR",
     "featured": false,
     "tags": [
       "python",
       "ocr",
+      "arabic-ocr",
       "craft",
-      "computer-vision",
-      "easyocr"
+      "computer-vision"
     ],
     "github": {
       "owner": "maidaly",
@@ -718,7 +718,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:29.725Z"
+    "lastSyncedAt": "2026-09-15T00:26:23.477Z"
   },
   {
     "id": "husseinyoussef-arabic-ocr",
@@ -772,7 +772,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:31.017Z"
+    "lastSyncedAt": "2026-09-15T00:26:25.025Z"
   },
   {
     "id": "pythonation-mistral-arabic-ocr-test",
@@ -806,57 +806,56 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:31.040Z"
+    "lastSyncedAt": "2026-09-15T00:26:24.690Z"
   },
   {
-    "id": "rastikerdar-vazirmatn",
-    "repo": "rastikerdar/vazirmatn",
+    "id": "aliftype-reem-kufi",
+    "repo": "aliftype/reem-kufi",
     "category": "fonts-calligraphy",
     "title": {
-      "ar": "خط وزير متن",
-      "en": "Vazirmatn Typeface"
+      "ar": "خط كوفي ريم",
+      "en": "Reem Kufi Typeface"
     },
     "description": {
-      "ar": "خط رقمي حديث وعالي الوضوح مخصص لشاشات الويب والقراءة يدعم الأبجدية العربية والفارسية.",
-      "en": "A modern, highly legible Arabic and Persian typeface crafted for digital screens and reading."
+      "ar": "خط كوفي رقمي حديث مخصص للعناوين والنصوص البصرية مستوحى من خطوط المصاحف والكتابات الكوفية المبكرة.",
+      "en": "A modern digital Kufic typeface designed for display and text, inspired by early Quranic and architectural calligraphy."
     },
-    "homepage": "https://rastikerdar.github.io/vazirmatn/",
+    "homepage": "https://aliftype.com/reem-kufi/",
     "featured": true,
     "tags": [
       "font",
       "typography",
-      "webfont",
+      "kufic",
       "arabic",
-      "farsi"
+      "arabic-font"
     ],
     "github": {
-      "owner": "rastikerdar",
-      "name": "vazirmatn",
-      "url": "https://github.com/rastikerdar/vazirmatn",
-      "stars": 3203,
-      "forks": 208,
-      "openIssues": 53,
+      "owner": "aliftype",
+      "name": "reem-kufi",
+      "url": "https://github.com/aliftype/reem-kufi",
+      "stars": 90,
+      "forks": 15,
+      "openIssues": 0,
       "license": {
         "spdxId": "OFL-1.1",
         "name": "SIL Open Font License 1.1"
       },
-      "primaryLanguage": "TypeScript",
-      "lastCommitAt": "2023-06-14T13:12:01Z",
+      "primaryLanguage": "Makefile",
+      "lastCommitAt": "2026-08-17T02:21:23Z",
       "latestRelease": {
-        "tag": "v33.003",
-        "publishedAt": "2022-06-22T15:52:46Z"
+        "tag": "v2.0",
+        "publishedAt": "2025-06-12T20:53:36Z"
       },
       "isArchived": false,
       "topics": [
         "arabic",
-        "farsi",
+        "arabic-font",
         "font",
-        "persian",
-        "typeface"
+        "kufic"
       ]
     },
-    "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:31.022Z"
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:26:24.689Z"
   },
   {
     "id": "aliftype-aref-ruqaa",
@@ -906,59 +905,60 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:32.288Z"
+    "lastSyncedAt": "2026-09-15T00:26:26.295Z"
   },
   {
-    "id": "aminabedi68-estedad",
-    "repo": "aminabedi68/Estedad",
+    "id": "aliftype-mada",
+    "repo": "aliftype/mada",
     "category": "fonts-calligraphy",
     "title": {
-      "ar": "Estedad",
-      "en": "Estedad"
+      "ar": "خط مدى",
+      "en": "Mada Typeface"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Sans Serif Arabic-Latin text typeface",
-      "en": "Sans Serif Arabic-Latin text typeface"
+      "ar": "خط عربي حديث ذو تباين منخفض وهندسة بصرية واضحة، مصمم خصيصاً لشاشات الأجهزة الرقمية وتطبيقات الويب.",
+      "en": "A geometric, low-contrast Arabic typeface designed specifically for digital interfaces, user experiences, and web screens."
     },
-    "homepage": "https://aminabedi68.github.io/Estedad/",
-    "featured": true,
+    "homepage": "https://aliftype.com/mada/",
+    "featured": false,
     "tags": [
-      "python",
-      "arabic",
-      "farsi",
       "font",
-      "text-font",
-      "typeface"
+      "typography",
+      "webfont",
+      "arabic",
+      "arabic-font"
     ],
     "github": {
-      "owner": "aminabedi68",
-      "name": "Estedad",
-      "url": "https://github.com/aminabedi68/Estedad",
-      "stars": 412,
-      "forks": 28,
-      "openIssues": 8,
+      "owner": "aliftype",
+      "name": "mada",
+      "url": "https://github.com/aliftype/mada",
+      "stars": 69,
+      "forks": 10,
+      "openIssues": 0,
       "license": {
         "spdxId": "OFL-1.1",
         "name": "SIL Open Font License 1.1"
       },
-      "primaryLanguage": "Python",
-      "lastCommitAt": "2026-07-19T12:53:04Z",
+      "primaryLanguage": "Makefile",
+      "lastCommitAt": "2026-08-01T22:54:14Z",
       "latestRelease": {
-        "tag": "8.5",
-        "publishedAt": "2026-03-20T03:04:22Z"
+        "tag": "v1.5",
+        "publishedAt": "2023-04-23T01:21:46Z"
       },
       "isArchived": false,
       "topics": [
         "arabic",
-        "farsi",
+        "arabic-font",
         "font",
-        "text-font",
-        "typeface",
-        "variable-fonts"
+        "fonts",
+        "gui",
+        "sans",
+        "signage",
+        "typeface"
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:32.148Z"
+    "lastSyncedAt": "2026-09-15T00:26:26.244Z"
   },
   {
     "id": "quran-quran-android",
@@ -1005,7 +1005,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:32.258Z"
+    "lastSyncedAt": "2026-09-15T00:26:26.245Z"
   },
   {
     "id": "fawazahmed0-quran-api",
@@ -1059,7 +1059,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:33.731Z"
+    "lastSyncedAt": "2026-09-15T00:26:27.537Z"
   },
   {
     "id": "fawazahmed0-hadith-api",
@@ -1111,7 +1111,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:34.052Z"
+    "lastSyncedAt": "2026-09-15T00:26:27.472Z"
   },
   {
     "id": "batoulapps-adhan-js",
@@ -1154,7 +1154,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:33.771Z"
+    "lastSyncedAt": "2026-09-15T00:26:27.508Z"
   },
   {
     "id": "gaitco-quran-database",
@@ -1199,7 +1199,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:35.265Z"
+    "lastSyncedAt": "2026-09-15T00:26:28.766Z"
   },
   {
     "id": "quran-quran-com-frontend-next",
@@ -1239,7 +1239,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:35.203Z"
+    "lastSyncedAt": "2026-09-15T00:26:28.736Z"
   },
   {
     "id": "ojuba-org-othman",
@@ -1286,56 +1286,60 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:35.208Z"
+    "lastSyncedAt": "2026-09-15T00:26:28.763Z"
   },
   {
-    "id": "eqraatech-software-engineering-in-arabic",
-    "repo": "Eqraatech/Software-Engineering-In-Arabic",
+    "id": "alfanous-team-alfanous",
+    "repo": "Alfanous-team/alfanous",
     "category": "platforms-apps",
     "title": {
-      "ar": "Software-Engineering-In-Arabic",
-      "en": "Software Engineering In Arabic"
+      "ar": "محرك بحث الفانوس",
+      "en": "Alfanous Search Engine"
     },
     "description": {
-      "ar": "محتوى تقني متميز في مختلف مجالات هندسة البرمجيات عن طريق تبسيط المفاهيم البرمجية المعقدة بشكل سلس وباستخدام صور توضيحية مذهلة",
-      "en": "Open-source Arabic software repository for Software-Engineering-In-Arabic."
+      "ar": "محرك وبوابة برمجية متقدمة مفتوحة المصدر للبحث اللغوي والدلالي والصوتي في نصوص القرآن الكريم والمعاجم العربية.",
+      "en": "An advanced open-source Arabic search engine API and platform providing linguistic, semantic, and vocalic search in Quranic texts."
     },
-    "homepage": "https://eqraatech.com",
+    "homepage": "http://www.alfanous.org",
     "featured": true,
     "tags": [
       "python",
-      "databases",
-      "design-patterns",
-      "distributed-systems",
-      "programming-languages",
-      "software-engineering"
+      "arabic-search",
+      "quran",
+      "linguistics",
+      "search-engine"
     ],
     "github": {
-      "owner": "Eqraatech",
-      "name": "Software-Engineering-In-Arabic",
-      "url": "https://github.com/Eqraatech/Software-Engineering-In-Arabic",
-      "stars": 722,
-      "forks": 34,
-      "openIssues": 2,
+      "owner": "Alfanous-team",
+      "name": "alfanous",
+      "url": "https://github.com/Alfanous-team/alfanous",
+      "stars": 289,
+      "forks": 90,
+      "openIssues": 23,
       "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
+        "spdxId": "LGPL-3.0",
+        "name": "GNU Lesser General Public License v3.0"
       },
       "primaryLanguage": "Python",
-      "lastCommitAt": "2026-02-19T23:56:43Z",
-      "latestRelease": null,
+      "lastCommitAt": "2026-06-14T00:57:27Z",
+      "latestRelease": {
+        "tag": "v1.9.4",
+        "publishedAt": "2026-06-14T00:57:27Z"
+      },
       "isArchived": false,
       "topics": [
-        "databases",
-        "design-patterns",
-        "distributed-systems",
-        "programming-languages",
-        "software-engineering",
-        "system-design"
+        "api",
+        "arabic",
+        "indexing",
+        "mcp",
+        "mcp-server",
+        "python",
+        "quran",
+        "search-engine"
       ]
     },
-    "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-15T00:21:36.697Z"
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-15T00:26:30.016Z"
   },
   {
     "id": "linuxscout-ayaspell",
@@ -1375,7 +1379,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:36.471Z"
+    "lastSyncedAt": "2026-09-15T00:26:30.111Z"
   },
   {
     "id": "linuxscout-naftawayh",
@@ -1415,54 +1419,53 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:36.469Z"
+    "lastSyncedAt": "2026-09-15T00:26:30.033Z"
   },
   {
-    "id": "mostafa-saad-arabiccompetitiveprogramming",
-    "repo": "mostafa-saad/ArabicCompetitiveProgramming",
+    "id": "arbml-tkseem",
+    "repo": "ARBML/tkseem",
     "category": "dev-tools",
     "title": {
-      "ar": "ArabicCompetitiveProgramming",
-      "en": "ArabicCompetitiveProgramming"
+      "ar": "مكتبة تقسيم للتقطيع اللغوي",
+      "en": "Tkseem Tokenizer"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel.",
-      "en": "The repository contains the ENGLISH description files attached to the video series in my ARABIC algorithms channel."
+      "ar": "مكتبة بايثون متخصصة لتقطيع الكلمات والنصوص العربية (Tokenization) تدعم خوارزميات BPE وWordPiece والتحليل الصرفي.",
+      "en": "A dedicated Python library for Arabic tokenization supporting subword algorithms (BPE, WordPiece) and morphological tokenizers."
     },
-    "homepage": "https://www.youtube.com/user/nobody123497",
+    "homepage": "https://arbml.github.io/tkseem/",
     "featured": true,
     "tags": [
-      "c++",
-      "acm-icpc",
-      "algorithm",
-      "arabic",
-      "competitive-programming",
-      "data-structures"
+      "python",
+      "nlp",
+      "tokenization",
+      "arabic-nlp",
+      "preprocessing"
     ],
     "github": {
-      "owner": "mostafa-saad",
-      "name": "ArabicCompetitiveProgramming",
-      "url": "https://github.com/mostafa-saad/ArabicCompetitiveProgramming",
-      "stars": 1680,
-      "forks": 545,
-      "openIssues": 11,
-      "primaryLanguage": "C++",
-      "lastCommitAt": "2023-09-05T01:09:54Z",
+      "owner": "ARBML",
+      "name": "tkseem",
+      "url": "https://github.com/ARBML/tkseem",
+      "stars": 113,
+      "forks": 22,
+      "openIssues": 8,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "primaryLanguage": "Jupyter Notebook",
+      "lastCommitAt": "2024-01-04T15:23:37Z",
       "latestRelease": null,
       "isArchived": false,
       "topics": [
-        "acm-icpc",
-        "algorithm",
-        "arabic",
-        "competitive-programming",
-        "data-structures",
-        "library",
-        "training-materials",
-        "youtube"
+        "arabic-nlp",
+        "nlp",
+        "tkseem",
+        "tokenization"
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:38.366Z"
+    "lastSyncedAt": "2026-09-15T00:26:31.499Z"
   },
   {
     "id": "arbml-klaam",
@@ -1508,7 +1511,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:38.340Z"
+    "lastSyncedAt": "2026-09-15T00:26:31.376Z"
   },
   {
     "id": "ubc-nlp-arat5",
@@ -1556,7 +1559,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:38.385Z"
+    "lastSyncedAt": "2026-09-15T00:26:31.396Z"
   },
   {
     "id": "bakrianoo-aravec",
@@ -1601,7 +1604,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:39.727Z"
+    "lastSyncedAt": "2026-09-15T00:26:32.754Z"
   },
   {
     "id": "linuxscout-arramooz",
@@ -1645,7 +1648,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:39.504Z"
+    "lastSyncedAt": "2026-09-15T00:26:32.597Z"
   },
   {
     "id": "shathatm-lk-hadith-corpus",
@@ -1693,7 +1696,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:39.513Z"
+    "lastSyncedAt": "2026-09-15T00:26:32.730Z"
   },
   {
     "id": "aliosm-arabic-text-diacritization",
@@ -1743,7 +1746,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:40.988Z"
+    "lastSyncedAt": "2026-09-15T00:26:33.970Z"
   },
   {
     "id": "nainiayoub-moroccan-darija-datasets",
@@ -1788,7 +1791,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:41.016Z"
+    "lastSyncedAt": "2026-09-15T00:26:33.951Z"
   },
   {
     "id": "aub-mind-arabic-empathetic-chatbot",
@@ -1822,7 +1825,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:41.002Z"
+    "lastSyncedAt": "2026-09-15T00:26:34.158Z"
   },
   {
     "id": "magedsaeed-farasapy",
@@ -1876,7 +1879,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:42.215Z"
+    "lastSyncedAt": "2026-09-15T00:26:35.505Z"
   },
   {
     "id": "linuxscout-tashaphyne",
@@ -1920,7 +1923,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:42.294Z"
+    "lastSyncedAt": "2026-09-15T00:26:35.383Z"
   },
   {
     "id": "aliosm-shakkelha",
@@ -1969,19 +1972,19 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:42.230Z"
+    "lastSyncedAt": "2026-09-15T00:26:35.393Z"
   },
   {
     "id": "qutuf-qutuf",
     "repo": "Qutuf/Qutuf",
     "category": "text-tashkeel",
     "title": {
-      "ar": "Qutuf",
-      "en": "Qutuf"
+      "ar": "نظام قُطوف للتحليل الصرفي",
+      "en": "Qutuf Morphological Analyzer"
     },
     "description": {
-      "ar": "Qutuf (قُطُوْف): An Arabic Morphological analyzer and Part-Of-Speech tagger as an Expert System.",
-      "en": "Open-source Arabic software repository for Qutuf."
+      "ar": "محلل صرفي ومصنف دلالي خبير ومفتوح المصدر للغة العربية، يستخرج الجذور والأوزان ويحلل بنية الكلمات بدقة.",
+      "en": "An open-source expert system for Arabic morphological analysis and Part-Of-Speech tagging."
     },
     "homepage": "http://Qutuf.com",
     "featured": true,
@@ -2031,19 +2034,19 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:43.715Z"
+    "lastSyncedAt": "2026-09-15T00:26:36.797Z"
   },
   {
     "id": "mohabmes-arabycia",
     "repo": "mohabmes/Arabycia",
     "category": "text-tashkeel",
     "title": {
-      "ar": "Arabycia",
-      "en": "Arabycia"
+      "ar": "حزمة عربيسيا لمعالجة العربية",
+      "en": "Arabycia NLP Toolkit"
     },
     "description": {
-      "ar": "مشروع وحزمة برمجية مفتوحة المصدر لخدمة المحتوى واللغة العربية: Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc..",
-      "en": "Arabic NLP tool used to perform Text Search, POS tagging, Translation, auto-diacritization, etc.."
+      "ar": "حزمة برمجية متكاملة ومفتوحة المصدر لمعالجة اللغة العربية، تدعم التشكيل الآلي، والبحث النصي، وتصنيف أقسام الكلام.",
+      "en": "An open-source Arabic NLP toolkit for text processing, diacritization, POS tagging, and advanced search."
     },
     "homepage": "https://github.com/mohabmes/Arabycia",
     "featured": false,
@@ -2072,7 +2075,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:43.537Z"
+    "lastSyncedAt": "2026-09-15T00:26:36.764Z"
   },
   {
     "id": "ahr-ocr2024-arabic-handwriting-recognition",
@@ -2109,7 +2112,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-15T00:21:43.560Z"
+    "lastSyncedAt": "2026-09-15T00:26:36.719Z"
   },
   {
     "id": "camel-lab-arafix-ocr",
@@ -2154,7 +2157,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:44.935Z"
+    "lastSyncedAt": "2026-09-15T00:26:38.083Z"
   },
   {
     "id": "manshar-manshar",
@@ -2199,7 +2202,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:44.969Z"
+    "lastSyncedAt": "2026-09-15T00:26:38.030Z"
   },
   {
     "id": "arbml-qawafi",
@@ -2247,7 +2250,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:44.961Z"
+    "lastSyncedAt": "2026-09-15T00:26:38.096Z"
   },
   {
     "id": "alifcommunity-alif5",
@@ -2290,7 +2293,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:47.050Z"
+    "lastSyncedAt": "2026-09-15T00:26:40.161Z"
   },
   {
     "id": "aliftype-qahiri",
@@ -2339,7 +2342,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:46.106Z"
+    "lastSyncedAt": "2026-09-15T00:26:39.266Z"
   },
   {
     "id": "arbml-calliar",
@@ -2386,7 +2389,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:46.370Z"
+    "lastSyncedAt": "2026-09-15T00:26:39.337Z"
   },
   {
     "id": "swivid-habibi-tts",
@@ -2430,7 +2433,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-15T00:21:48.140Z"
+    "lastSyncedAt": "2026-09-15T00:26:41.356Z"
   },
   {
     "id": "linuxscout-qutrub",
@@ -2475,7 +2478,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:48.232Z"
+    "lastSyncedAt": "2026-09-15T00:26:41.312Z"
   },
   {
     "id": "arbml-tnkeeh",
@@ -2521,6 +2524,6 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-15T00:21:48.265Z"
+    "lastSyncedAt": "2026-09-15T00:26:41.447Z"
   }
 ]

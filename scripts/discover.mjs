@@ -172,7 +172,11 @@ function isHighQuality(repo) {
     'lightsidekittens/unitext',
     'eymenefealtun/all-words-in-all-languages',
     'peter-tharwat/dashboard',
-    'abdumostafa/awesome-in-arabic'
+    'abdumostafa/awesome-in-arabic',
+    'rastikerdar/vazirmatn',
+    'aminabedi68/estedad',
+    'eqraatech/software-engineering-in-arabic',
+    'mostafa-saad/arabiccompetitiveprogramming'
   ];
 
   if (NON_ARABIC_FIRST.includes(repo.full_name.toLowerCase())) {
@@ -184,8 +188,19 @@ function isHighQuality(repo) {
     return false;
   }
 
-  // Exclude generic multilingual projects where Arabic is merely an incidental language
-  const multilingualMarkers = ['80+ languages', '100+ languages', 'multilingual ocr', 'chinese nlp', 'chinese', 'latin alphabet'];
+  // Exclude generic multilingual projects or Persian/Farsi-first tools where Arabic is merely an incidental language
+  const multilingualMarkers = [
+    '80+ languages',
+    '100+ languages',
+    'multilingual ocr',
+    'chinese nlp',
+    'chinese',
+    'latin alphabet',
+    'persian font',
+    'farsi font',
+    'persian typeface',
+    'persian date'
+  ];
   if (multilingualMarkers.some(m => desc.includes(m))) {
     return false;
   }
@@ -208,12 +223,48 @@ function isHighQuality(repo) {
 const CURATED_DESCRIPTIONS = {
   'maidaly/arabic_ocr': {
     category: 'ocr-vision',
-    title: { ar: 'تطبيق استخراج النصوص العربية', en: 'Arabic OCR with CRAFT' },
+    title: { ar: 'تطبيق التعرف البصري العربي CRAFT', en: 'Arabic OCR with CRAFT' },
     description: {
-      ar: 'تطبيق مفتوح المصدر لاستخراج النصوص العربية من الصور والمستندات باستخدام خوارزمية CRAFT ومكتبة EasyOCR.',
-      en: 'Open-source application for Arabic text extraction from images using CRAFT and EasyOCR.'
+      ar: 'تطبيق وبرمجية مفتوحة المصدر للتعرف الضوئي على الحروف واستخراج النصوص العربية بدقة عالية من المستندات والصور.',
+      en: 'Open-source application and pipeline for high-accuracy Arabic text extraction and character recognition from images.'
     },
-    tags: ['python', 'ocr', 'craft', 'computer-vision', 'easyocr']
+    tags: ['python', 'ocr', 'arabic-ocr', 'craft', 'computer-vision']
+  },
+  'aliftype/reem-kufi': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط كوفي ريم', en: 'Reem Kufi Typeface' },
+    description: {
+      ar: 'خط كوفي رقمي حديث مخصص للعناوين والنصوص البصرية مستوحى من خطوط المصاحف والكتابات الكوفية المبكرة.',
+      en: 'A modern digital Kufic typeface designed for display and text, inspired by early Quranic and architectural calligraphy.'
+    },
+    tags: ['font', 'typography', 'kufic', 'arabic', 'arabic-font']
+  },
+  'aliftype/mada': {
+    category: 'fonts-calligraphy',
+    title: { ar: 'خط مدى', en: 'Mada Typeface' },
+    description: {
+      ar: 'خط عربي حديث ذو تباين منخفض وهندسة بصرية واضحة، مصمم خصيصاً لشاشات الأجهزة الرقمية وتطبيقات الويب.',
+      en: 'A geometric, low-contrast Arabic typeface designed specifically for digital interfaces, user experiences, and web screens.'
+    },
+    tags: ['font', 'typography', 'webfont', 'arabic', 'arabic-font']
+  },
+  'alfanous-team/alfanous': {
+    category: 'platforms-apps',
+    title: { ar: 'محرك بحث الفانوس', en: 'Alfanous Search Engine' },
+    description: {
+      ar: 'محرك وبوابة برمجية متقدمة مفتوحة المصدر للبحث اللغوي والدلالي والصوتي في نصوص القرآن الكريم والمعاجم العربية.',
+      en: 'An advanced open-source Arabic search engine API and platform providing linguistic, semantic, and vocalic search in Quranic texts.'
+    },
+    tags: ['python', 'arabic-search', 'quran', 'linguistics', 'search-engine']
+  },
+  'arbml/tkseem': {
+    category: 'dev-tools',
+    title: { ar: 'مكتبة تقسيم للتقطيع اللغوي', en: 'Tkseem Tokenizer' },
+    description: {
+      ar: 'مكتبة بايثون متخصصة لتقطيع الكلمات والنصوص العربية (Tokenization) تدعم خوارزميات BPE وWordPiece والتحليل الصرفي.',
+      en: 'A dedicated Python library for Arabic tokenization supporting subword algorithms (BPE, WordPiece) and morphological tokenizers.'
+    },
+    tags: ['python', 'nlp', 'tokenization', 'arabic-nlp', 'preprocessing']
   },
   'mohamedalaouimhamdi/arabic_ocr': {
     category: 'ocr-vision',
