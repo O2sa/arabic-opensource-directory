@@ -29,11 +29,11 @@
       (function() {
         try {
           var saved = localStorage.getItem('ar_dir_theme');
-          var theme = 'dark';
+          var theme;
           if (saved === 'dark' || saved === 'light') {
             theme = saved;
-          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-            theme = 'light';
+          } else if (window.matchMedia) {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
           } else {
             theme = 'dark';
           }

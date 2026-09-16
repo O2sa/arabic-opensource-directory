@@ -29,23 +29,17 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       // Ignore localStorage errors
     }
 
-    // 3. Fallback to system preference
+    // 3. Fallback to system preference on first visit
     if (typeof window !== 'undefined' && window.matchMedia) {
-      if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        return 'light';
-      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
 
     return 'dark';
   });
 
+  // Keep document attribute in sync with state
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    try {
-      localStorage.setItem('ar_dir_theme', theme);
-    } catch {
-      // Ignore storage errors
-    }
   }, [theme]);
 
   // Listen to OS-level dark/light mode toggles if user has not set an explicit override
