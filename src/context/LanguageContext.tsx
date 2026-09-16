@@ -143,8 +143,32 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLangState] = useState<Locale>(() => {
-    const saved = localStorage.getItem('ar_dir_lang') as Locale;
-    return saved === 'en' ? 'en' : 'ar';
+    // 1. Read early attribute applied synchronously by anti-FOUC script in <head>
+    if (typeof document !== 'undefined') {
+      const existing = document.documentElement.lang as Locale;
+      if (existing === 'ar' || existing === 'en') {
+        return existing;
+      }
+    }
+
+    // 2. Check localStorage for manual user preference
+    try {
+      const saved = localStorage.getItem('ar_dir_lang') as Locale;
+      if (saved === 'ar' || saved === 'en') {
+        return saved;
+      }
+    } catch {
+      // Ignore
+    }
+
+    // 3. Detect user system language on first visit
+    if (typeof navigator !== 'undefined') {
+      const navLangs = navigator.languages || [navigator.language || ''];
+      const prefersArabic = navLangs.some(l => l && l.toLowerCase().startsWith('ar'));
+      return prefersArabic ? 'ar' : 'en';
+    }
+
+    return 'ar';
   });
 
   const dir: Direction = lang === 'ar' ? 'rtl' : 'ltr';
@@ -152,15 +176,27 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = dir;
-    localStorage.setItem('ar_dir_lang', lang);
   }, [lang, dir]);
 
   const setLang = (newLang: Locale) => {
     setLangState(newLang);
+    try {
+      localStorage.setItem('ar_dir_lang', newLang);
+    } catch {
+      // Ignore
+    }
   };
 
   const toggleLang = () => {
-    setLangState(prev => (prev === 'ar' ? 'en' : 'ar'));
+    setLangState(prev => {
+      const next = prev === 'ar' ? 'en' : 'ar';
+      try {
+        localStorage.setItem('ar_dir_lang', next);
+      } catch {
+        // Ignore
+      }
+      return next;
+    });
   };
 
   const t = (key: string): string => {

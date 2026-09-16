@@ -26,6 +26,12 @@ export const App: React.FC = () => {
     resetFilters,
   } = useProjects(lang);
 
+  React.useEffect(() => {
+    document.title = lang === 'ar'
+      ? 'دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory'
+      : 'Arabic Open Source Directory | دليل المصادر المفتوحة للغة العربية';
+  }, [lang]);
+
   return (
     <div id="top" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '100vw', overflowX: 'hidden' }}>
       <Navbar repoUrl={SITE_CONFIG.repoUrl} />
