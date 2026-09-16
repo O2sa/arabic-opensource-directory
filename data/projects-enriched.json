@@ -56,7 +56,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:37.409Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.109Z"
   },
   {
     "id": "arabert",
@@ -106,7 +106,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:37.421Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.109Z"
   },
   {
     "id": "pyarabic",
@@ -153,7 +153,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:37.421Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.109Z"
   },
   {
     "id": "mishkal",
@@ -198,7 +198,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:37.827Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.510Z"
   },
   {
     "id": "shakkala",
@@ -244,7 +244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:37.827Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.510Z"
   },
   {
     "id": "qalsadi",
@@ -283,7 +283,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:37.827Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.510Z"
   },
   {
     "id": "amiri-font",
@@ -333,7 +333,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:38.230Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.910Z"
   },
   {
     "id": "arabic-reshaper",
@@ -380,7 +380,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:38.230Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.910Z"
   },
   {
     "id": "marbert",
@@ -437,7 +437,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:38.230Z"
+    "lastSyncedAt": "2026-09-16T21:26:01.910Z"
   },
   {
     "id": "audar-asr",
@@ -489,7 +489,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:38.642Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.311Z"
   },
   {
     "id": "ar-php",
@@ -544,7 +544,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:38.642Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.311Z"
   },
   {
     "id": "arabic-stop-words",
@@ -588,7 +588,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:38.642Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.311Z"
   },
   {
     "id": "masader",
@@ -634,7 +634,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:39.049Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.711Z"
   },
   {
     "id": "maidaly-arabic-ocr",
@@ -671,7 +671,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:39.049Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.711Z"
   },
   {
     "id": "husseinyoussef-arabic-ocr",
@@ -725,7 +725,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:39.049Z"
+    "lastSyncedAt": "2026-09-16T21:26:02.711Z"
   },
   {
     "id": "pythonation-mistral-arabic-ocr-test",
@@ -759,7 +759,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:39.453Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.112Z"
   },
   {
     "id": "aliftype-reem-kufi",
@@ -808,7 +808,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:39.454Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.112Z"
   },
   {
     "id": "aliftype-aref-ruqaa",
@@ -858,7 +858,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:39.454Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.112Z"
   },
   {
     "id": "aliftype-mada",
@@ -911,7 +911,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:39.858Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.513Z"
   },
   {
     "id": "linuxscout-ayaspell",
@@ -951,7 +951,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:39.858Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.513Z"
   },
   {
     "id": "linuxscout-naftawayh",
@@ -991,7 +991,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:39.858Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.513Z"
   },
   {
     "id": "arbml-tkseem",
@@ -1037,7 +1037,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:40.263Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.913Z"
   },
   {
     "id": "arbml-klaam",
@@ -1083,7 +1083,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:40.263Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.913Z"
   },
   {
     "id": "ubc-nlp-arat5",
@@ -1131,7 +1131,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:40.263Z"
+    "lastSyncedAt": "2026-09-16T21:26:03.913Z"
   },
   {
     "id": "bakrianoo-aravec",
@@ -1176,7 +1176,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:40.670Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.314Z"
   },
   {
     "id": "linuxscout-arramooz",
@@ -1220,7 +1220,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:40.670Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.314Z"
   },
   {
     "id": "aliosm-arabic-text-diacritization",
@@ -1270,7 +1270,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:40.670Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.314Z"
   },
   {
     "id": "nainiayoub-moroccan-darija-datasets",
@@ -1315,7 +1315,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.074Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.715Z"
   },
   {
     "id": "aub-mind-arabic-empathetic-chatbot",
@@ -1349,7 +1349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.074Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.715Z"
   },
   {
     "id": "magedsaeed-farasapy",
@@ -1403,7 +1403,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.074Z"
+    "lastSyncedAt": "2026-09-16T21:26:04.715Z"
   },
   {
     "id": "linuxscout-tashaphyne",
@@ -1447,7 +1447,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.480Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.116Z"
   },
   {
     "id": "aliosm-shakkelha",
@@ -1496,7 +1496,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.480Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.116Z"
   },
   {
     "id": "qutuf-qutuf",
@@ -1558,7 +1558,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.480Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.116Z"
   },
   {
     "id": "mohabmes-arabycia",
@@ -1599,7 +1599,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.885Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.516Z"
   },
   {
     "id": "ahr-ocr2024-arabic-handwriting-recognition",
@@ -1636,7 +1636,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-16T21:23:41.885Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.516Z"
   },
   {
     "id": "camel-lab-arafix-ocr",
@@ -1681,7 +1681,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:41.885Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.516Z"
   },
   {
     "id": "manshar-manshar",
@@ -1726,7 +1726,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:42.290Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.917Z"
   },
   {
     "id": "arbml-qawafi",
@@ -1774,7 +1774,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:42.290Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.917Z"
   },
   {
     "id": "alifcommunity-alif5",
@@ -1817,7 +1817,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:42.290Z"
+    "lastSyncedAt": "2026-09-16T21:26:05.917Z"
   },
   {
     "id": "aliftype-qahiri",
@@ -1866,7 +1866,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:42.695Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.318Z"
   },
   {
     "id": "arbml-calliar",
@@ -1913,7 +1913,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:42.695Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.318Z"
   },
   {
     "id": "swivid-habibi-tts",
@@ -1957,7 +1957,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:42.695Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.318Z"
   },
   {
     "id": "linuxscout-qutrub",
@@ -2002,7 +2002,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.098Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.718Z"
   },
   {
     "id": "arbml-tnkeeh",
@@ -2048,7 +2048,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.098Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.718Z"
   },
   {
     "id": "nipponjo-tts-arabic-pytorch",
@@ -2105,7 +2105,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:43.098Z"
+    "lastSyncedAt": "2026-09-16T21:26:06.718Z"
   },
   {
     "id": "alisafaya-arabic-bert",
@@ -2153,7 +2153,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.505Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.119Z"
   },
   {
     "id": "yoosif0-arabic-tacotron-tts",
@@ -2194,7 +2194,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.505Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.119Z"
   },
   {
     "id": "linuxscout-festival-tts-arabic-voices",
@@ -2235,7 +2235,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.505Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.119Z"
   },
   {
     "id": "ubc-nlp-turjuman",
@@ -2295,7 +2295,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.911Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.520Z"
   },
   {
     "id": "camel-lab-camelbert",
@@ -2340,7 +2340,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.911Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.520Z"
   },
   {
     "id": "mbzuai-oryx-ain",
@@ -2390,7 +2390,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:43.911Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.520Z"
   },
   {
     "id": "sinalab-arabicner",
@@ -2431,7 +2431,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:44.314Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.920Z"
   },
   {
     "id": "mawdoo3-multi-dialect-arabic-bert",
@@ -2475,7 +2475,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:44.314Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.920Z"
   },
   {
     "id": "arbml-arbml",
@@ -2522,7 +2522,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:44.314Z"
+    "lastSyncedAt": "2026-09-16T21:26:07.920Z"
   },
   {
     "id": "arbml-ashaar",
@@ -2559,7 +2559,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:44.719Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.321Z"
   },
   {
     "id": "noorbayan-tanqeeh",
@@ -2597,7 +2597,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:44.719Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.321Z"
   },
   {
     "id": "bassem-i-arabic-english-subtitling",
@@ -2631,7 +2631,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:44.719Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.321Z"
   },
   {
     "id": "assem-ch-arabicstemmer",
@@ -2681,7 +2681,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:45.130Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.722Z"
   },
   {
     "id": "camel-lab-arabic-gec",
@@ -2734,7 +2734,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.130Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.722Z"
   },
   {
     "id": "camel-lab-camel-morph",
@@ -2775,7 +2775,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:45.130Z"
+    "lastSyncedAt": "2026-09-16T21:26:08.722Z"
   },
   {
     "id": "konash-arabic-support-unity",
@@ -2813,7 +2813,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.540Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.122Z"
   },
   {
     "id": "abjadai-catt",
@@ -2854,7 +2854,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.540Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.122Z"
   },
   {
     "id": "mush42-libtashkeel",
@@ -2901,7 +2901,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:45.540Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.122Z"
   },
   {
     "id": "kariminf-jslingua",
@@ -2966,7 +2966,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.524Z"
   },
   {
     "id": "otakar-smrz-elixir-fm",
@@ -3000,7 +3000,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.524Z"
   },
   {
     "id": "anwarvic-arabic-tashkeela-model",
@@ -3045,7 +3045,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:45.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.524Z"
   },
   {
     "id": "abdullahdiaa-garabic",
@@ -3099,7 +3099,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:46.353Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.925Z"
   },
   {
     "id": "aliftype-raqq",
@@ -3147,7 +3147,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:46.353Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.925Z"
   },
   {
     "id": "aliftype-rana-kufi",
@@ -3196,7 +3196,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:46.353Z"
+    "lastSyncedAt": "2026-09-16T21:26:09.925Z"
   },
   {
     "id": "aliftype-amiri-typewriter",
@@ -3244,7 +3244,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:46.758Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.325Z"
   },
   {
     "id": "emran-alhaddad-saudi-riyal-font",
@@ -3298,7 +3298,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:46.758Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.325Z"
   },
   {
     "id": "basshelal-wudooh",
@@ -3352,7 +3352,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:46.758Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.325Z"
   },
   {
     "id": "linuxscout-adawat",
@@ -3393,7 +3393,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.164Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.726Z"
   },
   {
     "id": "alsaydi-sarf",
@@ -3441,7 +3441,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.164Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.726Z"
   },
   {
     "id": "linuxscout-yaraspell",
@@ -3482,7 +3482,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.164Z"
+    "lastSyncedAt": "2026-09-16T21:26:10.726Z"
   },
   {
     "id": "motazsaad-comparable-text-miner",
@@ -3532,7 +3532,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.568Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.127Z"
   },
   {
     "id": "disooqi-arabicprocessingcog",
@@ -3581,7 +3581,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.568Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.127Z"
   },
   {
     "id": "omaralalwi-gpdf",
@@ -3647,7 +3647,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:47.568Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.127Z"
   },
   {
     "id": "simplyahmazing-noor",
@@ -3681,7 +3681,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.527Z"
   },
   {
     "id": "alifcommunity-alif",
@@ -3725,7 +3725,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:47.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.527Z"
   },
   {
     "id": "arbml-cidar",
@@ -3766,7 +3766,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:47.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.527Z"
   },
   {
     "id": "jamalamch-arabic-words-sentences",
@@ -3807,7 +3807,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:48.377Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.928Z"
   },
   {
     "id": "mbzuai-oryx-camel-bench",
@@ -3857,7 +3857,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:48.377Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.928Z"
   },
   {
     "id": "iabufarha-isarcasmeval",
@@ -3904,7 +3904,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:48.377Z"
+    "lastSyncedAt": "2026-09-16T21:26:11.928Z"
   },
   {
     "id": "wizsk-arabic-lexicons",
@@ -3952,7 +3952,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:48.779Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.329Z"
   },
   {
     "id": "ubc-nlp-peacock",
@@ -3984,7 +3984,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:48.780Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.329Z"
   },
   {
     "id": "huzaifa-x-whisper-small-openai-finetuned-on-arabic-language",
@@ -4022,7 +4022,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:48.780Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.329Z"
   },
   {
     "id": "runehol-kindlearadict",
@@ -4060,7 +4060,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:49.189Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.729Z"
   },
   {
     "id": "arbml-bayanat",
@@ -4107,7 +4107,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:49.189Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.729Z"
   },
   {
     "id": "mbzuai-oryx-kitab-bench",
@@ -4158,7 +4158,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:49.189Z"
+    "lastSyncedAt": "2026-09-16T21:26:12.729Z"
   },
   {
     "id": "mbzuai-oryx-bimedix2",
@@ -4202,7 +4202,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:49.595Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.130Z"
   },
   {
     "id": "h9-tec-manazir-ocr",
@@ -4240,7 +4240,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:49.595Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.130Z"
   },
   {
     "id": "kareem-emad-arabic-ocr",
@@ -4285,7 +4285,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:49.595Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.130Z"
   },
   {
     "id": "misraj-ai-qalam",
@@ -4326,7 +4326,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:49.997Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.531Z"
   },
   {
     "id": "nguptahq-arabic-handwritten-text-image-recognition",
@@ -4369,7 +4369,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:49.997Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.531Z"
   },
   {
     "id": "muzammilpervaiz-arabic-handwritten-ocr",
@@ -4401,7 +4401,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:49.997Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.531Z"
   },
   {
     "id": "mohamedwael-basicarabicocr",
@@ -4447,7 +4447,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.401Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.931Z"
   },
   {
     "id": "jordanopensource-arabic-ocr-studygroup",
@@ -4488,7 +4488,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.401Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.931Z"
   },
   {
     "id": "zaakki-ahamed-arabic-ocr-from-pdf",
@@ -4530,7 +4530,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.401Z"
+    "lastSyncedAt": "2026-09-16T21:26:13.931Z"
   },
   {
     "id": "hedrax-invizo-ocr",
@@ -4585,7 +4585,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.332Z"
   },
   {
     "id": "omarsamirz-arabic-ocr-tesseract",
@@ -4638,7 +4638,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.332Z"
   },
   {
     "id": "mohamedbassel24-ocr-for-arabic-scripts",
@@ -4675,7 +4675,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:50.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.332Z"
   },
   {
     "id": "yayaiu6-trocr-arabic",
@@ -4716,7 +4716,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:51.208Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.733Z"
   },
   {
     "id": "kabikaj-jabalin",
@@ -4757,7 +4757,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:51.208Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.733Z"
   },
   {
     "id": "linuxscout-festival-arabic",
@@ -4798,7 +4798,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:51.208Z"
+    "lastSyncedAt": "2026-09-16T21:26:14.733Z"
   },
   {
     "id": "rn0x-farraghli",
@@ -4852,7 +4852,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:51.611Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.133Z"
   },
   {
     "id": "mdanok-arajs",
@@ -4899,7 +4899,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:51.611Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.133Z"
   },
   {
     "id": "rabraghib-darijascript",
@@ -4943,7 +4943,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:51.611Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.133Z"
   },
   {
     "id": "01walid-goarabic",
@@ -4992,7 +4992,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.014Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.534Z"
   },
   {
     "id": "nuqayah-kitab-font",
@@ -5035,7 +5035,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.014Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.534Z"
   },
   {
     "id": "louy-javascript-arabic-reshaper",
@@ -5079,7 +5079,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.014Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.534Z"
   },
   {
     "id": "aliftype-anti",
@@ -5127,7 +5127,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:23:52.418Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.935Z"
   },
   {
     "id": "aliftype-astrolabe",
@@ -5176,7 +5176,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:52.418Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.935Z"
   },
   {
     "id": "linuxscout-yarob",
@@ -5217,7 +5217,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.418Z"
+    "lastSyncedAt": "2026-09-16T21:26:15.935Z"
   },
   {
     "id": "linuxscout-ghalatawi",
@@ -5261,7 +5261,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.824Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.335Z"
   },
   {
     "id": "linuxscout-fareh",
@@ -5302,7 +5302,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.824Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.335Z"
   },
   {
     "id": "yalang-ya",
@@ -5347,7 +5347,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:52.824Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.335Z"
   },
   {
     "id": "albari54-alif",
@@ -5387,7 +5387,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:53.226Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.736Z"
   },
   {
     "id": "linuxscout-mishtar",
@@ -5435,7 +5435,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:53.226Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.736Z"
   },
   {
     "id": "msarhan-lucene-arabic-analyzer",
@@ -5478,7 +5478,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:53.226Z"
+    "lastSyncedAt": "2026-09-16T21:26:16.736Z"
   },
   {
     "id": "ejtaal-jsastem",
@@ -5515,7 +5515,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:53.631Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.136Z"
   },
   {
     "id": "seen-arabic-services",
@@ -5568,7 +5568,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:53.631Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.136Z"
   },
   {
     "id": "hamza5-multilevel-diacritizer",
@@ -5611,7 +5611,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:53.631Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.136Z"
   },
   {
     "id": "motazsaad-khoja-stemmer",
@@ -5660,7 +5660,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.037Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.537Z"
   },
   {
     "id": "motazsaad-arabic-light-stemmer",
@@ -5709,7 +5709,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.037Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.537Z"
   },
   {
     "id": "omar-al-sharif-meshakkelaty",
@@ -5746,7 +5746,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.037Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.537Z"
   },
   {
     "id": "nipponjo-arabic-vocalization",
@@ -5792,7 +5792,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.444Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.938Z"
   },
   {
     "id": "troboto-maha",
@@ -5841,7 +5841,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:54.444Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.938Z"
   },
   {
     "id": "husseinmozannar-soqal",
@@ -5891,7 +5891,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.444Z"
+    "lastSyncedAt": "2026-09-16T21:26:17.938Z"
   },
   {
     "id": "motazsaad-process-arabic-text",
@@ -5936,7 +5936,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.851Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.338Z"
   },
   {
     "id": "iamaziz-ar-embeddings",
@@ -5986,7 +5986,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.851Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.338Z"
   },
   {
     "id": "saidziani-arabic-news-classification",
@@ -6032,7 +6032,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:54.851Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.338Z"
   },
   {
     "id": "adhaamehab-textblob-ar",
@@ -6086,7 +6086,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-16T21:23:55.253Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.739Z"
   },
   {
     "id": "mbzuai-oryx-arb",
@@ -6133,7 +6133,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:55.253Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.739Z"
   },
   {
     "id": "qcri-arabic-speech-code-switching",
@@ -6183,7 +6183,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:55.253Z"
+    "lastSyncedAt": "2026-09-16T21:26:18.739Z"
   },
   {
     "id": "linuxscout-arramooz-pysqlite",
@@ -6224,7 +6224,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:55.660Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.140Z"
   },
   {
     "id": "camel-lab-arabic-frequency-lists",
@@ -6267,7 +6267,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:55.660Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.140Z"
   },
   {
     "id": "ubc-nlp-ara-emotion",
@@ -6312,7 +6312,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:55.660Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.140Z"
   },
   {
     "id": "ojuba-org-arabic-ml-data",
@@ -6349,7 +6349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.062Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.540Z"
   },
   {
     "id": "ubc-nlp-orca",
@@ -6390,7 +6390,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.062Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.540Z"
   },
   {
     "id": "linuxscout-aghlat",
@@ -6431,7 +6431,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.062Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.540Z"
   },
   {
     "id": "alhazen-arabic-ocr",
@@ -6467,7 +6467,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.465Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.941Z"
   },
   {
     "id": "openiti-arabic-script-ocr-models",
@@ -6502,7 +6502,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.465Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.941Z"
   },
   {
     "id": "arabic-pdf-chat",
@@ -6553,7 +6553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.465Z"
+    "lastSyncedAt": "2026-09-16T21:26:19.941Z"
   },
   {
     "id": "craneset-arabic-ocr-data",
@@ -6601,7 +6601,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:56.869Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.341Z"
   },
   {
     "id": "glass-hud-arabic-translator",
@@ -6660,7 +6660,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:56.869Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.342Z"
   },
   {
     "id": "mirza-arabic-font",
@@ -6700,7 +6700,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:56.869Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.342Z"
   },
   {
     "id": "sahl-naskh-font",
@@ -6739,7 +6739,7 @@
       "topics": []
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-16T21:23:57.276Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.742Z"
   },
   {
     "id": "midad-arabic-ereader",
@@ -6791,7 +6791,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:57.276Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.742Z"
   },
   {
     "id": "scheherazade-new-font",
@@ -6834,7 +6834,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:57.276Z"
+    "lastSyncedAt": "2026-09-16T21:26:20.742Z"
   },
   {
     "id": "huruf-arabic-extension",
@@ -6874,7 +6874,7 @@
       ]
     },
     "activityStatus": "archived",
-    "lastSyncedAt": "2026-09-16T21:23:57.684Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.143Z"
   },
   {
     "id": "raqim-kashida-library",
@@ -6920,7 +6920,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:23:57.684Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.143Z"
   },
   {
     "id": "qutrubi-mobile-app",
@@ -6960,7 +6960,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:57.684Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.143Z"
   },
   {
     "id": "tebyan-text-reshaper",
@@ -6999,7 +6999,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.094Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.543Z"
   },
   {
     "id": "arqamar-js",
@@ -7046,7 +7046,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.094Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.543Z"
   },
   {
     "id": "narabicwords-converter",
@@ -7093,7 +7093,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.094Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.543Z"
   },
   {
     "id": "tafqit-arabic-currency",
@@ -7133,7 +7133,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.499Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.944Z"
   },
   {
     "id": "arabic-ala-lc-romanization",
@@ -7172,7 +7172,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.499Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.944Z"
   },
   {
     "id": "aranizer-arabic-tokenizer",
@@ -7212,7 +7212,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.499Z"
+    "lastSyncedAt": "2026-09-16T21:26:21.944Z"
   },
   {
     "id": "shellshal-arabic-cli-scripts",
@@ -7252,7 +7252,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.901Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.345Z"
   },
   {
     "id": "garga-arabic-programming-language",
@@ -7300,7 +7300,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.901Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.345Z"
   },
   {
     "id": "arwiki-dump-parser",
@@ -7340,7 +7340,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:58.901Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.345Z"
   },
   {
     "id": "pipeline-diacritizer",
@@ -7386,7 +7386,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.303Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.745Z"
   },
   {
     "id": "deep-diacritization-arabic",
@@ -7433,7 +7433,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.303Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.745Z"
   },
   {
     "id": "tashkeel-remover-regex",
@@ -7469,7 +7469,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.303Z"
+    "lastSyncedAt": "2026-09-16T21:26:22.745Z"
   },
   {
     "id": "lingz-arabic-linguistic-tools",
@@ -7505,7 +7505,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.708Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.146Z"
   },
   {
     "id": "arabic-light-stemming-python",
@@ -7553,7 +7553,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.708Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.146Z"
   },
   {
     "id": "tashkeela2-corpus",
@@ -7592,7 +7592,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:23:59.708Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.146Z"
   },
   {
     "id": "miknaaz-morphology-corpus",
@@ -7632,7 +7632,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.115Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.547Z"
   },
   {
     "id": "arabic-vocalizer-onnx",
@@ -7682,7 +7682,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.115Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.547Z"
   },
   {
     "id": "qatara-qcri-tools",
@@ -7718,7 +7718,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.115Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.547Z"
   },
   {
     "id": "dialectal-arabic-segmenter-qcri",
@@ -7758,7 +7758,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.522Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.947Z"
   },
   {
     "id": "dialectid-e2e-audio",
@@ -7812,7 +7812,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.522Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.947Z"
   },
   {
     "id": "arabic-sentiment-analysis-tweets",
@@ -7857,7 +7857,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:00.522Z"
+    "lastSyncedAt": "2026-09-16T21:26:23.947Z"
   },
   {
     "id": "arabic-handwritten-recognition-dl",
@@ -7905,7 +7905,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.922Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.348Z"
   },
   {
     "id": "arabica-text-mining",
@@ -7949,7 +7949,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.922Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.348Z"
   },
   {
     "id": "arabic-ner-anercorp",
@@ -7990,7 +7990,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:00.922Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.348Z"
   },
   {
     "id": "hatmimoha-arabic-ner",
@@ -8030,7 +8030,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:01.328Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.749Z"
   },
   {
     "id": "anwarvic-arabic-speech-recognition",
@@ -8080,7 +8080,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:01.328Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.749Z"
   },
   {
     "id": "qwencleo-egyptian-asr",
@@ -8140,7 +8140,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:01.328Z"
+    "lastSyncedAt": "2026-09-16T21:26:24.749Z"
   },
   {
     "id": "arabic-phonetic-dictionary-generator",
@@ -8185,7 +8185,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:01.731Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.149Z"
   },
   {
     "id": "arz-callhome-corpus",
@@ -8225,7 +8225,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:01.731Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.149Z"
   },
   {
     "id": "arabic-hatespeech-dataset",
@@ -8270,7 +8270,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:01.731Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.149Z"
   },
   {
     "id": "alexandria-dialectal-dataset",
@@ -8313,7 +8313,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:02.138Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.550Z"
   },
   {
     "id": "pearl-multimodal-arabic-dataset",
@@ -8349,7 +8349,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.138Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.550Z"
   },
   {
     "id": "rightnow-arabic-llm-corpus",
@@ -8394,7 +8394,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.138Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.550Z"
   },
   {
     "id": "baved-arabic-vocal-emotions",
@@ -8429,7 +8429,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.544Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.951Z"
   },
   {
     "id": "iraqi-dialect-tts-corpus",
@@ -8473,7 +8473,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.544Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.951Z"
   },
   {
     "id": "classical-arabic-ner-corpus",
@@ -8512,7 +8512,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.544Z"
+    "lastSyncedAt": "2026-09-16T21:26:25.951Z"
   },
   {
     "id": "nakhlah-js-arabic-learning",
@@ -8568,7 +8568,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.351Z"
   },
   {
     "id": "arabic-neural-root-finder",
@@ -8608,7 +8608,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.351Z"
   },
   {
     "id": "large-arabic-sentiment-resources",
@@ -8644,7 +8644,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:02.949Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.351Z"
   },
   {
     "id": "moment-hijri-plugin",
@@ -8695,7 +8695,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:03.357Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.752Z"
   },
   {
     "id": "libraqm-text-layout",
@@ -8739,7 +8739,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:03.357Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.752Z"
   },
   {
     "id": "fuzzy-arabic-dictionary",
@@ -8775,7 +8775,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:03.357Z"
+    "lastSyncedAt": "2026-09-16T21:26:26.752Z"
   },
   {
     "id": "semantic-frontiers-arabicnlp",
@@ -8811,7 +8811,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:03.759Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.153Z"
   },
   {
     "id": "php-number-to-arabic-words",
@@ -8852,7 +8852,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:03.759Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.153Z"
   },
   {
     "id": "arabic-string-helper-js",
@@ -8888,7 +8888,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:03.759Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.153Z"
   },
   {
     "id": "ara-terminal-display-tool",
@@ -8936,7 +8936,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:04.160Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.553Z"
   },
   {
     "id": "labr-arabic-book-reviews-dataset",
@@ -8976,7 +8976,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.161Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.553Z"
   },
   {
     "id": "oktob-js-arabizi-transliteration",
@@ -9016,7 +9016,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.161Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.553Z"
   },
   {
     "id": "arabic-datetime-laravel",
@@ -9066,7 +9066,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.566Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.954Z"
   },
   {
     "id": "arabish-phonetic-transliteration",
@@ -9102,7 +9102,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.566Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.954Z"
   },
   {
     "id": "arabterm-technical-dictionary",
@@ -9147,7 +9147,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:04.566Z"
+    "lastSyncedAt": "2026-09-16T21:26:27.954Z"
   },
   {
     "id": "nibras-technical-lexicon",
@@ -9183,7 +9183,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.354Z"
   },
   {
     "id": "tafgeetjs-currency-words",
@@ -9223,7 +9223,7 @@
       "topics": []
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:04.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.354Z"
   },
   {
     "id": "alexrutherford-arabic-social-nlp",
@@ -9263,7 +9263,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:04.973Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.354Z"
   },
   {
     "id": "arabic-verb-form-conjugator",
@@ -9303,7 +9303,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.379Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.755Z"
   },
   {
     "id": "dalwadani-hijri-converter",
@@ -9346,7 +9346,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.379Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.755Z"
   },
   {
     "id": "devjustly-english-arabic-dictionary",
@@ -9382,7 +9382,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.379Z"
+    "lastSyncedAt": "2026-09-16T21:26:28.755Z"
   },
   {
     "id": "pyarabicshaping-bindings",
@@ -9422,7 +9422,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.782Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.156Z"
   },
   {
     "id": "arabic-webfonts-wordpress",
@@ -9465,7 +9465,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.782Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.156Z"
   },
   {
     "id": "arabic-number-to-word-qt",
@@ -9501,7 +9501,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:05.782Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.156Z"
   },
   {
     "id": "aln9-arabic-markup-language",
@@ -9537,7 +9537,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.185Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.556Z"
   },
   {
     "id": "nlp-arabic-ruby-gem",
@@ -9573,7 +9573,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.185Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.556Z"
   },
   {
     "id": "arabic-utils-npm",
@@ -9625,7 +9625,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.185Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.556Z"
   },
   {
     "id": "fahm-arabic-learning-extension",
@@ -9668,7 +9668,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.590Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.957Z"
   },
   {
     "id": "arabic-coco-captions-dataset",
@@ -9716,7 +9716,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.590Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.957Z"
   },
   {
     "id": "darija-open-dataset",
@@ -9761,7 +9761,7 @@
       ]
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:06.590Z"
+    "lastSyncedAt": "2026-09-16T21:26:29.957Z"
   },
   {
     "id": "noorbayan-nazm-poetry-system",
@@ -9796,7 +9796,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.993Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.358Z"
   },
   {
     "id": "lfi3a-programming-language",
@@ -9832,7 +9832,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:06.993Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.358Z"
   },
   {
     "id": "mtg-arabic-transliterator",
@@ -9868,7 +9868,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:06.993Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.358Z"
   },
   {
     "id": "linuxscout-alyahmor-morphology",
@@ -9912,7 +9912,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:07.398Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.758Z"
   },
   {
     "id": "silma-arabic-tts-system",
@@ -9954,7 +9954,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:07.398Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.758Z"
   },
   {
     "id": "sard-arabic-reader",
@@ -10018,7 +10018,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:07.398Z"
+    "lastSyncedAt": "2026-09-16T21:26:30.758Z"
   },
   {
     "id": "arabic-letter-connector-tool",
@@ -10058,7 +10058,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:07.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.159Z"
   },
   {
     "id": "tareq-alomari-arabic-compiler",
@@ -10098,7 +10098,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:07.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.159Z"
   },
   {
     "id": "voicetut-egyptian-tts",
@@ -10156,7 +10156,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:07.803Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.159Z"
   },
   {
     "id": "franco-arabic-transliterator-pkg",
@@ -10202,7 +10202,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:08.211Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.559Z"
   },
   {
     "id": "kenton-murray-buckwalter",
@@ -10238,7 +10238,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:08.211Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.560Z"
   },
   {
     "id": "sudanese-arabic-llm-project",
@@ -10285,7 +10285,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:08.211Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.560Z"
   },
   {
     "id": "bodmagh-darija-dataset",
@@ -10332,7 +10332,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:08.615Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.960Z"
   },
   {
     "id": "seen-language-sdk",
@@ -10385,7 +10385,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:08.615Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.960Z"
   },
   {
     "id": "arabic-offensive-social-dataset",
@@ -10425,7 +10425,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:08.615Z"
+    "lastSyncedAt": "2026-09-16T21:26:31.960Z"
   },
   {
     "id": "elokab-arabic-terminal",
@@ -10473,7 +10473,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.017Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.361Z"
   },
   {
     "id": "almodhfer-arabic-diacritization",
@@ -10517,7 +10517,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.017Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.361Z"
   },
   {
     "id": "arabic-without-dots-keyboard",
@@ -10552,7 +10552,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.017Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.361Z"
   },
   {
     "id": "bio-colab-arafix",
@@ -10601,7 +10601,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:09.422Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.761Z"
   },
   {
     "id": "ubc-nlp-aoc-dialect-id",
@@ -10637,7 +10637,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.422Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.761Z"
   },
   {
     "id": "boknilev-seq2seq-diacritization",
@@ -10677,7 +10677,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.422Z"
+    "lastSyncedAt": "2026-09-16T21:26:32.761Z"
   },
   {
     "id": "ubc-nlp-octopus-nlg",
@@ -10726,7 +10726,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.828Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.162Z"
   },
   {
     "id": "owo-madamira-diac-cli",
@@ -10766,7 +10766,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:09.828Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.162Z"
   },
   {
     "id": "muhammad-abdelsattar-arabic-diacritizer",
@@ -10806,7 +10806,7 @@
       "topics": []
     },
     "activityStatus": "maintained",
-    "lastSyncedAt": "2026-09-16T21:24:09.828Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.162Z"
   },
   {
     "id": "amrnn90-arabic-stemmer-js",
@@ -10842,7 +10842,7 @@
       "topics": []
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:10.229Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.562Z"
   },
   {
     "id": "motazsaad-arwiki-extracts",
@@ -10894,7 +10894,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:10.229Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.562Z"
   },
   {
     "id": "motazsaad-arabic-news-dataset",
@@ -10940,7 +10940,7 @@
       ]
     },
     "activityStatus": "inactive",
-    "lastSyncedAt": "2026-09-16T21:24:10.229Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.562Z"
   },
   {
     "id": "nipponjo-tts-arabic-onnx",
@@ -10993,7 +10993,7 @@
       ]
     },
     "activityStatus": "active",
-    "lastSyncedAt": "2026-09-16T21:24:10.637Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.963Z"
   },
   {
     "id": "qalb-lang",
@@ -11032,7 +11032,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:12.152Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.963Z"
   },
   {
     "id": "cairo-font",
@@ -11074,7 +11074,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:12.190Z"
+    "lastSyncedAt": "2026-09-16T21:26:33.963Z"
   },
   {
     "id": "kawkab-mono",
@@ -11115,7 +11115,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:13.506Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.364Z"
   },
   {
     "id": "markdown-arabic",
@@ -11156,7 +11156,7 @@
         "rtl"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:13.447Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.364Z"
   },
   {
     "id": "arabic-poem-generator",
@@ -11195,7 +11195,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:13.870Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.364Z"
   },
   {
     "id": "mr-dictionaries",
@@ -11230,7 +11230,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:15.143Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.764Z"
   },
   {
     "id": "softvenue-i18n",
@@ -11278,7 +11278,7 @@
         "translation"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:15.132Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.764Z"
   },
   {
     "id": "arabi-js",
@@ -11316,7 +11316,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:15.221Z"
+    "lastSyncedAt": "2026-09-16T21:26:34.764Z"
   },
   {
     "id": "aosus-dictionary",
@@ -11359,7 +11359,7 @@
         "translation"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:16.524Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.165Z"
   },
   {
     "id": "mujallad",
@@ -11398,7 +11398,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:16.429Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.165Z"
   },
   {
     "id": "arabicner-lucasliu",
@@ -11444,7 +11444,7 @@
         "sequence-labeling"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:16.482Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.165Z"
   },
   {
     "id": "hard-arabic-dataset",
@@ -11478,7 +11478,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:17.817Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.566Z"
   },
   {
     "id": "thawab",
@@ -11516,7 +11516,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:17.833Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.566Z"
   },
   {
     "id": "festival-tts-arabic-voices",
@@ -11551,7 +11551,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:17.774Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.566Z"
   },
   {
     "id": "arabic-mathjax",
@@ -11600,7 +11600,7 @@
         "web"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:19.112Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.966Z"
   },
   {
     "id": "arabic-ner-azzam",
@@ -11635,7 +11635,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:19.067Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.966Z"
   },
   {
     "id": "atkspy",
@@ -11689,7 +11689,7 @@
         "soap-web-services"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:19.114Z"
+    "lastSyncedAt": "2026-09-16T21:26:35.966Z"
   },
   {
     "id": "arabic-word-embeddings-word2vec",
@@ -11732,7 +11732,7 @@
         "word2vec"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:20.578Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.367Z"
   },
   {
     "id": "asrajeh-arabic-tts",
@@ -11775,7 +11775,7 @@
         "tts"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:20.403Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.367Z"
   },
   {
     "id": "arabic-hatespeech-dataset-1",
@@ -11809,7 +11809,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:20.397Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.367Z"
   },
   {
     "id": "osman-readability",
@@ -11847,7 +11847,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:21.948Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.768Z"
   },
   {
     "id": "arabic-handwriting-matlab",
@@ -11882,7 +11882,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:21.917Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.768Z"
   },
   {
     "id": "laravel-arabic-numbers-middleware",
@@ -11931,7 +11931,7 @@
         "numbers"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:21.782Z"
+    "lastSyncedAt": "2026-09-16T21:26:36.768Z"
   },
   {
     "id": "l-hsab-levantine-dataset",
@@ -11965,7 +11965,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:23.217Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.168Z"
   },
   {
     "id": "labiba-lang",
@@ -12003,7 +12003,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:23.246Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.168Z"
   },
   {
     "id": "arabic-font-detector",
@@ -12042,7 +12042,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:23.189Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.168Z"
   },
   {
     "id": "arabizi-transliteration",
@@ -12077,7 +12077,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:24.594Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.569Z"
   },
   {
     "id": "covid-fakes-dataset",
@@ -12111,7 +12111,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:24.463Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.569Z"
   },
   {
     "id": "ud-arabic-padt",
@@ -12149,7 +12149,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:24.528Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.569Z"
   },
   {
     "id": "qcri-dialectal-resources",
@@ -12184,7 +12184,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:25.878Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.969Z"
   },
   {
     "id": "nileulex-sentiment-lexicon",
@@ -12218,7 +12218,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:25.871Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.969Z"
   },
   {
     "id": "arabic-virtual-keyboard",
@@ -12255,7 +12255,7 @@
         "arabic"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:25.837Z"
+    "lastSyncedAt": "2026-09-16T21:26:37.969Z"
   },
   {
     "id": "arabic-tech-terminology",
@@ -12290,7 +12290,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:27.118Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.370Z"
   },
   {
     "id": "brad-arabic-dataset",
@@ -12324,7 +12324,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:27.174Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.370Z"
   },
   {
     "id": "kalimat-lang",
@@ -12363,7 +12363,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:27.213Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.370Z"
   },
   {
     "id": "ammoria-lang",
@@ -12398,7 +12398,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:28.603Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.771Z"
   },
   {
     "id": "ajgt-arabic-twitter-corpus",
@@ -12436,7 +12436,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:28.395Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.771Z"
   },
   {
     "id": "tead-emotion-dataset",
@@ -12474,7 +12474,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:28.443Z"
+    "lastSyncedAt": "2026-09-16T21:26:38.771Z"
   },
   {
     "id": "arabic-verbnet",
@@ -12508,7 +12508,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:29.851Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.171Z"
   },
   {
     "id": "circular-arabic",
@@ -12551,7 +12551,7 @@
         "canvas-element"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:29.783Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.171Z"
   },
   {
     "id": "nimra-font",
@@ -12596,7 +12596,7 @@
         "typeface"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:29.792Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.171Z"
   },
   {
     "id": "aracon-verb-conjugator",
@@ -12631,7 +12631,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:31.109Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.572Z"
   },
   {
     "id": "masc-sentiment-corpus",
@@ -12665,7 +12665,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:31.094Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.572Z"
   },
   {
     "id": "arabic-satirical-news-dataset",
@@ -12700,7 +12700,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:31.124Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.572Z"
   },
   {
     "id": "vscode-arabic-rtl",
@@ -12739,7 +12739,7 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:32.395Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.972Z"
   },
   {
     "id": "aqad-arabic-qa-dataset",
@@ -12777,7 +12777,7 @@
         "question-answering"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:32.355Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.972Z"
   },
   {
     "id": "kawarith-crisis-dataset",
@@ -12821,7 +12821,7 @@
         "tweet-ids"
       ]
     },
-    "lastSyncedAt": "2026-09-16T21:24:32.325Z"
+    "lastSyncedAt": "2026-09-16T21:26:39.973Z"
   },
   {
     "id": "adam-morphology",
@@ -12860,6 +12860,6 @@
       "isArchived": false,
       "topics": []
     },
-    "lastSyncedAt": "2026-09-16T21:24:33.674Z"
+    "lastSyncedAt": "2026-09-16T21:26:40.373Z"
   }
 ]
