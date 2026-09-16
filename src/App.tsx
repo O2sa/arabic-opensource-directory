@@ -40,7 +40,7 @@ export const App: React.FC = () => {
       <main style={{ flex: 1, width: '100%', maxWidth: '100%' }}>
         <Hero stats={stats} repoUrl={SITE_CONFIG.repoUrl} />
 
-        <section className="container" style={{ paddingBottom: '3rem', width: '100%', maxWidth: '100%' }}>
+        <section className="container projects-container" style={{ paddingBottom: '3.5rem' }}>
           <SearchAndFilters
             categories={categories}
             filters={filters}

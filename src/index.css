@@ -180,22 +180,6 @@ a {
   text-decoration: none;
 }
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-::-webkit-scrollbar-track {
-  background: var(--bg-primary);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--border-hover);
-  border-radius: var(--radius-full);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-primary);
-}
-
 /* Utility Containers */
 .container {
   width: 100%;
@@ -204,6 +188,10 @@ a {
   margin-right: auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.projects-container {
+  max-width: 1180px;
 }
 
 @media (max-width: 640px) {
