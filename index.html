@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ض</text></svg>" />
@@ -16,7 +16,7 @@
       html {
         color-scheme: dark light;
       }
-      html[data-theme="dark"] {
+      html, html[data-theme="dark"] {
         background-color: #0b0f19;
         color: #f8fafc;
       }
@@ -29,15 +29,11 @@
       (function() {
         try {
           var saved = localStorage.getItem('ar_dir_theme');
-          var theme;
-          if (saved === 'dark' || saved === 'light') {
-            theme = saved;
-          } else if (window.matchMedia) {
-            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          if (saved === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
           } else {
-            theme = 'dark';
+            document.documentElement.setAttribute('data-theme', 'dark');
           }
-          document.documentElement.setAttribute('data-theme', theme);
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'dark');
         }
