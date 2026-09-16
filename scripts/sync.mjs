@@ -118,13 +118,21 @@ async function sync() {
   const enrichedProjects = [];
   const concurrency = 3;
 
+  const isForce = process.argv.includes('--force') || process.env.SYNC_FORCE === 'true';
+
   for (let i = 0; i < curatedProjects.length; i += concurrency) {
     const batch = curatedProjects.slice(i, i + concurrency);
     const results = await Promise.all(
       batch.map(async (project) => {
-        console.log(`  -> Fetching [${project.id}] (${project.repo})...`);
-        const github = await fetchRepoData(project.repo);
         const cached = existingCache.get(project.repo.toLowerCase());
+        let github = null;
+
+        if (!isForce && cached?.github) {
+          github = cached.github;
+        } else {
+          console.log(`  -> Fetching [${project.id}] (${project.repo})...`);
+          github = await fetchRepoData(project.repo);
+        }
 
         let finalGithub = github;
         if (!finalGithub && cached?.github) {
