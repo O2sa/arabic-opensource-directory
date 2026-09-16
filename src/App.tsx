@@ -20,6 +20,7 @@ export const App: React.FC = () => {
     availableLanguages,
     setSearch,
     setCategory,
+    toggleCategory,
     setLanguage,
     setStatus,
     setSortBy,
@@ -48,6 +49,7 @@ export const App: React.FC = () => {
             totalFiltered={projects.length}
             onSearchChange={setSearch}
             onCategoryChange={setCategory}
+            onToggleCategory={toggleCategory}
             onLanguageChange={setLanguage}
             onStatusChange={setStatus}
             onSortChange={setSortBy}

@@ -36,6 +36,7 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
   // Filter & search states
   const [filters, setFilters] = useState<FilterState>({
     search: '',
+    categories: [],
     category: 'all',
     language: 'all',
     status: 'all',
@@ -122,8 +123,12 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
 
     return allProjects
       .filter(project => {
-        // 1. Category filter
-        if (filters.category !== 'all' && project.category !== filters.category) {
+        // 1. Category filter (UNION / OR logic across all selected categories)
+        const activeCategories = filters.categories && filters.categories.length > 0
+          ? filters.categories
+          : (filters.category && filters.category !== 'all' ? [filters.category] : []);
+
+        if (activeCategories.length > 0 && !activeCategories.includes(project.category)) {
           return false;
         }
 
@@ -173,7 +178,44 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
 
   // Filter mutators
   const setSearch = (search: string) => setFilters(prev => ({ ...prev, search }));
-  const setCategory = (category: string) => setFilters(prev => ({ ...prev, category }));
+
+  const toggleCategory = (categoryId: string) => {
+    if (categoryId === 'all') {
+      setFilters(prev => ({ ...prev, categories: [], category: 'all' }));
+      return;
+    }
+
+    setFilters(prev => {
+      const currentCats = prev.categories || (prev.category && prev.category !== 'all' ? [prev.category] : []);
+      const exists = currentCats.includes(categoryId);
+      const updated = exists
+        ? currentCats.filter(id => id !== categoryId)
+        : [...currentCats, categoryId];
+
+      return {
+        ...prev,
+        categories: updated,
+        category: updated.length === 1 ? updated[0] : (updated.length === 0 ? 'all' : updated.join(',')),
+      };
+    });
+  };
+
+  const setCategories = (categories: string[]) => {
+    setFilters(prev => ({
+      ...prev,
+      categories,
+      category: categories.length === 1 ? categories[0] : (categories.length === 0 ? 'all' : categories.join(',')),
+    }));
+  };
+
+  const setCategory = (category: string) => {
+    if (category === 'all' || !category) {
+      setFilters(prev => ({ ...prev, categories: [], category: 'all' }));
+    } else {
+      setFilters(prev => ({ ...prev, categories: [category], category }));
+    }
+  };
+
   const setLanguage = (language: string) => setFilters(prev => ({ ...prev, language }));
   const setStatus = (status: FilterState['status']) => setFilters(prev => ({ ...prev, status }));
   const setSortBy = (sortBy: SortOption) => setFilters(prev => ({ ...prev, sortBy }));
@@ -181,6 +223,7 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
   const resetFilters = () => {
     setFilters({
       search: '',
+      categories: [],
       category: 'all',
       language: 'all',
       status: 'all',
@@ -200,6 +243,8 @@ export function useProjects(locale: 'ar' | 'en' = 'ar') {
     availableLanguages,
     setSearch,
     setCategory,
+    setCategories,
+    toggleCategory,
     setLanguage,
     setStatus,
     setSortBy,

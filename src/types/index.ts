@@ -62,7 +62,8 @@ export type SortOption = 'stars' | 'updated' | 'name';
 
 export interface FilterState {
   search: string;
-  category: string; // 'all' or category id
+  categories: string[]; // empty array means all categories
+  category?: string; // kept for backward compatibility
   language: string; // 'all' or specific programming language
   status: 'all' | 'active' | 'maintained' | 'archived';
   sortBy: SortOption;

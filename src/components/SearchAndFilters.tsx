@@ -4,6 +4,7 @@ import { Category, FilterState, SortOption } from '../types';
 import {
   Search,
   X,
+  Check,
   Cpu,
   Type,
   PenTool,
@@ -26,6 +27,7 @@ interface SearchAndFiltersProps {
   totalFiltered: number;
   onSearchChange: (query: string) => void;
   onCategoryChange: (categoryId: string) => void;
+  onToggleCategory?: (categoryId: string) => void;
   onLanguageChange: (language: string) => void;
   onStatusChange: (status: FilterState['status']) => void;
   onSortChange: (sortBy: SortOption) => void;
@@ -51,6 +53,7 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
   totalFiltered,
   onSearchChange,
   onCategoryChange,
+  onToggleCategory,
   onLanguageChange,
   onStatusChange,
   onSortChange,
@@ -58,9 +61,22 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
 }) => {
   const { lang, t } = useLanguage();
 
+  const handleCategoryClick = (categoryId: string) => {
+    if (onToggleCategory) {
+      onToggleCategory(categoryId);
+    } else {
+      onCategoryChange(categoryId);
+    }
+  };
+
+  const selectedCategories = filters.categories && filters.categories.length > 0
+    ? filters.categories
+    : (filters.category && filters.category !== 'all' ? [filters.category] : []);
+  const isAllSelected = selectedCategories.length === 0;
+
   const isFiltered =
     Boolean(filters.search) ||
-    filters.category !== 'all' ||
+    selectedCategories.length > 0 ||
     filters.language !== 'all' ||
     filters.status !== 'all' ||
     filters.sortBy !== 'stars';
@@ -122,7 +138,8 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
       <div className="category-scroll-bar">
         {/* 'All' category pill */}
         <button
-          onClick={() => onCategoryChange('all')}
+          onClick={() => handleCategoryClick('all')}
+          aria-pressed={isAllSelected}
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -136,19 +153,20 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
             border: '1px solid',
             whiteSpace: 'nowrap',
             transition: 'all var(--transition-fast)',
-            borderColor: filters.category === 'all' ? 'var(--accent-primary)' : 'var(--border-subtle)',
-            background: filters.category === 'all' ? 'var(--accent-primary)' : 'var(--bg-secondary)',
-            color: filters.category === 'all' ? '#ffffff' : 'var(--text-secondary)',
+            borderColor: isAllSelected ? 'var(--accent-primary)' : 'var(--border-subtle)',
+            background: isAllSelected ? 'var(--accent-primary)' : 'var(--bg-secondary)',
+            color: isAllSelected ? '#ffffff' : 'var(--text-secondary)',
+            boxShadow: isAllSelected ? '0 2px 10px var(--accent-glow)' : 'none',
           }}
         >
-          <Sparkles size={15} />
+          {isAllSelected ? <Check size={14} strokeWidth={2.5} /> : <Sparkles size={15} />}
           <span>{t('allCategories')}</span>
           <span style={{
             fontSize: '0.75rem',
             padding: '0.1rem 0.45rem',
             borderRadius: '9999px',
-            background: filters.category === 'all' ? 'rgba(255, 255, 255, 0.25)' : 'var(--bg-tertiary)',
-            color: filters.category === 'all' ? '#ffffff' : 'var(--text-muted)',
+            background: isAllSelected ? 'rgba(255, 255, 255, 0.25)' : 'var(--bg-tertiary)',
+            color: isAllSelected ? '#ffffff' : 'var(--text-muted)',
             fontWeight: 700,
           }}>
             {categoryCounts.all || 0}
@@ -158,13 +176,14 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
         {/* Individual category pills */}
         {categories.map((category) => {
           const IconComponent = iconMap[category.icon] || Code2;
-          const isSelected = filters.category === category.id;
+          const isSelected = selectedCategories.includes(category.id);
           const count = categoryCounts[category.id] || 0;
 
           return (
             <button
               key={category.id}
-              onClick={() => onCategoryChange(category.id)}
+              onClick={() => handleCategoryClick(category.id)}
+              aria-pressed={isSelected}
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -181,9 +200,14 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
                 borderColor: isSelected ? 'var(--accent-primary)' : 'var(--border-subtle)',
                 background: isSelected ? 'var(--accent-primary)' : 'var(--bg-secondary)',
                 color: isSelected ? '#ffffff' : 'var(--text-secondary)',
+                boxShadow: isSelected ? '0 2px 10px var(--accent-glow)' : 'none',
               }}
             >
-              <IconComponent size={15} />
+              {isSelected ? (
+                <Check size={14} strokeWidth={2.5} />
+              ) : (
+                <IconComponent size={15} />
+              )}
               <span>{category.name[lang] || category.name.en}</span>
               <span style={{
                 fontSize: '0.75rem',
@@ -199,6 +223,84 @@ export const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
           );
         })}
       </div>
+
+      {/* Multi-category summary chips bar (visible when 2 or more categories are selected) */}
+      {selectedCategories.length >= 2 && (
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          flexWrap: 'wrap',
+          marginTop: '0.85rem',
+          marginBottom: '0.25rem',
+          padding: '0.5rem 0.85rem',
+          borderRadius: 'var(--radius-sm)',
+          background: 'rgba(16, 185, 129, 0.08)',
+          border: '1px dashed var(--accent-primary)',
+          fontSize: '0.825rem',
+          color: 'var(--text-primary)',
+        }}>
+          <span style={{ fontWeight: 600, color: 'var(--accent-primary)', display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+            <Sparkles size={14} />
+            <span>{selectedCategories.length} {t('categoriesSelected')}:</span>
+          </span>
+          {selectedCategories.map(catId => {
+            const catObj = categories.find(c => c.id === catId);
+            const name = catObj ? (catObj.name[lang] || catObj.name.en) : catId;
+            return (
+              <span
+                key={catId}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                  padding: '0.2rem 0.6rem',
+                  borderRadius: '9999px',
+                  background: 'var(--bg-secondary)',
+                  border: '1px solid var(--border-subtle)',
+                  fontSize: '0.78rem',
+                  fontWeight: 600,
+                  color: 'var(--text-primary)',
+                }}
+              >
+                <span>{name}</span>
+                <button
+                  onClick={() => handleCategoryClick(catId)}
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    padding: '0.1rem',
+                    color: 'var(--text-muted)',
+                    borderRadius: '50%',
+                  }}
+                  title="Remove category"
+                >
+                  <X size={12} />
+                </button>
+              </span>
+            );
+          })}
+          <button
+            onClick={() => handleCategoryClick('all')}
+            style={{
+              marginInlineStart: 'auto',
+              background: 'none',
+              border: 'none',
+              color: 'var(--accent-primary)',
+              fontSize: '0.78rem',
+              fontWeight: 600,
+              cursor: 'pointer',
+              textDecoration: 'underline',
+              padding: '0.2rem 0.4rem',
+            }}
+          >
+            {t('clearCategories')}
+          </button>
+        </div>
+      )}
 
       {/* Secondary Controls Bar: Language, Status, Sort & Result Count */}
       <div className="filters-bar-container">

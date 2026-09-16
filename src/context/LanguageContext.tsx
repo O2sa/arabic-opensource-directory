@@ -97,6 +97,14 @@ export const translations: Translations = {
     ar: 'تصفير الفلاتر',
     en: 'Reset Filters',
   },
+  categoriesSelected: {
+    ar: 'تصنيفات محددة',
+    en: 'categories selected',
+  },
+  clearCategories: {
+    ar: 'إلغاء التحديد',
+    en: 'Clear selection',
+  },
   viewRepo: {
     ar: 'مستودع جيت هاب',
     en: 'GitHub Repo',
