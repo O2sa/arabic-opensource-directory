@@ -4,11 +4,45 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ض</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     
     <!-- Primary Meta Tags -->
     <title>دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory</title>
     <meta name="title" content="دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory" />
     <meta name="description" content="الدليل الشامل والمحدث تلقائياً لأبرز المشاريع والمكتبات والمنصات مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي." />
+    
+    <!-- Critical Anti-FOUC Theme Script & Base Styles -->
+    <style>
+      html {
+        color-scheme: dark light;
+      }
+      html[data-theme="dark"] {
+        background-color: #0b0f19;
+        color: #f8fafc;
+      }
+      html[data-theme="light"] {
+        background-color: #f8fafc;
+        color: #0f172a;
+      }
+    </style>
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('ar_dir_theme');
+          var theme = 'dark';
+          if (saved === 'dark' || saved === 'light') {
+            theme = saved;
+          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            theme = 'light';
+          } else {
+            theme = 'dark';
+          }
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
     
     <!-- Google Fonts: IBM Plex Sans Arabic & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

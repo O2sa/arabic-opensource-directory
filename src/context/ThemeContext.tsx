@@ -11,25 +11,82 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setThemeState] = useState<Theme>(() => {
-    const saved = localStorage.getItem('ar_dir_theme') as Theme;
-    if (saved === 'dark' || saved === 'light') {
-      return saved;
+    // 1. Read early attribute already applied by the anti-FOUC script in <head>
+    if (typeof document !== 'undefined') {
+      const existing = document.documentElement.getAttribute('data-theme') as Theme;
+      if (existing === 'dark' || existing === 'light') {
+        return existing;
+      }
     }
-    // Default to dark mode for rich developer aesthetics
+
+    // 2. Check localStorage
+    try {
+      const saved = localStorage.getItem('ar_dir_theme') as Theme;
+      if (saved === 'dark' || saved === 'light') {
+        return saved;
+      }
+    } catch {
+      // Ignore localStorage errors
+    }
+
+    // 3. Fallback to system preference
+    if (typeof window !== 'undefined' && window.matchMedia) {
+      if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        return 'light';
+      }
+    }
+
     return 'dark';
   });
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('ar_dir_theme', theme);
+    try {
+      localStorage.setItem('ar_dir_theme', theme);
+    } catch {
+      // Ignore storage errors
+    }
   }, [theme]);
 
+  // Listen to OS-level dark/light mode toggles if user has not set an explicit override
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return;
+
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    const handleChange = (e: MediaQueryListEvent) => {
+      try {
+        const manual = localStorage.getItem('ar_dir_theme');
+        if (!manual) {
+          setThemeState(e.matches ? 'dark' : 'light');
+        }
+      } catch {
+        // Ignore storage errors
+      }
+    };
+
+    mediaQuery.addEventListener('change', handleChange);
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, []);
+
   const toggleTheme = () => {
-    setThemeState(prev => (prev === 'dark' ? 'light' : 'dark'));
+    setThemeState(prev => {
+      const next = prev === 'dark' ? 'light' : 'dark';
+      try {
+        localStorage.setItem('ar_dir_theme', next);
+      } catch {
+        // Ignore
+      }
+      return next;
+    });
   };
 
   const setTheme = (newTheme: Theme) => {
     setThemeState(newTheme);
+    try {
+      localStorage.setItem('ar_dir_theme', newTheme);
+    } catch {
+      // Ignore
+    }
   };
 
   return (
