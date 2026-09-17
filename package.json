@@ -13,6 +13,7 @@
     "discover": "node scripts/discover.mjs",
     "discover:apply": "node scripts/discover.mjs --apply",
     "check-candidate": "node scripts/check-candidate.mjs",
+    "add-project": "node scripts/add-project.mjs",
     "preinstall": "npx only-allow pnpm"
   },
   "packageManager": "pnpm@9.12.2",
