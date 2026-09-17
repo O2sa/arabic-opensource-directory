@@ -11,8 +11,11 @@ permissions:
 
 jobs:
   process-and-create-pr:
-    # Only run if the issue has the 'project-submission' label
-    if: contains(github.event.issue.labels.*.name, 'project-submission')
+    # Run if issue has the 'project-submission' label OR matches submission title/body
+    if: >-
+      contains(github.event.issue.labels.*.name, 'project-submission') ||
+      startsWith(github.event.issue.title, 'Project:') ||
+      contains(github.event.issue.body, '### GitHub Repository URL')
     runs-on: ubuntu-latest
     concurrency:
       group: submission-${{ github.event.issue.number || github.run_id }}
@@ -54,10 +57,20 @@ jobs:
           BRANCH: ${{ steps.process.outputs.branch_name }}
           PR_TITLE: ${{ steps.process.outputs.pr_title }}
           PR_BODY: ${{ steps.process.outputs.pr_body }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
+          # Ensure labels exist in repository
+          gh label create "project-submission" --color "0E8A16" --description "New open source project submission" 2>/dev/null || true
+          gh label create "ready-for-review" --color "1D76DB" --description "Automated PR ready for maintainer review" 2>/dev/null || true
+          
+          # Tag original issue if label wasn't applied yet
+          if [ -n "$ISSUE_NUM" ]; then
+            gh issue edit "$ISSUE_NUM" --add-label "project-submission" 2>/dev/null || true
+          fi
+
           # Check if branch already exists remotely
           if git ls-remote --exit-code --heads origin "$BRANCH"; then
             echo "Branch $BRANCH already exists. Checking it out..."
@@ -85,7 +98,12 @@ jobs:
               --body "$PR_BODY" \
               --base main \
               --head "$BRANCH" \
-              --label "project-submission,ready-for-review")
+              --label "project-submission,ready-for-review" 2>/dev/null) || \
+            PR_URL=$(gh pr create \
+              --title "$PR_TITLE" \
+              --body "$PR_BODY" \
+              --base main \
+              --head "$BRANCH")
             echo "Created PR: $PR_URL"
             echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
           fi
