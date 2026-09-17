@@ -93,29 +93,32 @@ jobs:
       - name: Comment on Original Issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_URL: ${{ steps.create-pr.outputs.pr_url }}
           ISSUE_NUM: ${{ github.event.issue.number }}
+          COMMENT_BODY: |
+            🚀 **شكراً لمساهمتك! / Thank you for your submission!**
+
+            تم التحقق من بيانات المشروع بنجاح، وتوليد طلب سحب آلي (Pull Request) للمراجعة والاعتماد:
+            Your submission was verified and an automated Pull Request has been opened for maintainer review:
+
+            👉 **[عرض طلب السحب / View Pull Request](${{ steps.create-pr.outputs.pr_url }})**
         run: |
-          gh issue comment "$ISSUE_NUM" --body "🚀 **شكراً لمساهمتك! / Thank you for your submission!**
-
-تم التحقق من بيانات المشروع بنجاح، وتوليد طلب سحب آلي (Pull Request) للمراجعة والاعتماد:
-Your submission was verified and an automated Pull Request has been opened for maintainer review:
-
-👉 **[عرض طلب السحب / View Pull Request]($PR_URL)**"
+          gh issue comment "$ISSUE_NUM" --body "$COMMENT_BODY"
 
       - name: Notify on Failure
         if: failure()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUM: ${{ github.event.issue.number }}
+          FAILURE_BODY: |
+            ⚠️ **تنبيه / Notice:**
+
+            تعذر إكمال معالجة الاقتراح آلياً. قد يكون السبب:
+            - المستودع غير متاح أو خاص (Private)
+            - المشروع مضاف بالفعل في الدليل
+            - نقص في أحد الحقول الإلزامية
+
+            سيقوم مدير المشروع بمراجعة الاقتراح يدوياً في أقرب وقت.
+
+            Automated processing encountered an issue. A maintainer will review this submission manually.
         run: |
-          gh issue comment "$ISSUE_NUM" --body "⚠️ **تنبيه / Notice:**
-
-تعذر إكمال معالجة الاقتراح آلياً. قد يكون السبب:
-- المستودع غير متاح أو خاص (Private)
-- المشروع مضاف بالفعل في الدليل
-- نقص في أحد الحقول الإلزامية
-
-سيقوم مدير المشروع بمراجعة الاقتراح يدوياً في أقرب وقت.
-
-Automated processing encountered an issue. A maintainer will review this submission manually."
+          gh issue comment "$ISSUE_NUM" --body "$FAILURE_BODY"
