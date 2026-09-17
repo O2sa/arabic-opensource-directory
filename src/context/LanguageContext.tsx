@@ -1,5 +1,40 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { Locale, Direction } from '../types';
+import { SITE_CONFIG } from '../config/site';
+
+export function getLangFromPath(): Locale | null {
+  if (typeof window === 'undefined') return null;
+  const segments = window.location.pathname.split('/').filter(Boolean);
+  for (const seg of segments) {
+    const lower = seg.toLowerCase();
+    if (lower === 'ar') return 'ar';
+    if (lower === 'en') return 'en';
+  }
+  return null;
+}
+
+export function updatePathWithLang(newLang: Locale, replace = false) {
+  if (typeof window === 'undefined') return;
+  const pathname = window.location.pathname;
+  const segments = pathname.split('/').filter(Boolean);
+  const langIndex = segments.findIndex(s => s.toLowerCase() === 'ar' || s.toLowerCase() === 'en');
+
+  if (langIndex !== -1) {
+    segments[langIndex] = newLang;
+  } else {
+    // Append /ar or /en
+    segments.push(newLang);
+  }
+
+  const newPath = '/' + segments.join('/') + window.location.search + window.location.hash;
+  if (newPath !== pathname + window.location.search + window.location.hash) {
+    if (replace) {
+      window.history.replaceState({ lang: newLang }, '', newPath);
+    } else {
+      window.history.pushState({ lang: newLang }, '', newPath);
+    }
+  }
+}
 
 interface Translations {
   [key: string]: {
@@ -163,7 +198,13 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLangState] = useState<Locale>(() => {
-    // 1. Read early attribute applied synchronously by anti-FOUC script in <head>
+    // 1. Highest priority: explicit URL route (/ar or /en)
+    const urlLang = getLangFromPath();
+    if (urlLang) {
+      return urlLang;
+    }
+
+    // 2. Read early attribute applied synchronously by anti-FOUC script in <head>
     if (typeof document !== 'undefined') {
       const existing = document.documentElement.lang as Locale;
       if (existing === 'ar' || existing === 'en') {
@@ -171,7 +212,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       }
     }
 
-    // 2. Check localStorage for manual user preference
+    // 3. Check localStorage for manual user preference
     try {
       const saved = localStorage.getItem('ar_dir_lang') as Locale;
       if (saved === 'ar' || saved === 'en') {
@@ -181,7 +222,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       // Ignore
     }
 
-    // 3. Detect user system language on first visit
+    // 4. Detect user system language on first visit
     if (typeof navigator !== 'undefined') {
       const navLangs = navigator.languages || [navigator.language || ''];
       const prefersArabic = navLangs.some(l => l && l.toLowerCase().startsWith('ar'));
@@ -196,20 +237,56 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = dir;
+
+    // Update canonical link in DOM
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', `${SITE_CONFIG.siteUrl}/${lang}`);
+
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', SITE_CONFIG.description[lang]);
+    }
+
+    // Ensure URL has language route
+    const currentUrlLang = getLangFromPath();
+    if (currentUrlLang !== lang) {
+      updatePathWithLang(lang, true);
+    }
   }, [lang, dir]);
 
-  const setLang = (newLang: Locale) => {
+  // Handle browser back and forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const urlLang = getLangFromPath();
+      if (urlLang && urlLang !== lang) {
+        setLangState(urlLang);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [lang]);
+
+  const setLang = useCallback((newLang: Locale) => {
     setLangState(newLang);
+    updatePathWithLang(newLang, false);
     try {
       localStorage.setItem('ar_dir_lang', newLang);
     } catch {
       // Ignore
     }
-  };
+  }, []);
 
-  const toggleLang = () => {
+  const toggleLang = useCallback(() => {
     setLangState(prev => {
       const next = prev === 'ar' ? 'en' : 'ar';
+      updatePathWithLang(next, false);
       try {
         localStorage.setItem('ar_dir_lang', next);
       } catch {
@@ -217,7 +294,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       }
       return next;
     });
-  };
+  }, []);
 
   const t = (key: string): string => {
     if (!translations[key]) {

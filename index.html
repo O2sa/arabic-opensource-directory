@@ -7,11 +7,75 @@
     <meta name="color-scheme" content="dark light" />
     
     <!-- Primary Meta Tags -->
-    <title>دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory</title>
-    <meta name="title" content="دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory" />
-    <meta name="description" content="الدليل الشامل والمحدث تلقائياً لأبرز المشاريع والمكتبات والمنصات مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي." />
+    <title>دليل المصادر المفتوحة للغة العربية | برمجيات ونماذج حوسبة اللغة العربية</title>
+    <meta name="title" content="دليل المصادر المفتوحة للغة العربية | برمجيات ونماذج حوسبة اللغة العربية" />
+    <meta name="description" content="الدليل الحي والمحدث تلقائياً لأبرز المكتبات، النماذج، والأدوات البرمجية مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي." />
+    <meta name="keywords" content="مصادر مفتوحة, اللغة العربية, ذكاء اصطناعي, معالجة اللغة الطبيعية, نماذج لغوية, خطوط عربية, تشكيل, Arabic open source, Arabic NLP, Arabic LLM" />
+    <meta name="author" content="O2sa" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Canonical & Multilingual Hreflang Tags (Google Multilingual Guidelines) -->
+    <link rel="canonical" href="https://aros.osamamabkhot.dev/ar" />
+    <link rel="alternate" hreflang="ar" href="https://aros.osamamabkhot.dev/ar" />
+    <link rel="alternate" hreflang="en" href="https://aros.osamamabkhot.dev/en" />
+    <link rel="alternate" hreflang="x-default" href="https://aros.osamamabkhot.dev/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aros.osamamabkhot.dev/ar" />
+    <meta property="og:site_name" content="دليل البرمجيات العربية مفتوحة المصدر | Arabic Open Source Directory" />
+    <meta property="og:title" content="دليل المصادر المفتوحة للغة العربية | برمجيات ونماذج حوسبة اللغة العربية" />
+    <meta property="og:description" content="الدليل الحي والمحدث تلقائياً لأبرز المكتبات، النماذج، والأدوات البرمجية مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي." />
+    <meta property="og:locale" content="ar_AR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://aros.osamamabkhot.dev/ar" />
+    <meta name="twitter:title" content="دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory" />
+    <meta name="twitter:description" content="الدليل الحي والمحدث تلقائياً لأبرز المكتبات، النماذج، والأدوات البرمجية مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي." />
+
+    <!-- Schema.org JSON-LD Structured Data for Google Indexing -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://aros.osamamabkhot.dev/#website",
+            "url": "https://aros.osamamabkhot.dev/",
+            "name": "دليل البرمجيات العربية مفتوحة المصدر",
+            "alternateName": "Arabic Open Source Directory",
+            "description": "الدليل الشامل والمحدث تلقائياً لأبرز المشاريع والمكتبات البرمجية لخدمة اللغة العربية والذكاء الاصطناعي.",
+            "inLanguage": ["ar", "en"],
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://aros.osamamabkhot.dev/ar?search={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://aros.osamamabkhot.dev/#webpage",
+            "url": "https://aros.osamamabkhot.dev/ar",
+            "name": "دليل المصادر المفتوحة للغة العربية",
+            "isPartOf": {
+              "@id": "https://aros.osamamabkhot.dev/#website"
+            },
+            "inLanguage": "ar",
+            "about": {
+              "@type": "Thing",
+              "name": "Arabic Open Source Software & NLP"
+            }
+          }
+        ]
+      }
+    </script>
     
-    <!-- Critical Anti-FOUC Theme Script & Base Styles -->
+    <!-- Critical Anti-FOUC Theme & Direction Script -->
     <style>
       html {
         color-scheme: dark light;
@@ -28,21 +92,33 @@
     <script>
       (function() {
         try {
-          // 1. Language & Direction Detection based on User System
-          var savedLang = localStorage.getItem('ar_dir_lang');
-          var lang;
-          if (savedLang === 'ar' || savedLang === 'en') {
-            lang = savedLang;
-          } else {
-            var navLangs = navigator.languages || [navigator.language || ''];
-            var prefersArabic = false;
-            for (var i = 0; i < navLangs.length; i++) {
-              if (navLangs[i] && navLangs[i].toLowerCase().indexOf('ar') === 0) {
-                prefersArabic = true;
-                break;
-              }
+          // 1. Language from URL path (/ar or /en) has highest priority
+          var path = window.location.pathname.toLowerCase();
+          var pathParts = path.split('/');
+          var pathLang = null;
+          for (var p = 0; p < pathParts.length; p++) {
+            if (pathParts[p] === 'ar' || pathParts[p] === 'en') {
+              pathLang = pathParts[p];
+              break;
             }
-            lang = prefersArabic ? 'ar' : 'en';
+          }
+
+          var lang = pathLang;
+          if (!lang) {
+            var savedLang = localStorage.getItem('ar_dir_lang');
+            if (savedLang === 'ar' || savedLang === 'en') {
+              lang = savedLang;
+            } else {
+              var navLangs = navigator.languages || [navigator.language || ''];
+              var prefersArabic = false;
+              for (var i = 0; i < navLangs.length; i++) {
+                if (navLangs[i] && navLangs[i].toLowerCase().indexOf('ar') === 0) {
+                  prefersArabic = true;
+                  break;
+                }
+              }
+              lang = prefersArabic ? 'ar' : 'en';
+            }
           }
           document.documentElement.lang = lang;
           document.documentElement.dir = (lang === 'ar' ? 'rtl' : 'ltr');

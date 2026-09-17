@@ -28,9 +28,7 @@ export const App: React.FC = () => {
   } = useProjects(lang);
 
   React.useEffect(() => {
-    document.title = lang === 'ar'
-      ? 'دليل المصادر المفتوحة للغة العربية | Arabic Open Source Directory'
-      : 'Arabic Open Source Directory | دليل المصادر المفتوحة للغة العربية';
+    document.title = SITE_CONFIG.title[lang];
   }, [lang]);
 
   return (
