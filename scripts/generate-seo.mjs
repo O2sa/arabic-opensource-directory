@@ -108,6 +108,8 @@ function generateRobotsTxt() {
 User-agent: *
 Allow: /
 
+# Host & Multilingual Sitemap
+Host: ${SITE_URL}
 Sitemap: ${SITE_URL}/sitemap.xml
 `;
 }
@@ -115,6 +117,7 @@ Sitemap: ${SITE_URL}/sitemap.xml
 async function main() {
   console.log('🚀 Running SEO & Multi-language Route Generator...');
 
+  const publicDir = path.join(rootDir, 'public');
   const indexPath = path.join(distDir, 'index.html');
   if (!fs.existsSync(indexPath)) {
     console.error('❌ dist/index.html not found! Run vite build first.');
@@ -139,13 +142,17 @@ async function main() {
   fs.writeFileSync(path.join(distDir, '404.html'), baseHtml, 'utf-8');
   console.log('  ✓ Generated dist/404.html (GitHub Pages SPA fallback)');
 
-  // 4. Generate sitemap.xml
-  fs.writeFileSync(path.join(distDir, 'sitemap.xml'), generateSitemap(), 'utf-8');
-  console.log('  ✓ Generated dist/sitemap.xml (Multilingual Google Sitemap)');
+  // 4. Generate sitemap.xml (write to dist and public)
+  const sitemapXml = generateSitemap();
+  fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml, 'utf-8');
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml, 'utf-8');
+  console.log('  ✓ Generated dist/sitemap.xml & public/sitemap.xml (Multilingual Google Sitemap)');
 
-  // 5. Generate robots.txt
-  fs.writeFileSync(path.join(distDir, 'robots.txt'), generateRobotsTxt(), 'utf-8');
-  console.log('  ✓ Generated dist/robots.txt');
+  // 5. Generate robots.txt (write to dist and public)
+  const robotsTxt = generateRobotsTxt();
+  fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt, 'utf-8');
+  fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsTxt, 'utf-8');
+  console.log('  ✓ Generated dist/robots.txt & public/robots.txt');
 
   console.log('🎉 SEO assets and multilingual routes generated successfully!');
 }

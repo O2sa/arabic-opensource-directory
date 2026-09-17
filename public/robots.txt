@@ -1,0 +1,7 @@
+# Robots.txt for Arabic Open Source Directory
+User-agent: *
+Allow: /
+
+# Host & Multilingual Sitemap
+Host: https://aros.osamamabkhot.dev
+Sitemap: https://aros.osamamabkhot.dev/sitemap.xml
