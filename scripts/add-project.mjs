@@ -78,6 +78,13 @@ async function main() {
 
   try {
     let repoInput = process.argv[2] || '';
+    if (repoInput === '--help' || repoInput === '-h') {
+      console.log('Usage:');
+      console.log('  pnpm add-project <owner/repo>');
+      console.log('  pnpm add-project https://github.com/<owner/repo>');
+      console.log('  pnpm add-project  (interactive prompt mode)\n');
+      process.exit(0);
+    }
     if (!repoInput) {
       repoInput = await askQuestion(rl, 'Enter GitHub repo or URL (e.g. owner/repo or https://github.com/owner/repo)');
     }
