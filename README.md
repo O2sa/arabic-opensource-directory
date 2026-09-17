@@ -8,19 +8,19 @@
 
 ---
 
-[![Live Website](https://img.shields.io/badge/🌐_الموقع_الحي-aros.osamamabkhot.dev-059669?style=for-the-badge)](https://aros.osamamabkhot.dev)
-[![Curated Projects](https://img.shields.io/badge/📦_المشاريع_الموثقة-295+_مشروع-2563eb?style=for-the-badge)](https://aros.osamamabkhot.dev#projects)
-[![Categories](https://img.shields.io/badge/🗂️_التصنيفات-7_محاور_رئيسية-7c3aed?style=for-the-badge)](https://aros.osamamabkhot.dev)
-[![Automation](https://img.shields.io/badge/⚡_الأتمتة-GitHub_Actions_مؤتمت-0891b2?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/O2sa/arabic-opensource-directory/actions)
-[![License](https://img.shields.io/badge/📄_الترخيص-MIT_License-d97706?style=for-the-badge)](LICENSE)
+[![Live Website](https://img.shields.io/badge/Live_Showcase-aros.osamamabkhot.dev-059669?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aros.osamamabkhot.dev)
+[![Curated Projects](https://img.shields.io/badge/Curated_Projects-295%2B-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://aros.osamamabkhot.dev#projects)
+[![Categories](https://img.shields.io/badge/Categories-7_Core_Axes-7c3aed?style=for-the-badge)](https://aros.osamamabkhot.dev)
+[![Automation](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-0891b2?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/O2sa/arabic-opensource-directory/actions)
+[![License](https://img.shields.io/badge/License-MIT-d97706?style=for-the-badge)](LICENSE)
 
 <br />
 
-**[🌐 زيارة المنصة الحية](https://aros.osamamabkhot.dev)** •
-**[🚀 اقترح مشروعاً جديداً](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)** •
-**[📑 معايير وسياسة القبول](docs/INCLUSION_CRITERIA.md)** •
-**[🤝 دليل المساهمة](CONTRIBUTING.md)** •
-**[📦 استخدام البيانات المفتوحة (API)](#-استخدام-البيانات-المفتوحة-كـ-api--open-data-access)**
+**[🌐 زيارة المنصة الحية | Live Showcase](https://aros.osamamabkhot.dev)** •
+**[🚀 اقترح مشروعاً جديداً | Submit Project](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)** •
+**[📑 معايير وسياسة القبول | Inclusion Policy](docs/INCLUSION_CRITERIA.md)** •
+**[🤝 دليل المساهمة | Contributing](CONTRIBUTING.md)** •
+**[📦 واجهة البيانات المفتوحة | Open Data API](#-استخدام-البيانات-المفتوحة-كـ-api--open-data-access)**
 
 </div>
 
