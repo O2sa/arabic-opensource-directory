@@ -105,6 +105,18 @@ export const translations: Translations = {
     ar: 'إلغاء التحديد',
     en: 'Clear selection',
   },
+  loadMore: {
+    ar: 'عرض المزيد من المشاريع',
+    en: 'Load More Projects',
+  },
+  showAllProjects: {
+    ar: 'عرض الكل',
+    en: 'Show All',
+  },
+  showingProjectsProgress: {
+    ar: 'تم عرض {count} من أصل {total} مشروع',
+    en: 'Showing {count} of {total} projects',
+  },
   viewRepo: {
     ar: 'مستودع جيت هاب',
     en: 'GitHub Repo',

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { EnrichedProject, Category } from '../types';
 import { ProjectCard } from './ProjectCard';
-import { SearchX, RotateCcw } from 'lucide-react';
+import { SearchX, RotateCcw, ChevronDown } from 'lucide-react';
 
 interface ProjectGridProps {
   projects: EnrichedProject[];
@@ -11,6 +11,8 @@ interface ProjectGridProps {
   onResetFilters: () => void;
 }
 
+const PAGE_SIZE = 36;
+
 export const ProjectGrid: React.FC<ProjectGridProps> = ({
   projects,
   categories,
@@ -18,6 +20,12 @@ export const ProjectGrid: React.FC<ProjectGridProps> = ({
   onResetFilters,
 }) => {
   const { t } = useLanguage();
+  const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
+
+  // Automatically reset visible count when project filtering changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [projects]);
 
   if (isLoading) {
     return (
@@ -79,11 +87,65 @@ export const ProjectGrid: React.FC<ProjectGridProps> = ({
     );
   }
 
+  const displayedProjects = projects.slice(0, visibleCount);
+  const hasMore = visibleCount < projects.length;
+  const remainingCount = projects.length - displayedProjects.length;
+  const nextBatchCount = Math.min(PAGE_SIZE, remainingCount);
+  const progressPercent = Math.min(Math.round((displayedProjects.length / projects.length) * 100), 100);
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => Math.min(prev + PAGE_SIZE, projects.length));
+  };
+
+  const handleShowAll = () => {
+    setVisibleCount(projects.length);
+  };
+
   return (
-    <div className="projects-grid">
-      {projects.map((project) => (
-        <ProjectCard key={project.id} project={project} categories={categories} />
-      ))}
-    </div>
+    <>
+      <div className="projects-grid">
+        {displayedProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} categories={categories} />
+        ))}
+      </div>
+
+      {hasMore && (
+        <div className="load-more-section">
+          <div className="load-more-progress-wrap">
+            <span className="load-more-progress-text">
+              {t('showingProjectsProgress')
+                .replace('{count}', displayedProjects.length.toString())
+                .replace('{total}', projects.length.toString())}
+            </span>
+            <div className="load-more-progress-track">
+              <div
+                className="load-more-progress-fill"
+                style={{ width: `${progressPercent}%` }}
+              />
+            </div>
+          </div>
+
+          <div className="load-more-buttons-row">
+            <button
+              onClick={handleLoadMore}
+              className="btn btn-primary load-more-btn"
+            >
+              <ChevronDown size={18} />
+              <span>{t('loadMore')} (+{nextBatchCount})</span>
+            </button>
+
+            {remainingCount > PAGE_SIZE && (
+              <button
+                onClick={handleShowAll}
+                className="btn btn-secondary"
+                style={{ fontSize: '0.85rem', padding: '0.55rem 1rem', borderRadius: 'var(--radius-full)' }}
+              >
+                <span>{t('showAllProjects')}</span>
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+    </>
   );
 };
