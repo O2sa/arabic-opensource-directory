@@ -8,6 +8,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      sync:
+        description: 'Fetch live telemetry for all projects'
+        required: false
+        type: boolean
+        default: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages and git commits
 permissions:
@@ -48,11 +54,13 @@ jobs:
         run: pnpm run validate
 
       - name: Fetch live GitHub telemetry
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync == true)
         run: pnpm run sync
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit updated telemetry snapshot (if changed)
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync == true)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

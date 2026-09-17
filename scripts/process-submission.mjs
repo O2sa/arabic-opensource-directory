@@ -8,6 +8,8 @@ const rootDir = path.resolve(__dirname, '..');
 
 const projectsPath = path.join(rootDir, 'data', 'projects.json');
 const categoriesPath = path.join(rootDir, 'data', 'categories.json');
+const enrichedPath = path.join(rootDir, 'data', 'projects-enriched.json');
+const publicEnrichedPath = path.join(rootDir, 'public', 'data', 'projects-enriched.json');
 
 // Load .env if present
 if (typeof process.loadEnvFile === 'function') {
@@ -240,6 +242,37 @@ async function main() {
   existingProjects.push(newProject);
   fs.writeFileSync(projectsPath, JSON.stringify(existingProjects, null, 2) + '\n', 'utf8');
   console.log(`✓ Added [${projectId}] (${submission.repo}) to ${projectsPath}`);
+
+  // 7b. Append to enriched cache files so it is immediately visible without full sync
+  if (fs.existsSync(enrichedPath)) {
+    try {
+      const enrichedList = JSON.parse(fs.readFileSync(enrichedPath, 'utf8'));
+      const enrichedItem = {
+        ...newProject,
+        github: {
+          owner: submission.repo.split('/')[0],
+          name: submission.repo.split('/')[1],
+          url: ghData.htmlUrl || `https://github.com/${submission.repo}`,
+          stars: ghData.stars ?? 0,
+          forks: ghData.forks ?? 0,
+          openIssues: 0,
+          license: ghData.license ? { spdxId: ghData.license, name: ghData.license } : undefined,
+          primaryLanguage: undefined,
+          lastCommitAt: new Date().toISOString(),
+          isArchived: ghData.isArchived,
+          topics: ghData.topics || []
+        },
+        activityStatus: ghData.isArchived ? 'archived' : 'active',
+        lastSyncedAt: new Date().toISOString()
+      };
+      enrichedList.push(enrichedItem);
+      fs.writeFileSync(enrichedPath, JSON.stringify(enrichedList, null, 2) + '\n', 'utf8');
+      fs.writeFileSync(publicEnrichedPath, JSON.stringify(enrichedList, null, 2) + '\n', 'utf8');
+      console.log(`✓ Added [${projectId}] to enriched cache files.`);
+    } catch (err) {
+      console.warn('⚠️ Could not update enriched cache files:', err.message);
+    }
+  }
 
   // 8. Generate GitHub Action outputs if in GITHUB_OUTPUT environment
   const branchName = `submission/${projectId}`;

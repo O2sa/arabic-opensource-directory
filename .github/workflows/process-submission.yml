@@ -67,7 +67,7 @@ jobs:
             git checkout -b "$BRANCH"
           fi
           
-          git add data/projects.json
+          git add data/projects.json data/projects-enriched.json public/data/projects-enriched.json
           
           # Only commit if there are changes
           if ! git diff --cached --quiet; then
