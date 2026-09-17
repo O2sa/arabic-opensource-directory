@@ -53,39 +53,29 @@ pnpm run check-candidate <owner/repo>
 
 ## 🚀 كيفية المساهمة وإضافة مشروعك | How to Submit a Project
 
-المساهمة مفتوحة ومرحَّب بها من الجميع! يمكنك إضافة مشروع عربي بإحدى طريقتين:
+> [!IMPORTANT]
+> **إضافة المشاريع الجديدة متاحة ومقبولة حصرياً عبر نموذج التذاكر (GitHub Issues)!**  
+> **New project submissions are accepted EXCLUSIVELY via GitHub Issues.**  
+> يُرجى عدم فتح طلبات سحب يدوية لتعديل ملف `data/projects.json` مباشرة. جميع المشاريع تتم معالجتها والتحقق من رخصتها وإحصائياتها آلياً عبر خط الأتمتة.
 
-### الطريقة الأولى: فتح تذكرة (GitHub Issue)
-1. انتقل إلى تبويب **[Issues](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)**.
-2. اختر قالب **"Submit an Arabic Project"**.
-3. املأ بيانات المشروع (الرابط، التصنيف، الوصف بالعربية والإنجليزية).
+### خطوات إضافة مشروع عربي جديد:
+1. انتقل إلى نموذج تقديم المشاريع:  
+   👉 **[🚀 Submit an Arabic Project / اقتراح مشروع عربي](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)**.
+2. املأ بيانات المشروع (رابط المستودع، التصنيف، العناوين، والوصف بالعربية والإنجليزية).
+3. اضغط **Submit new issue**.
 
-### الطريقة الثانية: طلب سحب مباشر (Pull Request)
-1. قم بعمل Fork للمستودع.
-2. أضف مشروعك في نهاية ملف [`data/projects.json`](data/projects.json):
-```json
-{
-  "id": "my-arabic-project",
-  "repo": "owner/repo",
-  "category": "nlp-ai",
-  "title": {
-    "ar": "اسم المشروع بالعربية",
-    "en": "Project Name in English"
-  },
-  "description": {
-    "ar": "نبذة موجزة تشرح ما يفعله المشروع...",
-    "en": "A concise description of what the project does..."
-  },
-  "homepage": "https://docs.my-project.com",
-  "featured": false,
-  "tags": ["python", "nlp", "arabic"]
-}
-```
-3. تأكد من صحة البيانات بتشغيل فاحص البنية:
-```bash
-pnpm validate
-```
-4. افتح طلب سحب (Pull Request)!
+بمجرد إرسال التذكرة، سيتولى **GitHub Actions** الآتي تلقائياً:
+- 📡 التحقق من صحة المستودع ووجود رخصة مفتوحة المصدر عبر GitHub API.
+- ⭐ جلب عدد النجوم، والفروع، والكلمات المفتاحية (Topics).
+- 🛡️ تدقيق سلامة بنية البيانات (Schema Validation).
+- 🔀 فتح طلب سحب آلي (Automated Pull Request) وربطه بالتذكرة ليعتمده مدير المشروع بضغطة زر واحدة.
+
+لمزيد من التفاصيل ومعايير القبول، يُرجى مراجعة **[دليل المساهمة (CONTRIBUTING.md)](CONTRIBUTING.md)** و **[معايير القبول والاستبعاد (docs/INCLUSION_CRITERIA.md)](docs/INCLUSION_CRITERIA.md)**.
+
+---
+
+### المساهمة البرمجية وتطوير الموقع (Code Contributions)
+نرحب بطلبات السحب (Pull Requests) لتطوير منصة الدليل (واجهات المستخدم، تحسينات الأداء، دعم اللغات، إصلاح الأخطاء البرمجية). راجع **[CONTRIBUTING.md](CONTRIBUTING.md)** للتعرف على الخطوات وإرشادات التطوير.
 
 ---
 
@@ -112,13 +102,16 @@ pnpm build
 
 ---
 
-## 🤖 خط الأتمتة | Automation Pipeline
+## 🤖 خط الأتمتة | Automation Pipelines
 
-يحتوي المستودع على سير عمل مؤتمت عبر GitHub Actions في [`.github/workflows/sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml):
-1. يعمل أسبوعياً بجدول زمني (كل يوم إثنين الساعة 04:00 UTC) وعند كل دفع لفرع `main`.
-2. يستعلم واجهة GitHub API لجلب النجوم والتحديثات وحالة الصيانة.
-3. يقوم بعمل commit لملف `data/projects-enriched.json` المحدث.
-4. يبني تطبيق React وينشره تلقائياً على **GitHub Pages**.
+يحتوي المستودع على منظومة أتمتة متكاملة عبر GitHub Actions:
+1. **معالجة اقتراحات المشاريع ([`process-submission.yml`](.github/workflows/process-submission.yml)):**
+   - ينطلق فورياً عند فتح تذكرة اقتراح مشروع جديد.
+   - يتحقق من المستودع، ويستخرج الإحصائيات والرخص، ويولد طلب سحب (PR) آلي وموثق للمراجعة.
+2. **المزامنة الدورية والنشر ([`sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml)):**
+   - يعمل أسبوعياً بجدول زمني (كل يوم إثنين الساعة 04:00 UTC) وعند كل دفع لفرع `main`.
+   - يقوم بتحديث إحصائيات النجوم والنشاط لكافة المشاريع وبناء ونشر الموقع تلقائياً على **GitHub Pages**.
+
 
 ---
 

@@ -181,8 +181,8 @@ export const translations: Translations = {
     en: 'Know an awesome Arabic project?',
   },
   contributeBannerDesc: {
-    ar: 'ساهم بإضافته إلى الدليل عبر فتح طلب سحب (PR) أو إنشاء بلاغ.',
-    en: 'Help grow the directory by opening a PR or submitting an issue.',
+    ar: 'ساهم باقتراحه بسهولة عبر نموذج التذاكر (GitHub Issues) لتتم معالجته وتدقيقه آلياً.',
+    en: 'Propose it easily via GitHub Issues form for automated verification and inclusion.',
   }
 };
 

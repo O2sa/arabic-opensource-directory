@@ -126,3 +126,16 @@ node scripts/check-candidate.mjs <owner/repo>
 ```
 
 تقوم الأداة بفحص المستودع عبر GitHub API وتطبيق شروط القبول واستبعاد الخطوط الحمراء تلقائياً قبل تقديمه للإدراج.
+
+---
+
+## 🚀 8. آلية التقديم والإدراج (Submission Mechanism)
+
+> [!IMPORTANT]
+> **تُقبل مقترحات المشاريع الجديدة حصرياً عبر نموذج التذاكر (GitHub Issues):**  
+> 👉 **[نموذج اقتراح مشروع عربي جديد / Submit an Arabic Project](https://github.com/O2sa/arabic-opensource-directory/issues/new?template=submit-project.yml)**
+
+- لا يُسمح بفتح طلبات سحب (Pull Requests) يدوية لتعديل ملف `data/projects.json` مباشرة.
+- يتولى خط الأتمتة التابع للمستودع عبر **GitHub Actions** معالجة التذكرة فور إرسالها، والتحقق من الرخصة والنجوم، وتوليد طلب سحب آلي (PR) ليقوم مدير المشروع بمراجعته واعتماده.
+- راجع **[دليل المساهمة (CONTRIBUTING.md)](../CONTRIBUTING.md)** لمزيد من التفاصيل.
+

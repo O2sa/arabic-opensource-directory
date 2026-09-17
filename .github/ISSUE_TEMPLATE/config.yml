@@ -1,5 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Propose via Pull Request / المساهمة المباشرة عبر PR
-    url: https://github.com/O2sa/arabic-opensource-directory/edit/main/data/projects.json
-    about: Directly edit data/projects.json and submit a Pull Request! / يمكنك تعديل ملف data/projects.json مباشرة وفتح طلب سحب
+  - name: 💬 General Discussion & Questions / نقاشات واستفسارات عامة
+    url: https://github.com/O2sa/arabic-opensource-directory/discussions
+    about: Ask questions, share ideas, or discuss the directory / اطرح أسئلتك وشارك أفكارك حول الدليل
+
