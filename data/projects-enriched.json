@@ -12861,5 +12861,58 @@
       "topics": []
     },
     "lastSyncedAt": "2026-09-17T20:32:35.389Z"
+  },
+  {
+    "id": "anees-chatbot",
+    "repo": "aashrafh/Anees",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أنيس (Anees)",
+      "en": "Anees Chatbot"
+    },
+    "description": {
+      "ar": "بوت محادثة عربي مفتوح المجال ومتعدد الجولات مبني بالذكاء الاصطناعي ومعالجة اللغة العربية.",
+      "en": "Multi-turn open-domain Arabic conversational chatbot with a wide set of features."
+    },
+    "featured": false,
+    "tags": [
+      "python",
+      "chatbot",
+      "nlp",
+      "deep-learning",
+      "arabic",
+      "anees",
+      "arabic-dialects",
+      "arabic-nlp",
+      "chatbots"
+    ],
+    "github": {
+      "owner": "aashrafh",
+      "name": "Anees",
+      "url": "https://github.com/aashrafh/Anees",
+      "stars": 39,
+      "forks": 4,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT"
+      },
+      "lastCommitAt": "2026-09-17T22:17:28.839Z",
+      "isArchived": false,
+      "topics": [
+        "anees",
+        "arabic-dialects",
+        "arabic-nlp",
+        "chatbot",
+        "chatbots",
+        "dialogue-generation",
+        "gpt-2",
+        "multi-turn-dialogue",
+        "natural-language-understanding",
+        "nlp"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-09-17T22:17:28.839Z"
   }
 ]

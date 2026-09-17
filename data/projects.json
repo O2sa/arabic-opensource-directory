@@ -6302,5 +6302,30 @@
     ],
     "featured": false,
     "activityStatus": "active"
+  },
+  {
+    "id": "anees-chatbot",
+    "repo": "aashrafh/Anees",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "أنيس (Anees)",
+      "en": "Anees Chatbot"
+    },
+    "description": {
+      "ar": "بوت محادثة عربي مفتوح المجال ومتعدد الجولات مبني بالذكاء الاصطناعي ومعالجة اللغة العربية.",
+      "en": "Multi-turn open-domain Arabic conversational chatbot with a wide set of features."
+    },
+    "featured": false,
+    "tags": [
+      "python",
+      "chatbot",
+      "nlp",
+      "deep-learning",
+      "arabic",
+      "anees",
+      "arabic-dialects",
+      "arabic-nlp",
+      "chatbots"
+    ]
   }
 ]
