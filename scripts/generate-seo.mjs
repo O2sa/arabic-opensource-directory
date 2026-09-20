@@ -15,7 +15,7 @@ const SEO_DATA = {
     dir: 'rtl',
     title: 'دليل المصادر المفتوحة للغة العربية | برمجيات ونماذج حوسبة اللغة العربية',
     description: 'الدليل الحي والمحدث تلقائياً لأبرز المكتبات، النماذج، والأدوات البرمجية مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي.',
-    canonical: `${SITE_URL}/ar`,
+    canonical: `${SITE_URL}/ar/`,
     ogLocale: 'ar_AR',
     ogTitle: 'دليل المصادر المفتوحة للغة العربية | برمجيات ونماذج حوسبة اللغة العربية',
     ogDesc: 'الدليل الحي والمحدث تلقائياً لأبرز المكتبات، النماذج، والأدوات البرمجية مفتوحة المصدر لخدمة اللغة العربية والذكاء الاصطناعي.',
@@ -25,7 +25,7 @@ const SEO_DATA = {
     dir: 'ltr',
     title: 'Arabic Open Source Directory | Open-Source NLP, AI & Tools for Arabic',
     description: 'The comprehensive living directory of open-source libraries, models, datasets, and developer tools for the Arabic language.',
-    canonical: `${SITE_URL}/en`,
+    canonical: `${SITE_URL}/en/`,
     ogLocale: 'en_US',
     ogTitle: 'Arabic Open Source Directory | Open-Source NLP, AI & Tools for Arabic',
     ogDesc: 'The comprehensive living directory of open-source libraries, models, datasets, and developer tools for the Arabic language.',
@@ -64,6 +64,10 @@ function generateRouteHtml(baseHtml, lang) {
   html = html.replace(/<meta\s+name=["']twitter:title["'][^>]*>/i, `<meta name="twitter:title" content="${seo.ogTitle}" />`);
   html = html.replace(/<meta\s+name=["']twitter:description["'][^>]*>/i, `<meta name="twitter:description" content="${seo.ogDesc}" />`);
 
+  // 8. Update Schema.org URLs
+  html = html.replace(/"urlTemplate":\s*"https:\/\/aros\.osamamabkhot\.dev\/ar\/\?search=\{search_term_string\}"/g, `"urlTemplate": "${seo.canonical}?search={search_term_string}"`);
+  html = html.replace(/"url":\s*"https:\/\/aros\.osamamabkhot\.dev\/ar\/"/g, `"url": "${seo.canonical}"`);
+
   return html;
 }
 
@@ -74,26 +78,26 @@ function generateSitemap() {
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>${SITE_URL}/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/"/>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>${SITE_URL}/ar</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en"/>
+    <loc>${SITE_URL}/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/"/>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>${SITE_URL}/en</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en"/>
+    <loc>${SITE_URL}/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="${SITE_URL}/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${SITE_URL}/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/"/>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>

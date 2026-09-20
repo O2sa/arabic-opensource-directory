@@ -22,12 +22,13 @@ export function updatePathWithLang(newLang: Locale, replace = false) {
   if (langIndex !== -1) {
     segments[langIndex] = newLang;
   } else {
-    // Append /ar or /en
-    segments.push(newLang);
+    // Append /ar/ or /en/
+    segments.unshift(newLang);
   }
 
-  const newPath = '/' + segments.join('/') + window.location.search + window.location.hash;
-  if (newPath !== pathname + window.location.search + window.location.hash) {
+  const newPath = '/' + segments.join('/') + '/' + window.location.search + window.location.hash;
+  const currentFull = pathname + window.location.search + window.location.hash;
+  if (newPath !== currentFull) {
     if (replace) {
       window.history.replaceState({ lang: newLang }, '', newPath);
     } else {
@@ -245,7 +246,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', `${SITE_CONFIG.siteUrl}/${lang}`);
+    canonical.setAttribute('href', `${SITE_CONFIG.siteUrl}/${lang}/`);
 
     // Update meta description
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -253,9 +254,10 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       metaDesc.setAttribute('content', SITE_CONFIG.description[lang]);
     }
 
-    // Ensure URL has language route
+    // Ensure URL has language route and trailing slash
     const currentUrlLang = getLangFromPath();
-    if (currentUrlLang !== lang) {
+    const hasTrailingSlash = window.location.pathname.endsWith('/');
+    if (currentUrlLang !== lang || !hasTrailingSlash) {
       updatePathWithLang(lang, true);
     }
   }, [lang, dir]);
