@@ -6327,5 +6327,203 @@
       "arabic-nlp",
       "chatbots"
     ]
+  },
+  {
+    "id": "silnrsi-font-lateef",
+    "repo": "silnrsi/font-lateef",
+    "category": "fonts-calligraphy",
+    "title": {
+      "ar": "خط لطيف النسخي",
+      "en": "Lateef Font"
+    },
+    "description": {
+      "ar": "خط عربي نسخي تقليدي متقدم من تطوير منظمة SIL، مخصص لتوفير قراءة واضحة وجمالية عالية للنصوص العربية الممتدة.",
+      "en": "An extended Arabic script font designed by SIL International in the traditional Naskh style for high legibility."
+    },
+    "homepage": "https://software.sil.org/lateef/",
+    "featured": false,
+    "tags": [
+      "font",
+      "typeface",
+      "naskh",
+      "typography",
+      "sil"
+    ]
+  },
+  {
+    "id": "camel-parser",
+    "repo": "CAMeL-Lab/camel_parser",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "محلل كاميل الإعرابي",
+      "en": "CAMeL Parser"
+    },
+    "description": {
+      "ar": "محلل تركيبي وإعرابي نيوروني عالي الدقة للغة العربية الفصحى واللهجات، من تطوير مختبر CAMeL بجامعة نيويورك أبوظبي.",
+      "en": "Neural dependency parser for Modern Standard Arabic and Arabic dialects developed by the CAMeL Lab at NYU Abu Dhabi."
+    },
+    "featured": false,
+    "tags": [
+      "nlp",
+      "dependency-parser",
+      "syntax",
+      "grammar",
+      "camel-lab",
+      "python"
+    ]
+  },
+  {
+    "id": "samer-arabic-readability",
+    "repo": "CAMeL-Lab/samer-arabic-readability",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مقياس سامر للمقروئية العربية",
+      "en": "SAMER Arabic Readability"
+    },
+    "description": {
+      "ar": "نماذج وأكواد تقييم مقروئية وصعوبة النصوص العربية وتحديد المستوى القرائي المناسب، قُدمت في مؤتمر ArabicNLP 2024.",
+      "en": "Code, models, and benchmark for Arabic readability assessment and text simplification modelling from CAMeL Lab."
+    },
+    "featured": false,
+    "tags": [
+      "nlp",
+      "readability",
+      "text-simplification",
+      "camel-lab",
+      "evaluation",
+      "python"
+    ]
+  },
+  {
+    "id": "arabica-qa",
+    "repo": "DataScienceUIBK/ArabicaQA",
+    "category": "dictionaries-datasets",
+    "title": {
+      "ar": "مجموعة بيانات أرابيكا كيو إيه",
+      "en": "ArabicaQA Dataset"
+    },
+    "description": {
+      "ar": "مجموعة بيانات ومعيار تقييم شامل وموسع لأنظمة الإجابة عن الأسئلة باللغة العربية تضم أكثر من 89 ألف سؤال، مقبولة في SIGIR 2024.",
+      "en": "Comprehensive large-scale dataset (89,000+ questions) and benchmark for Arabic Question Answering accepted at SIGIR 2024."
+    },
+    "featured": false,
+    "tags": [
+      "dataset",
+      "question-answering",
+      "reading-comprehension",
+      "benchmark",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "id": "qcri-nahw-benchmark",
+    "repo": "qcri/nahw-arabic-grammar-benchmark",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "معيار نَحْو لتقييم القواعد النحوية",
+      "en": "NAHW Arabic Grammar Benchmark"
+    },
+    "description": {
+      "ar": "معيار تقييم شامل من معهد قطر لبحوث الحوسبة لاختبار فهم النماذج اللغوية الكبيرة لقواعد النحو العربي ورصد وتصحيح الأخطاء النحوية.",
+      "en": "QCRI comprehensive benchmark for evaluating Arabic grammatical understanding, error detection, and correction in LLMs."
+    },
+    "featured": false,
+    "tags": [
+      "grammar",
+      "nahw",
+      "llm-evaluation",
+      "benchmark",
+      "qcri",
+      "nlp"
+    ]
+  },
+  {
+    "id": "diacritization-evaluation",
+    "repo": "almodhfer/diacritization_evaluation",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مكتبة تقييم دقة التشكيل",
+      "en": "Diacritization Evaluation (DER/WER)"
+    },
+    "description": {
+      "ar": "حزمة برمجية معيارية لحساب معدلات خطأ التشكيل (DER) ومعدلات خطأ الكلمات (WER) لتقييم نماذج التشكيل الآلي للنصوص العربية.",
+      "en": "Python package calculating Diacritization Error Rate (DER) and Word Error Rate (WER) for evaluating Arabic diacritization models."
+    },
+    "featured": false,
+    "tags": [
+      "tashkeel",
+      "diacritization",
+      "der",
+      "wer",
+      "metrics",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "id": "pysarf",
+    "repo": "Rashidbm/pysarf",
+    "category": "text-tashkeel",
+    "title": {
+      "ar": "باي صرف للمورفولوجيا العربية",
+      "en": "PySarf Morphology Engine"
+    },
+    "description": {
+      "ar": "محرك صرفي عربي سريع معتمد على NumPy لاستخراج الجذور، والاشتقاق، وتحديد الأوزان والقوالب الصرفية والتقطيع المورفولوجي.",
+      "en": "Python-native Arabic morphology engine powered by NumPy for root extraction, pattern identification, and morphological segmentation."
+    },
+    "featured": false,
+    "tags": [
+      "morphology",
+      "sarf",
+      "roots",
+      "stemmer",
+      "segmentation",
+      "python"
+    ]
+  },
+  {
+    "id": "arabicgo",
+    "repo": "AmmrFX/arabicgo",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أرابيك جو لتشكيل وربط الحروف",
+      "en": "ArabicGo Text Shaping"
+    },
+    "description": {
+      "ar": "مكتبة بلغة Go لربط وتشكيل النصوص العربية ومعالجة الحروف والاتجاهات مع دعم كامل لعلامات التشكيل والرسم العثماني.",
+      "en": "Arabic text shaping and glyph joining library for Go with full support for Quranic tashkeel and diacritical marks."
+    },
+    "featured": false,
+    "tags": [
+      "golang",
+      "shaping",
+      "typography",
+      "unicode",
+      "tashkeel"
+    ]
+  },
+  {
+    "id": "arabic-romanization-tool",
+    "repo": "ayzem88/romanization-tool",
+    "category": "dev-tools",
+    "title": {
+      "ar": "أداة رومنة النصوص العربية",
+      "en": "Arabic Romanization Tool"
+    },
+    "description": {
+      "ar": "أداة متقدمة لتحويل النصوص العربية إلى حروف لاتينية تدعم 5 أنظمة معيارية دولية مثل ALA-LC و DIN 31635 مع واجهة استخدام تفاعلية.",
+      "en": "Advanced Arabic text romanization tool supporting 5 international standards (ALA-LC, DIN 31635, UNGEGN) with GUI interface."
+    },
+    "featured": false,
+    "tags": [
+      "romanization",
+      "transliteration",
+      "ala-lc",
+      "din31635",
+      "converter",
+      "python"
+    ]
   }
 ]
