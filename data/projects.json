@@ -6525,5 +6525,29 @@
       "converter",
       "python"
     ]
+  },
+  {
+    "id": "arabic-writing-skill-anti-aranjiya",
+    "repo": "specailm5/arabic-writing-skill",
+    "category": "nlp-ai",
+    "title": {
+      "ar": "مهارة الكتابة العربية - نبذ العرنجية",
+      "en": "Arabic Writing Skill — Anti-Aranjiya"
+    },
+    "description": {
+      "ar": "مهارة برمجية ولغوية احترافية لنماذج الذكاء الاصطناعي والمحررات الذكية (Codex، Claude Code، Antigravity IDE، VS Code Agent Harness) لتدقيق النصوص والترجمات العربية وتخليصها من «العَرَنْجِيَّة» (الأساليب والتراكيب الإفرنجية المنقولة بلفظها)، استناداً إلى كتاب «العَرَنْجِيَّة: بلغات أعجمية وألسن عربية» للترجمان أحمد الغامدي.",
+      "en": "Agent skill for authentic Arabic writing: strips English calques and translated phraseology (العرنجية) from Arabic text. Works with Claude Code, Codex, Antigravity, VS Code. Based on Ahmad Al-Ghamdi's treatise"
+    },
+    "homepage": "https://specailm5.github.io/arabic-writing-skill",
+    "featured": false,
+    "tags": [
+      "python",
+      "ai",
+      "agent-skills",
+      "al-aranjiya",
+      "ai-agents",
+      "antigravity",
+      "arabic"
+    ]
   }
 ]
