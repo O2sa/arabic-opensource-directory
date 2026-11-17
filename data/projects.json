@@ -6549,5 +6549,28 @@
       "antigravity",
       "arabic"
     ]
+  },
+  {
+    "id": "sultanc",
+    "repo": "sultan-language/sultanc",
+    "category": "dev-tools",
+    "title": {
+      "ar": "السلطان",
+      "en": "SultanC"
+    },
+    "description": {
+      "ar": "لغه برمحه عربيه مكتوبه بالكامل بالعربي",
+      "en": "Arabic programming language to close the gap in the Arabic world out of a dream not having a real Arabic low level system programming language."
+    },
+    "featured": false,
+    "tags": [
+      "programming",
+      "arabic",
+      "naitve-code",
+      "aarch64",
+      "algebraic-data-types",
+      "arabic-programming-language",
+      "arm64"
+    ]
   }
 ]
