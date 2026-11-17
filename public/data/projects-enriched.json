@@ -13382,5 +13382,64 @@
     },
     "activityStatus": "active",
     "lastSyncedAt": "2026-11-16T12:33:18.455Z"
+  },
+  {
+    "id": "sultanc",
+    "repo": "sultan-language/sultanc",
+    "category": "dev-tools",
+    "title": {
+      "ar": "السلطان",
+      "en": "SultanC"
+    },
+    "description": {
+      "ar": "لغه برمحه عربيه مكتوبه بالكامل بالعربي",
+      "en": "Arabic programming language to close the gap in the Arabic world out of a dream not having a real Arabic low level system programming language."
+    },
+    "featured": false,
+    "tags": [
+      "programming",
+      "arabic",
+      "naitve-code",
+      "aarch64",
+      "algebraic-data-types",
+      "arabic-programming-language",
+      "arm64"
+    ],
+    "github": {
+      "owner": "sultan-language",
+      "name": "sultanc",
+      "url": "https://github.com/sultan-language/sultanc",
+      "stars": 19,
+      "forks": 0,
+      "openIssues": 0,
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT"
+      },
+      "lastCommitAt": "2026-11-17T07:29:34.615Z",
+      "isArchived": false,
+      "topics": [
+        "aarch64",
+        "algebraic-data-types",
+        "arabic",
+        "arabic-programming-language",
+        "arm64",
+        "compiler-design",
+        "compilers",
+        "cross-compiler",
+        "language-design",
+        "llvm",
+        "native-code",
+        "ownership",
+        "pattern-matching",
+        "programming-language",
+        "self-hosting",
+        "systems-programming",
+        "webassembly",
+        "x86-64"
+      ]
+    },
+    "activityStatus": "active",
+    "lastSyncedAt": "2026-11-17T07:29:34.615Z"
   }
 ]
